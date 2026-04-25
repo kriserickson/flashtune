@@ -63,8 +63,8 @@
 	const endSpan = $derived(TIME_SPANS[rangeEndIdx] as TimeSpan);
 	const selectedSpans = $derived(getTimeSpansInRange(startSpan, endSpan));
 	const rangeLabel = $derived(formatTimeRange({ start: startSpan, end: endSpan }));
-	const rangeStartPct = $derived((rangeStartIdx / (TIME_SPANS.length - 1)) * 100);
-	const rangeEndPct = $derived((rangeEndIdx / (TIME_SPANS.length - 1)) * 100);
+	const rangeStartRatio = $derived(rangeStartIdx / (TIME_SPANS.length - 1));
+	const rangeEndRatio = $derived(rangeEndIdx / (TIME_SPANS.length - 1));
 	const availableCount = $derived(
 		(() => {
 			const years = new Set<number>();
@@ -126,10 +126,7 @@
 				<h2>Time range</h2>
 				<p class="muted">{rangeLabel}</p>
 			</div>
-			<div
-				class="range-picker"
-				style={`--range-start:${rangeStartPct}%; --range-end:${rangeEndPct}%;`}
-			>
+			<div class="range-picker" style={`--range-start:${rangeStartRatio}; --range-end:${rangeEndRatio};`}>
 				<div class="range-picker__rail">
 					<span class="range-picker__track"></span>
 					<span class="range-picker__fill"></span>
@@ -305,12 +302,14 @@
 		transform: translateY(-50%);
 	}
 	.range-picker__track {
+		z-index: 0;
 		background: var(--bg-elev-2);
 		border: 1px solid var(--border);
 	}
 	.range-picker__fill {
-		left: calc(var(--range-thumb-offset) + var(--range-usable-width) * var(--range-start) / 100);
-		right: calc(var(--range-thumb-offset) + var(--range-usable-width) * (100 - var(--range-end)) / 100);
+		z-index: 1;
+		left: calc(var(--range-thumb-offset) + var(--range-usable-width) * var(--range-start));
+		right: calc(var(--range-thumb-offset) + var(--range-usable-width) * (1 - var(--range-end)));
 		background: linear-gradient(90deg, var(--accent-warm) 0%, var(--accent) 100%);
 		box-shadow: 0 0 0 4px rgba(255, 184, 77, 0.16);
 	}
@@ -321,6 +320,7 @@
 		width: var(--range-usable-width);
 		height: var(--range-rail-height);
 		margin: 0;
+		z-index: 2;
 		background: none;
 		pointer-events: none;
 		appearance: none;
