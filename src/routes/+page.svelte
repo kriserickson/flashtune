@@ -1,18 +1,21 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
 	import {
+		DEFAULT_PLACEMENT_COUNT,
 		DIFFICULTY_DESC,
 		DIFFICULTY_LABEL,
 		formatTimeRange,
 		GENRES,
 		GENRE_LABEL,
 		MIN_TIME_SPAN_COUNT,
+		PLACEMENT_COUNTS,
 		TIME_SPAN_LABEL,
 		TIME_SPAN_SHORT_LABEL,
 		TIME_SPANS,
 		getTimeSpansInRange,
 		type Difficulty,
 		type Genre,
+		type PlacementCount,
 		type TimeSpan,
 		type YearsBySpanAndGenre
 	} from '$lib/types';
@@ -24,19 +27,45 @@
 	let difficulty = $state<Difficulty>('medium');
 	let rangeStartIdx = $state(0);
 	let rangeEndIdx = $state(TIME_SPANS.length - 1);
-	let selected = $state<Set<Genre>>(new Set(GENRES));
+	let allGenres = $state(true);
+	let selected = $state<Set<Genre>>(new Set());
+	let placementCount = $state<PlacementCount>(DEFAULT_PLACEMENT_COUNT);
+
+	function activateAllGenres() {
+		allGenres = true;
+		selected = new Set();
+	}
 
 	function toggle(g: Genre) {
-		if (selected.has(g)) selected.delete(g);
-		else selected.add(g);
-		selected = new Set(selected);
+		if (allGenres) {
+			allGenres = false;
+			selected = new Set([g]);
+			return;
+		}
+
+		const next = new Set(selected);
+		if (next.has(g)) {
+			if (next.size === 1) return;
+			next.delete(g);
+		} else {
+			next.add(g);
+			if (next.size === GENRES.length) {
+				activateAllGenres();
+				return;
+			}
+		}
+
+		selected = next;
 	}
 
 	function selectAll() {
-		selected = new Set(GENRES);
+		if (allGenres) return;
+		activateAllGenres();
 	}
-	function clearAll() {
-		selected = new Set();
+
+	function selectPlacementCount(next: PlacementCount) {
+		if (availableCount < next + 1) return;
+		placementCount = next;
 	}
 
 	function setRangeStart(event: Event) {
@@ -65,27 +94,39 @@
 	const rangeLabel = $derived(formatTimeRange({ start: startSpan, end: endSpan }));
 	const rangeStartRatio = $derived(rangeStartIdx / (TIME_SPANS.length - 1));
 	const rangeEndRatio = $derived(rangeEndIdx / (TIME_SPANS.length - 1));
+	const effectiveGenres = $derived(allGenres ? GENRES : GENRES.filter((genre) => selected.has(genre)));
 	const availableCount = $derived(
 		(() => {
 			const years = new Set<number>();
 			for (const span of selectedSpans) {
-				for (const genre of selected) {
+				for (const genre of effectiveGenres) {
 					for (const year of data.yearsBySpanAndGenre[span][genre]) years.add(year);
 				}
 			}
 			return years.size;
 		})()
 	);
-	const placementCount = $derived(Math.max(Math.min(availableCount - 1, 10), 0));
-	const canStart = $derived(selected.size > 0 && availableCount >= 2);
+	const availablePlacementCounts = $derived(
+		PLACEMENT_COUNTS.filter((count) => availableCount >= count + 1)
+	);
+	const longestRound = $derived(availablePlacementCounts.at(-1) ?? null);
+	const canStart = $derived(availableCount >= placementCount + 1);
+
+	$effect(() => {
+		if (availablePlacementCounts.includes(placementCount)) return;
+
+		const fallback = availablePlacementCounts.at(-1);
+		placementCount = fallback ?? DEFAULT_PLACEMENT_COUNT;
+	});
 
 	function start() {
 		const params = new URLSearchParams({
 			d: difficulty,
-			g: [...selected].join(','),
 			ts: startSpan,
-			te: endSpan
+			te: endSpan,
+			c: String(placementCount)
 		});
+		if (!allGenres) params.set('g', effectiveGenres.join(','));
 		goto(`/play?${params}`);
 	}
 </script>
@@ -175,25 +216,25 @@
 		<div class="panel-row">
 			<div class="panel-row__head">
 				<h2>Genres</h2>
-				<p class="muted">
-					Choose what to play with. <button type="button" class="link" onclick={selectAll}
-						>All</button
-					>
-					·
-					<button type="button" class="link" onclick={clearAll}>None</button>
-				</p>
+				<p class="muted">Choose what to play with.</p>
 			</div>
-			<div class="chips">
-				{#each GENRES as g (g)}
-					<button
-						type="button"
-						class="chip"
-						aria-pressed={selected.has(g)}
-						onclick={() => toggle(g)}
-					>
-						{GENRE_LABEL[g]}
-					</button>
-				{/each}
+			<div class="genre-picker">
+				<button type="button" class="chip chip--all" aria-pressed={allGenres} onclick={selectAll}>
+					All
+				</button>
+				<span class="genre-picker__divider" aria-hidden="true"></span>
+				<div class="chips genre-picker__chips">
+					{#each GENRES as g (g)}
+						<button
+							type="button"
+							class="chip"
+							aria-pressed={!allGenres && selected.has(g)}
+							onclick={() => toggle(g)}
+						>
+							{GENRE_LABEL[g]}
+						</button>
+					{/each}
+				</div>
 			</div>
 		</div>
 
@@ -201,15 +242,41 @@
 			<button type="button" class="btn btn--primary start" disabled={!canStart} onclick={start}>
 				Start Round →
 			</button>
-			{#if selected.size === 0}
-				<span class="dim">Choose at least one genre</span>
-			{:else if availableCount < 2}
-				<span class="dim">Need at least 2 songs for this combination</span>
-			{:else if placementCount === 10}
-				<span class="dim">10 placements this round</span>
-			{:else}
-				<span class="dim">{placementCount} placements with these filters</span>
-			{/if}
+			<div class="round-length">
+				<div class="round-length__head">
+					<div>
+						<p class="round-length__eyebrow">Round length</p>
+						<h3>{placementCount} placements</h3>
+					</div>
+					{#if longestRound}
+						<span class="dim">Up to {longestRound} available with these filters</span>
+					{:else}
+						<span class="dim">Need 11 songs for the shortest round</span>
+					{/if}
+				</div>
+				<div class="round-length__options" role="radiogroup" aria-label="Placements per round">
+					{#each PLACEMENT_COUNTS as count (count)}
+						{@const requiredSongs = count + 1}
+						<button
+							type="button"
+							class="round-length__option"
+							role="radio"
+							aria-checked={placementCount === count}
+							disabled={availableCount < requiredSongs}
+							onclick={() => selectPlacementCount(count)}
+						>
+							<span class="round-length__value">{count}</span>
+							<span class="round-length__suffix">placements</span>
+							<span class="round-length__meta">{requiredSongs} songs total</span>
+						</button>
+					{/each}
+				</div>
+				{#if !canStart}
+					<p class="round-length__hint dim">
+						Need at least {placementCount + 1} songs for this round length.
+					</p>
+				{/if}
+			</div>
 		</div>
 	</section>
 
@@ -450,21 +517,117 @@
 		flex-wrap: wrap;
 		gap: 8px;
 	}
+	.genre-picker {
+		display: flex;
+		align-items: center;
+		gap: 14px;
+		flex-wrap: wrap;
+	}
+	.genre-picker__divider {
+		width: 1px;
+		height: 28px;
+		background: var(--border-strong);
+		flex: 0 0 auto;
+	}
+	.genre-picker__chips {
+		flex: 1 1 320px;
+	}
+	.chip--all {
+		min-width: 58px;
+	}
 
-	.link {
-		background: none;
-		border: 0;
-		padding: 0;
+	.round-length {
+		flex: 1 1 420px;
+		display: grid;
+		gap: 12px;
+	}
+	.round-length__head {
+		display: flex;
+		justify-content: space-between;
+		align-items: end;
+		gap: 12px;
+		flex-wrap: wrap;
+	}
+	.round-length__head h3 {
+		font-size: 24px;
+	}
+	.round-length__eyebrow {
+		margin: 0 0 2px;
+		font-size: 11px;
+		font-weight: 700;
+		letter-spacing: 0.14em;
+		text-transform: uppercase;
 		color: var(--accent);
-		text-decoration: underline;
-		text-underline-offset: 2px;
-		font: inherit;
-		cursor: pointer;
+	}
+	.round-length__options {
+		display: grid;
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+		gap: 10px;
+	}
+	.round-length__option {
+		text-align: left;
+		display: grid;
+		gap: 2px;
+		padding: 14px 14px 12px;
+		border-radius: 12px;
+		border: 1px solid var(--border-strong);
+		background:
+			linear-gradient(180deg, rgba(255, 184, 77, 0.1) 0%, rgba(255, 127, 80, 0.03) 100%),
+			var(--bg-elev-2);
+		color: var(--fg-muted);
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03);
+		transition:
+			transform 120ms ease,
+			border-color 120ms ease,
+			color 120ms ease,
+			background 120ms ease,
+			box-shadow 120ms ease;
+	}
+	.round-length__option:hover:not(:disabled) {
+		transform: translateY(-1px);
+		border-color: var(--fg-dim);
+		color: var(--fg);
+	}
+	.round-length__option[aria-checked='true'] {
+		border-color: var(--accent);
+		color: var(--fg);
+		background:
+			linear-gradient(180deg, rgba(255, 184, 77, 0.2) 0%, rgba(255, 127, 80, 0.08) 100%),
+			var(--bg-elev-2);
+		box-shadow:
+			0 0 0 3px var(--ring),
+			inset 0 1px 0 rgba(255, 255, 255, 0.06);
+	}
+	.round-length__option:disabled {
+		opacity: 0.42;
+		cursor: not-allowed;
+		background: var(--bg-elev);
+	}
+	.round-length__value {
+		font-family: var(--font-display);
+		font-size: 32px;
+		line-height: 0.95;
+		color: inherit;
+	}
+	.round-length__suffix,
+	.round-length__meta {
+		font-size: 11px;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+	}
+	.round-length__meta {
+		letter-spacing: 0.04em;
+		text-transform: none;
+		color: var(--fg-dim);
+	}
+	.round-length__hint {
+		margin: 0;
+		font-size: 13px;
 	}
 
 	.panel-row--cta {
 		display: flex;
-		align-items: center;
+		align-items: flex-start;
 		gap: 16px;
 		padding-top: 4px;
 		border-top: 1px solid var(--border);
@@ -476,10 +639,16 @@
 			align-items: stretch;
 		}
 	}
+	@media (max-width: 760px) {
+		.round-length__options {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+	}
 
 	.start {
 		font-size: 16px;
 		padding: 12px 22px;
+		align-self: center;
 	}
 	.start:disabled {
 		opacity: 0.4;

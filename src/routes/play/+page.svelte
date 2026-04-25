@@ -1,12 +1,212 @@
 <script module lang="ts">
-	function verdict(score: number, total: number): string {
+	type ResultCopy = {
+		headline: string;
+		comment: string;
+	};
+
+	function hashSeed(seed: string): number {
+		let hash = 0;
+		for (let index = 0; index < seed.length; index += 1) {
+			hash = (hash * 31 + seed.charCodeAt(index)) >>> 0;
+		}
+		return hash;
+	}
+
+	function pickVariant<T>(options: readonly T[], seed: string): T {
+		return options[hashSeed(seed) % options.length];
+	}
+
+	function getSuccessMessage(song: { year: number; title: string; artist: string }): string {
+		const seed = `${song.year}:${song.title}:${song.artist}`;
+		if (song.year < 1940) {
+			return pickVariant(
+				[
+					'Well done. Most precise.',
+					'A fine placement indeed.',
+					'Excellently judged.',
+					'Nicely placed. Very proper.'
+				],
+				seed
+			);
+		}
+		if (song.year < 1960) {
+			return pickVariant(
+				[
+					'Class act. Right on cue.',
+					'Smooth move. Right era.',
+					'That landed like a standard.',
+					'Nicely timed. Pure poise.'
+				],
+				seed
+			);
+		}
+		if (song.year < 1970) {
+			return pickVariant(
+				[
+					'Groovy call.',
+					'Far out placement.',
+					'Right in the groove.',
+					'That was a swinging sixties read.'
+				],
+				seed
+			);
+		}
+		if (song.year < 1980) {
+			return pickVariant(
+				[
+					'Disco-sharp.',
+					'Right in the pocket.',
+					'Seventies instincts. No notes.',
+					'That placement had real flare.'
+				],
+				seed
+			);
+		}
+		if (song.year < 1990) {
+			return pickVariant(
+				[
+					'Rad placement.',
+					'Totally nailed it.',
+					'Synth-level precision.',
+					'That was arena-ready accuracy.'
+				],
+				seed
+			);
+		}
+		if (song.year < 2000) {
+			return pickVariant(
+				[
+					'Fresh placement.',
+					'That was the jam.',
+					'Nineties instincts on display.',
+					'Right onto the mixtape.'
+				],
+				seed
+			);
+		}
+		if (song.year < 2010) {
+			return pickVariant(
+				[
+					'Y2K-approved placement.',
+					'Clean hit. No skips.',
+					'Playlist-era precision.',
+					'That guess went platinum.'
+				],
+				seed
+			);
+		}
+		if (song.year < 2020) {
+			return pickVariant(
+				[
+					'On fleek.',
+					'That placement slapped.',
+					'Streaming-era instincts.',
+					'You understood the assignment.'
+				],
+				seed
+			);
+		}
+
+		return pickVariant(
+			[
+				'Immaculate timing.',
+				'Main-character move.',
+				'Algorithm-proof placement.',
+				'That landed exactly right.'
+			],
+			seed
+		);
+	}
+
+	function verdict(score: number, total: number): ResultCopy {
 		const ratio = score / total;
-		if (ratio === 1) return 'Perfect ear.';
-		if (ratio >= 0.8) return 'Sharp.';
-		if (ratio >= 0.6) return 'Solid.';
-		if (ratio >= 0.4) return 'Getting there.';
-		if (ratio >= 0.2) return 'A start.';
-		return 'Tough round.';
+		const seed = `${score}/${total}`;
+		if (ratio === 1) {
+			return pickVariant(
+				[
+					{ headline: 'Perfect ear.', comment: 'Every song landed exactly where it belonged.' },
+					{ headline: 'Flawless run.', comment: 'That was crate-digger clairvoyance from start to finish.' },
+					{ headline: 'Timeline oracle.', comment: 'You read the whole round like liner notes.' },
+					{ headline: 'No misses.', comment: 'That round was all instinct, no hesitation.' }
+				],
+				seed
+			);
+		}
+		if (ratio >= 0.9) {
+			return pickVariant(
+				[
+					{ headline: 'Ridiculously good.', comment: 'One tiny miss away from a museum-grade round.' },
+					{ headline: 'Almost spotless.', comment: 'You were locked in for nearly every era.' },
+					{ headline: 'Top-shelf instincts.', comment: 'That was elite timeline work.' },
+					{ headline: 'Near classic.', comment: 'Just shy of perfect, still absurdly strong.' }
+				],
+				seed
+			);
+		}
+		if (ratio >= 0.8) {
+			return pickVariant(
+				[
+					{ headline: 'Locked in.', comment: 'You clearly know your eras.' },
+					{ headline: 'Serious range.', comment: 'That was a confident read across the timeline.' },
+					{ headline: 'Sharp work.', comment: 'Plenty of strong calls in that round.' },
+					{ headline: 'You had the groove.', comment: 'The timeline only slipped away a couple of times.' }
+				],
+				seed
+			);
+		}
+		if (ratio >= 0.65) {
+			return pickVariant(
+				[
+					{ headline: 'Solid round.', comment: 'More hits than misses, and some very clean placements.' },
+					{ headline: 'Nice instincts.', comment: 'You had a strong handle on the shape of the timeline.' },
+					{ headline: 'Good ear.', comment: 'A few misses, but the overall read was strong.' },
+					{ headline: 'Well played.', comment: 'That round had real momentum.' }
+				],
+				seed
+			);
+		}
+		if (ratio >= 0.5) {
+			return pickVariant(
+				[
+					{ headline: 'Right in the mix.', comment: 'Plenty went right, even if the round got tricky.' },
+					{ headline: 'Good footing.', comment: 'You found the timeline more often than not.' },
+					{ headline: 'Halfway and climbing.', comment: 'There is clearly an ear for this in there.' },
+					{ headline: 'Promising run.', comment: 'A few sharper reads and this turns into a big score.' }
+				],
+				seed
+			);
+		}
+		if (ratio >= 0.35) {
+			return pickVariant(
+				[
+					{ headline: 'Getting warmer.', comment: 'The feel for the timeline is there, just not consistently yet.' },
+					{ headline: 'Moments of brilliance.', comment: 'Some placements were excellent, some were chaos.' },
+					{ headline: 'You were around it.', comment: 'A few more clean reads and this score jumps fast.' },
+					{ headline: 'Close in spots.', comment: 'There were flashes of real precision.' }
+				],
+				seed
+			);
+		}
+		if (ratio > 0) {
+			return pickVariant(
+				[
+					{ headline: 'A start.', comment: 'A couple of eras are dialed in. The rest need another pass.' },
+					{ headline: 'Some good instincts.', comment: 'Not smooth yet, but there were real hits in there.' },
+					{ headline: 'Room to climb.', comment: 'The timeline won this round, but not every battle.' },
+					{ headline: 'Not empty-handed.', comment: 'You found a few anchors to build on.' }
+				],
+				seed
+			);
+		}
+		return pickVariant(
+			[
+				{ headline: 'Tough round.', comment: 'The timeline threw every curveball it had.' },
+				{ headline: 'A full miss.', comment: 'That one belonged to the songs. Run it back.' },
+				{ headline: 'The timeline won.', comment: 'No shame. That was a brutal sequence.' },
+				{ headline: 'Rematch needed.', comment: 'This score is only acceptable as motivation.' }
+			],
+			seed
+		);
 	}
 </script>
 
@@ -53,6 +253,14 @@
 				: data.round.genres.map((g) => GENRE_LABEL[g]).join(', ')
 	);
 	const timeRangeSummary = $derived(formatTimeRange(data.round.timeRange));
+	const revealMessage = $derived(
+		lastPlacement
+			? lastPlacement.correct
+				? getSuccessMessage(lastPlacement.song)
+				: 'Not quite — see the year above.'
+			: ''
+	);
+	const resultCopy = $derived(verdict(score, total));
 
 	function commitPlacement(index: number) {
 		if (!active || phase !== 'placing') return;
@@ -70,14 +278,19 @@
 		placed = next;
 		placements = [...placements, placement];
 		lastPlacement = placement;
+		const nextQueueIdx = queueIdx + 1;
+		const hasNextSong = nextQueueIdx < data.round.songs.length;
+		queueIdx = nextQueueIdx;
 		phase = 'reveal';
 		hoverGap = null;
 		pendingGap = null;
 		dragging = false;
+		previewDragging = false;
+		previewOffset = { x: 0, y: 0 };
+		dragOffset = { x: 0, y: 0 };
 
 		setTimeout(() => {
-			queueIdx += 1;
-			if (queueIdx >= data.round.songs.length) phase = 'done';
+			if (!hasNextSong) phase = 'done';
 			else phase = 'placing';
 			lastPlacement = null;
 		}, 1600);
@@ -390,19 +603,9 @@
 					<span class="results__num">{score}</span>
 					<span class="dim">/ {total}</span>
 				</div>
-				<h2>{verdict(score, total)}</h2>
-				<p class="muted">Here's where each song belonged:</p>
+				<h2>{resultCopy.headline}</h2>
+				<p class="results__comment muted">{resultCopy.comment}</p>
 			</div>
-			<ol class="recap">
-				{#each placements as p (p.song.id)}
-					<li class="recap__row" class:recap__row--ok={p.correct} class:recap__row--bad={!p.correct}>
-						<span class="recap__year">{p.song.year}</span>
-						<span class="recap__title">{p.song.title}</span>
-						<span class="recap__artist dim">{p.song.artist}</span>
-						<span class="recap__icon">{p.correct ? '✓' : '✗'}</span>
-					</li>
-				{/each}
-			</ol>
 			<div class="results__actions">
 				<button class="btn btn--primary" onclick={newRound}>Play another</button>
 				<button class="btn btn--ghost" onclick={backToSettings}>Change settings</button>
@@ -415,7 +618,7 @@
 			<section class="active-wrap">
 				{#if phase === 'reveal' && lastPlacement}
 					<div class="reveal" class:reveal--ok={lastPlacement.correct} class:reveal--bad={!lastPlacement.correct}>
-						{lastPlacement.correct ? 'Right where it belongs.' : 'Not quite — see the year above.'}
+						{revealMessage}
 					</div>
 				{:else}
 					<div class="prompt">
@@ -436,9 +639,7 @@
 					<div class="active__body">
 						<div class="active__title">{active.title}</div>
 						<div class="active__artist">{active.artist}</div>
-						<div class="active__year">
-							{phase === 'reveal' ? active.year : '????'}
-						</div>
+						<div class="active__year">????</div>
 					</div>
 				</article>
 			</section>
@@ -575,7 +776,8 @@
 		border-style: dashed;
 	}
 	.gap--hover:not([disabled]) {
-		min-height: 56px;
+		min-height: 96px;
+		padding: 14px 0;
 	}
 	.gap--hover:not([disabled]) .gap__rule {
 		background: var(--accent);
@@ -594,7 +796,7 @@
 
 	/* Pending-confirm state — emphasized line awaiting confirm via preview card */
 	.gap--pending:not([disabled]) {
-		min-height: 24px;
+		min-height: 36px;
 	}
 	.gap--pending:not([disabled]) .gap__rule {
 		background: var(--pending);
@@ -925,54 +1127,12 @@
 	.results h2 {
 		font-size: 22px;
 	}
-
-	.recap {
-		list-style: none;
-		padding: 0;
+	.results__comment {
 		margin: 0;
-		display: grid;
-		gap: 6px;
-	}
-	.recap__row {
-		display: grid;
-		grid-template-columns: 60px 1fr auto 24px;
-		gap: 10px;
-		align-items: baseline;
-		padding: 8px 12px;
-		border-radius: var(--radius-sm);
-		background: var(--bg-elev-2);
-		font-size: 13px;
-	}
-	.recap__row--ok {
-		border-left: 3px solid var(--ok);
-	}
-	.recap__row--bad {
-		border-left: 3px solid var(--bad);
-	}
-	.recap__year {
-		font-family: var(--font-display);
-		font-weight: 600;
-		color: var(--accent);
-		font-variant-numeric: tabular-nums;
-	}
-	.recap__title {
-		font-weight: 500;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		white-space: nowrap;
-	}
-	.recap__artist {
-		font-size: 12px;
-	}
-	.recap__icon {
-		text-align: center;
-		font-weight: 700;
-	}
-	.recap__row--ok .recap__icon {
-		color: var(--ok);
-	}
-	.recap__row--bad .recap__icon {
-		color: var(--bad);
+		max-width: 30ch;
+		justify-self: center;
+		font-size: 14px;
+		line-height: 1.45;
 	}
 
 	.results__actions {

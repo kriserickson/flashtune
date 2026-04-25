@@ -34,6 +34,12 @@ export const DIFFICULTY_DESC: Record<Difficulty, string> = {
 	hard: 'Any spacing'
 };
 
+export type PlacementCount = 10 | 15 | 20 | 25;
+
+export const PLACEMENT_COUNTS: readonly PlacementCount[] = [10, 15, 20, 25] as const;
+
+export const DEFAULT_PLACEMENT_COUNT: PlacementCount = 10;
+
 export type TimeSpan =
 	| 'pre-1950s'
 	| '1940-1950s'
