@@ -98,6 +98,8 @@ export interface TimeRange {
 	end: TimeSpan;
 }
 
+export const MIN_TIME_SPAN_COUNT = 2;
+
 export type YearsBySpanAndGenre = Record<TimeSpan, Record<Genre, number[]>>;
 
 export function getTimeSpansInRange(start: TimeSpan, end: TimeSpan): TimeSpan[] {
@@ -110,7 +112,16 @@ export function getTimeSpansInRange(start: TimeSpan, end: TimeSpan): TimeSpan[] 
 
 export function normalizeTimeRange(range: TimeRange): TimeRange {
 	const spans = getTimeSpansInRange(range.start, range.end);
-	return { start: spans[0], end: spans[spans.length - 1] };
+	if (spans.length >= MIN_TIME_SPAN_COUNT) {
+		return { start: spans[0], end: spans[spans.length - 1] };
+	}
+
+	const index = TIME_SPANS.indexOf(spans[0]);
+	const safeStart = Math.max(0, Math.min(index, TIME_SPANS.length - MIN_TIME_SPAN_COUNT));
+	return {
+		start: TIME_SPANS[safeStart],
+		end: TIME_SPANS[safeStart + MIN_TIME_SPAN_COUNT - 1]
+	};
 }
 
 export function formatTimeRange(range: TimeRange): string {

@@ -7,6 +7,7 @@
 	"scripts": {
 		"dev": "vp dev",
 		"build": "vp build",
+		"start": "node build",
 		"preview": "vp preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && tsgo --noEmit -p ./tsconfig.json",
@@ -14,7 +15,7 @@
 		"stats": "node scripts/stats.mjs"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^7.0.1",
+		"@sveltejs/adapter-node": "^5.5.4",
 		"@sveltejs/kit": "^2.57.0",
 		"@sveltejs/vite-plugin-svelte": "^7.0.0",
 		"@typescript/native-preview": "^7.0.0-dev.20260421.2",

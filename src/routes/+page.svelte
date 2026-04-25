@@ -6,6 +6,7 @@
 		formatTimeRange,
 		GENRES,
 		GENRE_LABEL,
+		MIN_TIME_SPAN_COUNT,
 		TIME_SPAN_LABEL,
 		TIME_SPAN_SHORT_LABEL,
 		TIME_SPANS,
@@ -19,6 +20,7 @@
 	let { data }: { data: { yearsBySpanAndGenre: YearsBySpanAndGenre } } = $props();
 
 	const DIFFS: Difficulty[] = ['easy', 'medium', 'hard'];
+	const MIN_TIME_SPAN_DISTANCE = MIN_TIME_SPAN_COUNT - 1;
 	let difficulty = $state<Difficulty>('medium');
 	let rangeStartIdx = $state(0);
 	let rangeEndIdx = $state(TIME_SPANS.length - 1);
@@ -39,19 +41,22 @@
 
 	function setRangeStart(event: Event) {
 		const next = Number((event.currentTarget as HTMLInputElement).value);
-		rangeStartIdx = Math.min(next, rangeEndIdx);
+		rangeStartIdx = Math.min(next, rangeEndIdx - MIN_TIME_SPAN_DISTANCE);
 	}
 
 	function setRangeEnd(event: Event) {
 		const next = Number((event.currentTarget as HTMLInputElement).value);
-		rangeEndIdx = Math.max(next, rangeStartIdx);
+		rangeEndIdx = Math.max(next, rangeStartIdx + MIN_TIME_SPAN_DISTANCE);
 	}
 
 	function moveNearestHandle(index: number) {
 		const distanceToStart = Math.abs(index - rangeStartIdx);
 		const distanceToEnd = Math.abs(index - rangeEndIdx);
-		if (distanceToStart <= distanceToEnd) rangeStartIdx = Math.min(index, rangeEndIdx);
-		else rangeEndIdx = Math.max(index, rangeStartIdx);
+		if (distanceToStart <= distanceToEnd) {
+			rangeStartIdx = Math.min(index, rangeEndIdx - MIN_TIME_SPAN_DISTANCE);
+		} else {
+			rangeEndIdx = Math.max(index, rangeStartIdx + MIN_TIME_SPAN_DISTANCE);
+		}
 	}
 
 	const startSpan = $derived(TIME_SPANS[rangeStartIdx] as TimeSpan);
@@ -125,36 +130,37 @@
 				class="range-picker"
 				style={`--range-start:${rangeStartPct}%; --range-end:${rangeEndPct}%;`}
 			>
-				<div class="range-picker__rail" aria-hidden="true">
+				<div class="range-picker__rail">
 					<span class="range-picker__track"></span>
 					<span class="range-picker__fill"></span>
+					<input
+						type="range"
+						class="range-picker__input"
+						min="0"
+						max={TIME_SPANS.length - 1}
+						step="1"
+						value={rangeStartIdx}
+						oninput={setRangeStart}
+						aria-label="Starting time span"
+					/>
+					<input
+						type="range"
+						class="range-picker__input"
+						min="0"
+						max={TIME_SPANS.length - 1}
+						step="1"
+						value={rangeEndIdx}
+						oninput={setRangeEnd}
+						aria-label="Ending time span"
+					/>
 				</div>
-				<input
-					type="range"
-					class="range-picker__input"
-					min="0"
-					max={TIME_SPANS.length - 1}
-					step="1"
-					value={rangeStartIdx}
-					oninput={setRangeStart}
-					aria-label="Starting time span"
-				/>
-				<input
-					type="range"
-					class="range-picker__input"
-					min="0"
-					max={TIME_SPANS.length - 1}
-					step="1"
-					value={rangeEndIdx}
-					oninput={setRangeEnd}
-					aria-label="Ending time span"
-				/>
 				<div class="range-picker__labels">
 					{#each TIME_SPANS as span, index (span)}
 						<button
 							type="button"
 							class="range-picker__label"
 							class:range-picker__label--active={index >= rangeStartIdx && index <= rangeEndIdx}
+							style={`--stop:${index / (TIME_SPANS.length - 1)}`}
 							onclick={() => moveNearestHandle(index)}
 						>
 							<span class="range-picker__tick"></span>
@@ -274,6 +280,10 @@
 	}
 
 	.range-picker {
+		--range-rail-height: 32px;
+		--range-thumb-size: 20px;
+		--range-thumb-offset: calc(var(--range-thumb-size) / 2);
+		--range-usable-width: calc(100% - var(--range-thumb-size));
 		position: relative;
 		display: grid;
 		gap: 14px;
@@ -281,33 +291,35 @@
 	}
 	.range-picker__rail {
 		position: relative;
-		height: 28px;
+		height: var(--range-rail-height);
+		overflow: visible;
 	}
 	.range-picker__track,
 	.range-picker__fill {
 		position: absolute;
+		left: var(--range-thumb-offset);
+		right: var(--range-thumb-offset);
 		top: 50%;
 		height: 8px;
 		border-radius: 999px;
 		transform: translateY(-50%);
 	}
 	.range-picker__track {
-		left: 0;
-		right: 0;
 		background: var(--bg-elev-2);
 		border: 1px solid var(--border);
 	}
 	.range-picker__fill {
-		left: var(--range-start);
-		width: calc(var(--range-end) - var(--range-start));
+		left: calc(var(--range-thumb-offset) + var(--range-usable-width) * var(--range-start) / 100);
+		right: calc(var(--range-thumb-offset) + var(--range-usable-width) * (100 - var(--range-end)) / 100);
 		background: linear-gradient(90deg, var(--accent-warm) 0%, var(--accent) 100%);
 		box-shadow: 0 0 0 4px rgba(255, 184, 77, 0.16);
 	}
 	.range-picker__input {
 		position: absolute;
-		left: 0;
-		width: 100%;
-		height: 28px;
+		top: 0;
+		left: var(--range-thumb-offset);
+		width: var(--range-usable-width);
+		height: var(--range-rail-height);
 		margin: 0;
 		background: none;
 		pointer-events: none;
@@ -315,17 +327,17 @@
 		-webkit-appearance: none;
 	}
 	.range-picker__input::-webkit-slider-runnable-track {
-		height: 28px;
+		height: var(--range-rail-height);
 		background: transparent;
 	}
 	.range-picker__input::-moz-range-track {
-		height: 28px;
+		height: var(--range-rail-height);
 		background: transparent;
 	}
 	.range-picker__input::-webkit-slider-thumb {
 		pointer-events: auto;
-		width: 20px;
-		height: 20px;
+		width: var(--range-thumb-size);
+		height: var(--range-thumb-size);
 		border-radius: 50%;
 		border: 2px solid var(--accent);
 		background: var(--bg);
@@ -333,28 +345,36 @@
 		cursor: pointer;
 		appearance: none;
 		-webkit-appearance: none;
-		margin-top: 4px;
+		margin-top: calc((var(--range-rail-height) - var(--range-thumb-size)) / 2);
+		transform: translateY(1px);
 	}
 	.range-picker__input::-moz-range-thumb {
 		pointer-events: auto;
-		width: 20px;
-		height: 20px;
+		width: var(--range-thumb-size);
+		height: var(--range-thumb-size);
 		border-radius: 50%;
 		border: 2px solid var(--accent);
 		background: var(--bg);
 		box-shadow: 0 0 0 4px var(--ring);
 		cursor: pointer;
+		transform: translateY(1px);
 	}
 	.range-picker__labels {
-		display: grid;
-		grid-template-columns: repeat(9, minmax(0, 1fr));
-		gap: 6px;
+		position: relative;
+		height: 54px;
+		padding: 0;
+		overflow: visible;
 	}
 	.range-picker__label {
+		position: absolute;
+		left: calc(var(--range-thumb-offset) + var(--range-usable-width) * var(--stop));
+		top: 0;
+		transform: translateX(-50%);
 		display: grid;
 		gap: 6px;
 		justify-items: center;
 		padding: 0;
+		width: max-content;
 		border: 0;
 		background: none;
 		color: var(--fg-dim);
@@ -378,6 +398,7 @@
 		justify-content: space-between;
 		gap: 12px;
 		font-size: 12px;
+		padding: 0 var(--range-thumb-offset);
 	}
 	@media (max-width: 640px) {
 		.range-picker__text {

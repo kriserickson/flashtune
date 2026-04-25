@@ -5087,5 +5087,1993 @@
 		"imageHeight": 225,
 		"wikipediaUrl": "https://en.wikipedia.org/wiki/Shake_It_Up_(The_Cars_song)",
 		"resolvedTitle": "Shake It Up (The Cars song)"
+	},
+	"Tuxedo Junction__Glenn Miller": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/f/f9/Tuxedo_Junction_Glenn_Miller_Lewis_Music_1940.jpg",
+		"imageWidth": 277,
+		"imageHeight": 360,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Tuxedo_Junction",
+		"resolvedTitle": "Tuxedo Junction"
+	},
+	"Pennsylvania 6-5000__Glenn Miller": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Hotel_Pennsylvania%2C_7th_Avenue_entrance_%28edited%29.jpg/330px-Hotel_Pennsylvania%2C_7th_Avenue_entrance_%28edited%29.jpg",
+		"imageWidth": 330,
+		"imageHeight": 248,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/PEnnsylvania_6-5000",
+		"resolvedTitle": "PEnnsylvania 6-5000"
+	},
+	"Chattanooga Choo Choo__Glenn Miller": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/3/3f/Chattanooga3.jpg",
+		"imageWidth": 319,
+		"imageHeight": 311,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Chattanooga_Choo_Choo",
+		"resolvedTitle": "Chattanooga Choo Choo"
+	},
+	"A String of Pearls__Glenn Miller": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/4/43/A_String_of_Pearls_%28Glenn_Miller_song_-_cover_art%29.jpg",
+		"imageWidth": 322,
+		"imageHeight": 309,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/A_String_of_Pearls_(song)",
+		"resolvedTitle": "A String of Pearls (song)"
+	},
+	"Boogie Woogie Bugle Boy__Andrews Sisters": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Boogie_woogie_bugle_boy_andrews_sisters_US_single_1941_shellac.webp/330px-Boogie_woogie_bugle_boy_andrews_sisters_US_single_1941_shellac.webp.png",
+		"imageWidth": 330,
+		"imageHeight": 327,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Boogie_Woogie_Bugle_Boy",
+		"resolvedTitle": "Boogie Woogie Bugle Boy"
+	},
+	"Rum and Coca-Cola__Andrews Sisters": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Andrews_Sisters_Billboard_4.jpg/330px-Andrews_Sisters_Billboard_4.jpg",
+		"imageWidth": 330,
+		"imageHeight": 380,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Rum_and_Coca-Cola",
+		"resolvedTitle": "Rum and Coca-Cola"
+	},
+	"Don't Fence Me In__Bing Crosby & Andrews Sisters": {
+		"image": null,
+		"imageWidth": null,
+		"imageHeight": null,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Don't_Fence_Me_In_(song)",
+		"resolvedTitle": "Don't Fence Me In (song)"
+	},
+	"Salt Peanuts__Dizzy Gillespie": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Dizzy_Gillespie_by_Carl_Van_Vechten_%28cropped%29_%282%29.jpg/330px-Dizzy_Gillespie_by_Carl_Van_Vechten_%28cropped%29_%282%29.jpg",
+		"imageWidth": 330,
+		"imageHeight": 457,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Salt_Peanuts",
+		"resolvedTitle": "Salt Peanuts"
+	},
+	"Ornithology__Charlie Parker": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Portrait_of_Charlie_Parker_in_1947.jpg/330px-Portrait_of_Charlie_Parker_in_1947.jpg",
+		"imageWidth": 330,
+		"imageHeight": 326,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Ornithology_(composition)",
+		"resolvedTitle": "Ornithology (composition)"
+	},
+	"Donna Lee__Charlie Parker": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Portrait_of_Charlie_Parker_in_1947.jpg/330px-Portrait_of_Charlie_Parker_in_1947.jpg",
+		"imageWidth": 330,
+		"imageHeight": 326,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Donna_Lee",
+		"resolvedTitle": "Donna Lee"
+	},
+	"The Christmas Song__Nat King Cole": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/3/39/Natmagic.jpg",
+		"imageWidth": 185,
+		"imageHeight": 183,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/The_Magic_of_Christmas_(Nat_King_Cole_album)",
+		"resolvedTitle": "The Magic of Christmas (Nat King Cole album)"
+	},
+	"(I Love You) For Sentimental Reasons__Nat King Cole": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nat_King_Cole_1947.jpg/330px-Nat_King_Cole_1947.jpg",
+		"imageWidth": 330,
+		"imageHeight": 403,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/(I_Love_You)_For_Sentimental_Reasons",
+		"resolvedTitle": "(I Love You) For Sentimental Reasons"
+	},
+	"Nature Boy__Nat King Cole": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/b/b8/Nat_King_Cole_Nature_Boy.png",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Nature_Boy",
+		"resolvedTitle": "Nature Boy"
+	},
+	"I'll Never Smile Again__Frank Sinatra": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/3/34/Ill_never_smile_again.jpg",
+		"imageWidth": 315,
+		"imageHeight": 315,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/I'll_Never_Smile_Again",
+		"resolvedTitle": "I'll Never Smile Again"
+	},
+	"Nancy (with the Laughing Face)__Frank Sinatra": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/%22Nancy_%28with_the_Laughing_Face%29%22_-_Frank_Sinatra_%281945_A-side%2C_Columbia_36868%29.jpg/330px-%22Nancy_%28with_the_Laughing_Face%29%22_-_Frank_Sinatra_%281945_A-side%2C_Columbia_36868%29.jpg",
+		"imageWidth": 330,
+		"imageHeight": 335,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Nancy_(with_the_Laughing_Face)",
+		"resolvedTitle": "Nancy (with the Laughing Face)"
+	},
+	"Paper Doll__Mills Brothers": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/3/39/Paper_Doll_%28Mills_Brothers_song%29.jpg",
+		"imageWidth": 220,
+		"imageHeight": 220,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Paper_Doll_(Mills_Brothers_song)",
+		"resolvedTitle": "Paper Doll (Mills Brothers song)"
+	},
+	"Till the End of Time__Perry Como": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Perry_Como_1962.JPG/330px-Perry_Como_1962.JPG",
+		"imageWidth": 330,
+		"imageHeight": 381,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Till_the_End_of_Time_(song)",
+		"resolvedTitle": "Till the End of Time (song)"
+	},
+	"Don't Get Around Much Anymore__Duke Ellington": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Duke_Ellington_-_publicity.JPG/330px-Duke_Ellington_-_publicity.JPG",
+		"imageWidth": 330,
+		"imageHeight": 402,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Don't_Get_Around_Much_Anymore",
+		"resolvedTitle": "Don't Get Around Much Anymore"
+	},
+	"Flying Home__Illinois Jacquet": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Illinois_Jacquet%2C_New_York%2C_N.Y.%2C_ca._May_1947_%28William_P._Gottlieb_12581%29_%28profile%29.jpg/330px-Illinois_Jacquet%2C_New_York%2C_N.Y.%2C_ca._May_1947_%28William_P._Gottlieb_12581%29_%28profile%29.jpg",
+		"imageWidth": 330,
+		"imageHeight": 416,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Flying_Home",
+		"resolvedTitle": "Flying Home"
+	},
+	"Caldonia__Louis Jordan": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Louis_Jordan%2C_New_York%2C_N.Y.%2C_ca._July_1946_%28William_P._Gottlieb_04721%29.jpg/330px-Louis_Jordan%2C_New_York%2C_N.Y.%2C_ca._July_1946_%28William_P._Gottlieb_04721%29.jpg",
+		"imageWidth": 330,
+		"imageHeight": 441,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Caledonia_(song)",
+		"resolvedTitle": "Caledonia (song)"
+	},
+	"Choo Choo Ch'Boogie__Louis Jordan": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Louis_Jordan%2C_New_York%2C_N.Y.%2C_ca._July_1946_%28William_P._Gottlieb_04721%29.jpg/330px-Louis_Jordan%2C_New_York%2C_N.Y.%2C_ca._July_1946_%28William_P._Gottlieb_04721%29.jpg",
+		"imageWidth": 330,
+		"imageHeight": 441,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Choo_Choo_Ch'Boogie",
+		"resolvedTitle": "Choo Choo Ch'Boogie"
+	},
+	"Good Rockin' Tonight__Roy Brown": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/e/e7/Good_Rocking_Tonight_Roy_Brown.jpg",
+		"imageWidth": 316,
+		"imageHeight": 315,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Good_Rocking_Tonight",
+		"resolvedTitle": "Good Rocking Tonight"
+	},
+	"Saturday Night Fish Fry__Louis Jordan": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Louis_Jordan%2C_New_York%2C_N.Y.%2C_ca._July_1946_%28William_P._Gottlieb_04721%29.jpg/330px-Louis_Jordan%2C_New_York%2C_N.Y.%2C_ca._July_1946_%28William_P._Gottlieb_04721%29.jpg",
+		"imageWidth": 330,
+		"imageHeight": 441,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Saturday_Night_Fish_Fry",
+		"resolvedTitle": "Saturday Night Fish Fry"
+	},
+	"Move It on Over__Hank Williams": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Hank_Williams_Promotional_Photo.jpg/330px-Hank_Williams_Promotional_Photo.jpg",
+		"imageWidth": 330,
+		"imageHeight": 430,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Move_It_On_Over_(song)",
+		"resolvedTitle": "Move It On Over (song)"
+	},
+	"Lovesick Blues__Hank Williams": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/7/77/Hank_Williams_-_Lovesick_Blues.jpg",
+		"imageWidth": 179,
+		"imageHeight": 172,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Lovesick_Blues",
+		"resolvedTitle": "Lovesick Blues"
+	},
+	"New San Antonio Rose__Bob Wills": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Bob_Wills_photograph_-_Cropped.jpg/330px-Bob_Wills_photograph_-_Cropped.jpg",
+		"imageWidth": 330,
+		"imageHeight": 377,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/San_Antonio_Rose",
+		"resolvedTitle": "San Antonio Rose"
+	},
+	"Smoke! Smoke! Smoke! (That Cigarette)__Tex Williams": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/b/b4/Smoke%21_Smoke%21_Smoke%21_%28That_Cigarette%29_-_Tex_Williams.jpg",
+		"imageWidth": 316,
+		"imageHeight": 315,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Smoke!_Smoke!_Smoke!_(That_Cigarette)",
+		"resolvedTitle": "Smoke! Smoke! Smoke! (That Cigarette)"
+	},
+	"Rocket 88__Jackie Brenston": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/5/52/Rocket_%2288%22_single_cover.jpg",
+		"imageWidth": 280,
+		"imageHeight": 282,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Rocket_88",
+		"resolvedTitle": "Rocket 88"
+	},
+	"Shake, Rattle and Roll__Big Joe Turner": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/b/bf/Shake%2C_Rattle_and_Roll_single_cover.jpg",
+		"imageWidth": 260,
+		"imageHeight": 259,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Shake%2C_Rattle_and_Roll",
+		"resolvedTitle": "Shake, Rattle and Roll"
+	},
+	"Blue Suede Shoes__Carl Perkins": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Blue_Suede_Shoes_Carl_Perkins.png/330px-Blue_Suede_Shoes_Carl_Perkins.png",
+		"imageWidth": 330,
+		"imageHeight": 333,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Blue_Suede_Shoes",
+		"resolvedTitle": "Blue Suede Shoes"
+	},
+	"Maybellene__Chuck Berry": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/5/5d/Maybelline.jpg",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Maybellene",
+		"resolvedTitle": "Maybellene"
+	},
+	"Roll Over Beethoven__Chuck Berry": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Roll_Over_Beethoven_Chuck_Berry.png/330px-Roll_Over_Beethoven_Chuck_Berry.png",
+		"imageWidth": 330,
+		"imageHeight": 331,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Roll_Over_Beethoven",
+		"resolvedTitle": "Roll Over Beethoven"
+	},
+	"School Day__Chuck Berry": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Chuck_Berry_1957.jpg/330px-Chuck_Berry_1957.jpg",
+		"imageWidth": 330,
+		"imageHeight": 417,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/School_Days_(Chuck_Berry_song)",
+		"resolvedTitle": "School Days (Chuck Berry song)"
+	},
+	"Tutti Frutti__Little Richard": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/e/e9/Tuttifruitti.jpg",
+		"imageWidth": 200,
+		"imageHeight": 194,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Tutti_Frutti_(song)",
+		"resolvedTitle": "Tutti Frutti (song)"
+	},
+	"Long Tall Sally__Little Richard": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Little_Richard_1957_%28crop%29.jpg/330px-Little_Richard_1957_%28crop%29.jpg",
+		"imageWidth": 330,
+		"imageHeight": 353,
+		"wikipediaUrl": null,
+		"resolvedTitle": null
+	},
+	"Good Golly, Miss Molly__Little Richard": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Little_richard_specialty_624_a.jpg/330px-Little_richard_specialty_624_a.jpg",
+		"imageWidth": 330,
+		"imageHeight": 330,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Good_Golly%2C_Miss_Molly",
+		"resolvedTitle": "Good Golly, Miss Molly"
+	},
+	"Ain't That a Shame__Fats Domino": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/d/d8/Fats_Domino_10-inch_single_Ain%27t_It_a_Shame.jpg",
+		"imageWidth": 317,
+		"imageHeight": 314,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Ain't_That_a_Shame",
+		"resolvedTitle": "Ain't That a Shame"
+	},
+	"Blueberry Hill__Fats Domino": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/4/42/4asallata.jpg",
+		"imageWidth": 262,
+		"imageHeight": 381,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Blueberry_Hill",
+		"resolvedTitle": "Blueberry Hill"
+	},
+	"I'm Walkin'__Fats Domino": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/7/7f/I%27m_Walkin%27_-_Fats_Domino.jpg",
+		"imageWidth": 316,
+		"imageHeight": 315,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/I'm_Walkin'",
+		"resolvedTitle": "I'm Walkin'"
+	},
+	"Whole Lotta Shakin' Goin' On__Jerry Lee Lewis": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Whole_Lotta_Shakin%27_Goin%27_On_by_Big_Maybelle_US_7-inch_Side-A.png/330px-Whole_Lotta_Shakin%27_Goin%27_On_by_Big_Maybelle_US_7-inch_Side-A.png",
+		"imageWidth": 330,
+		"imageHeight": 330,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Whole_Lotta_Shakin'_Goin'_On",
+		"resolvedTitle": "Whole Lotta Shakin' Goin' On"
+	},
+	"Great Balls of Fire__Jerry Lee Lewis": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/d/de/JLL_Great_Balls_single_cover.jpg",
+		"imageWidth": 317,
+		"imageHeight": 313,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Great_Balls_of_Fire",
+		"resolvedTitle": "Great Balls of Fire"
+	},
+	"That's All Right__Elvis Presley": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/2/24/That%27s_All_Right_label.jpg",
+		"imageWidth": 250,
+		"imageHeight": 249,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/That's_All_Right",
+		"resolvedTitle": "That's All Right"
+	},
+	"Jailhouse Rock__Elvis Presley": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/6/6a/Elvis_Presley_Jailhouse_Rock_Single_Cover.jpeg",
+		"imageWidth": 316,
+		"imageHeight": 316,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Jailhouse_Rock_(song)",
+		"resolvedTitle": "Jailhouse Rock (song)"
+	},
+	"Love Me Tender__Elvis Presley": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/9/98/Lovemetenderelvissingle.jpg",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Love_Me_Tender_(song)",
+		"resolvedTitle": "Love Me Tender (song)"
+	},
+	"Don't Be Cruel__Elvis Presley": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/5/59/ElvisCruelDog.JPG",
+		"imageWidth": 315,
+		"imageHeight": 317,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Don't_Be_Cruel",
+		"resolvedTitle": "Don't Be Cruel"
+	},
+	"All Shook Up__Elvis Presley": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/7/70/Elvis_-_All_Shook_Up_%28single_cover%29.jpg",
+		"imageWidth": 316,
+		"imageHeight": 316,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/All_Shook_Up",
+		"resolvedTitle": "All Shook Up"
+	},
+	"That'll Be the Day__Buddy Holly": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Thatll_Be_the_Day_by_the_Crickets_US_single_45-RPM_side-A_variant_A.png/330px-Thatll_Be_the_Day_by_the_Crickets_US_single_45-RPM_side-A_variant_A.png",
+		"imageWidth": 330,
+		"imageHeight": 332,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/That'll_Be_the_Day",
+		"resolvedTitle": "That'll Be the Day"
+	},
+	"Not Fade Away__Buddy Holly": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/5/55/Buddy_holly_crickets_not_fade_away_brunswick.jpg",
+		"imageWidth": 300,
+		"imageHeight": 296,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Not_Fade_Away_(song)",
+		"resolvedTitle": "Not Fade Away (song)"
+	},
+	"How High the Moon__Les Paul & Mary Ford": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Les_Paul_and_Mary_Ford_1953.jpg/330px-Les_Paul_and_Mary_Ford_1953.jpg",
+		"imageWidth": 330,
+		"imageHeight": 403,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/How_High_the_Moon",
+		"resolvedTitle": "How High the Moon"
+	},
+	"Lush Life__Billy Strayhorn": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Billy_Strayhorn%2C_New_York%2C_N.Y.%2C_between_1946_and_1948_%28William_P._Gottlieb_08211%29.jpg/330px-Billy_Strayhorn%2C_New_York%2C_N.Y.%2C_between_1946_and_1948_%28William_P._Gottlieb_08211%29.jpg",
+		"imageWidth": 330,
+		"imageHeight": 339,
+		"wikipediaUrl": null,
+		"resolvedTitle": null
+	},
+	"You Send Me__Sam Cooke": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/1/14/You_Send_Me_Sam_Cooke.png",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/You_Send_Me",
+		"resolvedTitle": "You Send Me"
+	},
+	"Wonderful World__Sam Cooke": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Wonderful_World_by_Sam_Cooke_US_vinyl_rainbow_label.png/330px-Wonderful_World_by_Sam_Cooke_US_vinyl_rainbow_label.png",
+		"imageWidth": 330,
+		"imageHeight": 327,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Wonderful_World_(Sam_Cooke_song)",
+		"resolvedTitle": "Wonderful World (Sam Cooke song)"
+	},
+	"Mona Lisa__Nat King Cole": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/e/e6/Mona_Lisa_%28Nat_King_Cole_song%29.jpg",
+		"imageWidth": 307,
+		"imageHeight": 316,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Mona_Lisa_(Nat_King_Cole_song)",
+		"resolvedTitle": "Mona Lisa (Nat King Cole song)"
+	},
+	"Unforgettable__Nat King Cole": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/7/78/Unforgettable_early_1950s_sheet_music_Irving_Gordon_Nat_King_Cole.png",
+		"imageWidth": 274,
+		"imageHeight": 363,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Unforgettable_(Nat_King_Cole_song)",
+		"resolvedTitle": "Unforgettable (Nat King Cole song)"
+	},
+	"Too Young__Nat King Cole": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nat_King_Cole_1947.jpg/330px-Nat_King_Cole_1947.jpg",
+		"imageWidth": 330,
+		"imageHeight": 403,
+		"wikipediaUrl": null,
+		"resolvedTitle": null
+	},
+	"Hey, Good Lookin'__Hank Williams": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/6/6b/Hank_Williams_Hey_good_looking.jpg",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Hey%2C_Good_Lookin'_(song)",
+		"resolvedTitle": "Hey, Good Lookin' (song)"
+	},
+	"Half as Much__Hank Williams": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Hank_Williams_Promotional_Photo.jpg/330px-Hank_Williams_Promotional_Photo.jpg",
+		"imageWidth": 330,
+		"imageHeight": 430,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Half_as_Much",
+		"resolvedTitle": "Half as Much"
+	},
+	"Kaw-Liga__Hank Williams": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/a/ab/Kaw-liga.jpg",
+		"imageWidth": 272,
+		"imageHeight": 381,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Kaw-Liga",
+		"resolvedTitle": "Kaw-Liga"
+	},
+	"Sweet Dreams__Patsy Cline": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Patsy_Cline_1960_publicity_portrait_-_cropped.jpg/330px-Patsy_Cline_1960_publicity_portrait_-_cropped.jpg",
+		"imageWidth": 330,
+		"imageHeight": 372,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Sweet_Dreams_(Don_Gibson_song)",
+		"resolvedTitle": "Sweet Dreams (Don Gibson song)"
+	},
+	"Papa's Got a Brand New Bag__James Brown": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/2/2f/Papa%27sGotABrandNewBag.jpg",
+		"imageWidth": 316,
+		"imageHeight": 315,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Papa's_Got_a_Brand_New_Bag",
+		"resolvedTitle": "Papa's Got a Brand New Bag"
+	},
+	"I Got You (I Feel Good)__James Brown": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/e/e5/I_Got_You_%28I_Feel_Good%29_by_James_Brown_and_the_Famous_Flames_US_vinyl.png",
+		"imageWidth": 317,
+		"imageHeight": 317,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/I_Got_You_(I_Feel_Good)",
+		"resolvedTitle": "I Got You (I Feel Good)"
+	},
+	"It's a Man's Man's Man's World__James Brown": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/a/ac/It%27saMan%27sMan%27sMan%27sWorld.jpg",
+		"imageWidth": 319,
+		"imageHeight": 313,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/It's_a_Man's_Man's_Man's_World",
+		"resolvedTitle": "It's a Man's Man's Man's World"
+	},
+	"Respect__Aretha Franklin": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/7/71/Respect_Redding.jpg",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Respect_(song)",
+		"resolvedTitle": "Respect (song)"
+	},
+	"Chain of Fools__Aretha Franklin": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/e/e1/Aretha_Fra.jpg",
+		"imageWidth": 294,
+		"imageHeight": 297,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Chain_of_Fools",
+		"resolvedTitle": "Chain of Fools"
+	},
+	"(You Make Me Feel Like) A Natural Woman__Aretha Franklin": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/You_Make_Me_Feel_like_a_Natural_Woman_by_Aretha_Franklin_%28US_vinyl%2C_side_A%29.png/330px-You_Make_Me_Feel_like_a_Natural_Woman_by_Aretha_Franklin_%28US_vinyl%2C_side_A%29.png",
+		"imageWidth": 330,
+		"imageHeight": 330,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/(You_Make_Me_Feel_Like)_A_Natural_Woman",
+		"resolvedTitle": "(You Make Me Feel Like) A Natural Woman"
+	},
+	"Think__Aretha Franklin": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Think_by_aretha_franklin_US_vinyl_side_A.png/330px-Think_by_aretha_franklin_US_vinyl_side_A.png",
+		"imageWidth": 330,
+		"imageHeight": 333,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Think_(Aretha_Franklin_song)",
+		"resolvedTitle": "Think (Aretha Franklin song)"
+	},
+	"Try a Little Tenderness__Otis Redding": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Otis_Redding_1967.JPG/330px-Otis_Redding_1967.JPG",
+		"imageWidth": 330,
+		"imageHeight": 393,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Try_a_Little_Tenderness",
+		"resolvedTitle": "Try a Little Tenderness"
+	},
+	"(Sittin' On) The Dock of the Bay__Otis Redding": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/b/b7/%28Sittin%27_On%29_The_Dock_of_the_Bay_by_Otis_Redding_US_vinyl.png",
+		"imageWidth": 316,
+		"imageHeight": 316,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/(Sittin'_On)_The_Dock_of_the_Bay",
+		"resolvedTitle": "(Sittin' On) The Dock of the Bay"
+	},
+	"A Change Is Gonna Come__Sam Cooke": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/8/88/ACIGCcover.jpg",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/A_Change_Is_Gonna_Come",
+		"resolvedTitle": "A Change Is Gonna Come"
+	},
+	"Twistin' the Night Away__Sam Cooke": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/9/9c/Twistin%27_the_Night_Away_-_Sam_Cooke.jpg",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Twistin'_the_Night_Away",
+		"resolvedTitle": "Twistin' the Night Away"
+	},
+	"How Sweet It Is (To Be Loved by You)__Marvin Gaye": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/c/ce/How_Sweet_It_Is_To_Be_Loved_by_You_cover.gif",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/How_Sweet_It_Is_(to_Be_Loved_by_You)",
+		"resolvedTitle": "How Sweet It Is (to Be Loved by You)"
+	},
+	"Ain't No Mountain High Enough__Marvin Gaye": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/2/2c/Anhme1967.jpg",
+		"imageWidth": 280,
+		"imageHeight": 279,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Ain't_No_Mountain_High_Enough",
+		"resolvedTitle": "Ain't No Mountain High Enough"
+	},
+	"I Can't Help Myself (Sugar Pie Honey Bunch)__Four Tops": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/c/c9/I_Can%27t_Help_Myself_label.jpeg",
+		"imageWidth": 314,
+		"imageHeight": 317,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/I_Can't_Help_Myself_(Sugar_Pie_Honey_Bunch)",
+		"resolvedTitle": "I Can't Help Myself (Sugar Pie Honey Bunch)"
+	},
+	"Reach Out I'll Be There__Four Tops": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/1/16/Four-tops-reach-out-1966.jpg",
+		"imageWidth": 312,
+		"imageHeight": 309,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Reach_Out_I'll_Be_There",
+		"resolvedTitle": "Reach Out I'll Be There"
+	},
+	"In the Midnight Hour__Wilson Pickett": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/e/eb/In_the_Midnight_Hour.jpg",
+		"imageWidth": 316,
+		"imageHeight": 316,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/In_the_Midnight_Hour",
+		"resolvedTitle": "In the Midnight Hour"
+	},
+	"Mustang Sally__Wilson Pickett": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/0/01/Wilson_Picket_-_Mustang_Sally_single_cover.jpg",
+		"imageWidth": 316,
+		"imageHeight": 316,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Mustang_Sally_(song)",
+		"resolvedTitle": "Mustang Sally (song)"
+	},
+	"Baby Love__The Supremes": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/31/Baby_love_supremes_Australian_single_side-A.png/330px-Baby_love_supremes_Australian_single_side-A.png",
+		"imageWidth": 330,
+		"imageHeight": 333,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Baby_Love",
+		"resolvedTitle": "Baby Love"
+	},
+	"For Once in My Life__Stevie Wonder": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/3/3e/Foronceinmylife.jpg",
+		"imageWidth": 316,
+		"imageHeight": 316,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/For_Once_in_My_Life_(Stevie_Wonder_album)",
+		"resolvedTitle": "For Once in My Life (Stevie Wonder album)"
+	},
+	"My Cherie Amour__Stevie Wonder": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/7/72/Swondercherie.JPG",
+		"imageWidth": 313,
+		"imageHeight": 317,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/My_Cherie_Amour_(song)",
+		"resolvedTitle": "My Cherie Amour (song)"
+	},
+	"Oh, Pretty Woman__Roy Orbison": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/3/34/Ohprettywoman.jpg",
+		"imageWidth": 315,
+		"imageHeight": 315,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Oh%2C_Pretty_Woman",
+		"resolvedTitle": "Oh, Pretty Woman"
+	},
+	"Crying__Roy Orbison": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/b/b5/Crying_%28Roy_Orbison_single%29.jpg",
+		"imageWidth": 250,
+		"imageHeight": 240,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Crying_(Roy_Orbison_song)",
+		"resolvedTitle": "Crying (Roy Orbison song)"
+	},
+	"House of the Rising Sun__The Animals": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Eric_Burdon_%26_the_Animals.jpg/330px-Eric_Burdon_%26_the_Animals.jpg",
+		"imageWidth": 330,
+		"imageHeight": 442,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/The_House_of_the_Rising_Sun",
+		"resolvedTitle": "The House of the Rising Sun"
+	},
+	"You Really Got Me__The Kinks": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/2/23/You_Really_Got_Me_cover.jpg",
+		"imageWidth": 319,
+		"imageHeight": 312,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/You_Really_Got_Me",
+		"resolvedTitle": "You Really Got Me"
+	},
+	"Waterloo Sunset__The Kinks": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/b/b7/Waterloo_Sunset_West_German_picture_sleeve.jpg",
+		"imageWidth": 315,
+		"imageHeight": 317,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Waterloo_Sunset",
+		"resolvedTitle": "Waterloo Sunset"
+	},
+	"My Generation__The Who": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/f/ff/My_Generation.jpg",
+		"imageWidth": 292,
+		"imageHeight": 291,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/My_Generation",
+		"resolvedTitle": "My Generation"
+	},
+	"Pinball Wizard__The Who": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/1/11/Pinball_Wizard_Germany_PS.jpg",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Pinball_Wizard",
+		"resolvedTitle": "Pinball Wizard"
+	},
+	"Sunshine of Your Love__Cream": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Sunshine_of_Your_Love_by_Cream_UK_single_side_A.png/330px-Sunshine_of_Your_Love_by_Cream_UK_single_side_A.png",
+		"imageWidth": 330,
+		"imageHeight": 329,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Sunshine_of_Your_Love",
+		"resolvedTitle": "Sunshine of Your Love"
+	},
+	"White Room__Cream": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/7/74/White_Room_-_Cream_%28Norwegian_single_sleeve%29.jpg",
+		"imageWidth": 225,
+		"imageHeight": 224,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/White_Room",
+		"resolvedTitle": "White Room"
+	},
+	"Somebody to Love__Jefferson Airplane": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Jefferson_Airplane.jpg/330px-Jefferson_Airplane.jpg",
+		"imageWidth": 330,
+		"imageHeight": 316,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Somebody_to_Love_(Jefferson_Airplane_song)",
+		"resolvedTitle": "Somebody to Love (Jefferson Airplane song)"
+	},
+	"White Rabbit__Jefferson Airplane": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/5/53/White_Rabbit_label.jpg",
+		"imageWidth": 280,
+		"imageHeight": 276,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/White_Rabbit_(song)",
+		"resolvedTitle": "White Rabbit (song)"
+	},
+	"The Times They Are a-Changin'__Bob Dylan": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/a/a9/TheTimesSweden.jpg",
+		"imageWidth": 320,
+		"imageHeight": 320,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/The_Times_They_Are_a-Changin'_(song)",
+		"resolvedTitle": "The Times They Are a-Changin' (song)"
+	},
+	"Mr. Tambourine Man__The Byrds": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/9/9b/Mr._Tambourine_Man_sheet_music.jpg",
+		"imageWidth": 278,
+		"imageHeight": 358,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Mr._Tambourine_Man",
+		"resolvedTitle": "Mr. Tambourine Man"
+	},
+	"Turn! Turn! Turn!__The Byrds": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/The_Byrds_in_1965.jpg/330px-The_Byrds_in_1965.jpg",
+		"imageWidth": 330,
+		"imageHeight": 221,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Turn!_Turn!_Turn!",
+		"resolvedTitle": "Turn! Turn! Turn!"
+	},
+	"The Sound of Silence__Simon & Garfunkel": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/The_Sounds_of_Silence_by_Simon_and_Garfunkel_US_vinyl.png/330px-The_Sounds_of_Silence_by_Simon_and_Garfunkel_US_vinyl.png",
+		"imageWidth": 330,
+		"imageHeight": 330,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/The_Sound_of_Silence",
+		"resolvedTitle": "The Sound of Silence"
+	},
+	"Mrs. Robinson__Simon & Garfunkel": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Mrs_Robinson_by_Simon_and_Garfunkel_US_vinyl_%28The_Graduate_credit%29.png/330px-Mrs_Robinson_by_Simon_and_Garfunkel_US_vinyl_%28The_Graduate_credit%29.png",
+		"imageWidth": 330,
+		"imageHeight": 332,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Mrs._Robinson",
+		"resolvedTitle": "Mrs. Robinson"
+	},
+	"The 59th Street Bridge Song (Feelin' Groovy)__Simon & Garfunkel": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/0/01/BridgeSong.jpg",
+		"imageWidth": 280,
+		"imageHeight": 282,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/The_59th_Street_Bridge_Song_(Feelin'_Groovy)",
+		"resolvedTitle": "The 59th Street Bridge Song (Feelin' Groovy)"
+	},
+	"You've Lost That Lovin' Feelin'__The Righteous Brothers": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/You%27ve_Lost_That_Lovin%27_Feelin%27_by_The_Righteous_Brothers_US_vinyl.png/330px-You%27ve_Lost_That_Lovin%27_Feelin%27_by_The_Righteous_Brothers_US_vinyl.png",
+		"imageWidth": 330,
+		"imageHeight": 330,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/You've_Lost_That_Lovin'_Feelin'",
+		"resolvedTitle": "You've Lost That Lovin' Feelin'"
+	},
+	"Unchained Melody__The Righteous Brothers": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/TheRighteousBrothersperformingKBF.jpg/330px-TheRighteousBrothersperformingKBF.jpg",
+		"imageWidth": 330,
+		"imageHeight": 188,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Unchained_Melody",
+		"resolvedTitle": "Unchained Melody"
+	},
+	"Proud Mary__Creedence Clearwater Revival": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/3/35/CCR_-_Proud_Mary.png",
+		"imageWidth": 294,
+		"imageHeight": 294,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Proud_Mary",
+		"resolvedTitle": "Proud Mary"
+	},
+	"Bad Moon Rising__Creedence Clearwater Revival": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/4/4f/Bad_Moon_Rising_label.jpeg",
+		"imageWidth": 310,
+		"imageHeight": 312,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Bad_Moon_Rising",
+		"resolvedTitle": "Bad Moon Rising"
+	},
+	"Heat Waves__Glass Animals": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/b/b0/Glass_Animals_-_Heat_Waves.png",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Heat_Waves",
+		"resolvedTitle": "Heat Waves"
+	},
+	"Physical__Dua Lipa": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/f/fd/Dua_Lipa_-_Physical.png",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Physical_(Dua_Lipa_song)",
+		"resolvedTitle": "Physical (Dua Lipa song)"
+	},
+	"Therefore I Am__Billie Eilish": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Therefore_I_Am.jpg/330px-Therefore_I_Am.jpg",
+		"imageWidth": 330,
+		"imageHeight": 495,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Therefore_I_Am",
+		"resolvedTitle": "Therefore I Am"
+	},
+	"Dynamite__BTS": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/BTS_Dynamite_%28NightTime_Version%29.svg/330px-BTS_Dynamite_%28NightTime_Version%29.svg.png",
+		"imageWidth": 330,
+		"imageHeight": 321,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Dynamite_(BTS_song)",
+		"resolvedTitle": "Dynamite (BTS song)"
+	},
+	"Golden__Harry Styles": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/c/ce/Harry_Styles_-_Golden.png",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Golden_(Harry_Styles_song)",
+		"resolvedTitle": "Golden (Harry Styles song)"
+	},
+	"Essence__WizKid": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Wizkid_in_Canex_-_Algiers_2025_%28cropped%29.jpg/330px-Wizkid_in_Canex_-_Algiers_2025_%28cropped%29.jpg",
+		"imageWidth": 330,
+		"imageHeight": 493,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Essence_(Wizkid_song)",
+		"resolvedTitle": "Essence (Wizkid song)"
+	},
+	"Easy on Me__Adele": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/4/48/Adele_-_Easy_on_Me.png",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Easy_on_Me",
+		"resolvedTitle": "Easy on Me"
+	},
+	"Happier Than Ever__Billie Eilish": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/9/9a/Billie_Eilish_-_Happier_Than_Ever_%28song%29.png",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Happier_Than_Ever_(song)",
+		"resolvedTitle": "Happier Than Ever (song)"
+	},
+	"Leave the Door Open__Silk Sonic": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/4/4f/Silk_Sonic_-_Leave_the_Door_Open.png",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Leave_the_Door_Open",
+		"resolvedTitle": "Leave the Door Open"
+	},
+	"Montero (Call Me by Your Name)__Lil Nas X": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/e/e6/Montero_%28Call_Me_by_Your_Name%29.png",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Montero_(Call_Me_by_Your_Name)",
+		"resolvedTitle": "Montero (Call Me by Your Name)"
+	},
+	"Stay__The Kid LAROI & Justin Bieber": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/0/0c/The_Kid_Laroi_and_Justin_Bieber_-_Stay.png",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Stay_(The_Kid_Laroi_and_Justin_Bieber_song)",
+		"resolvedTitle": "Stay (The Kid Laroi and Justin Bieber song)"
+	},
+	"Butter__BTS": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/d/db/BTS_-_Butter.png",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Butter_(song)",
+		"resolvedTitle": "Butter (song)"
+	},
+	"Save Your Tears__The Weeknd": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/e/e6/Save_Your_Tears_-_Official_Fortnite_Jam_Track_Cover_Art.png",
+		"imageWidth": 306,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Save_Your_Tears",
+		"resolvedTitle": "Save Your Tears"
+	},
+	"Traitor__Olivia Rodrigo": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Glasto2025-546_%28cropped%29_%282%29.jpg/330px-Glasto2025-546_%28cropped%29_%282%29.jpg",
+		"imageWidth": 330,
+		"imageHeight": 404,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Traitor_(song)",
+		"resolvedTitle": "Traitor (song)"
+	},
+	"Deja Vu__Olivia Rodrigo": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/a/af/Olivia_Rodrigo_-_Deja_Vu.png",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Deja_Vu_(Olivia_Rodrigo_song)",
+		"resolvedTitle": "Deja Vu (Olivia Rodrigo song)"
+	},
+	"Cold Heart__Elton John & Dua Lipa": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/0/08/Elton_John%2C_Dua_Lipa_-_Cold_Heart.png",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Cold_Heart_(Pnau_remix)",
+		"resolvedTitle": "Cold Heart (Pnau remix)"
+	},
+	"Bad Habit__Steve Lacy": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/6/63/Steve_Lacy_-_Bad_Habit.png",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Bad_Habit_(Steve_Lacy_song)",
+		"resolvedTitle": "Bad Habit (Steve Lacy song)"
+	},
+	"About Damn Time__Lizzo": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/d/da/Lizzo_-_About_Damn_Time.png",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/About_Damn_Time",
+		"resolvedTitle": "About Damn Time"
+	},
+	"Unholy__Sam Smith & Kim Petras": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/3/38/Sam_Smith_and_Kim_Petras_-_Unholy.png",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Unholy_(Sam_Smith_and_Kim_Petras_song)",
+		"resolvedTitle": "Unholy (Sam Smith and Kim Petras song)"
+	},
+	"Rich Flex__Drake & 21 Savage": {
+		"image": null,
+		"imageWidth": null,
+		"imageHeight": null,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Rich_Flex",
+		"resolvedTitle": "Rich Flex"
+	},
+	"Die Hard__Kendrick Lamar": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/KendrickSZASPurs230725-144_%28cropped%29_desaturated.jpg/330px-KendrickSZASPurs230725-144_%28cropped%29_desaturated.jpg",
+		"imageWidth": 330,
+		"imageHeight": 461,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Die_Hard_(song)",
+		"resolvedTitle": "Die Hard (song)"
+	},
+	"N95__Kendrick Lamar": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/KendrickSZASPurs230725-144_%28cropped%29_desaturated.jpg/330px-KendrickSZASPurs230725-144_%28cropped%29_desaturated.jpg",
+		"imageWidth": 330,
+		"imageHeight": 461,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/N95_(song)",
+		"resolvedTitle": "N95 (song)"
+	},
+	"Midnight Rain__Taylor Swift": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/330px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png",
+		"imageWidth": 330,
+		"imageHeight": 469,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Midnight_Rain",
+		"resolvedTitle": "Midnight Rain"
+	},
+	"Lavender Haze__Taylor Swift": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/a/af/Taylor_Swift_-_Lavender_Haze.png",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Lavender_Haze",
+		"resolvedTitle": "Lavender Haze"
+	},
+	"Flowers__Miley Cyrus": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/0/00/Miley_Cyrus_-_Flowers_%28digital_single%29.png",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Flowers_(Miley_Cyrus_song)",
+		"resolvedTitle": "Flowers (Miley Cyrus song)"
+	},
+	"Vampire__Olivia Rodrigo": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/1/14/Olivia_Rodrigo_-_Vampire.png",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Vampire_(Olivia_Rodrigo_song)",
+		"resolvedTitle": "Vampire (Olivia Rodrigo song)"
+	},
+	"Kill Bill__SZA": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/6/6c/SZA_-_Kill_Bill.png",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Kill_Bill_(song)",
+		"resolvedTitle": "Kill Bill (song)"
+	},
+	"Escapism__RAYE": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/3/3a/Raye_-_Escapism.png",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Escapism_(song)",
+		"resolvedTitle": "Escapism (song)"
+	},
+	"Golden Hour__JVKE": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/4/43/JVKE_-_Golden_Hour.png",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Golden_Hour_(song)",
+		"resolvedTitle": "Golden Hour (song)"
+	},
+	"Calm Down__Rema & Selena Gomez": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/b/b1/Rema_-_Calm_Down.png",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Calm_Down_(Rema_song)",
+		"resolvedTitle": "Calm Down (Rema song)"
+	},
+	"Main Title (Star Wars)__John Williams": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/John_Williams_2024.jpg",
+		"imageWidth": 318,
+		"imageHeight": 400,
+		"wikipediaUrl": null,
+		"resolvedTitle": null
+	},
+	"The Imperial March (Darth Vader's Theme)__John Williams": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/John_Williams_2024.jpg",
+		"imageWidth": 318,
+		"imageHeight": 400,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/The_Imperial_March",
+		"resolvedTitle": "The Imperial March"
+	},
+	"Raiders March__John Williams": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/e/e2/Raiders_soundtrack.jpg",
+		"imageWidth": 317,
+		"imageHeight": 313,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Raiders_of_the_Lost_Ark_(soundtrack)",
+		"resolvedTitle": "Raiders of the Lost Ark (soundtrack)"
+	},
+	"E.T. Flying Theme__John Williams": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/8/83/E.T._the_Extra-Terrestrial_%28soundtrack%29.jpg",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial_(soundtrack)",
+		"resolvedTitle": "E.T. the Extra-Terrestrial (soundtrack)"
+	},
+	"Theme from Schindler's List__John Williams": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/6/60/Schindler%27s_List_cover_artwork.jpg",
+		"imageWidth": 279,
+		"imageHeight": 279,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Schindler's_List_(soundtrack)",
+		"resolvedTitle": "Schindler's List (soundtrack)"
+	},
+	"Duel of the Fates__John Williams": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/c/cc/John_Williams_%E2%80%93_Duel_Of_The_Fates_%28Promotional_Single_Artwork%29.jpg",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Duel_of_the_Fates",
+		"resolvedTitle": "Duel of the Fates"
+	},
+	"Hedwig's Theme__John Williams": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/John_Williams_2024.jpg",
+		"imageWidth": 318,
+		"imageHeight": 400,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Hedwig's_Theme",
+		"resolvedTitle": "Hedwig's Theme"
+	},
+	"Theme from Jaws__John Williams": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/John_Williams_2024.jpg",
+		"imageWidth": 318,
+		"imageHeight": 400,
+		"wikipediaUrl": null,
+		"resolvedTitle": null
+	},
+	"Theme from Superman__John Williams": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/John_Williams_2024.jpg",
+		"imageWidth": 318,
+		"imageHeight": 400,
+		"wikipediaUrl": null,
+		"resolvedTitle": null
+	},
+	"Theme from Jurassic Park__John Williams": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/9/9c/Jurassicpark-1-.jpg",
+		"imageWidth": 220,
+		"imageHeight": 220,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Jurassic_Park_(film_score)",
+		"resolvedTitle": "Jurassic Park (film score)"
+	},
+	"The Good, the Bad and the Ugly (Theme)__Ennio Morricone": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Ennio_Morricone_Cannes_2007.jpg/330px-Ennio_Morricone_Cannes_2007.jpg",
+		"imageWidth": 330,
+		"imageHeight": 498,
+		"wikipediaUrl": null,
+		"resolvedTitle": null
+	},
+	"Once Upon a Time in the West (Theme)__Ennio Morricone": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/a/a2/Once_upon_a_Time_in_the_West.jpg",
+		"imageWidth": 220,
+		"imageHeight": 330,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_the_West",
+		"resolvedTitle": "Once Upon a Time in the West"
+	},
+	"Gabriel's Oboe__Ennio Morricone": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Ennio_Morricone_Cannes_2007.jpg/330px-Ennio_Morricone_Cannes_2007.jpg",
+		"imageWidth": 330,
+		"imageHeight": 498,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Gabriel's_Oboe",
+		"resolvedTitle": "Gabriel's Oboe"
+	},
+	"Cinema Paradiso (Theme)__Ennio Morricone": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/8/86/CinemaParadiso.jpg",
+		"imageWidth": 268,
+		"imageHeight": 372,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Cinema_Paradiso",
+		"resolvedTitle": "Cinema Paradiso"
+	},
+	"The Ecstasy of Gold__Ennio Morricone": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Ennio_Morricone_Cannes_2007.jpg/330px-Ennio_Morricone_Cannes_2007.jpg",
+		"imageWidth": 330,
+		"imageHeight": 498,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/The_Ecstasy_of_Gold",
+		"resolvedTitle": "The Ecstasy of Gold"
+	},
+	"A Fistful of Dollars (Theme)__Ennio Morricone": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/f/f0/Fistful-of-Dollars-poster.jpg",
+		"imageWidth": 263,
+		"imageHeight": 378,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/A_Fistful_of_Dollars",
+		"resolvedTitle": "A Fistful of Dollars"
+	},
+	"Chi Mai__Ennio Morricone": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Ennio_Morricone_Cannes_2007.jpg/330px-Ennio_Morricone_Cannes_2007.jpg",
+		"imageWidth": 330,
+		"imageHeight": 498,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Chi_mai",
+		"resolvedTitle": "Chi mai"
+	},
+	"Metamorphosis Two__Philip Glass": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Philip_Glass_in_Florence%2C_Italy_-_1993_%28cropped%29.jpg/330px-Philip_Glass_in_Florence%2C_Italy_-_1993_%28cropped%29.jpg",
+		"imageWidth": 330,
+		"imageHeight": 439,
+		"wikipediaUrl": null,
+		"resolvedTitle": null
+	},
+	"Mad Rush__Philip Glass": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/7/77/Made_in_the_USA_artwork.png",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Made_in_the_USA_(song)",
+		"resolvedTitle": "Made in the USA (song)"
+	},
+	"Music in Fifths__Philip Glass": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Philip_Glass_in_Florence%2C_Italy_-_1993_%28cropped%29.jpg/330px-Philip_Glass_in_Florence%2C_Italy_-_1993_%28cropped%29.jpg",
+		"imageWidth": 330,
+		"imageHeight": 439,
+		"wikipediaUrl": null,
+		"resolvedTitle": null
+	},
+	"Mishima__Philip Glass": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/a/ad/Mishima.jpg",
+		"imageWidth": 250,
+		"imageHeight": 375,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Mishima%3A_A_Life_in_Four_Chapters",
+		"resolvedTitle": "Mishima: A Life in Four Chapters"
+	},
+	"Time (Inception)__Hans Zimmer": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/1/18/Inception_OST.jpg",
+		"imageWidth": 320,
+		"imageHeight": 320,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Inception_(soundtrack)",
+		"resolvedTitle": "Inception (soundtrack)"
+	},
+	"He's a Pirate__Hans Zimmer": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Hans-Zimmer-profile.jpg/330px-Hans-Zimmer-profile.jpg",
+		"imageWidth": 330,
+		"imageHeight": 438,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/He's_a_Pirate",
+		"resolvedTitle": "He's a Pirate"
+	},
+	"Interstellar (Main Theme)__Hans Zimmer": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/c/ca/Interstellar_soundtrack_album_cover.jpg",
+		"imageWidth": 250,
+		"imageHeight": 250,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Interstellar_(soundtrack)",
+		"resolvedTitle": "Interstellar (soundtrack)"
+	},
+	"Why So Serious?__Hans Zimmer": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/c/c9/Darkknight_cd.jpg",
+		"imageWidth": 300,
+		"imageHeight": 297,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/The_Dark_Knight_(soundtrack)",
+		"resolvedTitle": "The Dark Knight (soundtrack)"
+	},
+	"Now We Are Free (Gladiator)__Hans Zimmer": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/6/6d/Gladiatorsoundtrack.png",
+		"imageWidth": 240,
+		"imageHeight": 240,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Gladiator_(2000_soundtrack)",
+		"resolvedTitle": "Gladiator (2000 soundtrack)"
+	},
+	"The Lion King (Circle of Life)__Hans Zimmer": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/88/Circle_of_Life_by_Elton_John_%28European_variant%29.png/330px-Circle_of_Life_by_Elton_John_%28European_variant%29.png",
+		"imageWidth": 330,
+		"imageHeight": 290,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Circle_of_Life",
+		"resolvedTitle": "Circle of Life"
+	},
+	"Psycho (Main Title)__Bernard Herrmann": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/a/ab/Psycho_Music_from_and_Inspired_by_the_Motion_Picture.jpg",
+		"imageWidth": 317,
+		"imageHeight": 313,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Psycho_(soundtrack)",
+		"resolvedTitle": "Psycho (soundtrack)"
+	},
+	"Vertigo Suite__Bernard Herrmann": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/d/df/Vertigo_Soundtrack_Cover.jpg",
+		"imageWidth": 318,
+		"imageHeight": 314,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Vertigo_(soundtrack)",
+		"resolvedTitle": "Vertigo (soundtrack)"
+	},
+	"The Godfather (Theme)__Nino Rota": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/c/c4/Godfather_Sdtk.jpg",
+		"imageWidth": 301,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/The_Godfather_(soundtrack)",
+		"resolvedTitle": "The Godfather (soundtrack)"
+	},
+	"Amarcord (Theme)__Nino Rota": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/9/97/Amarcord_%28film%29_poster.jpg",
+		"imageWidth": 221,
+		"imageHeight": 317,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Amarcord",
+		"resolvedTitle": "Amarcord"
+	},
+	"The Lord of the Rings (Concerning Hobbits)__Howard Shore": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/7/78/The_Lord_of_the_Rings%2C_The_Fellowship_of_the_Ring_OST_cover.jpg",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings%3A_The_Fellowship_of_the_Ring_(soundtrack)",
+		"resolvedTitle": "The Lord of the Rings: The Fellowship of the Ring (soundtrack)"
+	},
+	"The Lord of the Rings (In Dreams)__Howard Shore": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Howard_Shore%2C_Canadian_Film_Centre%2C_2013-1.jpg/330px-Howard_Shore%2C_Canadian_Film_Centre%2C_2013-1.jpg",
+		"imageWidth": 330,
+		"imageHeight": 471,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/In_Dreams_(Howard_Shore_song)",
+		"resolvedTitle": "In Dreams (Howard Shore song)"
+	},
+	"James Bond Theme__Monty Norman / John Barry": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/2/28/James_Bond_Theme_by_John_Barry_and_His_Orchestra_from_Dr_No.png",
+		"imageWidth": 320,
+		"imageHeight": 312,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/James_Bond_Theme",
+		"resolvedTitle": "James Bond Theme"
+	},
+	"Goldfinger__Shirley Bassey": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/73/Goldfinger_by_Shirley_Bassey_UK_single_side-A.png/330px-Goldfinger_by_Shirley_Bassey_UK_single_side-A.png",
+		"imageWidth": 330,
+		"imageHeight": 331,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Goldfinger_(Shirley_Bassey_song)",
+		"resolvedTitle": "Goldfinger (Shirley Bassey song)"
+	},
+	"Gone with the Wind (Tara's Theme)__Max Steiner": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Poster_-_Gone_With_the_Wind_01.jpg/330px-Poster_-_Gone_With_the_Wind_01.jpg",
+		"imageWidth": 330,
+		"imageHeight": 508,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Gone_with_the_Wind_(film)",
+		"resolvedTitle": "Gone with the Wind (film)"
+	},
+	"The Magnificent Seven (Theme)__Elmer Bernstein": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Elmer_Bernstein_1981.jpeg/330px-Elmer_Bernstein_1981.jpeg",
+		"imageWidth": 330,
+		"imageHeight": 441,
+		"wikipediaUrl": null,
+		"resolvedTitle": null
+	},
+	"Star Trek: The Motion Picture (Theme)__Jerry Goldsmith": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Jerry_Goldsmith_2.jpg/330px-Jerry_Goldsmith_2.jpg",
+		"imageWidth": 330,
+		"imageHeight": 435,
+		"wikipediaUrl": null,
+		"resolvedTitle": null
+	},
+	"Nixon in China__John Adams": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/e/e2/Nixon_In_China_San_Diego_Opera_Poster_2015.png",
+		"imageWidth": 256,
+		"imageHeight": 389,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Nixon_in_China",
+		"resolvedTitle": "Nixon in China"
+	},
+	"Shaker Loops__John Adams": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/John_Adams_Portrait.jpg/330px-John_Adams_Portrait.jpg",
+		"imageWidth": 330,
+		"imageHeight": 401,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Shaker_Loops",
+		"resolvedTitle": "Shaker Loops"
+	},
+	"Short Ride in a Fast Machine__John Adams": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/John_Adams_Short_Ride_in_a_Fast_Machine_Tromba_Lontana_score_cover.png/330px-John_Adams_Short_Ride_in_a_Fast_Machine_Tromba_Lontana_score_cover.png",
+		"imageWidth": 330,
+		"imageHeight": 513,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Short_Ride_in_a_Fast_Machine",
+		"resolvedTitle": "Short Ride in a Fast Machine"
+	},
+	"The Piano (The Heart Asks Pleasure First)__Michael Nyman": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/f/f6/Thepianosoundtrack.jpg",
+		"imageWidth": 303,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/The_Piano_(soundtrack)",
+		"resolvedTitle": "The Piano (soundtrack)"
+	},
+	"Music for 18 Musicians__Steve Reich": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Holland_Festival_componist_Steve_Reich_kop%2C_Bestanddeelnr_928-6490.jpg/330px-Holland_Festival_componist_Steve_Reich_kop%2C_Bestanddeelnr_928-6490.jpg",
+		"imageWidth": 330,
+		"imageHeight": 440,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Music_for_18_Musicians",
+		"resolvedTitle": "Music for 18 Musicians"
+	},
+	"Different Trains__Steve Reich": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Steve_Reich_Ensemble_playing_Different_Trains.jpg/330px-Steve_Reich_Ensemble_playing_Different_Trains.jpg",
+		"imageWidth": 330,
+		"imageHeight": 220,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Different_Trains",
+		"resolvedTitle": "Different Trains"
+	},
+	"Una Mattina__Ludovico Einaudi": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Ludovico_Einaudi_in_Tehran_12_%28cropped%292.jpg",
+		"imageWidth": 322,
+		"imageHeight": 430,
+		"wikipediaUrl": null,
+		"resolvedTitle": null
+	},
+	"Divenire__Ludovico Einaudi": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/a/a1/Rosal%C3%ADa_%E2%80%93_Lux_%28album_cover%29.png",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Lux_(Rosal%C3%ADa_album)",
+		"resolvedTitle": "Lux (Rosalía album)"
+	},
+	"Elegy for the Arctic__Ludovico Einaudi": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Ludovico_Einaudi_in_Tehran_12_%28cropped%292.jpg",
+		"imageWidth": 322,
+		"imageHeight": 430,
+		"wikipediaUrl": null,
+		"resolvedTitle": null
+	},
+	"Sleep (Eight Hours)__Max Richter": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/6/65/Sleep_%28Front_Cover%29.png",
+		"imageWidth": 316,
+		"imageHeight": 316,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Sleep_(album)",
+		"resolvedTitle": "Sleep (album)"
+	},
+	"November__Max Richter": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Max_Richter_at_the_2026_Berlin_International_Film_Festival-68476.jpg/330px-Max_Richter_at_the_2026_Berlin_International_Film_Festival-68476.jpg",
+		"imageWidth": 330,
+		"imageHeight": 440,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Kate_Mann",
+		"resolvedTitle": "Kate Mann"
+	},
+	"Tiger Rag__Original Dixieland Jass Band": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/9/94/Tigerag.jpg",
+		"imageWidth": 314,
+		"imageHeight": 400,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Tiger_Rag",
+		"resolvedTitle": "Tiger Rag"
+	},
+	"Ain't Misbehavin'__Fats Waller": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Misbehave.jpg/330px-Misbehave.jpg",
+		"imageWidth": 330,
+		"imageHeight": 436,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Ain't_Misbehavin'_(song)",
+		"resolvedTitle": "Ain't Misbehavin' (song)"
+	},
+	"Honeysuckle Rose__Fats Waller": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Honeysuckle_rose.jpg/330px-Honeysuckle_rose.jpg",
+		"imageWidth": 330,
+		"imageHeight": 428,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Honeysuckle_Rose_(song)",
+		"resolvedTitle": "Honeysuckle Rose (song)"
+	},
+	"Minor Swing__Django Reinhardt": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Minor_Swing_Django_Reinhardt_1937_Swing_78.jpg/330px-Minor_Swing_Django_Reinhardt_1937_Swing_78.jpg",
+		"imageWidth": 330,
+		"imageHeight": 298,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Minor_Swing_(composition)",
+		"resolvedTitle": "Minor Swing (composition)"
+	},
+	"Nuages__Django Reinhardt": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/3/31/Nuages_Django_Reinhardt_1940_Swing_78.jpg",
+		"imageWidth": 280,
+		"imageHeight": 282,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Nuages",
+		"resolvedTitle": "Nuages"
+	},
+	"Sing, Sing, Sing__Benny Goodman": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/c/c6/Louis_Prima_Sing_Sing_Sing_Cover.jpg",
+		"imageWidth": 200,
+		"imageHeight": 204,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Sing%2C_Sing%2C_Sing_(with_a_Swing)",
+		"resolvedTitle": "Sing, Sing, Sing (with a Swing)"
+	},
+	"One O'Clock Jump__Count Basie": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/9/94/One_O%27Clock_Jump_cover.jpg",
+		"imageWidth": 323,
+		"imageHeight": 309,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/One_O'Clock_Jump",
+		"resolvedTitle": "One O'Clock Jump"
+	},
+	"Begin the Beguine__Artie Shaw": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Artie_Shaw_%28Gottlieb_07773%29.jpg/330px-Artie_Shaw_%28Gottlieb_07773%29.jpg",
+		"imageWidth": 330,
+		"imageHeight": 400,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Begin_the_Beguine",
+		"resolvedTitle": "Begin the Beguine"
+	},
+	"Body and Soul__Coleman Hawkins": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/9/9e/Body_and_Soul_%28Coleman_Hawkins_album%29.jpg",
+		"imageWidth": 293,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Body_and_Soul_(Coleman_Hawkins_album)",
+		"resolvedTitle": "Body and Soul (Coleman Hawkins album)"
+	},
+	"Stardust__Artie Shaw": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Stardust27.jpg",
+		"imageWidth": 188,
+		"imageHeight": 180,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Stardust_(1927_song)",
+		"resolvedTitle": "Stardust (1927 song)"
+	},
+	"Lover Man__Billie Holiday": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Portrait_of_Billie_Holiday_and_Mister%2C_Downbeat%2C_New_York%2C_N.Y.%2C_ca._Feb._1947_%28LOC%2C_5020400274%2C_cropped%29.jpg/330px-Portrait_of_Billie_Holiday_and_Mister%2C_Downbeat%2C_New_York%2C_N.Y.%2C_ca._Feb._1947_%28LOC%2C_5020400274%2C_cropped%29.jpg",
+		"imageWidth": 330,
+		"imageHeight": 367,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Lover_Man_(Oh%2C_Where_Can_You_Be%3F)",
+		"resolvedTitle": "Lover Man (Oh, Where Can You Be?)"
+	},
+	"Well You Needn't__Thelonious Monk": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06221%29.jpg/330px-Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06221%29.jpg",
+		"imageWidth": 330,
+		"imageHeight": 346,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/List_of_compositions_by_Thelonious_Monk",
+		"resolvedTitle": "List of compositions by Thelonious Monk"
+	},
+	"Epistrophy__Thelonious Monk": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06191%29.jpg/330px-Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06191%29.jpg",
+		"imageWidth": 330,
+		"imageHeight": 347,
+		"wikipediaUrl": null,
+		"resolvedTitle": null
+	},
+	"Blue Monk__Thelonious Monk": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06221%29.jpg/330px-Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06221%29.jpg",
+		"imageWidth": 330,
+		"imageHeight": 346,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/List_of_compositions_by_Thelonious_Monk",
+		"resolvedTitle": "List of compositions by Thelonious Monk"
+	},
+	"Joy Spring__Clifford Brown": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Clifford_Brown_1956.jpg/330px-Clifford_Brown_1956.jpg",
+		"imageWidth": 330,
+		"imageHeight": 397,
+		"wikipediaUrl": null,
+		"resolvedTitle": null
+	},
+	"St. Thomas__Sonny Rollins": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Sonny_Rollins_2011.jpg/330px-Sonny_Rollins_2011.jpg",
+		"imageWidth": 330,
+		"imageHeight": 495,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/St._Thomas_(song)",
+		"resolvedTitle": "St. Thomas (song)"
+	},
+	"Moanin'__Art Blakey & the Jazz Messengers": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/12-17-1960_17717_Art_Blakey_%286331548858%29_%28cropped%29.jpg/330px-12-17-1960_17717_Art_Blakey_%286331548858%29_%28cropped%29.jpg",
+		"imageWidth": 330,
+		"imageHeight": 215,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Moanin'_(song)",
+		"resolvedTitle": "Moanin' (song)"
+	},
+	"Peace Piece__Bill Evans": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Bill_Evans_%281961_publicity_photo_by_Steve_Schapiro%29.jpg/330px-Bill_Evans_%281961_publicity_photo_by_Steve_Schapiro%29.jpg",
+		"imageWidth": 330,
+		"imageHeight": 418,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Peace_Piece",
+		"resolvedTitle": "Peace Piece"
+	},
+	"Naima__John Coltrane": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/John_Coltrane_1963_cropped_ver2.jpg/330px-John_Coltrane_1963_cropped_ver2.jpg",
+		"imageWidth": 330,
+		"imageHeight": 440,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Naima",
+		"resolvedTitle": "Naima"
+	},
+	"Poinciana__Ahmad Jamal": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Royal_Poinciana.jpg/330px-Royal_Poinciana.jpg",
+		"imageWidth": 330,
+		"imageHeight": 248,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Poinciana_(song)",
+		"resolvedTitle": "Poinciana (song)"
+	},
+	"Summertime__Ella Fitzgerald & Louis Armstrong": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/5/57/Summer_Time.jpeg",
+		"imageWidth": 316,
+		"imageHeight": 316,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Summer_Time_(song)",
+		"resolvedTitle": "Summer Time (song)"
+	},
+	"Cheek to Cheek__Ella Fitzgerald & Louis Armstrong": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/0/0d/Ellaandlouis.jpg",
+		"imageWidth": 316,
+		"imageHeight": 316,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Ella_and_Louis",
+		"resolvedTitle": "Ella and Louis"
+	},
+	"Straighten Up and Fly Right__Nat King Cole": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nat_King_Cole_1947.jpg/330px-Nat_King_Cole_1947.jpg",
+		"imageWidth": 330,
+		"imageHeight": 403,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Straighten_Up_and_Fly_Right",
+		"resolvedTitle": "Straighten Up and Fly Right"
+	},
+	"All Blues__Miles Davis": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Miles_Davis_by_Palumbo_cropped.jpg/330px-Miles_Davis_by_Palumbo_cropped.jpg",
+		"imageWidth": 330,
+		"imageHeight": 367,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/All_Blues",
+		"resolvedTitle": "All Blues"
+	},
+	"Blue in Green__Miles Davis": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Miles_Davis_by_Palumbo_cropped.jpg/330px-Miles_Davis_by_Palumbo_cropped.jpg",
+		"imageWidth": 330,
+		"imageHeight": 367,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Blue_in_Green",
+		"resolvedTitle": "Blue in Green"
+	},
+	"Milestones__Miles Davis": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/3/35/Milestonescover.jpg",
+		"imageWidth": 250,
+		"imageHeight": 250,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Milestones_(Miles_Davis_album)",
+		"resolvedTitle": "Milestones (Miles Davis album)"
+	},
+	"Desafinado__Stan Getz & João Gilberto": {
+		"image": null,
+		"imageWidth": null,
+		"imageHeight": null,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Desafinado",
+		"resolvedTitle": "Desafinado"
+	},
+	"Corcovado__Stan Getz & João Gilberto": {
+		"image": null,
+		"imageWidth": null,
+		"imageHeight": null,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Corcovado_(song)",
+		"resolvedTitle": "Corcovado (song)"
+	},
+	"Mercy, Mercy, Mercy__Cannonball Adderley": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Cannonball_Adderley_press_photo_1966.jpg/330px-Cannonball_Adderley_press_photo_1966.jpg",
+		"imageWidth": 330,
+		"imageHeight": 358,
+		"wikipediaUrl": null,
+		"resolvedTitle": null
+	},
+	"The Sidewinder__Lee Morgan": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Lee_Morgan_%281959%29.jpg/330px-Lee_Morgan_%281959%29.jpg",
+		"imageWidth": 330,
+		"imageHeight": 248,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/The_Sidewinder_(composition)",
+		"resolvedTitle": "The Sidewinder (composition)"
+	},
+	"Night Train__Oscar Peterson": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/6/6e/Oscarnighttrain.jpg",
+		"imageWidth": 320,
+		"imageHeight": 320,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Night_Train_(Oscar_Peterson_album)",
+		"resolvedTitle": "Night Train (Oscar Peterson album)"
+	},
+	"Hymn to Freedom__Oscar Peterson": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/6/6e/Oscarnighttrain.jpg",
+		"imageWidth": 320,
+		"imageHeight": 320,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Night_Train_(Oscar_Peterson_album)",
+		"resolvedTitle": "Night Train (Oscar Peterson album)"
+	},
+	"Goodbye Pork Pie Hat__Charles Mingus": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Lester-Young-LIFE-1944.jpg/330px-Lester-Young-LIFE-1944.jpg",
+		"imageWidth": 330,
+		"imageHeight": 390,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Goodbye_Pork_Pie_Hat",
+		"resolvedTitle": "Goodbye Pork Pie Hat"
+	},
+	"The Köln Concert__Keith Jarrett": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/f/fa/Keith_Jarrett_Koln_Concert_Cover.jpg",
+		"imageWidth": 300,
+		"imageHeight": 299,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/The_K%C3%B6ln_Concert",
+		"resolvedTitle": "The Köln Concert"
+	},
+	"Breezin'__George Benson": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/GeorgeBensonSept2011.jpg/330px-GeorgeBensonSept2011.jpg",
+		"imageWidth": 330,
+		"imageHeight": 322,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Breezin'_(song)",
+		"resolvedTitle": "Breezin' (song)"
+	},
+	"In a Silent Way__Miles Davis": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/4/49/Miles-davis-in-a-silent-way.jpg",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/In_a_Silent_Way",
+		"resolvedTitle": "In a Silent Way"
+	},
+	"Don't Know Why__Norah Jones": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/1/17/Don%27t_Know_Why_%28Norah_Jones_single_-_cover_art%29.jpg",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Don't_Know_Why",
+		"resolvedTitle": "Don't Know Why"
+	},
+	"Just the Two of Us__Grover Washington Jr.": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/6/64/Just_the_Two_of_Us_single.jpg",
+		"imageWidth": 300,
+		"imageHeight": 299,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Just_the_Two_of_Us_(Grover_Washington_Jr._song)",
+		"resolvedTitle": "Just the Two of Us (Grover Washington Jr. song)"
+	},
+	"What'd I Say__Ray Charles": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/4/46/%22What%27d_I_Say%22_single_face_label.png",
+		"imageWidth": 318,
+		"imageHeight": 314,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/What'd_I_Say",
+		"resolvedTitle": "What'd I Say"
+	},
+	"Georgia on My Mind__Ray Charles": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/2/25/Hoagy-georgia-on-my-mind.jpg",
+		"imageWidth": 280,
+		"imageHeight": 281,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Georgia_on_My_Mind",
+		"resolvedTitle": "Georgia on My Mind"
+	},
+	"Hit the Road Jack__Ray Charles": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/c/c1/RaCharles_HTRJ.png",
+		"imageWidth": 300,
+		"imageHeight": 298,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Hit_the_Road_Jack",
+		"resolvedTitle": "Hit the Road Jack"
+	},
+	"Wichita Lineman__Glen Campbell": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/4/40/Wichitalinemansingle.jpg",
+		"imageWidth": 280,
+		"imageHeight": 280,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Wichita_Lineman",
+		"resolvedTitle": "Wichita Lineman"
+	},
+	"Galveston__Glen Campbell": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Galveston_by_glen_campbell_US_Starline_reissue_tan_variant.png/330px-Galveston_by_glen_campbell_US_Starline_reissue_tan_variant.png",
+		"imageWidth": 330,
+		"imageHeight": 330,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Galveston_(song)",
+		"resolvedTitle": "Galveston (song)"
+	},
+	"King of the Road__Roger Miller": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/King_of_the_road_by_roger_miller_us_vinyl_a-side.png/330px-King_of_the_road_by_roger_miller_us_vinyl_a-side.png",
+		"imageWidth": 330,
+		"imageHeight": 330,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/King_of_the_Road_(song)",
+		"resolvedTitle": "King of the Road (song)"
+	},
+	"Act Naturally__Buck Owens": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/0/04/Margaret_Glaspy_-_Echo_the_Diamond.png",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Echo_the_Diamond",
+		"resolvedTitle": "Echo the Diamond"
+	},
+	"Mama Tried__Merle Haggard": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/0/03/Haggard_-_Mama_Tried_cover.jpg",
+		"imageWidth": 299,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Mama_Tried_(song)",
+		"resolvedTitle": "Mama Tried (song)"
+	},
+	"Today I Started Loving You Again__Merle Haggard": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Merle_Haggard_in_1971.jpg/330px-Merle_Haggard_in_1971.jpg",
+		"imageWidth": 330,
+		"imageHeight": 418,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Today_I_Started_Loving_You_Again",
+		"resolvedTitle": "Today I Started Loving You Again"
+	},
+	"The Race Is On__George Jones": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/6/62/The_Race_Is_On_by_George_Jones.jpg",
+		"imageWidth": 215,
+		"imageHeight": 213,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/The_Race_Is_On",
+		"resolvedTitle": "The Race Is On"
+	},
+	"I Will Always Love You__Dolly Parton": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/I_will_always_love_you_by_Dolly_Parton_1974_US_single.png/330px-I_will_always_love_you_by_Dolly_Parton_1974_US_single.png",
+		"imageWidth": 330,
+		"imageHeight": 329,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/I_Will_Always_Love_You",
+		"resolvedTitle": "I Will Always Love You"
+	},
+	"Behind Closed Doors__Charlie Rich": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/f/f2/Behind_Closed_Doors_-_Charlie_Rich.jpg",
+		"imageWidth": 316,
+		"imageHeight": 316,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Behind_Closed_Doors_(Charlie_Rich_song)",
+		"resolvedTitle": "Behind Closed Doors (Charlie Rich song)"
+	},
+	"If We Make It Through December__Merle Haggard": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Merle_Haggard_in_1971.jpg/330px-Merle_Haggard_in_1971.jpg",
+		"imageWidth": 330,
+		"imageHeight": 418,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/If_We_Make_It_Through_December",
+		"resolvedTitle": "If We Make It Through December"
+	},
+	"Blue Eyes Crying in the Rain__Willie Nelson": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/1/18/Blue_Eyes_Crying_in_the_Rain_-_Willie_Nelson.jpg",
+		"imageWidth": 314,
+		"imageHeight": 317,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Blue_Eyes_Crying_in_the_Rain",
+		"resolvedTitle": "Blue Eyes Crying in the Rain"
+	},
+	"Boulder to Birmingham__Emmylou Harris": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/e/ed/Boulder_to_Birmingham_%28Recording_Cover%29.jpeg",
+		"imageWidth": 318,
+		"imageHeight": 314,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Boulder_to_Birmingham",
+		"resolvedTitle": "Boulder to Birmingham"
+	},
+	"Don't It Make My Brown Eyes Blue__Crystal Gayle": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Don%27t_It_Make_My_Brown_Eyes_Blue_by_Crystal_Gayle_US_single_side-A.png/330px-Don%27t_It_Make_My_Brown_Eyes_Blue_by_Crystal_Gayle_US_single_side-A.png",
+		"imageWidth": 330,
+		"imageHeight": 330,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Don't_It_Make_My_Brown_Eyes_Blue",
+		"resolvedTitle": "Don't It Make My Brown Eyes Blue"
+	},
+	"Lucille__Kenny Rogers": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/6/67/Kenny_Rogers_-_Lucille_single.jpg",
+		"imageWidth": 280,
+		"imageHeight": 282,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Lucille_(Kenny_Rogers_song)",
+		"resolvedTitle": "Lucille (Kenny Rogers song)"
+	},
+	"Good Hearted Woman__Waylon Jennings & Willie Nelson": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Good_Hearted_Woman_by_Waylon_Jennings_%28side_A%2C_1971_US_single%29.png/330px-Good_Hearted_Woman_by_Waylon_Jennings_%28side_A%2C_1971_US_single%29.png",
+		"imageWidth": 330,
+		"imageHeight": 329,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Good_Hearted_Woman_(song)",
+		"resolvedTitle": "Good Hearted Woman (song)"
+	},
+	"Mammas Don't Let Your Babies Grow Up to Be Cowboys__Waylon Jennings & Willie Nelson": {
+		"image": null,
+		"imageWidth": null,
+		"imageHeight": null,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Mammas_Don't_Let_Your_Babies_Grow_Up_to_Be_Cowboys",
+		"resolvedTitle": "Mammas Don't Let Your Babies Grow Up to Be Cowboys"
+	},
+	"Family Tradition__Hank Williams Jr.": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Hank212.JPG/330px-Hank212.JPG",
+		"imageWidth": 330,
+		"imageHeight": 497,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Family_Tradition_(Hank_Williams_Jr._song)",
+		"resolvedTitle": "Family Tradition (Hank Williams Jr. song)"
+	},
+	"He Stopped Loving Her Today__George Jones": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/George_Jones%2C_1976.png/330px-George_Jones%2C_1976.png",
+		"imageWidth": 330,
+		"imageHeight": 439,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/He_Stopped_Loving_Her_Today",
+		"resolvedTitle": "He Stopped Loving Her Today"
+	},
+	"Elvira__Oak Ridge Boys": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/0/04/Elviradallasfrazier.jpg",
+		"imageWidth": 316,
+		"imageHeight": 316,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Elvira_(song)",
+		"resolvedTitle": "Elvira (song)"
+	},
+	"Amarillo by Morning__George Strait": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/George_Strait_2014_1.jpg/330px-George_Strait_2014_1.jpg",
+		"imageWidth": 330,
+		"imageHeight": 471,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Amarillo_by_Morning_(song)",
+		"resolvedTitle": "Amarillo by Morning (song)"
+	},
+	"Islands in the Stream__Kenny Rogers & Dolly Parton": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/0/0e/Krdpislands.jpg",
+		"imageWidth": 314,
+		"imageHeight": 317,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Islands_in_the_Stream_(song)",
+		"resolvedTitle": "Islands in the Stream (song)"
+	},
+	"God Bless the U.S.A.__Lee Greenwood": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/5/5a/God_Bless_the_USA_1984.jpg",
+		"imageWidth": 310,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/God_Bless_the_U.S.A.",
+		"resolvedTitle": "God Bless the U.S.A."
+	},
+	"Mama He's Crazy__The Judds": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/d/da/Judds_Crazy_single.JPG",
+		"imageWidth": 328,
+		"imageHeight": 303,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Mama_He's_Crazy",
+		"resolvedTitle": "Mama He's Crazy"
+	},
+	"All My Ex's Live in Texas__George Strait": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/8/83/All_My_Ex%27s_Live_in_Texas_-_George_Strait.jpg",
+		"imageWidth": 294,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/All_My_Ex's_Live_in_Texas",
+		"resolvedTitle": "All My Ex's Live in Texas"
+	},
+	"Forever and Ever, Amen__Randy Travis": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/7/70/Randy_Travis_forever_and_ever.jpg",
+		"imageWidth": 317,
+		"imageHeight": 315,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Forever_and_Ever%2C_Amen",
+		"resolvedTitle": "Forever and Ever, Amen"
+	},
+	"Guitars, Cadillacs__Dwight Yoakam": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/6/68/Dwight_Yoakam_-_Guitars%2C_Cadillacs.jpg",
+		"imageWidth": 317,
+		"imageHeight": 314,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Guitars%2C_Cadillacs",
+		"resolvedTitle": "Guitars, Cadillacs"
+	},
+	"When I Call Your Name__Vince Gill": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Vince_Gill.png/330px-Vince_Gill.png",
+		"imageWidth": 330,
+		"imageHeight": 362,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/When_I_Call_Your_Name_(Vince_Gill_song)",
+		"resolvedTitle": "When I Call Your Name (Vince Gill song)"
+	},
+	"Fancy__Reba McEntire": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/e/ea/GentryFancy.jpg",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Fancy_(Bobbie_Gentry_song)",
+		"resolvedTitle": "Fancy (Bobbie Gentry song)"
+	},
+	"Chattahoochee__Alan Jackson": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/1/18/Alan_Jackson_-_Chattahoochee.jpg",
+		"imageWidth": 324,
+		"imageHeight": 307,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Chattahoochee_(song)",
+		"resolvedTitle": "Chattahoochee (song)"
+	},
+	"Check Yes or No__George Strait": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/4/4b/Check_Yes_or_No_cd_single.png",
+		"imageWidth": 326,
+		"imageHeight": 306,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Check_Yes_or_No",
+		"resolvedTitle": "Check Yes or No"
+	},
+	"Chicken Fried__Zac Brown Band": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/e/e9/Chicken_Fried_Zac_Brown_Band.jpg",
+		"imageWidth": 280,
+		"imageHeight": 280,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Chicken_Fried",
+		"resolvedTitle": "Chicken Fried"
+	},
+	"Tennessee Whiskey__Chris Stapleton": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Chris_Stapleton_Concert_%2848519730107%29_%28cropped%29.jpg/330px-Chris_Stapleton_Concert_%2848519730107%29_%28cropped%29.jpg",
+		"imageWidth": 330,
+		"imageHeight": 440,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Tennessee_Whiskey_(song)",
+		"resolvedTitle": "Tennessee Whiskey (song)"
+	},
+	"Traveller__Chris Stapleton": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/d/d2/Traveller_%28Chris_Stapleton_album%29.jpg",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Traveller_(Chris_Stapleton_album)",
+		"resolvedTitle": "Traveller (Chris Stapleton album)"
+	},
+	"Follow Your Arrow__Kacey Musgraves": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/c/c5/Kacey_Musgraves_Follow_Your_Arrow_Single_Cover.jpg",
+		"imageWidth": 230,
+		"imageHeight": 230,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Follow_Your_Arrow",
+		"resolvedTitle": "Follow Your Arrow"
+	},
+	"Rainbow__Kacey Musgraves": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/7/71/KaceyMusgravesRainbow.jpg",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Rainbow_(Kacey_Musgraves_song)",
+		"resolvedTitle": "Rainbow (Kacey Musgraves song)"
+	},
+	"My Church__Maren Morris": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/f/fe/MyChurch.jpg",
+		"imageWidth": 316,
+		"imageHeight": 316,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/My_Church",
+		"resolvedTitle": "My Church"
+	},
+	"Whitehouse Road__Tyler Childers": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/1/14/Tyler_Childers_-_Purgatory.png",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Purgatory_(Tyler_Childers_album)",
+		"resolvedTitle": "Purgatory (Tyler Childers album)"
+	},
+	"Pony Blues__Charley Patton": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Pony_Blues.jpg/330px-Pony_Blues.jpg",
+		"imageWidth": 330,
+		"imageHeight": 363,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Pony_Blues",
+		"resolvedTitle": "Pony Blues"
+	},
+	"Preachin' Blues__Son House": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/d/d7/Living_Colour_-_Shade.jpg",
+		"imageWidth": 315,
+		"imageHeight": 315,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Shade_(Living_Colour_album)",
+		"resolvedTitle": "Shade (Living Colour album)"
+	},
+	"Good Morning, Little Schoolgirl__Sonny Boy Williamson I": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/f/fa/John_Lee_Williamson.jpg",
+		"imageWidth": 289,
+		"imageHeight": 280,
+		"wikipediaUrl": null,
+		"resolvedTitle": null
+	},
+	"It Hurts Me Too__Tampa Red": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/6/63/It_Hurts_Me_Too_single_cover.jpg",
+		"imageWidth": 316,
+		"imageHeight": 316,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/It_Hurts_Me_Too",
+		"resolvedTitle": "It Hurts Me Too"
+	},
+	"Death Letter__Son House": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/d/d6/SonHouse_DeathLetter.jpg",
+		"imageWidth": 293,
+		"imageHeight": 294,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Death_Letter",
+		"resolvedTitle": "Death Letter"
+	},
+	"Juke__Little Walter": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/d/d2/Juke_single_cover.jpg",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Juke_(instrumental)",
+		"resolvedTitle": "Juke (instrumental)"
+	},
+	"My Babe__Little Walter": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/9/90/My_Babe_Little_Walter.jpg",
+		"imageWidth": 300,
+		"imageHeight": 300,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/My_Babe",
+		"resolvedTitle": "My Babe"
+	},
+	"Got My Mojo Working__Muddy Waters": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/1/1f/Got_My_Mo-Jo_Working_single_cover.jpg",
+		"imageWidth": 280,
+		"imageHeight": 258,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Got_My_Mojo_Working",
+		"resolvedTitle": "Got My Mojo Working"
+	},
+	"Back Door Man__Howlin' Wolf": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/d/d2/Back_Door_Man_single_cover.jpg",
+		"imageWidth": 246,
+		"imageHeight": 245,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Back_Door_Man",
+		"resolvedTitle": "Back Door Man"
+	},
+	"Wang Dang Doodle__Koko Taylor": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/KokoTaylor2006.jpg/330px-KokoTaylor2006.jpg",
+		"imageWidth": 330,
+		"imageHeight": 413,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Wang_Dang_Doodle",
+		"resolvedTitle": "Wang Dang Doodle"
+	},
+	"Killing Floor__Howlin' Wolf": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/d/d5/Killing_Floor_single_cover.jpg",
+		"imageWidth": 280,
+		"imageHeight": 287,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Killing_Floor_(song)",
+		"resolvedTitle": "Killing Floor (song)"
+	},
+	"I'm in the Mood__John Lee Hooker": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/5/50/I%27m_In_The_Mood.jpeg",
+		"imageWidth": 316,
+		"imageHeight": 315,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/I'm_in_the_Mood_(John_Lee_Hooker_song)",
+		"resolvedTitle": "I'm in the Mood (John Lee Hooker song)"
+	},
+	"Dimples__John Lee Hooker": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/3/3d/Dimples_single_cover.jpg",
+		"imageWidth": 280,
+		"imageHeight": 280,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Dimples_(song)",
+		"resolvedTitle": "Dimples (song)"
+	},
+	"Messin' with the Kid__Junior Wells": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/3/33/Messin%27_with_the_Kid_single_cover.jpg",
+		"imageWidth": 280,
+		"imageHeight": 267,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Messin'_with_the_Kid",
+		"resolvedTitle": "Messin' with the Kid"
+	},
+	"I'm a King Bee__Slim Harpo": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/c/c9/I%27m_a_King_Bee_single_cover.jpg",
+		"imageWidth": 280,
+		"imageHeight": 280,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/I'm_a_King_Bee",
+		"resolvedTitle": "I'm a King Bee"
+	},
+	"All Your Love (I Miss Loving)__Otis Rush": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/e/e7/All_Your_Love_single_cover.jpg",
+		"imageWidth": 274,
+		"imageHeight": 263,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/All_Your_Love_(I_Miss_Loving)",
+		"resolvedTitle": "All Your Love (I Miss Loving)"
+	},
+	"Frosty__Albert Collins": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/7/71/Frosty_the_Snowman%2C_Gene_Autry_Cover.jpg",
+		"imageWidth": 316,
+		"imageHeight": 316,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Frosty_the_Snowman",
+		"resolvedTitle": "Frosty the Snowman"
+	},
+	"Crosscut Saw__Albert King": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/e/e7/Cross_Cut_Saw_Blues_single_cover.jpg",
+		"imageWidth": 320,
+		"imageHeight": 275,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Crosscut_Saw_(song)",
+		"resolvedTitle": "Crosscut Saw (song)"
+	},
+	"I'll Play the Blues for You__Albert King": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/f/f9/IllPlayTheBluesForYou.jpg",
+		"imageWidth": 200,
+		"imageHeight": 195,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/I'll_Play_the_Blues_for_You",
+		"resolvedTitle": "I'll Play the Blues for You"
+	},
+	"Big Boss Man__Jimmy Reed": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Big_Boss_Man_cropped.png/330px-Big_Boss_Man_cropped.png",
+		"imageWidth": 330,
+		"imageHeight": 291,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Big_Boss_Man",
+		"resolvedTitle": "Big Boss Man"
+	},
+	"Bright Lights, Big City__Jimmy Reed": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Jimmy_Reed_Vee-Jay_press_photo.jpg/330px-Jimmy_Reed_Vee-Jay_press_photo.jpg",
+		"imageWidth": 330,
+		"imageHeight": 371,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Bright_Lights%2C_Big_City_(song)",
+		"resolvedTitle": "Bright Lights, Big City (song)"
+	},
+	"Damn Right, I've Got the Blues__Buddy Guy": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/d/d4/BuddyGuy-DamnRight-cover.jpeg",
+		"imageWidth": 318,
+		"imageHeight": 312,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Damn_Right%2C_I've_Got_the_Blues",
+		"resolvedTitle": "Damn Right, I've Got the Blues"
+	},
+	"Smoking Gun__Robert Cray": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/RobertCray.jpg/330px-RobertCray.jpg",
+		"imageWidth": 330,
+		"imageHeight": 493,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Smoking_Gun_(song)",
+		"resolvedTitle": "Smoking Gun (song)"
+	},
+	"Still Alive and Well__Johnny Winter": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/3/32/Johnny_Winter_-_Still_Alive_and_Well_Coverart.jpg",
+		"imageWidth": 240,
+		"imageHeight": 240,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Still_Alive_and_Well",
+		"resolvedTitle": "Still Alive and Well"
+	},
+	"Statesboro Blues__Taj Mahal": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/StatesboroBlues.jpg",
+		"imageWidth": 180,
+		"imageHeight": 180,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Statesboro_Blues",
+		"resolvedTitle": "Statesboro Blues"
+	},
+	"Bright Lights__Gary Clark Jr.": {
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Gary_Clark%2C_Jr._2013.jpg/330px-Gary_Clark%2C_Jr._2013.jpg",
+		"imageWidth": 330,
+		"imageHeight": 353,
+		"wikipediaUrl": null,
+		"resolvedTitle": null
+	},
+	"Something to Talk About__Bonnie Raitt": {
+		"image": "https://upload.wikimedia.org/wikipedia/en/5/5f/Something_to_Talk_About_%28Bonnie_Raitt_song%29_coverart.jpg",
+		"imageWidth": 314,
+		"imageHeight": 317,
+		"wikipediaUrl": "https://en.wikipedia.org/wiki/Something_to_Talk_About_(Bonnie_Raitt_song)",
+		"resolvedTitle": "Something to Talk About (Bonnie Raitt song)"
 	}
 }

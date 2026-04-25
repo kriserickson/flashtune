@@ -6340,5 +6340,740 @@
     "year": 2002,
     "genre": "classical",
     "wikipediaTitle": "Memoryhouse (Max Richter album)"
+  },
+  {
+    "title": "Tiger Rag",
+    "artist": "Original Dixieland Jass Band",
+    "year": 1917,
+    "genre": "jazz",
+    "wikipediaTitle": "Tiger Rag"
+  },
+  {
+    "title": "Ain't Misbehavin'",
+    "artist": "Fats Waller",
+    "year": 1929,
+    "genre": "jazz",
+    "wikipediaTitle": "Ain't Misbehavin' (Fats Waller song)"
+  },
+  {
+    "title": "Honeysuckle Rose",
+    "artist": "Fats Waller",
+    "year": 1929,
+    "genre": "jazz",
+    "wikipediaTitle": "Honeysuckle Rose (song)"
+  },
+  {
+    "title": "Minor Swing",
+    "artist": "Django Reinhardt",
+    "year": 1937,
+    "genre": "jazz",
+    "wikipediaTitle": "Minor Swing"
+  },
+  {
+    "title": "Nuages",
+    "artist": "Django Reinhardt",
+    "year": 1940,
+    "genre": "jazz",
+    "wikipediaTitle": "Nuages (composition)"
+  },
+  {
+    "title": "Sing, Sing, Sing",
+    "artist": "Benny Goodman",
+    "year": 1937,
+    "genre": "jazz",
+    "wikipediaTitle": "Sing, Sing, Sing (with a Swing)"
+  },
+  {
+    "title": "One O'Clock Jump",
+    "artist": "Count Basie",
+    "year": 1937,
+    "genre": "jazz",
+    "wikipediaTitle": "One O'Clock Jump"
+  },
+  {
+    "title": "Begin the Beguine",
+    "artist": "Artie Shaw",
+    "year": 1938,
+    "genre": "jazz",
+    "wikipediaTitle": "Begin the Beguine"
+  },
+  {
+    "title": "Body and Soul",
+    "artist": "Coleman Hawkins",
+    "year": 1939,
+    "genre": "jazz",
+    "wikipediaTitle": "Body and Soul (composition)"
+  },
+  {
+    "title": "Stardust",
+    "artist": "Artie Shaw",
+    "year": 1940,
+    "genre": "jazz",
+    "wikipediaTitle": "Stardust (1927 song)"
+  },
+  {
+    "title": "Lover Man",
+    "artist": "Billie Holiday",
+    "year": 1944,
+    "genre": "jazz",
+    "wikipediaTitle": "Lover Man (Oh, Where Can You Be?)"
+  },
+  {
+    "title": "Well You Needn't",
+    "artist": "Thelonious Monk",
+    "year": 1947,
+    "genre": "jazz",
+    "wikipediaTitle": "Well You Needn't"
+  },
+  {
+    "title": "Epistrophy",
+    "artist": "Thelonious Monk",
+    "year": 1948,
+    "genre": "jazz",
+    "wikipediaTitle": "Epistrophy"
+  },
+  {
+    "title": "Blue Monk",
+    "artist": "Thelonious Monk",
+    "year": 1954,
+    "genre": "jazz",
+    "wikipediaTitle": "Blue Monk"
+  },
+  {
+    "title": "Joy Spring",
+    "artist": "Clifford Brown",
+    "year": 1954,
+    "genre": "jazz",
+    "wikipediaTitle": "Joy Spring (composition)"
+  },
+  {
+    "title": "St. Thomas",
+    "artist": "Sonny Rollins",
+    "year": 1956,
+    "genre": "jazz",
+    "wikipediaTitle": "St. Thomas (song)"
+  },
+  {
+    "title": "Moanin'",
+    "artist": "Art Blakey & the Jazz Messengers",
+    "year": 1958,
+    "genre": "jazz",
+    "wikipediaTitle": "Moanin' (Bobby Timmons composition)"
+  },
+  {
+    "title": "Peace Piece",
+    "artist": "Bill Evans",
+    "year": 1958,
+    "genre": "jazz",
+    "wikipediaTitle": "Peace Piece"
+  },
+  {
+    "title": "Naima",
+    "artist": "John Coltrane",
+    "year": 1960,
+    "genre": "jazz",
+    "wikipediaTitle": "Naima"
+  },
+  {
+    "title": "Poinciana",
+    "artist": "Ahmad Jamal",
+    "year": 1958,
+    "genre": "jazz",
+    "wikipediaTitle": "Poinciana (song)"
+  },
+  {
+    "title": "Summertime",
+    "artist": "Ella Fitzgerald & Louis Armstrong",
+    "year": 1957,
+    "genre": "jazz",
+    "wikipediaTitle": "Porgy and Bess (1957 album)"
+  },
+  {
+    "title": "Cheek to Cheek",
+    "artist": "Ella Fitzgerald & Louis Armstrong",
+    "year": 1956,
+    "genre": "jazz",
+    "wikipediaTitle": "Ella and Louis"
+  },
+  {
+    "title": "Straighten Up and Fly Right",
+    "artist": "Nat King Cole",
+    "year": 1943,
+    "genre": "jazz",
+    "wikipediaTitle": "Straighten Up and Fly Right"
+  },
+  {
+    "title": "All Blues",
+    "artist": "Miles Davis",
+    "year": 1959,
+    "genre": "jazz",
+    "wikipediaTitle": "All Blues"
+  },
+  {
+    "title": "Blue in Green",
+    "artist": "Miles Davis",
+    "year": 1959,
+    "genre": "jazz",
+    "wikipediaTitle": "Blue in Green"
+  },
+  {
+    "title": "Milestones",
+    "artist": "Miles Davis",
+    "year": 1958,
+    "genre": "jazz",
+    "wikipediaTitle": "Milestones (composition)"
+  },
+  {
+    "title": "Desafinado",
+    "artist": "Stan Getz & João Gilberto",
+    "year": 1962,
+    "genre": "jazz",
+    "wikipediaTitle": "Desafinado"
+  },
+  {
+    "title": "Corcovado",
+    "artist": "Stan Getz & João Gilberto",
+    "year": 1964,
+    "genre": "jazz",
+    "wikipediaTitle": "Corcovado (composition)"
+  },
+  {
+    "title": "Mercy, Mercy, Mercy",
+    "artist": "Cannonball Adderley",
+    "year": 1966,
+    "genre": "jazz",
+    "wikipediaTitle": "Mercy, Mercy, Mercy (composition)"
+  },
+  {
+    "title": "The Sidewinder",
+    "artist": "Lee Morgan",
+    "year": 1964,
+    "genre": "jazz",
+    "wikipediaTitle": "The Sidewinder (composition)"
+  },
+  {
+    "title": "Night Train",
+    "artist": "Oscar Peterson",
+    "year": 1962,
+    "genre": "jazz",
+    "wikipediaTitle": "Night Train (Oscar Peterson song)"
+  },
+  {
+    "title": "Hymn to Freedom",
+    "artist": "Oscar Peterson",
+    "year": 1963,
+    "genre": "jazz",
+    "wikipediaTitle": "Hymn to Freedom"
+  },
+  {
+    "title": "Goodbye Pork Pie Hat",
+    "artist": "Charles Mingus",
+    "year": 1959,
+    "genre": "jazz",
+    "wikipediaTitle": "Goodbye Pork Pie Hat"
+  },
+  {
+    "title": "The Köln Concert",
+    "artist": "Keith Jarrett",
+    "year": 1975,
+    "genre": "jazz",
+    "wikipediaTitle": "The Köln Concert"
+  },
+  {
+    "title": "Breezin'",
+    "artist": "George Benson",
+    "year": 1976,
+    "genre": "jazz",
+    "wikipediaTitle": "Breezin' (song)"
+  },
+  {
+    "title": "In a Silent Way",
+    "artist": "Miles Davis",
+    "year": 1969,
+    "genre": "jazz",
+    "wikipediaTitle": "In a Silent Way"
+  },
+  {
+    "title": "Don't Know Why",
+    "artist": "Norah Jones",
+    "year": 2002,
+    "genre": "jazz",
+    "wikipediaTitle": "Don't Know Why"
+  },
+  {
+    "title": "Just the Two of Us",
+    "artist": "Grover Washington Jr.",
+    "year": 1980,
+    "genre": "jazz",
+    "wikipediaTitle": "Just the Two of Us"
+  },
+  {
+    "title": "What'd I Say",
+    "artist": "Ray Charles",
+    "year": 1959,
+    "genre": "jazz",
+    "wikipediaTitle": "What'd I Say"
+  },
+  {
+    "title": "Georgia on My Mind",
+    "artist": "Ray Charles",
+    "year": 1960,
+    "genre": "jazz",
+    "wikipediaTitle": "Georgia on My Mind"
+  },
+  {
+    "title": "Hit the Road Jack",
+    "artist": "Ray Charles",
+    "year": 1961,
+    "genre": "jazz",
+    "wikipediaTitle": "Hit the Road Jack"
+  },
+  {
+    "title": "Wichita Lineman",
+    "artist": "Glen Campbell",
+    "year": 1968,
+    "genre": "country",
+    "wikipediaTitle": "Wichita Lineman"
+  },
+  {
+    "title": "Galveston",
+    "artist": "Glen Campbell",
+    "year": 1969,
+    "genre": "country",
+    "wikipediaTitle": "Galveston (song)"
+  },
+  {
+    "title": "King of the Road",
+    "artist": "Roger Miller",
+    "year": 1965,
+    "genre": "country",
+    "wikipediaTitle": "King of the Road (song)"
+  },
+  {
+    "title": "Act Naturally",
+    "artist": "Buck Owens",
+    "year": 1963,
+    "genre": "country",
+    "wikipediaTitle": "Act Naturally (song)"
+  },
+  {
+    "title": "Mama Tried",
+    "artist": "Merle Haggard",
+    "year": 1968,
+    "genre": "country",
+    "wikipediaTitle": "Mama Tried"
+  },
+  {
+    "title": "Today I Started Loving You Again",
+    "artist": "Merle Haggard",
+    "year": 1968,
+    "genre": "country",
+    "wikipediaTitle": "Today I Started Loving You Again"
+  },
+  {
+    "title": "The Race Is On",
+    "artist": "George Jones",
+    "year": 1964,
+    "genre": "country",
+    "wikipediaTitle": "The Race Is On (George Jones song)"
+  },
+  {
+    "title": "I Will Always Love You",
+    "artist": "Dolly Parton",
+    "year": 1973,
+    "genre": "country",
+    "wikipediaTitle": "I Will Always Love You"
+  },
+  {
+    "title": "Behind Closed Doors",
+    "artist": "Charlie Rich",
+    "year": 1973,
+    "genre": "country",
+    "wikipediaTitle": "Behind Closed Doors (Charlie Rich song)"
+  },
+  {
+    "title": "If We Make It Through December",
+    "artist": "Merle Haggard",
+    "year": 1973,
+    "genre": "country",
+    "wikipediaTitle": "If We Make It Through December"
+  },
+  {
+    "title": "Blue Eyes Crying in the Rain",
+    "artist": "Willie Nelson",
+    "year": 1975,
+    "genre": "country",
+    "wikipediaTitle": "Blue Eyes Crying in the Rain"
+  },
+  {
+    "title": "Boulder to Birmingham",
+    "artist": "Emmylou Harris",
+    "year": 1975,
+    "genre": "country",
+    "wikipediaTitle": "Boulder to Birmingham"
+  },
+  {
+    "title": "Don't It Make My Brown Eyes Blue",
+    "artist": "Crystal Gayle",
+    "year": 1977,
+    "genre": "country",
+    "wikipediaTitle": "Don't It Make My Brown Eyes Blue"
+  },
+  {
+    "title": "Lucille",
+    "artist": "Kenny Rogers",
+    "year": 1977,
+    "genre": "country",
+    "wikipediaTitle": "Lucille (Kenny Rogers song)"
+  },
+  {
+    "title": "Good Hearted Woman",
+    "artist": "Waylon Jennings & Willie Nelson",
+    "year": 1976,
+    "genre": "country",
+    "wikipediaTitle": "Good Hearted Woman (song)"
+  },
+  {
+    "title": "Mammas Don't Let Your Babies Grow Up to Be Cowboys",
+    "artist": "Waylon Jennings & Willie Nelson",
+    "year": 1978,
+    "genre": "country",
+    "wikipediaTitle": "Mammas Don't Let Your Babies Grow Up to Be Cowboys"
+  },
+  {
+    "title": "Family Tradition",
+    "artist": "Hank Williams Jr.",
+    "year": 1979,
+    "genre": "country",
+    "wikipediaTitle": "Family Tradition"
+  },
+  {
+    "title": "He Stopped Loving Her Today",
+    "artist": "George Jones",
+    "year": 1980,
+    "genre": "country",
+    "wikipediaTitle": "He Stopped Loving Her Today"
+  },
+  {
+    "title": "Elvira",
+    "artist": "Oak Ridge Boys",
+    "year": 1981,
+    "genre": "country",
+    "wikipediaTitle": "Elvira (Dallas Frazier song)"
+  },
+  {
+    "title": "Amarillo by Morning",
+    "artist": "George Strait",
+    "year": 1982,
+    "genre": "country",
+    "wikipediaTitle": "Amarillo by Morning"
+  },
+  {
+    "title": "Islands in the Stream",
+    "artist": "Kenny Rogers & Dolly Parton",
+    "year": 1983,
+    "genre": "country",
+    "wikipediaTitle": "Islands in the Stream (song)"
+  },
+  {
+    "title": "God Bless the U.S.A.",
+    "artist": "Lee Greenwood",
+    "year": 1984,
+    "genre": "country",
+    "wikipediaTitle": "God Bless the U.S.A."
+  },
+  {
+    "title": "Mama He's Crazy",
+    "artist": "The Judds",
+    "year": 1984,
+    "genre": "country",
+    "wikipediaTitle": "Mama He's Crazy"
+  },
+  {
+    "title": "All My Ex's Live in Texas",
+    "artist": "George Strait",
+    "year": 1987,
+    "genre": "country",
+    "wikipediaTitle": "All My Ex's Live in Texas"
+  },
+  {
+    "title": "Forever and Ever, Amen",
+    "artist": "Randy Travis",
+    "year": 1987,
+    "genre": "country",
+    "wikipediaTitle": "Forever and Ever, Amen"
+  },
+  {
+    "title": "Guitars, Cadillacs",
+    "artist": "Dwight Yoakam",
+    "year": 1986,
+    "genre": "country",
+    "wikipediaTitle": "Guitars, Cadillacs"
+  },
+  {
+    "title": "When I Call Your Name",
+    "artist": "Vince Gill",
+    "year": 1990,
+    "genre": "country",
+    "wikipediaTitle": "When I Call Your Name (Vince Gill song)"
+  },
+  {
+    "title": "Fancy",
+    "artist": "Reba McEntire",
+    "year": 1991,
+    "genre": "country",
+    "wikipediaTitle": "Fancy (Bobbie Gentry song)"
+  },
+  {
+    "title": "Chattahoochee",
+    "artist": "Alan Jackson",
+    "year": 1993,
+    "genre": "country",
+    "wikipediaTitle": "Chattahoochee (song)"
+  },
+  {
+    "title": "Check Yes or No",
+    "artist": "George Strait",
+    "year": 1995,
+    "genre": "country",
+    "wikipediaTitle": "Check Yes or No"
+  },
+  {
+    "title": "Chicken Fried",
+    "artist": "Zac Brown Band",
+    "year": 2008,
+    "genre": "country",
+    "wikipediaTitle": "Chicken Fried (song)"
+  },
+  {
+    "title": "Tennessee Whiskey",
+    "artist": "Chris Stapleton",
+    "year": 2015,
+    "genre": "country",
+    "wikipediaTitle": "Tennessee Whiskey (Chris Stapleton song)"
+  },
+  {
+    "title": "Traveller",
+    "artist": "Chris Stapleton",
+    "year": 2015,
+    "genre": "country",
+    "wikipediaTitle": "Traveller (Chris Stapleton album)"
+  },
+  {
+    "title": "Follow Your Arrow",
+    "artist": "Kacey Musgraves",
+    "year": 2013,
+    "genre": "country",
+    "wikipediaTitle": "Follow Your Arrow"
+  },
+  {
+    "title": "Rainbow",
+    "artist": "Kacey Musgraves",
+    "year": 2019,
+    "genre": "country",
+    "wikipediaTitle": "Rainbow (Kacey Musgraves song)"
+  },
+  {
+    "title": "My Church",
+    "artist": "Maren Morris",
+    "year": 2016,
+    "genre": "country",
+    "wikipediaTitle": "My Church (song)"
+  },
+  {
+    "title": "Whitehouse Road",
+    "artist": "Tyler Childers",
+    "year": 2017,
+    "genre": "country",
+    "wikipediaTitle": "Purgatory (Tyler Childers album)"
+  },
+  {
+    "title": "Pony Blues",
+    "artist": "Charley Patton",
+    "year": 1929,
+    "genre": "blues",
+    "wikipediaTitle": "Pony Blues"
+  },
+  {
+    "title": "Preachin' Blues",
+    "artist": "Son House",
+    "year": 1930,
+    "genre": "blues",
+    "wikipediaTitle": "Preachin' Blues"
+  },
+  {
+    "title": "Good Morning, Little Schoolgirl",
+    "artist": "Sonny Boy Williamson I",
+    "year": 1937,
+    "genre": "blues",
+    "wikipediaTitle": "Good Morning, Little School Girl"
+  },
+  {
+    "title": "It Hurts Me Too",
+    "artist": "Tampa Red",
+    "year": 1940,
+    "genre": "blues",
+    "wikipediaTitle": "It Hurts Me Too"
+  },
+  {
+    "title": "Death Letter",
+    "artist": "Son House",
+    "year": 1965,
+    "genre": "blues",
+    "wikipediaTitle": "Death Letter"
+  },
+  {
+    "title": "Juke",
+    "artist": "Little Walter",
+    "year": 1952,
+    "genre": "blues",
+    "wikipediaTitle": "Juke (song)"
+  },
+  {
+    "title": "My Babe",
+    "artist": "Little Walter",
+    "year": 1955,
+    "genre": "blues",
+    "wikipediaTitle": "My Babe"
+  },
+  {
+    "title": "Got My Mojo Working",
+    "artist": "Muddy Waters",
+    "year": 1956,
+    "genre": "blues",
+    "wikipediaTitle": "Got My Mojo Working"
+  },
+  {
+    "title": "Back Door Man",
+    "artist": "Howlin' Wolf",
+    "year": 1960,
+    "genre": "blues",
+    "wikipediaTitle": "Back Door Man (song)"
+  },
+  {
+    "title": "Wang Dang Doodle",
+    "artist": "Koko Taylor",
+    "year": 1966,
+    "genre": "blues",
+    "wikipediaTitle": "Wang Dang Doodle"
+  },
+  {
+    "title": "Killing Floor",
+    "artist": "Howlin' Wolf",
+    "year": 1965,
+    "genre": "blues",
+    "wikipediaTitle": "Killing Floor (song)"
+  },
+  {
+    "title": "I'm in the Mood",
+    "artist": "John Lee Hooker",
+    "year": 1951,
+    "genre": "blues",
+    "wikipediaTitle": "I'm in the Mood (John Lee Hooker song)"
+  },
+  {
+    "title": "Dimples",
+    "artist": "John Lee Hooker",
+    "year": 1956,
+    "genre": "blues",
+    "wikipediaTitle": "Dimples (song)"
+  },
+  {
+    "title": "Messin' with the Kid",
+    "artist": "Junior Wells",
+    "year": 1960,
+    "genre": "blues",
+    "wikipediaTitle": "Messin' with the Kid"
+  },
+  {
+    "title": "I'm a King Bee",
+    "artist": "Slim Harpo",
+    "year": 1957,
+    "genre": "blues",
+    "wikipediaTitle": "I'm a King Bee"
+  },
+  {
+    "title": "All Your Love (I Miss Loving)",
+    "artist": "Otis Rush",
+    "year": 1958,
+    "genre": "blues",
+    "wikipediaTitle": "All Your Love (I Miss Loving)"
+  },
+  {
+    "title": "Frosty",
+    "artist": "Albert Collins",
+    "year": 1962,
+    "genre": "blues",
+    "wikipediaTitle": "Frosty (Albert Collins song)"
+  },
+  {
+    "title": "Crosscut Saw",
+    "artist": "Albert King",
+    "year": 1966,
+    "genre": "blues",
+    "wikipediaTitle": "Crosscut Saw (song)"
+  },
+  {
+    "title": "I'll Play the Blues for You",
+    "artist": "Albert King",
+    "year": 1972,
+    "genre": "blues",
+    "wikipediaTitle": "I'll Play the Blues for You"
+  },
+  {
+    "title": "Big Boss Man",
+    "artist": "Jimmy Reed",
+    "year": 1960,
+    "genre": "blues",
+    "wikipediaTitle": "Big Boss Man"
+  },
+  {
+    "title": "Bright Lights, Big City",
+    "artist": "Jimmy Reed",
+    "year": 1961,
+    "genre": "blues",
+    "wikipediaTitle": "Bright Lights, Big City (song)"
+  },
+  {
+    "title": "Damn Right, I've Got the Blues",
+    "artist": "Buddy Guy",
+    "year": 1991,
+    "genre": "blues",
+    "wikipediaTitle": "Damn Right, I've Got the Blues"
+  },
+  {
+    "title": "Smoking Gun",
+    "artist": "Robert Cray",
+    "year": 1986,
+    "genre": "blues",
+    "wikipediaTitle": "Smoking Gun (Robert Cray song)"
+  },
+  {
+    "title": "Still Alive and Well",
+    "artist": "Johnny Winter",
+    "year": 1973,
+    "genre": "blues",
+    "wikipediaTitle": "Still Alive and Well"
+  },
+  {
+    "title": "Statesboro Blues",
+    "artist": "Taj Mahal",
+    "year": 1968,
+    "genre": "blues",
+    "wikipediaTitle": "Statesboro Blues"
+  },
+  {
+    "title": "Bright Lights",
+    "artist": "Gary Clark Jr.",
+    "year": 2011,
+    "genre": "blues",
+    "wikipediaTitle": "Bright Lights (Gary Clark Jr. song)"
+  },
+  {
+    "title": "Something to Talk About",
+    "artist": "Bonnie Raitt",
+    "year": 1991,
+    "genre": "blues",
+    "wikipediaTitle": "Something to Talk About (Bonnie Raitt song)"
   }
 ]
