@@ -12,10 +12,15 @@
 
 <script lang="ts">
 	import { goto } from '$app/navigation';
-	import { GENRE_LABEL, type Placement, type Song } from '$lib/types.ts';
-	import type { PageProps } from './$types.ts';
+	import {
+		formatTimeRange,
+		GENRE_LABEL,
+		type Placement,
+		type Round,
+		type Song
+	} from '$lib/types';
 
-	let { data }: PageProps = $props();
+	let { data }: { data: { round: Round } } = $props();
 
 	let placed = $state<Song[]>([]);
 	let queueIdx = $state(1);
@@ -26,6 +31,10 @@
 	let pendingGap = $state<number | null>(null);
 	let lastPlacement = $state<Placement | null>(null);
 	let dragOffset = $state({ x: 0, y: 0 });
+	let previewDragging = $state(false);
+	let previewOffset = $state({ x: 0, y: 0 });
+	let previewDragStart = { pointerX: 0, pointerY: 0 };
+	let previewDidDrag = false;
 
 	const active: Song | null = $derived(
 		queueIdx < data.round.songs.length ? data.round.songs[queueIdx] : null
@@ -43,6 +52,7 @@
 				? `${data.round.genres.length} genres`
 				: data.round.genres.map((g) => GENRE_LABEL[g]).join(', ')
 	);
+	const timeRangeSummary = $derived(formatTimeRange(data.round.timeRange));
 
 	function commitPlacement(index: number) {
 		if (!active || phase !== 'placing') return;
@@ -100,25 +110,33 @@
 
 	function onActivePointerDown(e: PointerEvent) {
 		if (!active || phase !== 'placing') return;
-		// Only primary button (or touch/pen)
 		if (e.pointerType === 'mouse' && e.button !== 0) return;
 		e.preventDefault();
 		dragging = true;
 		pendingGap = null;
 		dragOffset = { x: 0, y: 0 };
+		dragStart = { pointerX: 0, pointerY: 0, baseX: 0, baseY: 0 };
 		const target = e.currentTarget as HTMLElement;
 		target.setPointerCapture(e.pointerId);
 	}
 
+	let dragStart = { pointerX: 0, pointerY: 0, baseX: 0, baseY: 0 };
 	function onActivePointerMove(e: PointerEvent) {
 		if (!dragging) return;
-		dragOffset = { x: e.clientX - (e as PointerEvent).clientX + 0, y: 0 };
-		// translate offset relative to original card position is computed via CSS variables
-		const card = e.currentTarget as HTMLElement;
-		const rect = card.getBoundingClientRect();
-		const cx = rect.left + rect.width / 2;
-		const cy = rect.top + rect.height / 2;
-		dragOffset = { x: e.clientX - cx, y: e.clientY - cy };
+		if (dragStart.pointerX === 0 && dragStart.pointerY === 0) {
+			const card = e.currentTarget as HTMLElement;
+			const rect = card.getBoundingClientRect();
+			dragStart = {
+				pointerX: e.clientX,
+				pointerY: e.clientY,
+				baseX: rect.left,
+				baseY: rect.top
+			};
+		}
+		dragOffset = {
+			x: e.clientX - dragStart.pointerX,
+			y: e.clientY - dragStart.pointerY
+		};
 		hoverGap = gapIndexUnderPoint(e.clientX, e.clientY);
 	}
 
@@ -143,10 +161,71 @@
 		dragOffset = { x: 0, y: 0 };
 	}
 
+	function onPreviewPointerDown(e: PointerEvent) {
+		if (!active || phase !== 'placing' || pendingGap === null) return;
+		if (e.pointerType === 'mouse' && e.button !== 0) return;
+		e.preventDefault();
+		previewDragging = true;
+		previewDidDrag = false;
+		previewOffset = { x: 0, y: 0 };
+		previewDragStart = { pointerX: 0, pointerY: 0 };
+		const target = e.currentTarget as HTMLElement;
+		target.setPointerCapture(e.pointerId);
+	}
+
+	function onPreviewPointerMove(e: PointerEvent) {
+		if (!previewDragging) return;
+		if (previewDragStart.pointerX === 0 && previewDragStart.pointerY === 0) {
+			previewDragStart = { pointerX: e.clientX, pointerY: e.clientY };
+		}
+		previewOffset = {
+			x: e.clientX - previewDragStart.pointerX,
+			y: e.clientY - previewDragStart.pointerY
+		};
+		if (Math.hypot(previewOffset.x, previewOffset.y) > 6) {
+			previewDidDrag = true;
+		}
+		hoverGap = gapIndexUnderPoint(e.clientX, e.clientY);
+	}
+
+	function onPreviewPointerUp(e: PointerEvent) {
+		if (!previewDragging) return;
+		previewDragging = false;
+		const target = e.currentTarget as HTMLElement;
+		try {
+			target.releasePointerCapture(e.pointerId);
+		} catch {}
+		const idx = gapIndexUnderPoint(e.clientX, e.clientY);
+		previewOffset = { x: 0, y: 0 };
+		hoverGap = null;
+		if (previewDidDrag && idx !== null) {
+			pendingGap = idx;
+		}
+	}
+
+	function onPreviewPointerCancel() {
+		previewDragging = false;
+		previewOffset = { x: 0, y: 0 };
+		hoverGap = null;
+	}
+
+	function onPreviewClick(i: number) {
+		// Suppress the click that follows a drag — pointerup already updated pendingGap.
+		if (previewDidDrag) {
+			previewDidDrag = false;
+			return;
+		}
+		commitPlacement(i);
+	}
+
 	function onGapClick(i: number) {
 		if (!active || phase !== 'placing') return;
-		// On mobile (and as a fallback), tapping a gap commits immediately.
-		// On desktop after a drag, the user clicks the pendingGap confirm button.
+		// If a card is already pending, clicking a different gap moves the pending
+		// preview rather than committing — the user must confirm via the preview card.
+		if (pendingGap !== null) {
+			pendingGap = i;
+			return;
+		}
 		commitPlacement(i);
 	}
 
@@ -186,6 +265,8 @@
 			<div class="meta-line dim">
 				<span class="cap">{data.round.difficulty}</span>
 				<span class="meta-sep">·</span>
+				<span>{timeRangeSummary}</span>
+				<span class="meta-sep">·</span>
 				<span class="meta-genres">{genreSummary}</span>
 			</div>
 			<div class="meta-progress">
@@ -209,26 +290,49 @@
 						class:gap--active={phase === 'placing'}
 						class:gap--pending={pendingGap === i}
 						data-gap-index={i}
-						aria-label={pendingGap === i ? 'Click to place here' : 'Place here (slot ' + (i + 1) + ')'}
+						aria-label={'Place here (slot ' + (i + 1) + ')'}
 						onclick={() => onGapClick(i)}
 						disabled={phase !== 'placing'}
 					>
 						<span class="gap__rule"></span>
-						{#if phase === 'placing'}
-							{#if pendingGap === i}
-								<span class="gap__label gap__label--confirm">Click to place here</span>
-							{:else}
-								<span class="gap__label gap__label--persistent">
-									<span class="gap__verb gap__verb--mouse">Click</span><span
-										class="gap__verb gap__verb--touch">Tap</span
-									> to place here
-								</span>
-							{/if}
-						{:else}
+						{#if phase === 'placing' && pendingGap !== i}
+							<span class="gap__label gap__label--persistent">
+								<span class="gap__verb gap__verb--mouse">Click</span><span
+									class="gap__verb gap__verb--touch">Tap</span
+								> to place here
+							</span>
+						{:else if phase !== 'placing'}
 							<span class="gap__pin"></span>
 						{/if}
 					</button>
 				</li>
+				{#if pendingGap === i && active && phase === 'placing'}
+					<li class="row row--card row--preview">
+						<button
+							type="button"
+							class="placed placed--preview"
+							class:placed--preview-dragging={previewDragging}
+							style="transform: translate({previewOffset.x}px, {previewOffset.y}px);"
+							onclick={() => onPreviewClick(i)}
+							onpointerdown={onPreviewPointerDown}
+							onpointermove={onPreviewPointerMove}
+							onpointerup={onPreviewPointerUp}
+							onpointercancel={onPreviewPointerCancel}
+							aria-label="Click to place here, or drag to move"
+						>
+							<div class="placed__year">
+								<span>????</span>
+								<span class="placed__mark placed__mark--placeholder" aria-hidden="true"></span>
+							</div>
+							<div class="placed__img" style="--bg-img: url({active.image})"></div>
+							<div class="placed__meta">
+								<div class="placed__title" title={active.title}>{active.title}</div>
+								<div class="placed__artist" title={active.artist}>{active.artist}</div>
+							</div>
+							<span class="placed__confirm">Click to place here</span>
+						</button>
+					</li>
+				{/if}
 				{#if i < placed.length}
 					{@const song = placed[i]}
 					{@const isLast =
@@ -242,21 +346,35 @@
 						>
 							<div class="placed__year">
 								<span>{song.year}</span>
-								{#if placement}
-									<span
-										class="placed__mark"
-										class:placed__mark--ok={placement.correct}
-										class:placed__mark--bad={!placement.correct}
-										aria-label={placement.correct ? 'Correct' : 'Wrong'}
-									>
-										{placement.correct ? '✓' : '✗'}
-									</span>
-								{/if}
+								<span
+									class="placed__mark"
+									class:placed__mark--ok={placement?.correct}
+									class:placed__mark--bad={placement && !placement.correct}
+									class:placed__mark--placeholder={!placement}
+									aria-label={placement
+										? placement.correct
+											? 'Correct'
+											: 'Wrong'
+										: 'Starting song'}
+									aria-hidden={!placement}
+								>
+									{placement ? (placement.correct ? '✓' : '✗') : ''}
+								</span>
 							</div>
 							<div class="placed__img" style="--bg-img: url({song.image})"></div>
 							<div class="placed__meta">
 								<div class="placed__title" title={song.title}>{song.title}</div>
 								<div class="placed__artist" title={song.artist}>{song.artist}</div>
+								{#if song.wikipediaUrl}
+									<a
+										class="placed__link"
+										href={song.wikipediaUrl}
+										target="wikipedia"
+										aria-label={`Show more about ${song.title} on Wikipedia`}
+									>
+										Show more
+									</a>
+								{/if}
 							</div>
 						</article>
 					</li>
@@ -291,33 +409,40 @@
 			</div>
 		</section>
 	{:else if active}
-		<section class="active-wrap">
-			{#if phase === 'reveal' && lastPlacement}
-				<div class="reveal" class:reveal--ok={lastPlacement.correct} class:reveal--bad={!lastPlacement.correct}>
-					{lastPlacement.correct ? 'Right where it belongs.' : 'Not quite — see the year above.'}
-				</div>
-			{:else}
-				<div class="prompt">
-					<span class="dim">Place this song into the timeline</span>
-				</div>
-			{/if}
-			<article
-				class="active"
-				class:active--reveal={phase === 'reveal'}
-				draggable={phase === 'placing'}
-				ondragstart={onDragStart}
-				ondragend={onDragEnd}
-			>
-				<div class="active__img" style="--bg-img: url({active.image})"></div>
-				<div class="active__body">
-					<div class="active__title">{active.title}</div>
-					<div class="active__artist">{active.artist}</div>
-					<div class="active__year">
-						{phase === 'reveal' ? active.year : '????'}
+		{#if phase === 'placing' && pendingGap !== null}
+			<!-- Preview card is shown inline at the drop position; bottom dock hides. -->
+		{:else}
+			<section class="active-wrap">
+				{#if phase === 'reveal' && lastPlacement}
+					<div class="reveal" class:reveal--ok={lastPlacement.correct} class:reveal--bad={!lastPlacement.correct}>
+						{lastPlacement.correct ? 'Right where it belongs.' : 'Not quite — see the year above.'}
 					</div>
-				</div>
-			</article>
-		</section>
+				{:else}
+					<div class="prompt">
+						<span class="dim">Drag this song into the timeline</span>
+					</div>
+				{/if}
+				<article
+					class="active"
+					class:active--reveal={phase === 'reveal'}
+					class:active--dragging={dragging}
+					style="transform: translate({dragOffset.x}px, {dragOffset.y}px);"
+					onpointerdown={onActivePointerDown}
+					onpointermove={onActivePointerMove}
+					onpointerup={onActivePointerUp}
+					onpointercancel={onActivePointerCancel}
+				>
+					<div class="active__img" style="--bg-img: url({active.image})"></div>
+					<div class="active__body">
+						<div class="active__title">{active.title}</div>
+						<div class="active__artist">{active.artist}</div>
+						<div class="active__year">
+							{phase === 'reveal' ? active.year : '????'}
+						</div>
+					</div>
+				</article>
+			</section>
+		{/if}
 	{/if}
 </main>
 
@@ -467,6 +592,24 @@
 		transform: scale(1.05);
 	}
 
+	/* Pending-confirm state — emphasized line awaiting confirm via preview card */
+	.gap--pending:not([disabled]) {
+		min-height: 24px;
+	}
+	.gap--pending:not([disabled]) .gap__rule {
+		background: var(--pending);
+		opacity: 1;
+		height: 4px;
+	}
+
+	/* Persistent (always-visible) labels: hide on devices that have a precise
+	   pointer (mouse). Touch users still see the labels and tap them. */
+	@media (hover: hover) and (pointer: fine) {
+		.gap__label--persistent {
+			display: none;
+		}
+	}
+
 	.gap__verb--touch {
 		display: none;
 	}
@@ -484,7 +627,7 @@
 		flex: 1;
 		min-width: 0;
 		display: grid;
-		grid-template-columns: 64px 56px minmax(0, 1fr);
+		grid-template-columns: 80px 56px minmax(0, 1fr);
 		align-items: center;
 		gap: 14px;
 		padding: 10px 14px;
@@ -517,6 +660,34 @@
 		color: var(--accent);
 		font-variant-numeric: tabular-nums;
 		text-align: right;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		gap: 6px;
+	}
+	.placed__mark {
+		font-family: var(--font-body);
+		font-size: 14px;
+		line-height: 1;
+		font-weight: 700;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		flex: 0 0 20px;
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+	}
+	.placed__mark--ok {
+		color: var(--ok);
+		background: rgba(102, 217, 154, 0.15);
+	}
+	.placed__mark--bad {
+		color: var(--bad);
+		background: rgba(255, 100, 112, 0.15);
+	}
+	.placed__mark--placeholder {
+		visibility: hidden;
 	}
 	.placed__img {
 		width: 56px;
@@ -527,6 +698,9 @@
 	}
 	.placed__meta {
 		min-width: 0;
+		display: grid;
+		gap: 2px;
+		align-content: center;
 	}
 	.placed__title {
 		font-size: 14px;
@@ -541,6 +715,92 @@
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
+	}
+	.placed__link {
+		justify-self: start;
+		margin-top: 4px;
+		padding: 4px 10px;
+		border-radius: 999px;
+		border: 1px solid var(--border-strong);
+		background: var(--bg-elev-2);
+		color: var(--accent);
+		font-size: 12px;
+		font-weight: 600;
+		line-height: 1.2;
+		transition: background 120ms ease, border-color 120ms ease, color 120ms ease;
+	}
+	.placed__link:hover {
+		background: rgba(255, 184, 77, 0.08);
+		border-color: var(--accent);
+		color: var(--fg);
+	}
+
+	/* Inline preview card shown at the drop position while pending confirm. */
+	.row--preview {
+		animation: previewIn 180ms ease-out;
+	}
+	@keyframes previewIn {
+		from {
+			opacity: 0;
+			transform: translateY(-6px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+	.placed--preview {
+		grid-template-columns: 80px 56px minmax(0, 1fr) auto;
+		cursor: grab;
+		text-align: left;
+		color: inherit;
+		font: inherit;
+		background: rgba(167, 139, 250, 0.14);
+		border-color: var(--pending);
+		box-shadow: 0 0 0 1px rgba(167, 139, 250, 0.55), 0 8px 22px rgba(167, 139, 250, 0.20);
+		touch-action: none;
+		user-select: none;
+		will-change: transform;
+		transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
+	}
+	.placed--preview:hover,
+	.placed--preview:focus-visible {
+		background: rgba(167, 139, 250, 0.22);
+		box-shadow: 0 0 0 2px var(--pending), 0 10px 26px rgba(167, 139, 250, 0.30);
+		outline: none;
+	}
+	.placed--preview-dragging {
+		cursor: grabbing;
+		transition: none;
+		box-shadow: 0 0 0 2px var(--pending), 0 18px 40px rgba(0, 0, 0, 0.45);
+		z-index: 30;
+	}
+	.placed--preview .placed__year {
+		color: var(--pending);
+	}
+	.placed__confirm {
+		justify-self: end;
+		padding: 8px 12px;
+		background: var(--pending);
+		color: var(--pending-ink);
+		font-weight: 700;
+		font-size: 12.5px;
+		letter-spacing: 0.02em;
+		border-radius: 999px;
+		white-space: nowrap;
+		box-shadow: 0 0 0 4px rgba(167, 139, 250, 0.28);
+	}
+	@media (max-width: 540px) {
+		.placed--preview {
+			grid-template-columns: 52px 48px minmax(0, 1fr);
+			grid-template-rows: auto auto;
+		}
+		.placed__confirm {
+			grid-column: 1 / -1;
+			justify-self: stretch;
+			text-align: center;
+			margin-top: 4px;
+		}
 	}
 
 	.active-wrap {
@@ -587,14 +847,19 @@
 		width: 100%;
 		cursor: grab;
 		user-select: none;
-		transition: transform 200ms ease, box-shadow 200ms ease;
+		touch-action: none;
+		will-change: transform;
+		transition: box-shadow 200ms ease, border-color 200ms ease;
 	}
-	.active:active {
+	.active--dragging {
 		cursor: grabbing;
-		transform: scale(0.98);
+		box-shadow: 0 16px 40px rgba(0, 0, 0, 0.55), 0 0 0 1px var(--accent);
+		border-color: var(--accent);
+		z-index: 20;
 	}
 	.active--reveal {
 		cursor: default;
+		touch-action: auto;
 	}
 
 	.active__img {
@@ -719,9 +984,12 @@
 
 	@media (max-width: 540px) {
 		.placed {
-			grid-template-columns: 52px 48px minmax(0, 1fr);
-			gap: 20px;
+			grid-template-columns: 72px 48px minmax(0, 1fr);
+			gap: 14px;
 			padding: 10px 12px;
+		}
+		.placed--preview {
+			grid-template-columns: 72px 48px minmax(0, 1fr);
 		}
 		.placed__img {
 			width: 48px;

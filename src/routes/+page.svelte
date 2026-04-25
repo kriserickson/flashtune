@@ -3,14 +3,25 @@
 	import {
 		DIFFICULTY_DESC,
 		DIFFICULTY_LABEL,
+		formatTimeRange,
 		GENRES,
 		GENRE_LABEL,
+		TIME_SPAN_LABEL,
+		TIME_SPAN_SHORT_LABEL,
+		TIME_SPANS,
+		getTimeSpansInRange,
 		type Difficulty,
-		type Genre
-	} from '$lib/types.ts';
+		type Genre,
+		type TimeSpan,
+		type YearsBySpanAndGenre
+	} from '$lib/types';
+
+	let { data }: { data: { yearsBySpanAndGenre: YearsBySpanAndGenre } } = $props();
 
 	const DIFFS: Difficulty[] = ['easy', 'medium', 'hard'];
 	let difficulty = $state<Difficulty>('medium');
+	let rangeStartIdx = $state(0);
+	let rangeEndIdx = $state(TIME_SPANS.length - 1);
 	let selected = $state<Set<Genre>>(new Set(GENRES));
 
 	function toggle(g: Genre) {
@@ -26,12 +37,49 @@
 		selected = new Set();
 	}
 
-	const canStart = $derived(selected.size > 0);
+	function setRangeStart(event: Event) {
+		const next = Number((event.currentTarget as HTMLInputElement).value);
+		rangeStartIdx = Math.min(next, rangeEndIdx);
+	}
+
+	function setRangeEnd(event: Event) {
+		const next = Number((event.currentTarget as HTMLInputElement).value);
+		rangeEndIdx = Math.max(next, rangeStartIdx);
+	}
+
+	function moveNearestHandle(index: number) {
+		const distanceToStart = Math.abs(index - rangeStartIdx);
+		const distanceToEnd = Math.abs(index - rangeEndIdx);
+		if (distanceToStart <= distanceToEnd) rangeStartIdx = Math.min(index, rangeEndIdx);
+		else rangeEndIdx = Math.max(index, rangeStartIdx);
+	}
+
+	const startSpan = $derived(TIME_SPANS[rangeStartIdx] as TimeSpan);
+	const endSpan = $derived(TIME_SPANS[rangeEndIdx] as TimeSpan);
+	const selectedSpans = $derived(getTimeSpansInRange(startSpan, endSpan));
+	const rangeLabel = $derived(formatTimeRange({ start: startSpan, end: endSpan }));
+	const rangeStartPct = $derived((rangeStartIdx / (TIME_SPANS.length - 1)) * 100);
+	const rangeEndPct = $derived((rangeEndIdx / (TIME_SPANS.length - 1)) * 100);
+	const availableCount = $derived(
+		(() => {
+			const years = new Set<number>();
+			for (const span of selectedSpans) {
+				for (const genre of selected) {
+					for (const year of data.yearsBySpanAndGenre[span][genre]) years.add(year);
+				}
+			}
+			return years.size;
+		})()
+	);
+	const placementCount = $derived(Math.max(Math.min(availableCount - 1, 10), 0));
+	const canStart = $derived(selected.size > 0 && availableCount >= 2);
 
 	function start() {
 		const params = new URLSearchParams({
 			d: difficulty,
-			g: [...selected].join(',')
+			g: [...selected].join(','),
+			ts: startSpan,
+			te: endSpan
 		});
 		goto(`/play?${params}`);
 	}
@@ -70,6 +118,59 @@
 
 		<div class="panel-row">
 			<div class="panel-row__head">
+				<h2>Time range</h2>
+				<p class="muted">{rangeLabel}</p>
+			</div>
+			<div
+				class="range-picker"
+				style={`--range-start:${rangeStartPct}%; --range-end:${rangeEndPct}%;`}
+			>
+				<div class="range-picker__rail" aria-hidden="true">
+					<span class="range-picker__track"></span>
+					<span class="range-picker__fill"></span>
+				</div>
+				<input
+					type="range"
+					class="range-picker__input"
+					min="0"
+					max={TIME_SPANS.length - 1}
+					step="1"
+					value={rangeStartIdx}
+					oninput={setRangeStart}
+					aria-label="Starting time span"
+				/>
+				<input
+					type="range"
+					class="range-picker__input"
+					min="0"
+					max={TIME_SPANS.length - 1}
+					step="1"
+					value={rangeEndIdx}
+					oninput={setRangeEnd}
+					aria-label="Ending time span"
+				/>
+				<div class="range-picker__labels">
+					{#each TIME_SPANS as span, index (span)}
+						<button
+							type="button"
+							class="range-picker__label"
+							class:range-picker__label--active={index >= rangeStartIdx && index <= rangeEndIdx}
+							onclick={() => moveNearestHandle(index)}
+						>
+							<span class="range-picker__tick"></span>
+							<span class="range-picker__text">{TIME_SPAN_SHORT_LABEL[span]}</span>
+						</button>
+					{/each}
+				</div>
+				<div class="range-picker__legend muted">
+					<span>{TIME_SPAN_LABEL[startSpan]}</span>
+					<span>{TIME_SPAN_LABEL[endSpan]}</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="panel-row">
+			<div class="panel-row__head">
 				<h2>Genres</h2>
 				<p class="muted">
 					Choose what to play with. <button type="button" class="link" onclick={selectAll}
@@ -97,7 +198,15 @@
 			<button type="button" class="btn btn--primary start" disabled={!canStart} onclick={start}>
 				Start Round →
 			</button>
-			<span class="dim">10 songs per round</span>
+			{#if selected.size === 0}
+				<span class="dim">Choose at least one genre</span>
+			{:else if availableCount < 2}
+				<span class="dim">Need at least 2 songs for this combination</span>
+			{:else if placementCount === 10}
+				<span class="dim">10 placements this round</span>
+			{:else}
+				<span class="dim">{placementCount} placements with these filters</span>
+			{/if}
 		</div>
 	</section>
 
@@ -161,6 +270,122 @@
 	@media (max-width: 540px) {
 		.diff-grid {
 			grid-template-columns: 1fr;
+		}
+	}
+
+	.range-picker {
+		position: relative;
+		display: grid;
+		gap: 14px;
+		padding-top: 8px;
+	}
+	.range-picker__rail {
+		position: relative;
+		height: 28px;
+	}
+	.range-picker__track,
+	.range-picker__fill {
+		position: absolute;
+		top: 50%;
+		height: 8px;
+		border-radius: 999px;
+		transform: translateY(-50%);
+	}
+	.range-picker__track {
+		left: 0;
+		right: 0;
+		background: var(--bg-elev-2);
+		border: 1px solid var(--border);
+	}
+	.range-picker__fill {
+		left: var(--range-start);
+		width: calc(var(--range-end) - var(--range-start));
+		background: linear-gradient(90deg, var(--accent-warm) 0%, var(--accent) 100%);
+		box-shadow: 0 0 0 4px rgba(255, 184, 77, 0.16);
+	}
+	.range-picker__input {
+		position: absolute;
+		left: 0;
+		width: 100%;
+		height: 28px;
+		margin: 0;
+		background: none;
+		pointer-events: none;
+		appearance: none;
+		-webkit-appearance: none;
+	}
+	.range-picker__input::-webkit-slider-runnable-track {
+		height: 28px;
+		background: transparent;
+	}
+	.range-picker__input::-moz-range-track {
+		height: 28px;
+		background: transparent;
+	}
+	.range-picker__input::-webkit-slider-thumb {
+		pointer-events: auto;
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+		border: 2px solid var(--accent);
+		background: var(--bg);
+		box-shadow: 0 0 0 4px var(--ring);
+		cursor: pointer;
+		appearance: none;
+		-webkit-appearance: none;
+		margin-top: 4px;
+	}
+	.range-picker__input::-moz-range-thumb {
+		pointer-events: auto;
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+		border: 2px solid var(--accent);
+		background: var(--bg);
+		box-shadow: 0 0 0 4px var(--ring);
+		cursor: pointer;
+	}
+	.range-picker__labels {
+		display: grid;
+		grid-template-columns: repeat(9, minmax(0, 1fr));
+		gap: 6px;
+	}
+	.range-picker__label {
+		display: grid;
+		gap: 6px;
+		justify-items: center;
+		padding: 0;
+		border: 0;
+		background: none;
+		color: var(--fg-dim);
+		font-size: 11px;
+		font-weight: 600;
+	}
+	.range-picker__label--active {
+		color: var(--fg);
+	}
+	.range-picker__tick {
+		width: 2px;
+		height: 10px;
+		border-radius: 999px;
+		background: var(--border-strong);
+	}
+	.range-picker__label--active .range-picker__tick {
+		background: var(--accent);
+	}
+	.range-picker__legend {
+		display: flex;
+		justify-content: space-between;
+		gap: 12px;
+		font-size: 12px;
+	}
+	@media (max-width: 640px) {
+		.range-picker__text {
+			font-size: 10px;
+		}
+		.range-picker__legend {
+			flex-direction: column;
+			gap: 4px;
 		}
 	}
 

@@ -10,7 +10,8 @@
 		"preview": "vp preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && tsgo --noEmit -p ./tsconfig.json",
-		"seed:songs": "node scripts/fetch-images.mjs"
+		"seed:songs": "node scripts/fetch-images.mjs",
+		"stats": "node scripts/stats.mjs"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^7.0.1",

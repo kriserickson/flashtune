@@ -34,6 +34,91 @@ export const DIFFICULTY_DESC: Record<Difficulty, string> = {
 	hard: 'Any spacing'
 };
 
+export type TimeSpan =
+	| 'pre-1950s'
+	| '1940-1950s'
+	| '1960s'
+	| '1970s'
+	| '1980s'
+	| '1990s'
+	| '2000s'
+	| '2010s'
+	| '2020s';
+
+export const TIME_SPANS: readonly TimeSpan[] = [
+	'pre-1950s',
+	'1940-1950s',
+	'1960s',
+	'1970s',
+	'1980s',
+	'1990s',
+	'2000s',
+	'2010s',
+	'2020s'
+] as const;
+
+export const TIME_SPAN_LABEL: Record<TimeSpan, string> = {
+	'pre-1950s': 'Pre-1950s',
+	'1940-1950s': '1940s & 1950s',
+	'1960s': '1960s',
+	'1970s': '1970s',
+	'1980s': '1980s',
+	'1990s': '1990s',
+	'2000s': '2000s',
+	'2010s': '2010s',
+	'2020s': '2020s'
+};
+
+export const TIME_SPAN_SHORT_LABEL: Record<TimeSpan, string> = {
+	'pre-1950s': 'Pre-50',
+	'1940-1950s': '40/50',
+	'1960s': '60s',
+	'1970s': '70s',
+	'1980s': '80s',
+	'1990s': '90s',
+	'2000s': '00s',
+	'2010s': '10s',
+	'2020s': '20s'
+};
+
+export const TIME_SPAN_DESC: Record<TimeSpan, string> = {
+	'pre-1950s': 'Before 1950',
+	'1940-1950s': '1940-1959',
+	'1960s': '1960-1969',
+	'1970s': '1970-1979',
+	'1980s': '1980-1989',
+	'1990s': '1990-1999',
+	'2000s': '2000-2009',
+	'2010s': '2010-2019',
+	'2020s': '2020-2029'
+};
+
+export interface TimeRange {
+	start: TimeSpan;
+	end: TimeSpan;
+}
+
+export type YearsBySpanAndGenre = Record<TimeSpan, Record<Genre, number[]>>;
+
+export function getTimeSpansInRange(start: TimeSpan, end: TimeSpan): TimeSpan[] {
+	const startIndex = TIME_SPANS.indexOf(start);
+	const endIndex = TIME_SPANS.indexOf(end);
+	const from = Math.min(startIndex, endIndex);
+	const to = Math.max(startIndex, endIndex);
+	return TIME_SPANS.slice(from, to + 1);
+}
+
+export function normalizeTimeRange(range: TimeRange): TimeRange {
+	const spans = getTimeSpansInRange(range.start, range.end);
+	return { start: spans[0], end: spans[spans.length - 1] };
+}
+
+export function formatTimeRange(range: TimeRange): string {
+	return range.start === range.end
+		? TIME_SPAN_LABEL[range.start]
+		: `${TIME_SPAN_LABEL[range.start]} to ${TIME_SPAN_LABEL[range.end]}`;
+}
+
 export interface Song {
 	id: string;
 	title: string;
@@ -50,6 +135,7 @@ export interface Round {
 	songs: Song[];
 	difficulty: Difficulty;
 	genres: Genre[];
+	timeRange: TimeRange;
 }
 
 export interface Placement {

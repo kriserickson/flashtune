@@ -1,281 +1,6344 @@
 [
-  { "title": "Dido and Aeneas", "artist": "Henry Purcell", "year": 1689, "genre": "classical", "wikipediaTitle": "Dido and Aeneas" },
-  { "title": "The Fairy-Queen", "artist": "Henry Purcell", "year": 1692, "genre": "classical", "wikipediaTitle": "The Fairy-Queen" },
-  { "title": "Music for the Funeral of Queen Mary", "artist": "Henry Purcell", "year": 1695, "genre": "classical", "wikipediaTitle": "Music for the Funeral of Queen Mary" },
-  { "title": "Canon in D", "artist": "Johann Pachelbel", "year": 1680, "genre": "classical", "wikipediaTitle": "Pachelbel's Canon" },
-  { "title": "Adagio in G minor", "artist": "Tomaso Albinoni", "year": 1708, "genre": "classical", "wikipediaTitle": "Adagio in G minor" },
-  { "title": "Toccata and Fugue in D minor", "artist": "Johann Sebastian Bach", "year": 1708, "genre": "classical", "wikipediaTitle": "Toccata and Fugue in D minor, BWV 565" },
-  { "title": "Air on the G String", "artist": "Johann Sebastian Bach", "year": 1717, "genre": "classical", "wikipediaTitle": "Air on the G String" },
-  { "title": "Brandenburg Concertos", "artist": "Johann Sebastian Bach", "year": 1721, "genre": "classical", "wikipediaTitle": "Brandenburg Concertos" },
-  { "title": "St Matthew Passion", "artist": "Johann Sebastian Bach", "year": 1727, "genre": "classical", "wikipediaTitle": "St Matthew Passion" },
-  { "title": "Goldberg Variations", "artist": "Johann Sebastian Bach", "year": 1741, "genre": "classical", "wikipediaTitle": "Goldberg Variations" },
-  { "title": "Mass in B minor", "artist": "Johann Sebastian Bach", "year": 1749, "genre": "classical", "wikipediaTitle": "Mass in B minor" },
-  { "title": "Gloria", "artist": "Antonio Vivaldi", "year": 1715, "genre": "classical", "wikipediaTitle": "Gloria (Vivaldi)" },
-  { "title": "The Four Seasons", "artist": "Antonio Vivaldi", "year": 1725, "genre": "classical", "wikipediaTitle": "The Four Seasons (Vivaldi)" },
-  { "title": "Water Music", "artist": "George Frideric Handel", "year": 1717, "genre": "classical", "wikipediaTitle": "Water Music (Handel)" },
-  { "title": "Messiah", "artist": "George Frideric Handel", "year": 1741, "genre": "classical", "wikipediaTitle": "Messiah (Handel)" },
-  { "title": "Music for the Royal Fireworks", "artist": "George Frideric Handel", "year": 1749, "genre": "classical", "wikipediaTitle": "Music for the Royal Fireworks" },
-  { "title": "Tafelmusik", "artist": "Georg Philipp Telemann", "year": 1733, "genre": "classical", "wikipediaTitle": "Tafelmusik (Telemann)" },
-  { "title": "Stabat Mater", "artist": "Giovanni Battista Pergolesi", "year": 1736, "genre": "classical", "wikipediaTitle": "Stabat Mater (Pergolesi)" },
-  { "title": "Symphony No. 94 'Surprise'", "artist": "Joseph Haydn", "year": 1791, "genre": "classical", "wikipediaTitle": "Symphony No. 94 (Haydn)" },
-  { "title": "String Quartet 'Emperor'", "artist": "Joseph Haydn", "year": 1797, "genre": "classical", "wikipediaTitle": "String Quartet, Op. 76, No. 3 (Haydn)" },
-  { "title": "The Creation", "artist": "Joseph Haydn", "year": 1798, "genre": "classical", "wikipediaTitle": "The Creation (Haydn)" },
-  { "title": "Trumpet Concerto", "artist": "Joseph Haydn", "year": 1796, "genre": "classical", "wikipediaTitle": "Trumpet Concerto (Haydn)" },
-  { "title": "The Marriage of Figaro", "artist": "Wolfgang Amadeus Mozart", "year": 1786, "genre": "classical", "wikipediaTitle": "The Marriage of Figaro" },
-  { "title": "Don Giovanni", "artist": "Wolfgang Amadeus Mozart", "year": 1787, "genre": "classical", "wikipediaTitle": "Don Giovanni" },
-  { "title": "Eine kleine Nachtmusik", "artist": "Wolfgang Amadeus Mozart", "year": 1787, "genre": "classical", "wikipediaTitle": "Eine kleine Nachtmusik" },
-  { "title": "Symphony No. 40", "artist": "Wolfgang Amadeus Mozart", "year": 1788, "genre": "classical", "wikipediaTitle": "Symphony No. 40 (Mozart)" },
-  { "title": "The Magic Flute", "artist": "Wolfgang Amadeus Mozart", "year": 1791, "genre": "classical", "wikipediaTitle": "The Magic Flute" },
-  { "title": "Requiem", "artist": "Wolfgang Amadeus Mozart", "year": 1791, "genre": "classical", "wikipediaTitle": "Requiem (Mozart)" },
-  { "title": "Piano Sonata No. 11", "artist": "Wolfgang Amadeus Mozart", "year": 1784, "genre": "classical", "wikipediaTitle": "Piano Sonata No. 11 (Mozart)" },
-  { "title": "Moonlight Sonata", "artist": "Ludwig van Beethoven", "year": 1801, "genre": "classical", "wikipediaTitle": "Piano Sonata No. 14 (Beethoven)" },
-  { "title": "Symphony No. 3 'Eroica'", "artist": "Ludwig van Beethoven", "year": 1804, "genre": "classical", "wikipediaTitle": "Symphony No. 3 (Beethoven)" },
-  { "title": "Symphony No. 5", "artist": "Ludwig van Beethoven", "year": 1808, "genre": "classical", "wikipediaTitle": "Symphony No. 5 (Beethoven)" },
-  { "title": "Symphony No. 6 'Pastoral'", "artist": "Ludwig van Beethoven", "year": 1808, "genre": "classical", "wikipediaTitle": "Symphony No. 6 (Beethoven)" },
-  { "title": "Für Elise", "artist": "Ludwig van Beethoven", "year": 1810, "genre": "classical", "wikipediaTitle": "Für Elise" },
-  { "title": "Piano Concerto No. 5 'Emperor'", "artist": "Ludwig van Beethoven", "year": 1811, "genre": "classical", "wikipediaTitle": "Piano Concerto No. 5 (Beethoven)" },
-  { "title": "Symphony No. 9", "artist": "Ludwig van Beethoven", "year": 1824, "genre": "classical", "wikipediaTitle": "Symphony No. 9 (Beethoven)" },
-  { "title": "Erlkönig", "artist": "Franz Schubert", "year": 1815, "genre": "classical", "wikipediaTitle": "Erlkönig (Schubert)" },
-  { "title": "Symphony No. 8 'Unfinished'", "artist": "Franz Schubert", "year": 1822, "genre": "classical", "wikipediaTitle": "Symphony No. 8 (Schubert)" },
-  { "title": "Ave Maria", "artist": "Franz Schubert", "year": 1825, "genre": "classical", "wikipediaTitle": "Ellens dritter Gesang" },
-  { "title": "Symphonie fantastique", "artist": "Hector Berlioz", "year": 1830, "genre": "classical", "wikipediaTitle": "Symphonie fantastique" },
-  { "title": "Nocturne in E-flat major, Op. 9 No. 2", "artist": "Frédéric Chopin", "year": 1832, "genre": "classical", "wikipediaTitle": "Nocturnes, Op. 9 (Chopin)" },
-  { "title": "Fantaisie-Impromptu", "artist": "Frédéric Chopin", "year": 1834, "genre": "classical", "wikipediaTitle": "Fantaisie-Impromptu" },
-  { "title": "Minute Waltz", "artist": "Frédéric Chopin", "year": 1847, "genre": "classical", "wikipediaTitle": "Minute Waltz" },
-  { "title": "Carnaval", "artist": "Robert Schumann", "year": 1835, "genre": "classical", "wikipediaTitle": "Carnaval (Schumann)" },
-  { "title": "A Midsummer Night's Dream", "artist": "Felix Mendelssohn", "year": 1842, "genre": "classical", "wikipediaTitle": "A Midsummer Night's Dream (Mendelssohn)" },
-  { "title": "Violin Concerto in E minor", "artist": "Felix Mendelssohn", "year": 1844, "genre": "classical", "wikipediaTitle": "Violin Concerto (Mendelssohn)" },
-  { "title": "Hungarian Rhapsody No. 2", "artist": "Franz Liszt", "year": 1847, "genre": "classical", "wikipediaTitle": "Hungarian Rhapsody No. 2" },
-  { "title": "Liebestraum", "artist": "Franz Liszt", "year": 1850, "genre": "classical", "wikipediaTitle": "Liebesträume" },
-  { "title": "Bridal Chorus", "artist": "Richard Wagner", "year": 1850, "genre": "classical", "wikipediaTitle": "Bridal Chorus" },
-  { "title": "Rigoletto", "artist": "Giuseppe Verdi", "year": 1851, "genre": "classical", "wikipediaTitle": "Rigoletto" },
-  { "title": "La traviata", "artist": "Giuseppe Verdi", "year": 1853, "genre": "classical", "wikipediaTitle": "La traviata" },
-  { "title": "Ride of the Valkyries", "artist": "Richard Wagner", "year": 1856, "genre": "classical", "wikipediaTitle": "Ride of the Valkyries" },
-  { "title": "Tristan und Isolde", "artist": "Richard Wagner", "year": 1859, "genre": "classical", "wikipediaTitle": "Tristan und Isolde" },
-  { "title": "Lullaby", "artist": "Johannes Brahms", "year": 1868, "genre": "classical", "wikipediaTitle": "Wiegenlied: Guten Abend, gute Nacht" },
-  { "title": "Piano Concerto in A minor", "artist": "Edvard Grieg", "year": 1868, "genre": "classical", "wikipediaTitle": "Piano Concerto (Grieg)" },
-  { "title": "Hungarian Dance No. 5", "artist": "Johannes Brahms", "year": 1869, "genre": "classical", "wikipediaTitle": "Hungarian Dances (Brahms)" },
-  { "title": "Romeo and Juliet", "artist": "Pyotr Ilyich Tchaikovsky", "year": 1869, "genre": "classical", "wikipediaTitle": "Romeo and Juliet (Tchaikovsky)" },
-  { "title": "Aida", "artist": "Giuseppe Verdi", "year": 1871, "genre": "classical", "wikipediaTitle": "Aida" },
-  { "title": "Danse Macabre", "artist": "Camille Saint-Saëns", "year": 1874, "genre": "classical", "wikipediaTitle": "Danse Macabre (Saint-Saëns)" },
-  { "title": "Pictures at an Exhibition", "artist": "Modest Mussorgsky", "year": 1874, "genre": "classical", "wikipediaTitle": "Pictures at an Exhibition" },
-  { "title": "Carmen", "artist": "Georges Bizet", "year": 1875, "genre": "classical", "wikipediaTitle": "Carmen" },
-  { "title": "Piano Concerto No. 1", "artist": "Pyotr Ilyich Tchaikovsky", "year": 1875, "genre": "classical", "wikipediaTitle": "Piano Concerto No. 1 (Tchaikovsky)" },
-  { "title": "In the Hall of the Mountain King", "artist": "Edvard Grieg", "year": 1875, "genre": "classical", "wikipediaTitle": "In the Hall of the Mountain King" },
-  { "title": "Symphony No. 1", "artist": "Johannes Brahms", "year": 1876, "genre": "classical", "wikipediaTitle": "Symphony No. 1 (Brahms)" },
-  { "title": "Swan Lake", "artist": "Pyotr Ilyich Tchaikovsky", "year": 1876, "genre": "classical", "wikipediaTitle": "Swan Lake" },
-  { "title": "1812 Overture", "artist": "Pyotr Ilyich Tchaikovsky", "year": 1880, "genre": "classical", "wikipediaTitle": "1812 Overture" },
-  { "title": "Carnival of the Animals", "artist": "Camille Saint-Saëns", "year": 1886, "genre": "classical", "wikipediaTitle": "The Carnival of the Animals" },
-  { "title": "Scheherazade", "artist": "Nikolai Rimsky-Korsakov", "year": 1888, "genre": "classical", "wikipediaTitle": "Scheherazade (Rimsky-Korsakov)" },
-  { "title": "Gymnopédies", "artist": "Erik Satie", "year": 1888, "genre": "classical", "wikipediaTitle": "Gymnopédies" },
-  { "title": "The Nutcracker", "artist": "Pyotr Ilyich Tchaikovsky", "year": 1892, "genre": "classical", "wikipediaTitle": "The Nutcracker" },
-  { "title": "Prelude in C-sharp minor", "artist": "Sergei Rachmaninoff", "year": 1892, "genre": "classical", "wikipediaTitle": "Prelude in C-sharp minor (Rachmaninoff)" },
-  { "title": "Gnossiennes", "artist": "Erik Satie", "year": 1893, "genre": "classical", "wikipediaTitle": "Gnossiennes" },
-  { "title": "Symphony No. 9 'From the New World'", "artist": "Antonín Dvořák", "year": 1893, "genre": "classical", "wikipediaTitle": "Symphony No. 9 (Dvořák)" },
-  { "title": "Prélude à l'après-midi d'un faune", "artist": "Claude Debussy", "year": 1894, "genre": "classical", "wikipediaTitle": "Prélude à l'après-midi d'un faune" },
-  { "title": "La bohème", "artist": "Giacomo Puccini", "year": 1896, "genre": "classical", "wikipediaTitle": "La bohème" },
-  { "title": "Pavane for a Dead Princess", "artist": "Maurice Ravel", "year": 1899, "genre": "classical", "wikipediaTitle": "Pavane pour une infante défunte" },
-  { "title": "Tosca", "artist": "Giacomo Puccini", "year": 1900, "genre": "classical", "wikipediaTitle": "Tosca" },
-  { "title": "Flight of the Bumblebee", "artist": "Nikolai Rimsky-Korsakov", "year": 1900, "genre": "classical", "wikipediaTitle": "Flight of the Bumblebee" },
-  { "title": "Piano Concerto No. 2", "artist": "Sergei Rachmaninoff", "year": 1901, "genre": "classical", "wikipediaTitle": "Piano Concerto No. 2 (Rachmaninoff)" },
-  { "title": "Symphony No. 5", "artist": "Gustav Mahler", "year": 1902, "genre": "classical", "wikipediaTitle": "Symphony No. 5 (Mahler)" },
-  { "title": "Madama Butterfly", "artist": "Giacomo Puccini", "year": 1904, "genre": "classical", "wikipediaTitle": "Madama Butterfly" },
-  { "title": "Clair de lune", "artist": "Claude Debussy", "year": 1905, "genre": "classical", "wikipediaTitle": "Suite bergamasque" },
-  { "title": "The Firebird", "artist": "Igor Stravinsky", "year": 1910, "genre": "classical", "wikipediaTitle": "The Firebird" },
-  { "title": "The Rite of Spring", "artist": "Igor Stravinsky", "year": 1913, "genre": "classical", "wikipediaTitle": "The Rite of Spring" },
-  { "title": "Rhapsody in Blue", "artist": "George Gershwin", "year": 1924, "genre": "classical", "wikipediaTitle": "Rhapsody in Blue" },
-  { "title": "Nessun dorma", "artist": "Giacomo Puccini", "year": 1924, "genre": "classical", "wikipediaTitle": "Nessun dorma" },
-  { "title": "Boléro", "artist": "Maurice Ravel", "year": 1928, "genre": "classical", "wikipediaTitle": "Boléro" },
-  { "title": "Romeo and Juliet", "artist": "Sergei Prokofiev", "year": 1935, "genre": "classical", "wikipediaTitle": "Romeo and Juliet (Prokofiev)" },
-  { "title": "Peter and the Wolf", "artist": "Sergei Prokofiev", "year": 1936, "genre": "classical", "wikipediaTitle": "Peter and the Wolf" },
-  { "title": "O Fortuna", "artist": "Carl Orff", "year": 1937, "genre": "classical", "wikipediaTitle": "O Fortuna" },
-  { "title": "Symphony No. 5", "artist": "Dmitri Shostakovich", "year": 1937, "genre": "classical", "wikipediaTitle": "Symphony No. 5 (Shostakovich)" },
-  { "title": "Adagio for Strings", "artist": "Samuel Barber", "year": 1938, "genre": "classical", "wikipediaTitle": "Adagio for Strings" },
-  { "title": "Appalachian Spring", "artist": "Aaron Copland", "year": 1944, "genre": "classical", "wikipediaTitle": "Appalachian Spring" },
-
-  { "title": "Maple Leaf Rag", "artist": "Scott Joplin", "year": 1899, "genre": "jazz", "wikipediaTitle": "Maple Leaf Rag" },
-  { "title": "The Entertainer", "artist": "Scott Joplin", "year": 1902, "genre": "jazz", "wikipediaTitle": "The Entertainer (rag)" },
-  { "title": "West End Blues", "artist": "Louis Armstrong", "year": 1928, "genre": "jazz", "wikipediaTitle": "West End Blues" },
-  { "title": "Mood Indigo", "artist": "Duke Ellington", "year": 1930, "genre": "jazz", "wikipediaTitle": "Mood Indigo" },
-  { "title": "Strange Fruit", "artist": "Billie Holiday", "year": 1939, "genre": "jazz", "wikipediaTitle": "Strange Fruit" },
-  { "title": "In the Mood", "artist": "Glenn Miller", "year": 1939, "genre": "jazz", "wikipediaTitle": "In the Mood" },
-  { "title": "Moonlight Serenade", "artist": "Glenn Miller", "year": 1939, "genre": "jazz", "wikipediaTitle": "Moonlight Serenade" },
-  { "title": "Take the A Train", "artist": "Duke Ellington", "year": 1941, "genre": "jazz", "wikipediaTitle": "Take the 'A' Train" },
-  { "title": "God Bless the Child", "artist": "Billie Holiday", "year": 1941, "genre": "jazz", "wikipediaTitle": "God Bless the Child" },
-  { "title": "A Night in Tunisia", "artist": "Dizzy Gillespie", "year": 1942, "genre": "jazz", "wikipediaTitle": "A Night in Tunisia" },
-  { "title": "Round Midnight", "artist": "Thelonious Monk", "year": 1944, "genre": "jazz", "wikipediaTitle": "'Round Midnight (song)" },
-  { "title": "Ko-Ko", "artist": "Charlie Parker", "year": 1945, "genre": "jazz", "wikipediaTitle": "Ko-Ko (Charlie Parker song)" },
-  { "title": "Straight, No Chaser", "artist": "Thelonious Monk", "year": 1951, "genre": "jazz", "wikipediaTitle": "Straight, No Chaser (composition)" },
-  { "title": "My Funny Valentine", "artist": "Chet Baker", "year": 1954, "genre": "jazz", "wikipediaTitle": "My Funny Valentine" },
-  { "title": "So What", "artist": "Miles Davis", "year": 1959, "genre": "jazz", "wikipediaTitle": "So What (Miles Davis composition)" },
-  { "title": "Take Five", "artist": "Dave Brubeck", "year": 1959, "genre": "jazz", "wikipediaTitle": "Take Five" },
-  { "title": "Misty", "artist": "Sarah Vaughan", "year": 1959, "genre": "jazz", "wikipediaTitle": "Misty (song)" },
-  { "title": "Mack the Knife", "artist": "Ella Fitzgerald", "year": 1960, "genre": "jazz", "wikipediaTitle": "Mack the Knife" },
-  { "title": "Giant Steps", "artist": "John Coltrane", "year": 1960, "genre": "jazz", "wikipediaTitle": "Giant Steps" },
-  { "title": "Waltz for Debby", "artist": "Bill Evans", "year": 1961, "genre": "jazz", "wikipediaTitle": "Waltz for Debby (album)" },
-  { "title": "Watermelon Man", "artist": "Herbie Hancock", "year": 1962, "genre": "jazz", "wikipediaTitle": "Watermelon Man (composition)" },
-  { "title": "Cantaloupe Island", "artist": "Herbie Hancock", "year": 1964, "genre": "jazz", "wikipediaTitle": "Cantaloupe Island" },
-  { "title": "The Girl from Ipanema", "artist": "Stan Getz", "year": 1964, "genre": "jazz", "wikipediaTitle": "The Girl from Ipanema" },
-  { "title": "Fly Me to the Moon", "artist": "Frank Sinatra", "year": 1964, "genre": "jazz", "wikipediaTitle": "Fly Me to the Moon" },
-  { "title": "Feeling Good", "artist": "Nina Simone", "year": 1965, "genre": "jazz", "wikipediaTitle": "Feeling Good" },
-  { "title": "Sinnerman", "artist": "Nina Simone", "year": 1965, "genre": "jazz", "wikipediaTitle": "Sinnerman" },
-  { "title": "A Love Supreme", "artist": "John Coltrane", "year": 1965, "genre": "jazz", "wikipediaTitle": "A Love Supreme" },
-  { "title": "Strangers in the Night", "artist": "Frank Sinatra", "year": 1966, "genre": "jazz", "wikipediaTitle": "Strangers in the Night" },
-  { "title": "What a Wonderful World", "artist": "Louis Armstrong", "year": 1967, "genre": "jazz", "wikipediaTitle": "What a Wonderful World" },
-  { "title": "My Way", "artist": "Frank Sinatra", "year": 1969, "genre": "jazz", "wikipediaTitle": "My Way (Frank Sinatra song)" },
-
-  { "title": "St. Louis Blues", "artist": "W. C. Handy", "year": 1914, "genre": "blues", "wikipediaTitle": "Saint Louis Blues (song)" },
-  { "title": "Downhearted Blues", "artist": "Bessie Smith", "year": 1923, "genre": "blues", "wikipediaTitle": "Downhearted Blues" },
-  { "title": "See See Rider Blues", "artist": "Ma Rainey", "year": 1924, "genre": "blues", "wikipediaTitle": "See See Rider" },
-  { "title": "Black Snake Moan", "artist": "Blind Lemon Jefferson", "year": 1926, "genre": "blues", "wikipediaTitle": "Black Snake Moan (song)" },
-  { "title": "Goodnight, Irene", "artist": "Lead Belly", "year": 1933, "genre": "blues", "wikipediaTitle": "Goodnight, Irene" },
-  { "title": "Cross Road Blues", "artist": "Robert Johnson", "year": 1936, "genre": "blues", "wikipediaTitle": "Cross Road Blues" },
-  { "title": "Sweet Home Chicago", "artist": "Robert Johnson", "year": 1936, "genre": "blues", "wikipediaTitle": "Sweet Home Chicago" },
-  { "title": "Hellhound on My Trail", "artist": "Robert Johnson", "year": 1937, "genre": "blues", "wikipediaTitle": "Hellhound on My Trail" },
-  { "title": "Key to the Highway", "artist": "Big Bill Broonzy", "year": 1941, "genre": "blues", "wikipediaTitle": "Key to the Highway" },
-  { "title": "Call It Stormy Monday", "artist": "T-Bone Walker", "year": 1947, "genre": "blues", "wikipediaTitle": "Call It Stormy Monday (But Tuesday Is Just as Bad)" },
-  { "title": "Boogie Chillen'", "artist": "John Lee Hooker", "year": 1948, "genre": "blues", "wikipediaTitle": "Boogie Chillen'" },
-  { "title": "Rollin' Stone", "artist": "Muddy Waters", "year": 1950, "genre": "blues", "wikipediaTitle": "Rollin' Stone (Muddy Waters song)" },
-  { "title": "Three O'Clock Blues", "artist": "B.B. King", "year": 1951, "genre": "blues", "wikipediaTitle": "Three O'Clock Blues" },
-  { "title": "Dust My Broom", "artist": "Elmore James", "year": 1951, "genre": "blues", "wikipediaTitle": "Dust My Broom" },
-  { "title": "Hoochie Coochie Man", "artist": "Muddy Waters", "year": 1954, "genre": "blues", "wikipediaTitle": "Hoochie Coochie Man" },
-  { "title": "I Just Want to Make Love to You", "artist": "Willie Dixon", "year": 1954, "genre": "blues", "wikipediaTitle": "I Just Want to Make Love to You" },
-  { "title": "Mannish Boy", "artist": "Muddy Waters", "year": 1955, "genre": "blues", "wikipediaTitle": "Mannish Boy" },
-  { "title": "Bo Diddley", "artist": "Bo Diddley", "year": 1955, "genre": "blues", "wikipediaTitle": "Bo Diddley (song)" },
-  { "title": "Don't Start Me to Talkin'", "artist": "Sonny Boy Williamson II", "year": 1955, "genre": "blues", "wikipediaTitle": "Don't Start Me to Talkin'" },
-  { "title": "Smokestack Lightning", "artist": "Howlin' Wolf", "year": 1956, "genre": "blues", "wikipediaTitle": "Smokestack Lightning" },
-  { "title": "At Last", "artist": "Etta James", "year": 1960, "genre": "blues", "wikipediaTitle": "At Last" },
-  { "title": "Spoonful", "artist": "Howlin' Wolf", "year": 1960, "genre": "blues", "wikipediaTitle": "Spoonful" },
-  { "title": "Hide Away", "artist": "Freddie King", "year": 1961, "genre": "blues", "wikipediaTitle": "Hide Away (instrumental)" },
-  { "title": "Stone Crazy", "artist": "Buddy Guy", "year": 1962, "genre": "blues", "wikipediaTitle": "Stone Crazy (song)" },
-  { "title": "Boom Boom", "artist": "John Lee Hooker", "year": 1962, "genre": "blues", "wikipediaTitle": "Boom Boom (John Lee Hooker song)" },
-  { "title": "Born Under a Bad Sign", "artist": "Albert King", "year": 1967, "genre": "blues", "wikipediaTitle": "Born Under a Bad Sign (song)" },
-  { "title": "The Thrill Is Gone", "artist": "B.B. King", "year": 1969, "genre": "blues", "wikipediaTitle": "The Thrill Is Gone" },
-  { "title": "Pride and Joy", "artist": "Stevie Ray Vaughan", "year": 1983, "genre": "blues", "wikipediaTitle": "Pride and Joy (Stevie Ray Vaughan song)" },
-  { "title": "Texas Flood", "artist": "Stevie Ray Vaughan", "year": 1983, "genre": "blues", "wikipediaTitle": "Texas Flood (album)" },
-  { "title": "I Can't Make You Love Me", "artist": "Bonnie Raitt", "year": 1991, "genre": "blues", "wikipediaTitle": "I Can't Make You Love Me" },
-
-  { "title": "Rock Around the Clock", "artist": "Bill Haley & His Comets", "year": 1954, "genre": "rock", "wikipediaTitle": "Rock Around the Clock" },
-  { "title": "Heartbreak Hotel", "artist": "Elvis Presley", "year": 1956, "genre": "rock", "wikipediaTitle": "Heartbreak Hotel" },
-  { "title": "Hound Dog", "artist": "Elvis Presley", "year": 1956, "genre": "rock", "wikipediaTitle": "Hound Dog (song)" },
-  { "title": "Peggy Sue", "artist": "Buddy Holly", "year": 1957, "genre": "rock", "wikipediaTitle": "Peggy Sue (song)" },
-  { "title": "Johnny B. Goode", "artist": "Chuck Berry", "year": 1958, "genre": "rock", "wikipediaTitle": "Johnny B. Goode" },
-  { "title": "Yesterday", "artist": "The Beatles", "year": 1965, "genre": "rock", "wikipediaTitle": "Yesterday (Beatles song)" },
-  { "title": "(I Can't Get No) Satisfaction", "artist": "The Rolling Stones", "year": 1965, "genre": "rock", "wikipediaTitle": "(I Can't Get No) Satisfaction" },
-  { "title": "Good Vibrations", "artist": "The Beach Boys", "year": 1966, "genre": "rock", "wikipediaTitle": "Good Vibrations" },
-  { "title": "Paint It Black", "artist": "The Rolling Stones", "year": 1966, "genre": "rock", "wikipediaTitle": "Paint It Black" },
-  { "title": "A Day in the Life", "artist": "The Beatles", "year": 1967, "genre": "rock", "wikipediaTitle": "A Day in the Life" },
-  { "title": "Light My Fire", "artist": "The Doors", "year": 1967, "genre": "rock", "wikipediaTitle": "Light My Fire" },
-  { "title": "Purple Haze", "artist": "Jimi Hendrix", "year": 1967, "genre": "rock", "wikipediaTitle": "Purple Haze" },
-  { "title": "Hey Jude", "artist": "The Beatles", "year": 1968, "genre": "rock", "wikipediaTitle": "Hey Jude" },
-  { "title": "Sympathy for the Devil", "artist": "The Rolling Stones", "year": 1968, "genre": "rock", "wikipediaTitle": "Sympathy for the Devil" },
-  { "title": "Whole Lotta Love", "artist": "Led Zeppelin", "year": 1969, "genre": "rock", "wikipediaTitle": "Whole Lotta Love" },
-  { "title": "Let It Be", "artist": "The Beatles", "year": 1970, "genre": "rock", "wikipediaTitle": "Let It Be (Beatles song)" },
-  { "title": "Stairway to Heaven", "artist": "Led Zeppelin", "year": 1971, "genre": "rock", "wikipediaTitle": "Stairway to Heaven" },
-  { "title": "Baba O'Riley", "artist": "The Who", "year": 1971, "genre": "rock", "wikipediaTitle": "Baba O'Riley" },
-  { "title": "Money", "artist": "Pink Floyd", "year": 1973, "genre": "rock", "wikipediaTitle": "Money (Pink Floyd song)" },
-  { "title": "Dream On", "artist": "Aerosmith", "year": 1973, "genre": "rock", "wikipediaTitle": "Dream On (Aerosmith song)" },
-  { "title": "Bohemian Rhapsody", "artist": "Queen", "year": 1975, "genre": "rock", "wikipediaTitle": "Bohemian Rhapsody" },
-  { "title": "Kashmir", "artist": "Led Zeppelin", "year": 1975, "genre": "rock", "wikipediaTitle": "Kashmir (song)" },
-  { "title": "Wish You Were Here", "artist": "Pink Floyd", "year": 1975, "genre": "rock", "wikipediaTitle": "Wish You Were Here (Pink Floyd song)" },
-  { "title": "Hotel California", "artist": "Eagles", "year": 1976, "genre": "rock", "wikipediaTitle": "Hotel California (song)" },
-  { "title": "We Will Rock You", "artist": "Queen", "year": 1977, "genre": "rock", "wikipediaTitle": "We Will Rock You" },
-  { "title": "Comfortably Numb", "artist": "Pink Floyd", "year": 1979, "genre": "rock", "wikipediaTitle": "Comfortably Numb" },
-  { "title": "Highway to Hell", "artist": "AC/DC", "year": 1979, "genre": "rock", "wikipediaTitle": "Highway to Hell (song)" },
-  { "title": "Sweet Child o' Mine", "artist": "Guns N' Roses", "year": 1987, "genre": "rock", "wikipediaTitle": "Sweet Child o' Mine" },
-  { "title": "Smells Like Teen Spirit", "artist": "Nirvana", "year": 1991, "genre": "rock", "wikipediaTitle": "Smells Like Teen Spirit" },
-  { "title": "Seven Nation Army", "artist": "The White Stripes", "year": 2003, "genre": "rock", "wikipediaTitle": "Seven Nation Army" },
-
-  { "title": "White Christmas", "artist": "Bing Crosby", "year": 1942, "genre": "pop", "wikipediaTitle": "White Christmas (song)" },
-  { "title": "Where Did Our Love Go", "artist": "The Supremes", "year": 1964, "genre": "pop", "wikipediaTitle": "Where Did Our Love Go" },
-  { "title": "Superstition", "artist": "Stevie Wonder", "year": 1972, "genre": "pop", "wikipediaTitle": "Superstition (song)" },
-  { "title": "Mamma Mia", "artist": "ABBA", "year": 1975, "genre": "pop", "wikipediaTitle": "Mamma Mia (ABBA song)" },
-  { "title": "Dancing Queen", "artist": "ABBA", "year": 1976, "genre": "pop", "wikipediaTitle": "Dancing Queen" },
-  { "title": "Stayin' Alive", "artist": "Bee Gees", "year": 1977, "genre": "pop", "wikipediaTitle": "Stayin' Alive" },
-  { "title": "I Feel Love", "artist": "Donna Summer", "year": 1977, "genre": "pop", "wikipediaTitle": "I Feel Love" },
-  { "title": "Billie Jean", "artist": "Michael Jackson", "year": 1982, "genre": "pop", "wikipediaTitle": "Billie Jean" },
-  { "title": "Thriller", "artist": "Michael Jackson", "year": 1982, "genre": "pop", "wikipediaTitle": "Thriller (Michael Jackson song)" },
-  { "title": "Girls Just Want to Have Fun", "artist": "Cyndi Lauper", "year": 1983, "genre": "pop", "wikipediaTitle": "Girls Just Want to Have Fun" },
-  { "title": "When Doves Cry", "artist": "Prince", "year": 1984, "genre": "pop", "wikipediaTitle": "When Doves Cry" },
-  { "title": "Purple Rain", "artist": "Prince", "year": 1984, "genre": "pop", "wikipediaTitle": "Purple Rain (song)" },
-  { "title": "Like a Virgin", "artist": "Madonna", "year": 1984, "genre": "pop", "wikipediaTitle": "Like a Virgin (song)" },
-  { "title": "Careless Whisper", "artist": "George Michael", "year": 1984, "genre": "pop", "wikipediaTitle": "Careless Whisper" },
-  { "title": "I Wanna Dance with Somebody", "artist": "Whitney Houston", "year": 1987, "genre": "pop", "wikipediaTitle": "I Wanna Dance with Somebody (Who Loves Me)" },
-  { "title": "Like a Prayer", "artist": "Madonna", "year": 1989, "genre": "pop", "wikipediaTitle": "Like a Prayer (song)" },
-  { "title": "I Will Always Love You", "artist": "Whitney Houston", "year": 1992, "genre": "pop", "wikipediaTitle": "I Will Always Love You" },
-  { "title": "...Baby One More Time", "artist": "Britney Spears", "year": 1998, "genre": "pop", "wikipediaTitle": "...Baby One More Time (song)" },
-  { "title": "Genie in a Bottle", "artist": "Christina Aguilera", "year": 1999, "genre": "pop", "wikipediaTitle": "Genie in a Bottle" },
-  { "title": "I Want It That Way", "artist": "Backstreet Boys", "year": 1999, "genre": "pop", "wikipediaTitle": "I Want It That Way" },
-  { "title": "Crazy in Love", "artist": "Beyoncé", "year": 2003, "genre": "pop", "wikipediaTitle": "Crazy in Love" },
-  { "title": "Toxic", "artist": "Britney Spears", "year": 2003, "genre": "pop", "wikipediaTitle": "Toxic (song)" },
-  { "title": "Single Ladies (Put a Ring on It)", "artist": "Beyoncé", "year": 2008, "genre": "pop", "wikipediaTitle": "Single Ladies (Put a Ring on It)" },
-  { "title": "Poker Face", "artist": "Lady Gaga", "year": 2008, "genre": "pop", "wikipediaTitle": "Poker Face (Lady Gaga song)" },
-  { "title": "Bad Romance", "artist": "Lady Gaga", "year": 2009, "genre": "pop", "wikipediaTitle": "Bad Romance" },
-  { "title": "Rolling in the Deep", "artist": "Adele", "year": 2010, "genre": "pop", "wikipediaTitle": "Rolling in the Deep" },
-  { "title": "Shake It Off", "artist": "Taylor Swift", "year": 2014, "genre": "pop", "wikipediaTitle": "Shake It Off" },
-  { "title": "Blank Space", "artist": "Taylor Swift", "year": 2014, "genre": "pop", "wikipediaTitle": "Blank Space" },
-  { "title": "Hello", "artist": "Adele", "year": 2015, "genre": "pop", "wikipediaTitle": "Hello (Adele song)" },
-  { "title": "Shape of You", "artist": "Ed Sheeran", "year": 2017, "genre": "pop", "wikipediaTitle": "Shape of You" },
-
-  { "title": "Rapper's Delight", "artist": "The Sugarhill Gang", "year": 1979, "genre": "hip-hop", "wikipediaTitle": "Rapper's Delight" },
-  { "title": "The Message", "artist": "Grandmaster Flash and the Furious Five", "year": 1982, "genre": "hip-hop", "wikipediaTitle": "The Message (Grandmaster Flash and the Furious Five song)" },
-  { "title": "Fight for Your Right", "artist": "Beastie Boys", "year": 1986, "genre": "hip-hop", "wikipediaTitle": "Fight for Your Right" },
-  { "title": "Walk This Way", "artist": "Run-DMC", "year": 1986, "genre": "hip-hop", "wikipediaTitle": "Walk This Way" },
-  { "title": "I Need Love", "artist": "LL Cool J", "year": 1987, "genre": "hip-hop", "wikipediaTitle": "I Need Love" },
-  { "title": "It's Tricky", "artist": "Run-DMC", "year": 1987, "genre": "hip-hop", "wikipediaTitle": "It's Tricky" },
-  { "title": "Straight Outta Compton", "artist": "N.W.A", "year": 1988, "genre": "hip-hop", "wikipediaTitle": "Straight Outta Compton (song)" },
-  { "title": "Fight the Power", "artist": "Public Enemy", "year": 1989, "genre": "hip-hop", "wikipediaTitle": "Fight the Power (Public Enemy song)" },
-  { "title": "U Can't Touch This", "artist": "MC Hammer", "year": 1990, "genre": "hip-hop", "wikipediaTitle": "U Can't Touch This" },
-  { "title": "Ice Ice Baby", "artist": "Vanilla Ice", "year": 1990, "genre": "hip-hop", "wikipediaTitle": "Ice Ice Baby" },
-  { "title": "Can I Kick It?", "artist": "A Tribe Called Quest", "year": 1990, "genre": "hip-hop", "wikipediaTitle": "Can I Kick It?" },
-  { "title": "Nuthin' but a 'G' Thang", "artist": "Dr. Dre", "year": 1992, "genre": "hip-hop", "wikipediaTitle": "Nuthin' but a 'G' Thang" },
-  { "title": "C.R.E.A.M.", "artist": "Wu-Tang Clan", "year": 1993, "genre": "hip-hop", "wikipediaTitle": "C.R.E.A.M." },
-  { "title": "Juicy", "artist": "The Notorious B.I.G.", "year": 1994, "genre": "hip-hop", "wikipediaTitle": "Juicy (Notorious B.I.G. song)" },
-  { "title": "Gin and Juice", "artist": "Snoop Dogg", "year": 1994, "genre": "hip-hop", "wikipediaTitle": "Gin and Juice" },
-  { "title": "Sabotage", "artist": "Beastie Boys", "year": 1994, "genre": "hip-hop", "wikipediaTitle": "Sabotage (Beastie Boys song)" },
-  { "title": "N.Y. State of Mind", "artist": "Nas", "year": 1994, "genre": "hip-hop", "wikipediaTitle": "N.Y. State of Mind" },
-  { "title": "California Love", "artist": "2Pac", "year": 1995, "genre": "hip-hop", "wikipediaTitle": "California Love" },
-  { "title": "Hypnotize", "artist": "The Notorious B.I.G.", "year": 1997, "genre": "hip-hop", "wikipediaTitle": "Hypnotize (The Notorious B.I.G. song)" },
-  { "title": "Doo Wop (That Thing)", "artist": "Lauryn Hill", "year": 1998, "genre": "hip-hop", "wikipediaTitle": "Doo Wop (That Thing)" },
-  { "title": "Changes", "artist": "2Pac", "year": 1998, "genre": "hip-hop", "wikipediaTitle": "Changes (2Pac song)" },
-  { "title": "The Real Slim Shady", "artist": "Eminem", "year": 2000, "genre": "hip-hop", "wikipediaTitle": "The Real Slim Shady" },
-  { "title": "Lose Yourself", "artist": "Eminem", "year": 2002, "genre": "hip-hop", "wikipediaTitle": "Lose Yourself" },
-  { "title": "Hey Ya!", "artist": "OutKast", "year": 2003, "genre": "hip-hop", "wikipediaTitle": "Hey Ya!" },
-  { "title": "99 Problems", "artist": "Jay-Z", "year": 2003, "genre": "hip-hop", "wikipediaTitle": "99 Problems" },
-  { "title": "Gold Digger", "artist": "Kanye West", "year": 2005, "genre": "hip-hop", "wikipediaTitle": "Gold Digger (Kanye West song)" },
-  { "title": "Stronger", "artist": "Kanye West", "year": 2007, "genre": "hip-hop", "wikipediaTitle": "Stronger (Kanye West song)" },
-  { "title": "Alright", "artist": "Kendrick Lamar", "year": 2015, "genre": "hip-hop", "wikipediaTitle": "Alright (Kendrick Lamar song)" },
-  { "title": "Hotline Bling", "artist": "Drake", "year": 2015, "genre": "hip-hop", "wikipediaTitle": "Hotline Bling" },
-  { "title": "HUMBLE.", "artist": "Kendrick Lamar", "year": 2017, "genre": "hip-hop", "wikipediaTitle": "Humble (song)" },
-
-  { "title": "Blue Yodel No. 1", "artist": "Jimmie Rodgers", "year": 1927, "genre": "country", "wikipediaTitle": "Blue Yodel No. 1" },
-  { "title": "Wildwood Flower", "artist": "The Carter Family", "year": 1928, "genre": "country", "wikipediaTitle": "Wildwood Flower" },
-  { "title": "San Antonio Rose", "artist": "Bob Wills", "year": 1938, "genre": "country", "wikipediaTitle": "San Antonio Rose" },
-  { "title": "I'm So Lonesome I Could Cry", "artist": "Hank Williams", "year": 1949, "genre": "country", "wikipediaTitle": "I'm So Lonesome I Could Cry" },
-  { "title": "Your Cheatin' Heart", "artist": "Hank Williams", "year": 1953, "genre": "country", "wikipediaTitle": "Your Cheatin' Heart" },
-  { "title": "Folsom Prison Blues", "artist": "Johnny Cash", "year": 1955, "genre": "country", "wikipediaTitle": "Folsom Prison Blues" },
-  { "title": "I Walk the Line", "artist": "Johnny Cash", "year": 1956, "genre": "country", "wikipediaTitle": "I Walk the Line" },
-  { "title": "Walkin' After Midnight", "artist": "Patsy Cline", "year": 1957, "genre": "country", "wikipediaTitle": "Walkin' After Midnight" },
-  { "title": "Crazy", "artist": "Patsy Cline", "year": 1961, "genre": "country", "wikipediaTitle": "Crazy (Willie Nelson song)" },
-  { "title": "Ring of Fire", "artist": "Johnny Cash", "year": 1963, "genre": "country", "wikipediaTitle": "Ring of Fire (song)" },
-  { "title": "Stand by Your Man", "artist": "Tammy Wynette", "year": 1968, "genre": "country", "wikipediaTitle": "Stand by Your Man" },
-  { "title": "Okie from Muskogee", "artist": "Merle Haggard", "year": 1969, "genre": "country", "wikipediaTitle": "Okie from Muskogee" },
-  { "title": "Coal Miner's Daughter", "artist": "Loretta Lynn", "year": 1970, "genre": "country", "wikipediaTitle": "Coal Miner's Daughter (song)" },
-  { "title": "Jolene", "artist": "Dolly Parton", "year": 1973, "genre": "country", "wikipediaTitle": "Jolene (song)" },
-  { "title": "Rhinestone Cowboy", "artist": "Glen Campbell", "year": 1975, "genre": "country", "wikipediaTitle": "Rhinestone Cowboy" },
-  { "title": "The Gambler", "artist": "Kenny Rogers", "year": 1978, "genre": "country", "wikipediaTitle": "The Gambler (Kenny Rogers song)" },
-  { "title": "The Devil Went Down to Georgia", "artist": "The Charlie Daniels Band", "year": 1979, "genre": "country", "wikipediaTitle": "The Devil Went Down to Georgia" },
-  { "title": "On the Road Again", "artist": "Willie Nelson", "year": 1980, "genre": "country", "wikipediaTitle": "On the Road Again (Willie Nelson song)" },
-  { "title": "9 to 5", "artist": "Dolly Parton", "year": 1980, "genre": "country", "wikipediaTitle": "9 to 5 (Dolly Parton song)" },
-  { "title": "Mountain Music", "artist": "Alabama", "year": 1982, "genre": "country", "wikipediaTitle": "Mountain Music (song)" },
-  { "title": "Always on My Mind", "artist": "Willie Nelson", "year": 1982, "genre": "country", "wikipediaTitle": "Always on My Mind" },
-  { "title": "The Dance", "artist": "Garth Brooks", "year": 1989, "genre": "country", "wikipediaTitle": "The Dance (Garth Brooks song)" },
-  { "title": "Friends in Low Places", "artist": "Garth Brooks", "year": 1990, "genre": "country", "wikipediaTitle": "Friends in Low Places" },
-  { "title": "Man! I Feel Like a Woman!", "artist": "Shania Twain", "year": 1997, "genre": "country", "wikipediaTitle": "Man! I Feel Like a Woman!" },
-  { "title": "Breathe", "artist": "Faith Hill", "year": 1999, "genre": "country", "wikipediaTitle": "Breathe (Faith Hill song)" },
-  { "title": "Whiskey Lullaby", "artist": "Brad Paisley", "year": 2003, "genre": "country", "wikipediaTitle": "Whiskey Lullaby" },
-  { "title": "Live Like You Were Dying", "artist": "Tim McGraw", "year": 2004, "genre": "country", "wikipediaTitle": "Live Like You Were Dying (song)" },
-  { "title": "Before He Cheats", "artist": "Carrie Underwood", "year": 2005, "genre": "country", "wikipediaTitle": "Before He Cheats" },
-  { "title": "The House That Built Me", "artist": "Miranda Lambert", "year": 2009, "genre": "country", "wikipediaTitle": "The House That Built Me" },
-  { "title": "Country Girl (Shake It for Me)", "artist": "Luke Bryan", "year": 2011, "genre": "country", "wikipediaTitle": "Country Girl (Shake It for Me)" }
+  {
+    "title": "Dido and Aeneas",
+    "artist": "Henry Purcell",
+    "year": 1689,
+    "genre": "classical",
+    "wikipediaTitle": "Dido and Aeneas"
+  },
+  {
+    "title": "The Fairy-Queen",
+    "artist": "Henry Purcell",
+    "year": 1692,
+    "genre": "classical",
+    "wikipediaTitle": "The Fairy-Queen"
+  },
+  {
+    "title": "Music for the Funeral of Queen Mary",
+    "artist": "Henry Purcell",
+    "year": 1695,
+    "genre": "classical",
+    "wikipediaTitle": "Music for the Funeral of Queen Mary"
+  },
+  {
+    "title": "Canon in D",
+    "artist": "Johann Pachelbel",
+    "year": 1680,
+    "genre": "classical",
+    "wikipediaTitle": "Pachelbel's Canon"
+  },
+  {
+    "title": "Adagio in G minor",
+    "artist": "Tomaso Albinoni",
+    "year": 1708,
+    "genre": "classical",
+    "wikipediaTitle": "Adagio in G minor"
+  },
+  {
+    "title": "Toccata and Fugue in D minor",
+    "artist": "Johann Sebastian Bach",
+    "year": 1708,
+    "genre": "classical",
+    "wikipediaTitle": "Toccata and Fugue in D minor, BWV 565"
+  },
+  {
+    "title": "Air on the G String",
+    "artist": "Johann Sebastian Bach",
+    "year": 1717,
+    "genre": "classical",
+    "wikipediaTitle": "Air on the G String"
+  },
+  {
+    "title": "Brandenburg Concertos",
+    "artist": "Johann Sebastian Bach",
+    "year": 1721,
+    "genre": "classical",
+    "wikipediaTitle": "Brandenburg Concertos"
+  },
+  {
+    "title": "St Matthew Passion",
+    "artist": "Johann Sebastian Bach",
+    "year": 1727,
+    "genre": "classical",
+    "wikipediaTitle": "St Matthew Passion"
+  },
+  {
+    "title": "Goldberg Variations",
+    "artist": "Johann Sebastian Bach",
+    "year": 1741,
+    "genre": "classical",
+    "wikipediaTitle": "Goldberg Variations"
+  },
+  {
+    "title": "Mass in B minor",
+    "artist": "Johann Sebastian Bach",
+    "year": 1749,
+    "genre": "classical",
+    "wikipediaTitle": "Mass in B minor"
+  },
+  {
+    "title": "Gloria",
+    "artist": "Antonio Vivaldi",
+    "year": 1715,
+    "genre": "classical",
+    "wikipediaTitle": "Gloria (Vivaldi)"
+  },
+  {
+    "title": "The Four Seasons",
+    "artist": "Antonio Vivaldi",
+    "year": 1725,
+    "genre": "classical",
+    "wikipediaTitle": "The Four Seasons (Vivaldi)"
+  },
+  {
+    "title": "Water Music",
+    "artist": "George Frideric Handel",
+    "year": 1717,
+    "genre": "classical",
+    "wikipediaTitle": "Water Music (Handel)"
+  },
+  {
+    "title": "Messiah",
+    "artist": "George Frideric Handel",
+    "year": 1741,
+    "genre": "classical",
+    "wikipediaTitle": "Messiah (Handel)"
+  },
+  {
+    "title": "Music for the Royal Fireworks",
+    "artist": "George Frideric Handel",
+    "year": 1749,
+    "genre": "classical",
+    "wikipediaTitle": "Music for the Royal Fireworks"
+  },
+  {
+    "title": "Tafelmusik",
+    "artist": "Georg Philipp Telemann",
+    "year": 1733,
+    "genre": "classical",
+    "wikipediaTitle": "Tafelmusik (Telemann)"
+  },
+  {
+    "title": "Stabat Mater",
+    "artist": "Giovanni Battista Pergolesi",
+    "year": 1736,
+    "genre": "classical",
+    "wikipediaTitle": "Stabat Mater (Pergolesi)"
+  },
+  {
+    "title": "Symphony No. 94 'Surprise'",
+    "artist": "Joseph Haydn",
+    "year": 1791,
+    "genre": "classical",
+    "wikipediaTitle": "Symphony No. 94 (Haydn)"
+  },
+  {
+    "title": "String Quartet 'Emperor'",
+    "artist": "Joseph Haydn",
+    "year": 1797,
+    "genre": "classical",
+    "wikipediaTitle": "String Quartet, Op. 76, No. 3 (Haydn)"
+  },
+  {
+    "title": "The Creation",
+    "artist": "Joseph Haydn",
+    "year": 1798,
+    "genre": "classical",
+    "wikipediaTitle": "The Creation (Haydn)"
+  },
+  {
+    "title": "Trumpet Concerto",
+    "artist": "Joseph Haydn",
+    "year": 1796,
+    "genre": "classical",
+    "wikipediaTitle": "Trumpet Concerto (Haydn)"
+  },
+  {
+    "title": "The Marriage of Figaro",
+    "artist": "Wolfgang Amadeus Mozart",
+    "year": 1786,
+    "genre": "classical",
+    "wikipediaTitle": "The Marriage of Figaro"
+  },
+  {
+    "title": "Don Giovanni",
+    "artist": "Wolfgang Amadeus Mozart",
+    "year": 1787,
+    "genre": "classical",
+    "wikipediaTitle": "Don Giovanni"
+  },
+  {
+    "title": "Eine kleine Nachtmusik",
+    "artist": "Wolfgang Amadeus Mozart",
+    "year": 1787,
+    "genre": "classical",
+    "wikipediaTitle": "Eine kleine Nachtmusik"
+  },
+  {
+    "title": "Symphony No. 40",
+    "artist": "Wolfgang Amadeus Mozart",
+    "year": 1788,
+    "genre": "classical",
+    "wikipediaTitle": "Symphony No. 40 (Mozart)"
+  },
+  {
+    "title": "The Magic Flute",
+    "artist": "Wolfgang Amadeus Mozart",
+    "year": 1791,
+    "genre": "classical",
+    "wikipediaTitle": "The Magic Flute"
+  },
+  {
+    "title": "Requiem",
+    "artist": "Wolfgang Amadeus Mozart",
+    "year": 1791,
+    "genre": "classical",
+    "wikipediaTitle": "Requiem (Mozart)"
+  },
+  {
+    "title": "Piano Sonata No. 11",
+    "artist": "Wolfgang Amadeus Mozart",
+    "year": 1784,
+    "genre": "classical",
+    "wikipediaTitle": "Piano Sonata No. 11 (Mozart)"
+  },
+  {
+    "title": "Moonlight Sonata",
+    "artist": "Ludwig van Beethoven",
+    "year": 1801,
+    "genre": "classical",
+    "wikipediaTitle": "Piano Sonata No. 14 (Beethoven)"
+  },
+  {
+    "title": "Symphony No. 3 'Eroica'",
+    "artist": "Ludwig van Beethoven",
+    "year": 1804,
+    "genre": "classical",
+    "wikipediaTitle": "Symphony No. 3 (Beethoven)"
+  },
+  {
+    "title": "Symphony No. 5",
+    "artist": "Ludwig van Beethoven",
+    "year": 1808,
+    "genre": "classical",
+    "wikipediaTitle": "Symphony No. 5 (Beethoven)"
+  },
+  {
+    "title": "Symphony No. 6 'Pastoral'",
+    "artist": "Ludwig van Beethoven",
+    "year": 1808,
+    "genre": "classical",
+    "wikipediaTitle": "Symphony No. 6 (Beethoven)"
+  },
+  {
+    "title": "Für Elise",
+    "artist": "Ludwig van Beethoven",
+    "year": 1810,
+    "genre": "classical",
+    "wikipediaTitle": "Für Elise"
+  },
+  {
+    "title": "Piano Concerto No. 5 'Emperor'",
+    "artist": "Ludwig van Beethoven",
+    "year": 1811,
+    "genre": "classical",
+    "wikipediaTitle": "Piano Concerto No. 5 (Beethoven)"
+  },
+  {
+    "title": "Symphony No. 9",
+    "artist": "Ludwig van Beethoven",
+    "year": 1824,
+    "genre": "classical",
+    "wikipediaTitle": "Symphony No. 9 (Beethoven)"
+  },
+  {
+    "title": "Erlkönig",
+    "artist": "Franz Schubert",
+    "year": 1815,
+    "genre": "classical",
+    "wikipediaTitle": "Erlkönig (Schubert)"
+  },
+  {
+    "title": "Symphony No. 8 'Unfinished'",
+    "artist": "Franz Schubert",
+    "year": 1822,
+    "genre": "classical",
+    "wikipediaTitle": "Symphony No. 8 (Schubert)"
+  },
+  {
+    "title": "Ave Maria",
+    "artist": "Franz Schubert",
+    "year": 1825,
+    "genre": "classical",
+    "wikipediaTitle": "Ellens dritter Gesang"
+  },
+  {
+    "title": "Symphonie fantastique",
+    "artist": "Hector Berlioz",
+    "year": 1830,
+    "genre": "classical",
+    "wikipediaTitle": "Symphonie fantastique"
+  },
+  {
+    "title": "Nocturne in E-flat major, Op. 9 No. 2",
+    "artist": "Frédéric Chopin",
+    "year": 1832,
+    "genre": "classical",
+    "wikipediaTitle": "Nocturnes, Op. 9 (Chopin)"
+  },
+  {
+    "title": "Fantaisie-Impromptu",
+    "artist": "Frédéric Chopin",
+    "year": 1834,
+    "genre": "classical",
+    "wikipediaTitle": "Fantaisie-Impromptu"
+  },
+  {
+    "title": "Minute Waltz",
+    "artist": "Frédéric Chopin",
+    "year": 1847,
+    "genre": "classical",
+    "wikipediaTitle": "Minute Waltz"
+  },
+  {
+    "title": "Carnaval",
+    "artist": "Robert Schumann",
+    "year": 1835,
+    "genre": "classical",
+    "wikipediaTitle": "Carnaval (Schumann)"
+  },
+  {
+    "title": "A Midsummer Night's Dream",
+    "artist": "Felix Mendelssohn",
+    "year": 1842,
+    "genre": "classical",
+    "wikipediaTitle": "A Midsummer Night's Dream (Mendelssohn)"
+  },
+  {
+    "title": "Violin Concerto in E minor",
+    "artist": "Felix Mendelssohn",
+    "year": 1844,
+    "genre": "classical",
+    "wikipediaTitle": "Violin Concerto (Mendelssohn)"
+  },
+  {
+    "title": "Hungarian Rhapsody No. 2",
+    "artist": "Franz Liszt",
+    "year": 1847,
+    "genre": "classical",
+    "wikipediaTitle": "Hungarian Rhapsody No. 2"
+  },
+  {
+    "title": "Liebestraum",
+    "artist": "Franz Liszt",
+    "year": 1850,
+    "genre": "classical",
+    "wikipediaTitle": "Liebesträume"
+  },
+  {
+    "title": "Bridal Chorus",
+    "artist": "Richard Wagner",
+    "year": 1850,
+    "genre": "classical",
+    "wikipediaTitle": "Bridal Chorus"
+  },
+  {
+    "title": "Rigoletto",
+    "artist": "Giuseppe Verdi",
+    "year": 1851,
+    "genre": "classical",
+    "wikipediaTitle": "Rigoletto"
+  },
+  {
+    "title": "La traviata",
+    "artist": "Giuseppe Verdi",
+    "year": 1853,
+    "genre": "classical",
+    "wikipediaTitle": "La traviata"
+  },
+  {
+    "title": "Ride of the Valkyries",
+    "artist": "Richard Wagner",
+    "year": 1856,
+    "genre": "classical",
+    "wikipediaTitle": "Ride of the Valkyries"
+  },
+  {
+    "title": "Tristan und Isolde",
+    "artist": "Richard Wagner",
+    "year": 1859,
+    "genre": "classical",
+    "wikipediaTitle": "Tristan und Isolde"
+  },
+  {
+    "title": "Lullaby",
+    "artist": "Johannes Brahms",
+    "year": 1868,
+    "genre": "classical",
+    "wikipediaTitle": "Wiegenlied: Guten Abend, gute Nacht"
+  },
+  {
+    "title": "Piano Concerto in A minor",
+    "artist": "Edvard Grieg",
+    "year": 1868,
+    "genre": "classical",
+    "wikipediaTitle": "Piano Concerto (Grieg)"
+  },
+  {
+    "title": "Hungarian Dance No. 5",
+    "artist": "Johannes Brahms",
+    "year": 1869,
+    "genre": "classical",
+    "wikipediaTitle": "Hungarian Dances (Brahms)"
+  },
+  {
+    "title": "Romeo and Juliet",
+    "artist": "Pyotr Ilyich Tchaikovsky",
+    "year": 1869,
+    "genre": "classical",
+    "wikipediaTitle": "Romeo and Juliet (Tchaikovsky)"
+  },
+  {
+    "title": "Aida",
+    "artist": "Giuseppe Verdi",
+    "year": 1871,
+    "genre": "classical",
+    "wikipediaTitle": "Aida"
+  },
+  {
+    "title": "Danse Macabre",
+    "artist": "Camille Saint-Saëns",
+    "year": 1874,
+    "genre": "classical",
+    "wikipediaTitle": "Danse Macabre (Saint-Saëns)"
+  },
+  {
+    "title": "Pictures at an Exhibition",
+    "artist": "Modest Mussorgsky",
+    "year": 1874,
+    "genre": "classical",
+    "wikipediaTitle": "Pictures at an Exhibition"
+  },
+  {
+    "title": "Carmen",
+    "artist": "Georges Bizet",
+    "year": 1875,
+    "genre": "classical",
+    "wikipediaTitle": "Carmen"
+  },
+  {
+    "title": "Piano Concerto No. 1",
+    "artist": "Pyotr Ilyich Tchaikovsky",
+    "year": 1875,
+    "genre": "classical",
+    "wikipediaTitle": "Piano Concerto No. 1 (Tchaikovsky)"
+  },
+  {
+    "title": "In the Hall of the Mountain King",
+    "artist": "Edvard Grieg",
+    "year": 1875,
+    "genre": "classical",
+    "wikipediaTitle": "In the Hall of the Mountain King"
+  },
+  {
+    "title": "Symphony No. 1",
+    "artist": "Johannes Brahms",
+    "year": 1876,
+    "genre": "classical",
+    "wikipediaTitle": "Symphony No. 1 (Brahms)"
+  },
+  {
+    "title": "Swan Lake",
+    "artist": "Pyotr Ilyich Tchaikovsky",
+    "year": 1876,
+    "genre": "classical",
+    "wikipediaTitle": "Swan Lake"
+  },
+  {
+    "title": "1812 Overture",
+    "artist": "Pyotr Ilyich Tchaikovsky",
+    "year": 1880,
+    "genre": "classical",
+    "wikipediaTitle": "1812 Overture"
+  },
+  {
+    "title": "Carnival of the Animals",
+    "artist": "Camille Saint-Saëns",
+    "year": 1886,
+    "genre": "classical",
+    "wikipediaTitle": "The Carnival of the Animals"
+  },
+  {
+    "title": "Scheherazade",
+    "artist": "Nikolai Rimsky-Korsakov",
+    "year": 1888,
+    "genre": "classical",
+    "wikipediaTitle": "Scheherazade (Rimsky-Korsakov)"
+  },
+  {
+    "title": "Gymnopédies",
+    "artist": "Erik Satie",
+    "year": 1888,
+    "genre": "classical",
+    "wikipediaTitle": "Gymnopédies"
+  },
+  {
+    "title": "The Nutcracker",
+    "artist": "Pyotr Ilyich Tchaikovsky",
+    "year": 1892,
+    "genre": "classical",
+    "wikipediaTitle": "The Nutcracker"
+  },
+  {
+    "title": "Prelude in C-sharp minor",
+    "artist": "Sergei Rachmaninoff",
+    "year": 1892,
+    "genre": "classical",
+    "wikipediaTitle": "Prelude in C-sharp minor (Rachmaninoff)"
+  },
+  {
+    "title": "Gnossiennes",
+    "artist": "Erik Satie",
+    "year": 1893,
+    "genre": "classical",
+    "wikipediaTitle": "Gnossiennes"
+  },
+  {
+    "title": "Symphony No. 9 'From the New World'",
+    "artist": "Antonín Dvořák",
+    "year": 1893,
+    "genre": "classical",
+    "wikipediaTitle": "Symphony No. 9 (Dvořák)"
+  },
+  {
+    "title": "Prélude à l'après-midi d'un faune",
+    "artist": "Claude Debussy",
+    "year": 1894,
+    "genre": "classical",
+    "wikipediaTitle": "Prélude à l'après-midi d'un faune"
+  },
+  {
+    "title": "La bohème",
+    "artist": "Giacomo Puccini",
+    "year": 1896,
+    "genre": "classical",
+    "wikipediaTitle": "La bohème"
+  },
+  {
+    "title": "Pavane for a Dead Princess",
+    "artist": "Maurice Ravel",
+    "year": 1899,
+    "genre": "classical",
+    "wikipediaTitle": "Pavane pour une infante défunte"
+  },
+  {
+    "title": "Tosca",
+    "artist": "Giacomo Puccini",
+    "year": 1900,
+    "genre": "classical",
+    "wikipediaTitle": "Tosca"
+  },
+  {
+    "title": "Flight of the Bumblebee",
+    "artist": "Nikolai Rimsky-Korsakov",
+    "year": 1900,
+    "genre": "classical",
+    "wikipediaTitle": "Flight of the Bumblebee"
+  },
+  {
+    "title": "Piano Concerto No. 2",
+    "artist": "Sergei Rachmaninoff",
+    "year": 1901,
+    "genre": "classical",
+    "wikipediaTitle": "Piano Concerto No. 2 (Rachmaninoff)"
+  },
+  {
+    "title": "Symphony No. 5",
+    "artist": "Gustav Mahler",
+    "year": 1902,
+    "genre": "classical",
+    "wikipediaTitle": "Symphony No. 5 (Mahler)"
+  },
+  {
+    "title": "Madama Butterfly",
+    "artist": "Giacomo Puccini",
+    "year": 1904,
+    "genre": "classical",
+    "wikipediaTitle": "Madama Butterfly"
+  },
+  {
+    "title": "Clair de lune",
+    "artist": "Claude Debussy",
+    "year": 1905,
+    "genre": "classical",
+    "wikipediaTitle": "Suite bergamasque"
+  },
+  {
+    "title": "The Firebird",
+    "artist": "Igor Stravinsky",
+    "year": 1910,
+    "genre": "classical",
+    "wikipediaTitle": "The Firebird"
+  },
+  {
+    "title": "The Rite of Spring",
+    "artist": "Igor Stravinsky",
+    "year": 1913,
+    "genre": "classical",
+    "wikipediaTitle": "The Rite of Spring"
+  },
+  {
+    "title": "Rhapsody in Blue",
+    "artist": "George Gershwin",
+    "year": 1924,
+    "genre": "classical",
+    "wikipediaTitle": "Rhapsody in Blue"
+  },
+  {
+    "title": "Nessun dorma",
+    "artist": "Giacomo Puccini",
+    "year": 1924,
+    "genre": "classical",
+    "wikipediaTitle": "Nessun dorma"
+  },
+  {
+    "title": "Boléro",
+    "artist": "Maurice Ravel",
+    "year": 1928,
+    "genre": "classical",
+    "wikipediaTitle": "Boléro"
+  },
+  {
+    "title": "Romeo and Juliet",
+    "artist": "Sergei Prokofiev",
+    "year": 1935,
+    "genre": "classical",
+    "wikipediaTitle": "Romeo and Juliet (Prokofiev)"
+  },
+  {
+    "title": "Peter and the Wolf",
+    "artist": "Sergei Prokofiev",
+    "year": 1936,
+    "genre": "classical",
+    "wikipediaTitle": "Peter and the Wolf"
+  },
+  {
+    "title": "O Fortuna",
+    "artist": "Carl Orff",
+    "year": 1937,
+    "genre": "classical",
+    "wikipediaTitle": "O Fortuna"
+  },
+  {
+    "title": "Symphony No. 5",
+    "artist": "Dmitri Shostakovich",
+    "year": 1937,
+    "genre": "classical",
+    "wikipediaTitle": "Symphony No. 5 (Shostakovich)"
+  },
+  {
+    "title": "Adagio for Strings",
+    "artist": "Samuel Barber",
+    "year": 1938,
+    "genre": "classical",
+    "wikipediaTitle": "Adagio for Strings"
+  },
+  {
+    "title": "Appalachian Spring",
+    "artist": "Aaron Copland",
+    "year": 1944,
+    "genre": "classical",
+    "wikipediaTitle": "Appalachian Spring"
+  },
+  {
+    "title": "Maple Leaf Rag",
+    "artist": "Scott Joplin",
+    "year": 1899,
+    "genre": "jazz",
+    "wikipediaTitle": "Maple Leaf Rag"
+  },
+  {
+    "title": "The Entertainer",
+    "artist": "Scott Joplin",
+    "year": 1902,
+    "genre": "jazz",
+    "wikipediaTitle": "The Entertainer (rag)"
+  },
+  {
+    "title": "West End Blues",
+    "artist": "Louis Armstrong",
+    "year": 1928,
+    "genre": "jazz",
+    "wikipediaTitle": "West End Blues"
+  },
+  {
+    "title": "Mood Indigo",
+    "artist": "Duke Ellington",
+    "year": 1930,
+    "genre": "jazz",
+    "wikipediaTitle": "Mood Indigo"
+  },
+  {
+    "title": "Strange Fruit",
+    "artist": "Billie Holiday",
+    "year": 1939,
+    "genre": "jazz",
+    "wikipediaTitle": "Strange Fruit"
+  },
+  {
+    "title": "In the Mood",
+    "artist": "Glenn Miller",
+    "year": 1939,
+    "genre": "jazz",
+    "wikipediaTitle": "In the Mood"
+  },
+  {
+    "title": "Moonlight Serenade",
+    "artist": "Glenn Miller",
+    "year": 1939,
+    "genre": "jazz",
+    "wikipediaTitle": "Moonlight Serenade"
+  },
+  {
+    "title": "Take the A Train",
+    "artist": "Duke Ellington",
+    "year": 1941,
+    "genre": "jazz",
+    "wikipediaTitle": "Take the 'A' Train"
+  },
+  {
+    "title": "God Bless the Child",
+    "artist": "Billie Holiday",
+    "year": 1941,
+    "genre": "jazz",
+    "wikipediaTitle": "God Bless the Child"
+  },
+  {
+    "title": "A Night in Tunisia",
+    "artist": "Dizzy Gillespie",
+    "year": 1942,
+    "genre": "jazz",
+    "wikipediaTitle": "A Night in Tunisia"
+  },
+  {
+    "title": "Round Midnight",
+    "artist": "Thelonious Monk",
+    "year": 1944,
+    "genre": "jazz",
+    "wikipediaTitle": "'Round Midnight (song)"
+  },
+  {
+    "title": "Ko-Ko",
+    "artist": "Charlie Parker",
+    "year": 1945,
+    "genre": "jazz",
+    "wikipediaTitle": "Ko-Ko (Charlie Parker song)"
+  },
+  {
+    "title": "Straight, No Chaser",
+    "artist": "Thelonious Monk",
+    "year": 1951,
+    "genre": "jazz",
+    "wikipediaTitle": "Straight, No Chaser (composition)"
+  },
+  {
+    "title": "My Funny Valentine",
+    "artist": "Chet Baker",
+    "year": 1954,
+    "genre": "jazz",
+    "wikipediaTitle": "My Funny Valentine"
+  },
+  {
+    "title": "So What",
+    "artist": "Miles Davis",
+    "year": 1959,
+    "genre": "jazz",
+    "wikipediaTitle": "So What (Miles Davis composition)"
+  },
+  {
+    "title": "Take Five",
+    "artist": "Dave Brubeck",
+    "year": 1959,
+    "genre": "jazz",
+    "wikipediaTitle": "Take Five"
+  },
+  {
+    "title": "Misty",
+    "artist": "Sarah Vaughan",
+    "year": 1959,
+    "genre": "jazz",
+    "wikipediaTitle": "Misty (song)"
+  },
+  {
+    "title": "Mack the Knife",
+    "artist": "Ella Fitzgerald",
+    "year": 1960,
+    "genre": "jazz",
+    "wikipediaTitle": "Mack the Knife"
+  },
+  {
+    "title": "Giant Steps",
+    "artist": "John Coltrane",
+    "year": 1960,
+    "genre": "jazz",
+    "wikipediaTitle": "Giant Steps"
+  },
+  {
+    "title": "Waltz for Debby",
+    "artist": "Bill Evans",
+    "year": 1961,
+    "genre": "jazz",
+    "wikipediaTitle": "Waltz for Debby (album)"
+  },
+  {
+    "title": "Watermelon Man",
+    "artist": "Herbie Hancock",
+    "year": 1962,
+    "genre": "jazz",
+    "wikipediaTitle": "Watermelon Man (composition)"
+  },
+  {
+    "title": "Cantaloupe Island",
+    "artist": "Herbie Hancock",
+    "year": 1964,
+    "genre": "jazz",
+    "wikipediaTitle": "Cantaloupe Island"
+  },
+  {
+    "title": "The Girl from Ipanema",
+    "artist": "Stan Getz",
+    "year": 1964,
+    "genre": "jazz",
+    "wikipediaTitle": "The Girl from Ipanema"
+  },
+  {
+    "title": "Fly Me to the Moon",
+    "artist": "Frank Sinatra",
+    "year": 1964,
+    "genre": "jazz",
+    "wikipediaTitle": "Fly Me to the Moon"
+  },
+  {
+    "title": "Feeling Good",
+    "artist": "Nina Simone",
+    "year": 1965,
+    "genre": "jazz",
+    "wikipediaTitle": "Feeling Good"
+  },
+  {
+    "title": "Sinnerman",
+    "artist": "Nina Simone",
+    "year": 1965,
+    "genre": "jazz",
+    "wikipediaTitle": "Sinnerman"
+  },
+  {
+    "title": "A Love Supreme",
+    "artist": "John Coltrane",
+    "year": 1965,
+    "genre": "jazz",
+    "wikipediaTitle": "A Love Supreme"
+  },
+  {
+    "title": "Strangers in the Night",
+    "artist": "Frank Sinatra",
+    "year": 1966,
+    "genre": "jazz",
+    "wikipediaTitle": "Strangers in the Night"
+  },
+  {
+    "title": "What a Wonderful World",
+    "artist": "Louis Armstrong",
+    "year": 1967,
+    "genre": "jazz",
+    "wikipediaTitle": "What a Wonderful World"
+  },
+  {
+    "title": "My Way",
+    "artist": "Frank Sinatra",
+    "year": 1969,
+    "genre": "jazz",
+    "wikipediaTitle": "My Way (Frank Sinatra song)"
+  },
+  {
+    "title": "St. Louis Blues",
+    "artist": "W. C. Handy",
+    "year": 1914,
+    "genre": "blues",
+    "wikipediaTitle": "Saint Louis Blues (song)"
+  },
+  {
+    "title": "Downhearted Blues",
+    "artist": "Bessie Smith",
+    "year": 1923,
+    "genre": "blues",
+    "wikipediaTitle": "Downhearted Blues"
+  },
+  {
+    "title": "See See Rider Blues",
+    "artist": "Ma Rainey",
+    "year": 1924,
+    "genre": "blues",
+    "wikipediaTitle": "See See Rider"
+  },
+  {
+    "title": "Black Snake Moan",
+    "artist": "Blind Lemon Jefferson",
+    "year": 1926,
+    "genre": "blues",
+    "wikipediaTitle": "Black Snake Moan (song)"
+  },
+  {
+    "title": "Goodnight, Irene",
+    "artist": "Lead Belly",
+    "year": 1933,
+    "genre": "blues",
+    "wikipediaTitle": "Goodnight, Irene"
+  },
+  {
+    "title": "Cross Road Blues",
+    "artist": "Robert Johnson",
+    "year": 1936,
+    "genre": "blues",
+    "wikipediaTitle": "Cross Road Blues"
+  },
+  {
+    "title": "Sweet Home Chicago",
+    "artist": "Robert Johnson",
+    "year": 1936,
+    "genre": "blues",
+    "wikipediaTitle": "Sweet Home Chicago"
+  },
+  {
+    "title": "Hellhound on My Trail",
+    "artist": "Robert Johnson",
+    "year": 1937,
+    "genre": "blues",
+    "wikipediaTitle": "Hellhound on My Trail"
+  },
+  {
+    "title": "Key to the Highway",
+    "artist": "Big Bill Broonzy",
+    "year": 1941,
+    "genre": "blues",
+    "wikipediaTitle": "Key to the Highway"
+  },
+  {
+    "title": "Call It Stormy Monday",
+    "artist": "T-Bone Walker",
+    "year": 1947,
+    "genre": "blues",
+    "wikipediaTitle": "Call It Stormy Monday (But Tuesday Is Just as Bad)"
+  },
+  {
+    "title": "Boogie Chillen'",
+    "artist": "John Lee Hooker",
+    "year": 1948,
+    "genre": "blues",
+    "wikipediaTitle": "Boogie Chillen'"
+  },
+  {
+    "title": "Rollin' Stone",
+    "artist": "Muddy Waters",
+    "year": 1950,
+    "genre": "blues",
+    "wikipediaTitle": "Rollin' Stone (Muddy Waters song)"
+  },
+  {
+    "title": "Three O'Clock Blues",
+    "artist": "B.B. King",
+    "year": 1951,
+    "genre": "blues",
+    "wikipediaTitle": "Three O'Clock Blues"
+  },
+  {
+    "title": "Dust My Broom",
+    "artist": "Elmore James",
+    "year": 1951,
+    "genre": "blues",
+    "wikipediaTitle": "Dust My Broom"
+  },
+  {
+    "title": "Hoochie Coochie Man",
+    "artist": "Muddy Waters",
+    "year": 1954,
+    "genre": "blues",
+    "wikipediaTitle": "Hoochie Coochie Man"
+  },
+  {
+    "title": "I Just Want to Make Love to You",
+    "artist": "Willie Dixon",
+    "year": 1954,
+    "genre": "blues",
+    "wikipediaTitle": "I Just Want to Make Love to You"
+  },
+  {
+    "title": "Mannish Boy",
+    "artist": "Muddy Waters",
+    "year": 1955,
+    "genre": "blues",
+    "wikipediaTitle": "Mannish Boy"
+  },
+  {
+    "title": "Bo Diddley",
+    "artist": "Bo Diddley",
+    "year": 1955,
+    "genre": "blues",
+    "wikipediaTitle": "Bo Diddley (song)"
+  },
+  {
+    "title": "Don't Start Me to Talkin'",
+    "artist": "Sonny Boy Williamson II",
+    "year": 1955,
+    "genre": "blues",
+    "wikipediaTitle": "Don't Start Me to Talkin'"
+  },
+  {
+    "title": "Smokestack Lightning",
+    "artist": "Howlin' Wolf",
+    "year": 1956,
+    "genre": "blues",
+    "wikipediaTitle": "Smokestack Lightning"
+  },
+  {
+    "title": "At Last",
+    "artist": "Etta James",
+    "year": 1960,
+    "genre": "blues",
+    "wikipediaTitle": "At Last"
+  },
+  {
+    "title": "Spoonful",
+    "artist": "Howlin' Wolf",
+    "year": 1960,
+    "genre": "blues",
+    "wikipediaTitle": "Spoonful"
+  },
+  {
+    "title": "Hide Away",
+    "artist": "Freddie King",
+    "year": 1961,
+    "genre": "blues",
+    "wikipediaTitle": "Hide Away (instrumental)"
+  },
+  {
+    "title": "Stone Crazy",
+    "artist": "Buddy Guy",
+    "year": 1962,
+    "genre": "blues",
+    "wikipediaTitle": "Stone Crazy (song)"
+  },
+  {
+    "title": "Boom Boom",
+    "artist": "John Lee Hooker",
+    "year": 1962,
+    "genre": "blues",
+    "wikipediaTitle": "Boom Boom (John Lee Hooker song)"
+  },
+  {
+    "title": "Born Under a Bad Sign",
+    "artist": "Albert King",
+    "year": 1967,
+    "genre": "blues",
+    "wikipediaTitle": "Born Under a Bad Sign (song)"
+  },
+  {
+    "title": "The Thrill Is Gone",
+    "artist": "B.B. King",
+    "year": 1969,
+    "genre": "blues",
+    "wikipediaTitle": "The Thrill Is Gone"
+  },
+  {
+    "title": "Pride and Joy",
+    "artist": "Stevie Ray Vaughan",
+    "year": 1983,
+    "genre": "blues",
+    "wikipediaTitle": "Pride and Joy (Stevie Ray Vaughan song)"
+  },
+  {
+    "title": "Texas Flood",
+    "artist": "Stevie Ray Vaughan",
+    "year": 1983,
+    "genre": "blues",
+    "wikipediaTitle": "Texas Flood (album)"
+  },
+  {
+    "title": "I Can't Make You Love Me",
+    "artist": "Bonnie Raitt",
+    "year": 1991,
+    "genre": "blues",
+    "wikipediaTitle": "I Can't Make You Love Me"
+  },
+  {
+    "title": "Rock Around the Clock",
+    "artist": "Bill Haley & His Comets",
+    "year": 1954,
+    "genre": "rock",
+    "wikipediaTitle": "Rock Around the Clock"
+  },
+  {
+    "title": "Heartbreak Hotel",
+    "artist": "Elvis Presley",
+    "year": 1956,
+    "genre": "rock",
+    "wikipediaTitle": "Heartbreak Hotel"
+  },
+  {
+    "title": "Hound Dog",
+    "artist": "Elvis Presley",
+    "year": 1956,
+    "genre": "rock",
+    "wikipediaTitle": "Hound Dog (song)"
+  },
+  {
+    "title": "Peggy Sue",
+    "artist": "Buddy Holly",
+    "year": 1957,
+    "genre": "rock",
+    "wikipediaTitle": "Peggy Sue (song)"
+  },
+  {
+    "title": "Johnny B. Goode",
+    "artist": "Chuck Berry",
+    "year": 1958,
+    "genre": "rock",
+    "wikipediaTitle": "Johnny B. Goode"
+  },
+  {
+    "title": "Yesterday",
+    "artist": "The Beatles",
+    "year": 1965,
+    "genre": "rock",
+    "wikipediaTitle": "Yesterday (Beatles song)"
+  },
+  {
+    "title": "(I Can't Get No) Satisfaction",
+    "artist": "The Rolling Stones",
+    "year": 1965,
+    "genre": "rock",
+    "wikipediaTitle": "(I Can't Get No) Satisfaction"
+  },
+  {
+    "title": "Good Vibrations",
+    "artist": "The Beach Boys",
+    "year": 1966,
+    "genre": "rock",
+    "wikipediaTitle": "Good Vibrations"
+  },
+  {
+    "title": "Paint It Black",
+    "artist": "The Rolling Stones",
+    "year": 1966,
+    "genre": "rock",
+    "wikipediaTitle": "Paint It Black"
+  },
+  {
+    "title": "A Day in the Life",
+    "artist": "The Beatles",
+    "year": 1967,
+    "genre": "rock",
+    "wikipediaTitle": "A Day in the Life"
+  },
+  {
+    "title": "Light My Fire",
+    "artist": "The Doors",
+    "year": 1967,
+    "genre": "rock",
+    "wikipediaTitle": "Light My Fire"
+  },
+  {
+    "title": "Purple Haze",
+    "artist": "Jimi Hendrix",
+    "year": 1967,
+    "genre": "rock",
+    "wikipediaTitle": "Purple Haze"
+  },
+  {
+    "title": "Hey Jude",
+    "artist": "The Beatles",
+    "year": 1968,
+    "genre": "rock",
+    "wikipediaTitle": "Hey Jude"
+  },
+  {
+    "title": "Sympathy for the Devil",
+    "artist": "The Rolling Stones",
+    "year": 1968,
+    "genre": "rock",
+    "wikipediaTitle": "Sympathy for the Devil"
+  },
+  {
+    "title": "Whole Lotta Love",
+    "artist": "Led Zeppelin",
+    "year": 1969,
+    "genre": "rock",
+    "wikipediaTitle": "Whole Lotta Love"
+  },
+  {
+    "title": "Let It Be",
+    "artist": "The Beatles",
+    "year": 1970,
+    "genre": "rock",
+    "wikipediaTitle": "Let It Be (Beatles song)"
+  },
+  {
+    "title": "Stairway to Heaven",
+    "artist": "Led Zeppelin",
+    "year": 1971,
+    "genre": "rock",
+    "wikipediaTitle": "Stairway to Heaven"
+  },
+  {
+    "title": "Baba O'Riley",
+    "artist": "The Who",
+    "year": 1971,
+    "genre": "rock",
+    "wikipediaTitle": "Baba O'Riley"
+  },
+  {
+    "title": "Money",
+    "artist": "Pink Floyd",
+    "year": 1973,
+    "genre": "rock",
+    "wikipediaTitle": "Money (Pink Floyd song)"
+  },
+  {
+    "title": "Dream On",
+    "artist": "Aerosmith",
+    "year": 1973,
+    "genre": "rock",
+    "wikipediaTitle": "Dream On (Aerosmith song)"
+  },
+  {
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "year": 1975,
+    "genre": "rock",
+    "wikipediaTitle": "Bohemian Rhapsody"
+  },
+  {
+    "title": "Kashmir",
+    "artist": "Led Zeppelin",
+    "year": 1975,
+    "genre": "rock",
+    "wikipediaTitle": "Kashmir (song)"
+  },
+  {
+    "title": "Wish You Were Here",
+    "artist": "Pink Floyd",
+    "year": 1975,
+    "genre": "rock",
+    "wikipediaTitle": "Wish You Were Here (Pink Floyd song)"
+  },
+  {
+    "title": "Hotel California",
+    "artist": "Eagles",
+    "year": 1976,
+    "genre": "rock",
+    "wikipediaTitle": "Hotel California (song)"
+  },
+  {
+    "title": "We Will Rock You",
+    "artist": "Queen",
+    "year": 1977,
+    "genre": "rock",
+    "wikipediaTitle": "We Will Rock You"
+  },
+  {
+    "title": "Comfortably Numb",
+    "artist": "Pink Floyd",
+    "year": 1979,
+    "genre": "rock",
+    "wikipediaTitle": "Comfortably Numb"
+  },
+  {
+    "title": "Highway to Hell",
+    "artist": "AC/DC",
+    "year": 1979,
+    "genre": "rock",
+    "wikipediaTitle": "Highway to Hell (song)"
+  },
+  {
+    "title": "Sweet Child o' Mine",
+    "artist": "Guns N' Roses",
+    "year": 1987,
+    "genre": "rock",
+    "wikipediaTitle": "Sweet Child o' Mine"
+  },
+  {
+    "title": "Smells Like Teen Spirit",
+    "artist": "Nirvana",
+    "year": 1991,
+    "genre": "rock",
+    "wikipediaTitle": "Smells Like Teen Spirit"
+  },
+  {
+    "title": "Seven Nation Army",
+    "artist": "The White Stripes",
+    "year": 2003,
+    "genre": "rock",
+    "wikipediaTitle": "Seven Nation Army"
+  },
+  {
+    "title": "White Christmas",
+    "artist": "Bing Crosby",
+    "year": 1942,
+    "genre": "pop",
+    "wikipediaTitle": "White Christmas (song)"
+  },
+  {
+    "title": "Where Did Our Love Go",
+    "artist": "The Supremes",
+    "year": 1964,
+    "genre": "pop",
+    "wikipediaTitle": "Where Did Our Love Go"
+  },
+  {
+    "title": "Superstition",
+    "artist": "Stevie Wonder",
+    "year": 1972,
+    "genre": "pop",
+    "wikipediaTitle": "Superstition (song)"
+  },
+  {
+    "title": "Mamma Mia",
+    "artist": "ABBA",
+    "year": 1975,
+    "genre": "pop",
+    "wikipediaTitle": "Mamma Mia (ABBA song)"
+  },
+  {
+    "title": "Dancing Queen",
+    "artist": "ABBA",
+    "year": 1976,
+    "genre": "pop",
+    "wikipediaTitle": "Dancing Queen"
+  },
+  {
+    "title": "Stayin' Alive",
+    "artist": "Bee Gees",
+    "year": 1977,
+    "genre": "pop",
+    "wikipediaTitle": "Stayin' Alive"
+  },
+  {
+    "title": "I Feel Love",
+    "artist": "Donna Summer",
+    "year": 1977,
+    "genre": "pop",
+    "wikipediaTitle": "I Feel Love"
+  },
+  {
+    "title": "Billie Jean",
+    "artist": "Michael Jackson",
+    "year": 1982,
+    "genre": "pop",
+    "wikipediaTitle": "Billie Jean"
+  },
+  {
+    "title": "Thriller",
+    "artist": "Michael Jackson",
+    "year": 1982,
+    "genre": "pop",
+    "wikipediaTitle": "Thriller (Michael Jackson song)"
+  },
+  {
+    "title": "Girls Just Want to Have Fun",
+    "artist": "Cyndi Lauper",
+    "year": 1983,
+    "genre": "pop",
+    "wikipediaTitle": "Girls Just Want to Have Fun"
+  },
+  {
+    "title": "When Doves Cry",
+    "artist": "Prince",
+    "year": 1984,
+    "genre": "pop",
+    "wikipediaTitle": "When Doves Cry"
+  },
+  {
+    "title": "Purple Rain",
+    "artist": "Prince",
+    "year": 1984,
+    "genre": "pop",
+    "wikipediaTitle": "Purple Rain (song)"
+  },
+  {
+    "title": "Like a Virgin",
+    "artist": "Madonna",
+    "year": 1984,
+    "genre": "pop",
+    "wikipediaTitle": "Like a Virgin (song)"
+  },
+  {
+    "title": "Careless Whisper",
+    "artist": "George Michael",
+    "year": 1984,
+    "genre": "pop",
+    "wikipediaTitle": "Careless Whisper"
+  },
+  {
+    "title": "I Wanna Dance with Somebody",
+    "artist": "Whitney Houston",
+    "year": 1987,
+    "genre": "pop",
+    "wikipediaTitle": "I Wanna Dance with Somebody (Who Loves Me)"
+  },
+  {
+    "title": "Like a Prayer",
+    "artist": "Madonna",
+    "year": 1989,
+    "genre": "pop",
+    "wikipediaTitle": "Like a Prayer (song)"
+  },
+  {
+    "title": "I Will Always Love You",
+    "artist": "Whitney Houston",
+    "year": 1992,
+    "genre": "pop",
+    "wikipediaTitle": "I Will Always Love You"
+  },
+  {
+    "title": "...Baby One More Time",
+    "artist": "Britney Spears",
+    "year": 1998,
+    "genre": "pop",
+    "wikipediaTitle": "...Baby One More Time (song)"
+  },
+  {
+    "title": "Genie in a Bottle",
+    "artist": "Christina Aguilera",
+    "year": 1999,
+    "genre": "pop",
+    "wikipediaTitle": "Genie in a Bottle"
+  },
+  {
+    "title": "I Want It That Way",
+    "artist": "Backstreet Boys",
+    "year": 1999,
+    "genre": "pop",
+    "wikipediaTitle": "I Want It That Way"
+  },
+  {
+    "title": "Crazy in Love",
+    "artist": "Beyoncé",
+    "year": 2003,
+    "genre": "pop",
+    "wikipediaTitle": "Crazy in Love"
+  },
+  {
+    "title": "Toxic",
+    "artist": "Britney Spears",
+    "year": 2003,
+    "genre": "pop",
+    "wikipediaTitle": "Toxic (song)"
+  },
+  {
+    "title": "Single Ladies (Put a Ring on It)",
+    "artist": "Beyoncé",
+    "year": 2008,
+    "genre": "pop",
+    "wikipediaTitle": "Single Ladies (Put a Ring on It)"
+  },
+  {
+    "title": "Poker Face",
+    "artist": "Lady Gaga",
+    "year": 2008,
+    "genre": "pop",
+    "wikipediaTitle": "Poker Face (Lady Gaga song)"
+  },
+  {
+    "title": "Bad Romance",
+    "artist": "Lady Gaga",
+    "year": 2009,
+    "genre": "pop",
+    "wikipediaTitle": "Bad Romance"
+  },
+  {
+    "title": "Rolling in the Deep",
+    "artist": "Adele",
+    "year": 2010,
+    "genre": "pop",
+    "wikipediaTitle": "Rolling in the Deep"
+  },
+  {
+    "title": "Shake It Off",
+    "artist": "Taylor Swift",
+    "year": 2014,
+    "genre": "pop",
+    "wikipediaTitle": "Shake It Off"
+  },
+  {
+    "title": "Blank Space",
+    "artist": "Taylor Swift",
+    "year": 2014,
+    "genre": "pop",
+    "wikipediaTitle": "Blank Space"
+  },
+  {
+    "title": "Hello",
+    "artist": "Adele",
+    "year": 2015,
+    "genre": "pop",
+    "wikipediaTitle": "Hello (Adele song)"
+  },
+  {
+    "title": "Shape of You",
+    "artist": "Ed Sheeran",
+    "year": 2017,
+    "genre": "pop",
+    "wikipediaTitle": "Shape of You"
+  },
+  {
+    "title": "Rapper's Delight",
+    "artist": "The Sugarhill Gang",
+    "year": 1979,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Rapper's Delight"
+  },
+  {
+    "title": "The Message",
+    "artist": "Grandmaster Flash and the Furious Five",
+    "year": 1982,
+    "genre": "hip-hop",
+    "wikipediaTitle": "The Message (Grandmaster Flash and the Furious Five song)"
+  },
+  {
+    "title": "Fight for Your Right",
+    "artist": "Beastie Boys",
+    "year": 1986,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Fight for Your Right"
+  },
+  {
+    "title": "Walk This Way",
+    "artist": "Run-DMC",
+    "year": 1986,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Walk This Way"
+  },
+  {
+    "title": "I Need Love",
+    "artist": "LL Cool J",
+    "year": 1987,
+    "genre": "hip-hop",
+    "wikipediaTitle": "I Need Love"
+  },
+  {
+    "title": "It's Tricky",
+    "artist": "Run-DMC",
+    "year": 1987,
+    "genre": "hip-hop",
+    "wikipediaTitle": "It's Tricky"
+  },
+  {
+    "title": "Straight Outta Compton",
+    "artist": "N.W.A",
+    "year": 1988,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Straight Outta Compton (song)"
+  },
+  {
+    "title": "Fight the Power",
+    "artist": "Public Enemy",
+    "year": 1989,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Fight the Power (Public Enemy song)"
+  },
+  {
+    "title": "U Can't Touch This",
+    "artist": "MC Hammer",
+    "year": 1990,
+    "genre": "hip-hop",
+    "wikipediaTitle": "U Can't Touch This"
+  },
+  {
+    "title": "Ice Ice Baby",
+    "artist": "Vanilla Ice",
+    "year": 1990,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Ice Ice Baby"
+  },
+  {
+    "title": "Can I Kick It?",
+    "artist": "A Tribe Called Quest",
+    "year": 1990,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Can I Kick It?"
+  },
+  {
+    "title": "Nuthin' but a 'G' Thang",
+    "artist": "Dr. Dre",
+    "year": 1992,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Nuthin' but a 'G' Thang"
+  },
+  {
+    "title": "C.R.E.A.M.",
+    "artist": "Wu-Tang Clan",
+    "year": 1993,
+    "genre": "hip-hop",
+    "wikipediaTitle": "C.R.E.A.M."
+  },
+  {
+    "title": "Juicy",
+    "artist": "The Notorious B.I.G.",
+    "year": 1994,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Juicy (Notorious B.I.G. song)"
+  },
+  {
+    "title": "Gin and Juice",
+    "artist": "Snoop Dogg",
+    "year": 1994,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Gin and Juice"
+  },
+  {
+    "title": "Sabotage",
+    "artist": "Beastie Boys",
+    "year": 1994,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Sabotage (Beastie Boys song)"
+  },
+  {
+    "title": "N.Y. State of Mind",
+    "artist": "Nas",
+    "year": 1994,
+    "genre": "hip-hop",
+    "wikipediaTitle": "N.Y. State of Mind"
+  },
+  {
+    "title": "California Love",
+    "artist": "2Pac",
+    "year": 1995,
+    "genre": "hip-hop",
+    "wikipediaTitle": "California Love"
+  },
+  {
+    "title": "Hypnotize",
+    "artist": "The Notorious B.I.G.",
+    "year": 1997,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Hypnotize (The Notorious B.I.G. song)"
+  },
+  {
+    "title": "Doo Wop (That Thing)",
+    "artist": "Lauryn Hill",
+    "year": 1998,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Doo Wop (That Thing)"
+  },
+  {
+    "title": "Changes",
+    "artist": "2Pac",
+    "year": 1998,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Changes (2Pac song)"
+  },
+  {
+    "title": "The Real Slim Shady",
+    "artist": "Eminem",
+    "year": 2000,
+    "genre": "hip-hop",
+    "wikipediaTitle": "The Real Slim Shady"
+  },
+  {
+    "title": "Lose Yourself",
+    "artist": "Eminem",
+    "year": 2002,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Lose Yourself"
+  },
+  {
+    "title": "Hey Ya!",
+    "artist": "OutKast",
+    "year": 2003,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Hey Ya!"
+  },
+  {
+    "title": "99 Problems",
+    "artist": "Jay-Z",
+    "year": 2003,
+    "genre": "hip-hop",
+    "wikipediaTitle": "99 Problems"
+  },
+  {
+    "title": "Gold Digger",
+    "artist": "Kanye West",
+    "year": 2005,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Gold Digger (Kanye West song)"
+  },
+  {
+    "title": "Stronger",
+    "artist": "Kanye West",
+    "year": 2007,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Stronger (Kanye West song)"
+  },
+  {
+    "title": "Alright",
+    "artist": "Kendrick Lamar",
+    "year": 2015,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Alright (Kendrick Lamar song)"
+  },
+  {
+    "title": "Hotline Bling",
+    "artist": "Drake",
+    "year": 2015,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Hotline Bling"
+  },
+  {
+    "title": "HUMBLE.",
+    "artist": "Kendrick Lamar",
+    "year": 2017,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Humble (song)"
+  },
+  {
+    "title": "Blue Yodel No. 1",
+    "artist": "Jimmie Rodgers",
+    "year": 1927,
+    "genre": "country",
+    "wikipediaTitle": "Blue Yodel No. 1"
+  },
+  {
+    "title": "Wildwood Flower",
+    "artist": "The Carter Family",
+    "year": 1928,
+    "genre": "country",
+    "wikipediaTitle": "Wildwood Flower"
+  },
+  {
+    "title": "San Antonio Rose",
+    "artist": "Bob Wills",
+    "year": 1938,
+    "genre": "country",
+    "wikipediaTitle": "San Antonio Rose"
+  },
+  {
+    "title": "I'm So Lonesome I Could Cry",
+    "artist": "Hank Williams",
+    "year": 1949,
+    "genre": "country",
+    "wikipediaTitle": "I'm So Lonesome I Could Cry"
+  },
+  {
+    "title": "Your Cheatin' Heart",
+    "artist": "Hank Williams",
+    "year": 1953,
+    "genre": "country",
+    "wikipediaTitle": "Your Cheatin' Heart"
+  },
+  {
+    "title": "Folsom Prison Blues",
+    "artist": "Johnny Cash",
+    "year": 1955,
+    "genre": "country",
+    "wikipediaTitle": "Folsom Prison Blues"
+  },
+  {
+    "title": "I Walk the Line",
+    "artist": "Johnny Cash",
+    "year": 1956,
+    "genre": "country",
+    "wikipediaTitle": "I Walk the Line"
+  },
+  {
+    "title": "Walkin' After Midnight",
+    "artist": "Patsy Cline",
+    "year": 1957,
+    "genre": "country",
+    "wikipediaTitle": "Walkin' After Midnight"
+  },
+  {
+    "title": "Crazy",
+    "artist": "Patsy Cline",
+    "year": 1961,
+    "genre": "country",
+    "wikipediaTitle": "Crazy (Willie Nelson song)"
+  },
+  {
+    "title": "Ring of Fire",
+    "artist": "Johnny Cash",
+    "year": 1963,
+    "genre": "country",
+    "wikipediaTitle": "Ring of Fire (song)"
+  },
+  {
+    "title": "Stand by Your Man",
+    "artist": "Tammy Wynette",
+    "year": 1968,
+    "genre": "country",
+    "wikipediaTitle": "Stand by Your Man"
+  },
+  {
+    "title": "Okie from Muskogee",
+    "artist": "Merle Haggard",
+    "year": 1969,
+    "genre": "country",
+    "wikipediaTitle": "Okie from Muskogee"
+  },
+  {
+    "title": "Coal Miner's Daughter",
+    "artist": "Loretta Lynn",
+    "year": 1970,
+    "genre": "country",
+    "wikipediaTitle": "Coal Miner's Daughter (song)"
+  },
+  {
+    "title": "Jolene",
+    "artist": "Dolly Parton",
+    "year": 1973,
+    "genre": "country",
+    "wikipediaTitle": "Jolene (song)"
+  },
+  {
+    "title": "Rhinestone Cowboy",
+    "artist": "Glen Campbell",
+    "year": 1975,
+    "genre": "country",
+    "wikipediaTitle": "Rhinestone Cowboy"
+  },
+  {
+    "title": "The Gambler",
+    "artist": "Kenny Rogers",
+    "year": 1978,
+    "genre": "country",
+    "wikipediaTitle": "The Gambler (Kenny Rogers song)"
+  },
+  {
+    "title": "The Devil Went Down to Georgia",
+    "artist": "The Charlie Daniels Band",
+    "year": 1979,
+    "genre": "country",
+    "wikipediaTitle": "The Devil Went Down to Georgia"
+  },
+  {
+    "title": "On the Road Again",
+    "artist": "Willie Nelson",
+    "year": 1980,
+    "genre": "country",
+    "wikipediaTitle": "On the Road Again (Willie Nelson song)"
+  },
+  {
+    "title": "9 to 5",
+    "artist": "Dolly Parton",
+    "year": 1980,
+    "genre": "country",
+    "wikipediaTitle": "9 to 5 (Dolly Parton song)"
+  },
+  {
+    "title": "Mountain Music",
+    "artist": "Alabama",
+    "year": 1982,
+    "genre": "country",
+    "wikipediaTitle": "Mountain Music (song)"
+  },
+  {
+    "title": "Always on My Mind",
+    "artist": "Willie Nelson",
+    "year": 1982,
+    "genre": "country",
+    "wikipediaTitle": "Always on My Mind"
+  },
+  {
+    "title": "The Dance",
+    "artist": "Garth Brooks",
+    "year": 1989,
+    "genre": "country",
+    "wikipediaTitle": "The Dance (Garth Brooks song)"
+  },
+  {
+    "title": "Friends in Low Places",
+    "artist": "Garth Brooks",
+    "year": 1990,
+    "genre": "country",
+    "wikipediaTitle": "Friends in Low Places"
+  },
+  {
+    "title": "Man! I Feel Like a Woman!",
+    "artist": "Shania Twain",
+    "year": 1997,
+    "genre": "country",
+    "wikipediaTitle": "Man! I Feel Like a Woman!"
+  },
+  {
+    "title": "Breathe",
+    "artist": "Faith Hill",
+    "year": 1999,
+    "genre": "country",
+    "wikipediaTitle": "Breathe (Faith Hill song)"
+  },
+  {
+    "title": "Whiskey Lullaby",
+    "artist": "Brad Paisley",
+    "year": 2003,
+    "genre": "country",
+    "wikipediaTitle": "Whiskey Lullaby"
+  },
+  {
+    "title": "Live Like You Were Dying",
+    "artist": "Tim McGraw",
+    "year": 2004,
+    "genre": "country",
+    "wikipediaTitle": "Live Like You Were Dying (song)"
+  },
+  {
+    "title": "Before He Cheats",
+    "artist": "Carrie Underwood",
+    "year": 2005,
+    "genre": "country",
+    "wikipediaTitle": "Before He Cheats"
+  },
+  {
+    "title": "The House That Built Me",
+    "artist": "Miranda Lambert",
+    "year": 2009,
+    "genre": "country",
+    "wikipediaTitle": "The House That Built Me"
+  },
+  {
+    "title": "Country Girl (Shake It for Me)",
+    "artist": "Luke Bryan",
+    "year": 2011,
+    "genre": "country",
+    "wikipediaTitle": "Country Girl (Shake It for Me)"
+  },
+  {
+    "title": "Wagon Wheel",
+    "artist": "Darius Rucker",
+    "year": 2013,
+    "genre": "country",
+    "wikipediaTitle": "Wagon Wheel (Old Crow Medicine Show song)"
+  },
+  {
+    "title": "Take Me Home, Country Roads",
+    "artist": "John Denver",
+    "year": 1971,
+    "genre": "country",
+    "wikipediaTitle": "Take Me Home, Country Roads"
+  },
+  {
+    "title": "Achy Breaky Heart",
+    "artist": "Billy Ray Cyrus",
+    "year": 1992,
+    "genre": "country",
+    "wikipediaTitle": "Achy Breaky Heart"
+  },
+  {
+    "title": "Neon Moon",
+    "artist": "Brooks & Dunn",
+    "year": 1992,
+    "genre": "country",
+    "wikipediaTitle": "Neon Moon"
+  },
+  {
+    "title": "Amazed",
+    "artist": "Lonestar",
+    "year": 1999,
+    "genre": "country",
+    "wikipediaTitle": "Amazed (Lonestar song)"
+  },
+  {
+    "title": "Cruise",
+    "artist": "Florida Georgia Line",
+    "year": 2012,
+    "genre": "country",
+    "wikipediaTitle": "Cruise (Florida Georgia Line song)"
+  },
+  {
+    "title": "Die a Happy Man",
+    "artist": "Thomas Rhett",
+    "year": 2015,
+    "genre": "country",
+    "wikipediaTitle": "Die a Happy Man"
+  },
+  {
+    "title": "Body Like a Back Road",
+    "artist": "Sam Hunt",
+    "year": 2017,
+    "genre": "country",
+    "wikipediaTitle": "Body Like a Back Road"
+  },
+  {
+    "title": "Meant to Be",
+    "artist": "Bebe Rexha & Florida Georgia Line",
+    "year": 2017,
+    "genre": "country",
+    "wikipediaTitle": "Meant to Be (Bebe Rexha song)"
+  },
+  {
+    "title": "Old Town Road",
+    "artist": "Lil Nas X",
+    "year": 2019,
+    "genre": "country",
+    "wikipediaTitle": "Old Town Road"
+  },
+  {
+    "title": "Little Wing",
+    "artist": "Stevie Ray Vaughan",
+    "year": 1983,
+    "genre": "blues",
+    "wikipediaTitle": "Little Wing"
+  },
+  {
+    "title": "Cold Shot",
+    "artist": "Stevie Ray Vaughan",
+    "year": 1985,
+    "genre": "blues",
+    "wikipediaTitle": "Cold Shot (Stevie Ray Vaughan song)"
+  },
+  {
+    "title": "Crossfire",
+    "artist": "Stevie Ray Vaughan",
+    "year": 1989,
+    "genre": "blues",
+    "wikipediaTitle": "Crossfire (Stevie Ray Vaughan song)"
+  },
+  {
+    "title": "Mary Had a Little Lamb",
+    "artist": "Stevie Ray Vaughan",
+    "year": 1983,
+    "genre": "blues",
+    "wikipediaTitle": "Mary Had a Little Lamb (Stevie Ray Vaughan song)"
+  },
+  {
+    "title": "My Favorite Things",
+    "artist": "John Coltrane",
+    "year": 1961,
+    "genre": "jazz",
+    "wikipediaTitle": "My Favorite Things (John Coltrane album)"
+  },
+  {
+    "title": "Maiden Voyage",
+    "artist": "Herbie Hancock",
+    "year": 1965,
+    "genre": "jazz",
+    "wikipediaTitle": "Maiden Voyage (Herbie Hancock album)"
+  },
+  {
+    "title": "Chameleon",
+    "artist": "Herbie Hancock",
+    "year": 1973,
+    "genre": "jazz",
+    "wikipediaTitle": "Chameleon (Herbie Hancock song)"
+  },
+  {
+    "title": "Night in Tunisia",
+    "artist": "Dizzy Gillespie",
+    "year": 1942,
+    "genre": "jazz",
+    "wikipediaTitle": "A Night in Tunisia"
+  },
+  {
+    "title": "Autumn Leaves",
+    "artist": "Miles Davis",
+    "year": 1958,
+    "genre": "jazz",
+    "wikipediaTitle": "Autumn Leaves (song)"
+  },
+  {
+    "title": "Birdland",
+    "artist": "Weather Report",
+    "year": 1977,
+    "genre": "jazz",
+    "wikipediaTitle": "Birdland (Weather Report song)"
+  },
+  {
+    "title": "Spain",
+    "artist": "Chick Corea",
+    "year": 1972,
+    "genre": "jazz",
+    "wikipediaTitle": "Spain (Chick Corea song)"
+  },
+  {
+    "title": "The Girl from Ipanema",
+    "artist": "Astrud Gilberto",
+    "year": 1964,
+    "genre": "jazz",
+    "wikipediaTitle": "The Girl from Ipanema"
+  },
+  {
+    "title": "Cantaloop (Flip Fantasia)",
+    "artist": "US3",
+    "year": 1993,
+    "genre": "jazz",
+    "wikipediaTitle": "Cantaloop (Flip Fantasia)"
+  },
+  {
+    "title": "Mo Money Mo Problems",
+    "artist": "The Notorious B.I.G.",
+    "year": 1997,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Mo Money Mo Problems"
+  },
+  {
+    "title": "Gangsta's Paradise",
+    "artist": "Coolio",
+    "year": 1995,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Gangsta's Paradise"
+  },
+  {
+    "title": "Regulate",
+    "artist": "Warren G",
+    "year": 1994,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Regulate (Warren G song)"
+  },
+  {
+    "title": "Passin' Me By",
+    "artist": "The Pharcyde",
+    "year": 1993,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Passin' Me By"
+  },
+  {
+    "title": "The Next Episode",
+    "artist": "Dr. Dre",
+    "year": 1999,
+    "genre": "hip-hop",
+    "wikipediaTitle": "The Next Episode"
+  },
+  {
+    "title": "Still D.R.E.",
+    "artist": "Dr. Dre",
+    "year": 1999,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Still D.R.E."
+  },
+  {
+    "title": "In Da Club",
+    "artist": "50 Cent",
+    "year": 2003,
+    "genre": "hip-hop",
+    "wikipediaTitle": "In da Club"
+  },
+  {
+    "title": "This Is America",
+    "artist": "Childish Gambino",
+    "year": 2018,
+    "genre": "hip-hop",
+    "wikipediaTitle": "This Is America (song)"
+  },
+  {
+    "title": "God's Plan",
+    "artist": "Drake",
+    "year": 2018,
+    "genre": "hip-hop",
+    "wikipediaTitle": "God's Plan (song)"
+  },
+  {
+    "title": "Sicko Mode",
+    "artist": "Travis Scott",
+    "year": 2018,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Sicko Mode"
+  },
+  {
+    "title": "Mask Off",
+    "artist": "Future",
+    "year": 2017,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Mask Off"
+  },
+  {
+    "title": "ROCKSTAR",
+    "artist": "DaBaby",
+    "year": 2020,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Rockstar (DaBaby song)"
+  },
+  {
+    "title": "Industry Baby",
+    "artist": "Lil Nas X",
+    "year": 2021,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Industry Baby"
+  },
+  {
+    "title": "Lucid Dreams",
+    "artist": "Juice WRLD",
+    "year": 2018,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Lucid Dreams (Juice Wrld song)"
+  },
+  {
+    "title": "Sunflower",
+    "artist": "Post Malone",
+    "year": 2018,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Sunflower (Post Malone and Swae Lee song)"
+  },
+  {
+    "title": "Circles",
+    "artist": "Post Malone",
+    "year": 2019,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Circles (Post Malone song)"
+  },
+  {
+    "title": "Rockstar",
+    "artist": "Post Malone",
+    "year": 2017,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Rockstar (Post Malone song)"
+  },
+  {
+    "title": "Welcome to the Party",
+    "artist": "Pop Smoke",
+    "year": 2019,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Welcome to the Party (Pop Smoke song)"
+  },
+  {
+    "title": "Bodak Yellow",
+    "artist": "Cardi B",
+    "year": 2017,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Bodak Yellow"
+  },
+  {
+    "title": "Twist and Shout",
+    "artist": "The Beatles",
+    "year": 1963,
+    "genre": "rock",
+    "wikipediaTitle": "Twist and Shout"
+  },
+  {
+    "title": "I Want to Hold Your Hand",
+    "artist": "The Beatles",
+    "year": 1963,
+    "genre": "rock",
+    "wikipediaTitle": "I Want to Hold Your Hand"
+  },
+  {
+    "title": "Come Together",
+    "artist": "The Beatles",
+    "year": 1969,
+    "genre": "rock",
+    "wikipediaTitle": "Come Together"
+  },
+  {
+    "title": "Like a Rolling Stone",
+    "artist": "Bob Dylan",
+    "year": 1965,
+    "genre": "rock",
+    "wikipediaTitle": "Like a Rolling Stone"
+  },
+  {
+    "title": "Blowin' in the Wind",
+    "artist": "Bob Dylan",
+    "year": 1963,
+    "genre": "rock",
+    "wikipediaTitle": "Blowin' in the Wind"
+  },
+  {
+    "title": "All Along the Watchtower",
+    "artist": "Jimi Hendrix",
+    "year": 1968,
+    "genre": "rock",
+    "wikipediaTitle": "All Along the Watchtower"
+  },
+  {
+    "title": "Layla",
+    "artist": "Derek and the Dominos",
+    "year": 1970,
+    "genre": "rock",
+    "wikipediaTitle": "Layla"
+  },
+  {
+    "title": "Smoke on the Water",
+    "artist": "Deep Purple",
+    "year": 1972,
+    "genre": "rock",
+    "wikipediaTitle": "Smoke on the Water"
+  },
+  {
+    "title": "Black Dog",
+    "artist": "Led Zeppelin",
+    "year": 1971,
+    "genre": "rock",
+    "wikipediaTitle": "Black Dog (Led Zeppelin song)"
+  },
+  {
+    "title": "Immigrant Song",
+    "artist": "Led Zeppelin",
+    "year": 1970,
+    "genre": "rock",
+    "wikipediaTitle": "Immigrant Song"
+  },
+  {
+    "title": "Rock and Roll",
+    "artist": "Led Zeppelin",
+    "year": 1971,
+    "genre": "rock",
+    "wikipediaTitle": "Rock and Roll (Led Zeppelin song)"
+  },
+  {
+    "title": "Free Bird",
+    "artist": "Lynyrd Skynyrd",
+    "year": 1973,
+    "genre": "rock",
+    "wikipediaTitle": "Free Bird"
+  },
+  {
+    "title": "Sweet Home Alabama",
+    "artist": "Lynyrd Skynyrd",
+    "year": 1974,
+    "genre": "rock",
+    "wikipediaTitle": "Sweet Home Alabama"
+  },
+  {
+    "title": "More Than a Feeling",
+    "artist": "Boston",
+    "year": 1976,
+    "genre": "rock",
+    "wikipediaTitle": "More Than a Feeling (Boston song)"
+  },
+  {
+    "title": "Dreams",
+    "artist": "Fleetwood Mac",
+    "year": 1977,
+    "genre": "rock",
+    "wikipediaTitle": "Dreams (Fleetwood Mac song)"
+  },
+  {
+    "title": "Go Your Own Way",
+    "artist": "Fleetwood Mac",
+    "year": 1977,
+    "genre": "rock",
+    "wikipediaTitle": "Go Your Own Way"
+  },
+  {
+    "title": "The Chain",
+    "artist": "Fleetwood Mac",
+    "year": 1977,
+    "genre": "rock",
+    "wikipediaTitle": "The Chain (Fleetwood Mac song)"
+  },
+  {
+    "title": "Don't Stop Believin'",
+    "artist": "Journey",
+    "year": 1981,
+    "genre": "rock",
+    "wikipediaTitle": "Don't Stop Believin'"
+  },
+  {
+    "title": "Open Arms",
+    "artist": "Journey",
+    "year": 1981,
+    "genre": "rock",
+    "wikipediaTitle": "Open Arms (Journey song)"
+  },
+  {
+    "title": "Jump",
+    "artist": "Van Halen",
+    "year": 1984,
+    "genre": "rock",
+    "wikipediaTitle": "Jump (Van Halen song)"
+  },
+  {
+    "title": "Panama",
+    "artist": "Van Halen",
+    "year": 1984,
+    "genre": "rock",
+    "wikipediaTitle": "Panama (Van Halen song)"
+  },
+  {
+    "title": "Born to Run",
+    "artist": "Bruce Springsteen",
+    "year": 1975,
+    "genre": "rock",
+    "wikipediaTitle": "Born to Run (song)"
+  },
+  {
+    "title": "Born in the U.S.A.",
+    "artist": "Bruce Springsteen",
+    "year": 1984,
+    "genre": "rock",
+    "wikipediaTitle": "Born in the U.S.A."
+  },
+  {
+    "title": "Roxanne",
+    "artist": "The Police",
+    "year": 1978,
+    "genre": "rock",
+    "wikipediaTitle": "Roxanne (The Police song)"
+  },
+  {
+    "title": "Every Breath You Take",
+    "artist": "The Police",
+    "year": 1983,
+    "genre": "rock",
+    "wikipediaTitle": "Every Breath You Take"
+  },
+  {
+    "title": "Message in a Bottle",
+    "artist": "The Police",
+    "year": 1979,
+    "genre": "rock",
+    "wikipediaTitle": "Message in a Bottle (song)"
+  },
+  {
+    "title": "Eye of the Tiger",
+    "artist": "Survivor",
+    "year": 1982,
+    "genre": "rock",
+    "wikipediaTitle": "Eye of the Tiger"
+  },
+  {
+    "title": "I Love Rock 'n' Roll",
+    "artist": "Joan Jett",
+    "year": 1982,
+    "genre": "rock",
+    "wikipediaTitle": "I Love Rock 'n' Roll"
+  },
+  {
+    "title": "Runnin' with the Devil",
+    "artist": "Van Halen",
+    "year": 1978,
+    "genre": "rock",
+    "wikipediaTitle": "Runnin' with the Devil"
+  },
+  {
+    "title": "Barracuda",
+    "artist": "Heart",
+    "year": 1977,
+    "genre": "rock",
+    "wikipediaTitle": "Barracuda (song)"
+  },
+  {
+    "title": "Crazy on You",
+    "artist": "Heart",
+    "year": 1976,
+    "genre": "rock",
+    "wikipediaTitle": "Crazy on You"
+  },
+  {
+    "title": "Anarchy in the U.K.",
+    "artist": "Sex Pistols",
+    "year": 1976,
+    "genre": "rock",
+    "wikipediaTitle": "Anarchy in the U.K."
+  },
+  {
+    "title": "God Save the Queen",
+    "artist": "Sex Pistols",
+    "year": 1977,
+    "genre": "rock",
+    "wikipediaTitle": "God Save the Queen (Sex Pistols song)"
+  },
+  {
+    "title": "London Calling",
+    "artist": "The Clash",
+    "year": 1979,
+    "genre": "rock",
+    "wikipediaTitle": "London Calling (song)"
+  },
+  {
+    "title": "Should I Stay or Should I Go",
+    "artist": "The Clash",
+    "year": 1982,
+    "genre": "rock",
+    "wikipediaTitle": "Should I Stay or Should I Go"
+  },
+  {
+    "title": "Rock the Casbah",
+    "artist": "The Clash",
+    "year": 1982,
+    "genre": "rock",
+    "wikipediaTitle": "Rock the Casbah"
+  },
+  {
+    "title": "Blitzkrieg Bop",
+    "artist": "Ramones",
+    "year": 1976,
+    "genre": "rock",
+    "wikipediaTitle": "Blitzkrieg Bop"
+  },
+  {
+    "title": "I Wanna Be Sedated",
+    "artist": "Ramones",
+    "year": 1978,
+    "genre": "rock",
+    "wikipediaTitle": "I Wanna Be Sedated"
+  },
+  {
+    "title": "Sheena Is a Punk Rocker",
+    "artist": "Ramones",
+    "year": 1977,
+    "genre": "rock",
+    "wikipediaTitle": "Sheena Is a Punk Rocker"
+  },
+  {
+    "title": "Basket Case",
+    "artist": "Green Day",
+    "year": 1994,
+    "genre": "rock",
+    "wikipediaTitle": "Basket Case (Green Day song)"
+  },
+  {
+    "title": "Good Riddance (Time of Your Life)",
+    "artist": "Green Day",
+    "year": 1997,
+    "genre": "rock",
+    "wikipediaTitle": "Good Riddance (Time of Your Life)"
+  },
+  {
+    "title": "American Idiot",
+    "artist": "Green Day",
+    "year": 2004,
+    "genre": "rock",
+    "wikipediaTitle": "American Idiot (song)"
+  },
+  {
+    "title": "Boulevard of Broken Dreams",
+    "artist": "Green Day",
+    "year": 2004,
+    "genre": "rock",
+    "wikipediaTitle": "Boulevard of Broken Dreams"
+  },
+  {
+    "title": "All the Small Things",
+    "artist": "Blink-182",
+    "year": 1999,
+    "genre": "rock",
+    "wikipediaTitle": "All the Small Things"
+  },
+  {
+    "title": "What's My Age Again?",
+    "artist": "Blink-182",
+    "year": 1999,
+    "genre": "rock",
+    "wikipediaTitle": "What's My Age Again?"
+  },
+  {
+    "title": "Dammit",
+    "artist": "Blink-182",
+    "year": 1997,
+    "genre": "rock",
+    "wikipediaTitle": "Dammit (Blink-182 song)"
+  },
+  {
+    "title": "I Miss You",
+    "artist": "Blink-182",
+    "year": 2003,
+    "genre": "rock",
+    "wikipediaTitle": "I Miss You (Blink-182 song)"
+  },
+  {
+    "title": "Fat Lip",
+    "artist": "Sum 41",
+    "year": 2001,
+    "genre": "rock",
+    "wikipediaTitle": "Fat Lip (Sum 41 song)"
+  },
+  {
+    "title": "Losing My Religion",
+    "artist": "R.E.M.",
+    "year": 1991,
+    "genre": "rock",
+    "wikipediaTitle": "Losing My Religion"
+  },
+  {
+    "title": "Everybody Hurts",
+    "artist": "R.E.M.",
+    "year": 1992,
+    "genre": "rock",
+    "wikipediaTitle": "Everybody Hurts"
+  },
+  {
+    "title": "Creep",
+    "artist": "Radiohead",
+    "year": 1992,
+    "genre": "rock",
+    "wikipediaTitle": "Creep (Radiohead song)"
+  },
+  {
+    "title": "Karma Police",
+    "artist": "Radiohead",
+    "year": 1997,
+    "genre": "rock",
+    "wikipediaTitle": "Karma Police"
+  },
+  {
+    "title": "Where Is My Mind?",
+    "artist": "Pixies",
+    "year": 1988,
+    "genre": "rock",
+    "wikipediaTitle": "Where Is My Mind?"
+  },
+  {
+    "title": "Here Comes Your Man",
+    "artist": "Pixies",
+    "year": 1989,
+    "genre": "rock",
+    "wikipediaTitle": "Here Comes Your Man"
+  },
+  {
+    "title": "Everlong",
+    "artist": "Foo Fighters",
+    "year": 1997,
+    "genre": "rock",
+    "wikipediaTitle": "Everlong"
+  },
+  {
+    "title": "Best of You",
+    "artist": "Foo Fighters",
+    "year": 2005,
+    "genre": "rock",
+    "wikipediaTitle": "Best of You"
+  },
+  {
+    "title": "The Pretender",
+    "artist": "Foo Fighters",
+    "year": 2007,
+    "genre": "rock",
+    "wikipediaTitle": "The Pretender (Foo Fighters song)"
+  },
+  {
+    "title": "Learn to Fly",
+    "artist": "Foo Fighters",
+    "year": 1999,
+    "genre": "rock",
+    "wikipediaTitle": "Learn to Fly (Foo Fighters song)"
+  },
+  {
+    "title": "Under the Bridge",
+    "artist": "Red Hot Chili Peppers",
+    "year": 1992,
+    "genre": "rock",
+    "wikipediaTitle": "Under the Bridge"
+  },
+  {
+    "title": "Californication",
+    "artist": "Red Hot Chili Peppers",
+    "year": 1999,
+    "genre": "rock",
+    "wikipediaTitle": "Californication (song)"
+  },
+  {
+    "title": "Scar Tissue",
+    "artist": "Red Hot Chili Peppers",
+    "year": 1999,
+    "genre": "rock",
+    "wikipediaTitle": "Scar Tissue"
+  },
+  {
+    "title": "By the Way",
+    "artist": "Red Hot Chili Peppers",
+    "year": 2002,
+    "genre": "rock",
+    "wikipediaTitle": "By the Way (Red Hot Chili Peppers song)"
+  },
+  {
+    "title": "Black Hole Sun",
+    "artist": "Soundgarden",
+    "year": 1994,
+    "genre": "rock",
+    "wikipediaTitle": "Black Hole Sun"
+  },
+  {
+    "title": "Spoonman",
+    "artist": "Soundgarden",
+    "year": 1994,
+    "genre": "rock",
+    "wikipediaTitle": "Spoonman"
+  },
+  {
+    "title": "Man in the Box",
+    "artist": "Alice in Chains",
+    "year": 1991,
+    "genre": "rock",
+    "wikipediaTitle": "Man in the Box"
+  },
+  {
+    "title": "Rooster",
+    "artist": "Alice in Chains",
+    "year": 1993,
+    "genre": "rock",
+    "wikipediaTitle": "Rooster (song)"
+  },
+  {
+    "title": "Would?",
+    "artist": "Alice in Chains",
+    "year": 1992,
+    "genre": "rock",
+    "wikipediaTitle": "Would? (song)"
+  },
+  {
+    "title": "Jeremy",
+    "artist": "Pearl Jam",
+    "year": 1991,
+    "genre": "rock",
+    "wikipediaTitle": "Jeremy (song)"
+  },
+  {
+    "title": "Even Flow",
+    "artist": "Pearl Jam",
+    "year": 1992,
+    "genre": "rock",
+    "wikipediaTitle": "Even Flow"
+  },
+  {
+    "title": "Alive",
+    "artist": "Pearl Jam",
+    "year": 1991,
+    "genre": "rock",
+    "wikipediaTitle": "Alive (Pearl Jam song)"
+  },
+  {
+    "title": "Come as You Are",
+    "artist": "Nirvana",
+    "year": 1991,
+    "genre": "rock",
+    "wikipediaTitle": "Come as You Are (Nirvana song)"
+  },
+  {
+    "title": "Heart-Shaped Box",
+    "artist": "Nirvana",
+    "year": 1993,
+    "genre": "rock",
+    "wikipediaTitle": "Heart-Shaped Box (song)"
+  },
+  {
+    "title": "In the End",
+    "artist": "Linkin Park",
+    "year": 2000,
+    "genre": "rock",
+    "wikipediaTitle": "In the End"
+  },
+  {
+    "title": "Numb",
+    "artist": "Linkin Park",
+    "year": 2003,
+    "genre": "rock",
+    "wikipediaTitle": "Numb (Linkin Park song)"
+  },
+  {
+    "title": "Crawling",
+    "artist": "Linkin Park",
+    "year": 2000,
+    "genre": "rock",
+    "wikipediaTitle": "Crawling (Linkin Park song)"
+  },
+  {
+    "title": "Breaking the Habit",
+    "artist": "Linkin Park",
+    "year": 2004,
+    "genre": "rock",
+    "wikipediaTitle": "Breaking the Habit"
+  },
+  {
+    "title": "Chop Suey!",
+    "artist": "System of a Down",
+    "year": 2001,
+    "genre": "rock",
+    "wikipediaTitle": "Chop Suey!"
+  },
+  {
+    "title": "B.Y.O.B.",
+    "artist": "System of a Down",
+    "year": 2005,
+    "genre": "rock",
+    "wikipediaTitle": "B.Y.O.B."
+  },
+  {
+    "title": "Mr. Brightside",
+    "artist": "The Killers",
+    "year": 2003,
+    "genre": "rock",
+    "wikipediaTitle": "Mr. Brightside"
+  },
+  {
+    "title": "Human",
+    "artist": "The Killers",
+    "year": 2008,
+    "genre": "rock",
+    "wikipediaTitle": "Human (The Killers song)"
+  },
+  {
+    "title": "Last Nite",
+    "artist": "The Strokes",
+    "year": 2001,
+    "genre": "rock",
+    "wikipediaTitle": "Last Nite"
+  },
+  {
+    "title": "Reptilia",
+    "artist": "The Strokes",
+    "year": 2003,
+    "genre": "rock",
+    "wikipediaTitle": "Reptilia"
+  },
+  {
+    "title": "Sex on Fire",
+    "artist": "Kings of Leon",
+    "year": 2008,
+    "genre": "rock",
+    "wikipediaTitle": "Sex on Fire"
+  },
+  {
+    "title": "Use Somebody",
+    "artist": "Kings of Leon",
+    "year": 2008,
+    "genre": "rock",
+    "wikipediaTitle": "Use Somebody"
+  },
+  {
+    "title": "Yellow",
+    "artist": "Coldplay",
+    "year": 2000,
+    "genre": "rock",
+    "wikipediaTitle": "Yellow (Coldplay song)"
+  },
+  {
+    "title": "Clocks",
+    "artist": "Coldplay",
+    "year": 2002,
+    "genre": "rock",
+    "wikipediaTitle": "Clocks (song)"
+  },
+  {
+    "title": "The Scientist",
+    "artist": "Coldplay",
+    "year": 2002,
+    "genre": "rock",
+    "wikipediaTitle": "The Scientist (song)"
+  },
+  {
+    "title": "Fix You",
+    "artist": "Coldplay",
+    "year": 2005,
+    "genre": "rock",
+    "wikipediaTitle": "Fix You"
+  },
+  {
+    "title": "Viva la Vida",
+    "artist": "Coldplay",
+    "year": 2008,
+    "genre": "rock",
+    "wikipediaTitle": "Viva la Vida"
+  },
+  {
+    "title": "Feel Good Inc.",
+    "artist": "Gorillaz",
+    "year": 2005,
+    "genre": "rock",
+    "wikipediaTitle": "Feel Good Inc."
+  },
+  {
+    "title": "Clint Eastwood",
+    "artist": "Gorillaz",
+    "year": 2001,
+    "genre": "rock",
+    "wikipediaTitle": "Clint Eastwood (song)"
+  },
+  {
+    "title": "Welcome to the Black Parade",
+    "artist": "My Chemical Romance",
+    "year": 2006,
+    "genre": "rock",
+    "wikipediaTitle": "Welcome to the Black Parade"
+  },
+  {
+    "title": "Helena",
+    "artist": "My Chemical Romance",
+    "year": 2004,
+    "genre": "rock",
+    "wikipediaTitle": "Helena (So Long & Goodnight)"
+  },
+  {
+    "title": "I'm Not Okay (I Promise)",
+    "artist": "My Chemical Romance",
+    "year": 2004,
+    "genre": "rock",
+    "wikipediaTitle": "I'm Not Okay (I Promise)"
+  },
+  {
+    "title": "Misery Business",
+    "artist": "Paramore",
+    "year": 2007,
+    "genre": "rock",
+    "wikipediaTitle": "Misery Business"
+  },
+  {
+    "title": "Supermassive Black Hole",
+    "artist": "Muse",
+    "year": 2006,
+    "genre": "rock",
+    "wikipediaTitle": "Supermassive Black Hole"
+  },
+  {
+    "title": "Uprising",
+    "artist": "Muse",
+    "year": 2009,
+    "genre": "rock",
+    "wikipediaTitle": "Uprising (Muse song)"
+  },
+  {
+    "title": "Knights of Cydonia",
+    "artist": "Muse",
+    "year": 2006,
+    "genre": "rock",
+    "wikipediaTitle": "Knights of Cydonia"
+  },
+  {
+    "title": "Take Me Out",
+    "artist": "Franz Ferdinand",
+    "year": 2004,
+    "genre": "rock",
+    "wikipediaTitle": "Take Me Out (Franz Ferdinand song)"
+  },
+  {
+    "title": "Maps",
+    "artist": "Yeah Yeah Yeahs",
+    "year": 2003,
+    "genre": "rock",
+    "wikipediaTitle": "Maps (Yeah Yeah Yeahs song)"
+  },
+  {
+    "title": "Fell in Love with a Girl",
+    "artist": "The White Stripes",
+    "year": 2002,
+    "genre": "rock",
+    "wikipediaTitle": "Fell in Love with a Girl"
+  },
+  {
+    "title": "Somebody That I Used to Know",
+    "artist": "Gotye",
+    "year": 2011,
+    "genre": "rock",
+    "wikipediaTitle": "Somebody That I Used to Know"
+  },
+  {
+    "title": "Iron Man",
+    "artist": "Black Sabbath",
+    "year": 1970,
+    "genre": "rock",
+    "wikipediaTitle": "Iron Man (song)"
+  },
+  {
+    "title": "Paranoid",
+    "artist": "Black Sabbath",
+    "year": 1970,
+    "genre": "rock",
+    "wikipediaTitle": "Paranoid (Black Sabbath song)"
+  },
+  {
+    "title": "War Pigs",
+    "artist": "Black Sabbath",
+    "year": 1970,
+    "genre": "rock",
+    "wikipediaTitle": "War Pigs"
+  },
+  {
+    "title": "Children of the Grave",
+    "artist": "Black Sabbath",
+    "year": 1971,
+    "genre": "rock",
+    "wikipediaTitle": "Children of the Grave"
+  },
+  {
+    "title": "Crazy Train",
+    "artist": "Ozzy Osbourne",
+    "year": 1980,
+    "genre": "rock",
+    "wikipediaTitle": "Crazy Train"
+  },
+  {
+    "title": "Hells Bells",
+    "artist": "AC/DC",
+    "year": 1980,
+    "genre": "rock",
+    "wikipediaTitle": "Hells Bells"
+  },
+  {
+    "title": "Back in Black",
+    "artist": "AC/DC",
+    "year": 1980,
+    "genre": "rock",
+    "wikipediaTitle": "Back in Black (song)"
+  },
+  {
+    "title": "Thunderstruck",
+    "artist": "AC/DC",
+    "year": 1990,
+    "genre": "rock",
+    "wikipediaTitle": "Thunderstruck (AC/DC song)"
+  },
+  {
+    "title": "You Shook Me All Night Long",
+    "artist": "AC/DC",
+    "year": 1980,
+    "genre": "rock",
+    "wikipediaTitle": "You Shook Me All Night Long"
+  },
+  {
+    "title": "Enter Sandman",
+    "artist": "Metallica",
+    "year": 1991,
+    "genre": "rock",
+    "wikipediaTitle": "Enter Sandman"
+  },
+  {
+    "title": "Master of Puppets",
+    "artist": "Metallica",
+    "year": 1986,
+    "genre": "rock",
+    "wikipediaTitle": "Master of Puppets (song)"
+  },
+  {
+    "title": "One",
+    "artist": "Metallica",
+    "year": 1989,
+    "genre": "rock",
+    "wikipediaTitle": "One (Metallica song)"
+  },
+  {
+    "title": "Fade to Black",
+    "artist": "Metallica",
+    "year": 1984,
+    "genre": "rock",
+    "wikipediaTitle": "Fade to Black (Metallica song)"
+  },
+  {
+    "title": "Nothing Else Matters",
+    "artist": "Metallica",
+    "year": 1991,
+    "genre": "rock",
+    "wikipediaTitle": "Nothing Else Matters"
+  },
+  {
+    "title": "The Unforgiven",
+    "artist": "Metallica",
+    "year": 1991,
+    "genre": "rock",
+    "wikipediaTitle": "The Unforgiven"
+  },
+  {
+    "title": "The Number of the Beast",
+    "artist": "Iron Maiden",
+    "year": 1982,
+    "genre": "rock",
+    "wikipediaTitle": "The Number of the Beast (song)"
+  },
+  {
+    "title": "Run to the Hills",
+    "artist": "Iron Maiden",
+    "year": 1982,
+    "genre": "rock",
+    "wikipediaTitle": "Run to the Hills"
+  },
+  {
+    "title": "Aces High",
+    "artist": "Iron Maiden",
+    "year": 1984,
+    "genre": "rock",
+    "wikipediaTitle": "Aces High"
+  },
+  {
+    "title": "Fear of the Dark",
+    "artist": "Iron Maiden",
+    "year": 1992,
+    "genre": "rock",
+    "wikipediaTitle": "Fear of the Dark (Iron Maiden song)"
+  },
+  {
+    "title": "Raining Blood",
+    "artist": "Slayer",
+    "year": 1986,
+    "genre": "rock",
+    "wikipediaTitle": "Raining Blood"
+  },
+  {
+    "title": "Peace Sells",
+    "artist": "Megadeth",
+    "year": 1986,
+    "genre": "rock",
+    "wikipediaTitle": "Peace Sells"
+  },
+  {
+    "title": "Symphony of Destruction",
+    "artist": "Megadeth",
+    "year": 1992,
+    "genre": "rock",
+    "wikipediaTitle": "Symphony of Destruction"
+  },
+  {
+    "title": "Cowboys from Hell",
+    "artist": "Pantera",
+    "year": 1990,
+    "genre": "rock",
+    "wikipediaTitle": "Cowboys from Hell (song)"
+  },
+  {
+    "title": "Walk",
+    "artist": "Pantera",
+    "year": 1992,
+    "genre": "rock",
+    "wikipediaTitle": "Walk (Pantera song)"
+  },
+  {
+    "title": "Welcome to the Jungle",
+    "artist": "Guns N' Roses",
+    "year": 1987,
+    "genre": "rock",
+    "wikipediaTitle": "Welcome to the Jungle"
+  },
+  {
+    "title": "November Rain",
+    "artist": "Guns N' Roses",
+    "year": 1991,
+    "genre": "rock",
+    "wikipediaTitle": "November Rain"
+  },
+  {
+    "title": "Paradise City",
+    "artist": "Guns N' Roses",
+    "year": 1987,
+    "genre": "rock",
+    "wikipediaTitle": "Paradise City (song)"
+  },
+  {
+    "title": "Patience",
+    "artist": "Guns N' Roses",
+    "year": 1989,
+    "genre": "rock",
+    "wikipediaTitle": "Patience (Guns N' Roses song)"
+  },
+  {
+    "title": "Livin' on a Prayer",
+    "artist": "Bon Jovi",
+    "year": 1986,
+    "genre": "rock",
+    "wikipediaTitle": "Livin' on a Prayer"
+  },
+  {
+    "title": "Wanted Dead or Alive",
+    "artist": "Bon Jovi",
+    "year": 1986,
+    "genre": "rock",
+    "wikipediaTitle": "Wanted Dead or Alive (Bon Jovi song)"
+  },
+  {
+    "title": "You Give Love a Bad Name",
+    "artist": "Bon Jovi",
+    "year": 1986,
+    "genre": "rock",
+    "wikipediaTitle": "You Give Love a Bad Name"
+  },
+  {
+    "title": "Pour Some Sugar on Me",
+    "artist": "Def Leppard",
+    "year": 1987,
+    "genre": "rock",
+    "wikipediaTitle": "Pour Some Sugar on Me"
+  },
+  {
+    "title": "Photograph",
+    "artist": "Def Leppard",
+    "year": 1983,
+    "genre": "rock",
+    "wikipediaTitle": "Photograph (Def Leppard song)"
+  },
+  {
+    "title": "I Think We're Alone Now",
+    "artist": "Tommy James and the Shondells",
+    "year": 1967,
+    "genre": "pop",
+    "wikipediaTitle": "I Think We're Alone Now"
+  },
+  {
+    "title": "I Heard It Through the Grapevine",
+    "artist": "Marvin Gaye",
+    "year": 1968,
+    "genre": "pop",
+    "wikipediaTitle": "I Heard It Through the Grapevine"
+  },
+  {
+    "title": "My Girl",
+    "artist": "The Temptations",
+    "year": 1964,
+    "genre": "pop",
+    "wikipediaTitle": "My Girl (The Temptations song)"
+  },
+  {
+    "title": "Ain't No Mountain High Enough",
+    "artist": "Marvin Gaye & Tammi Terrell",
+    "year": 1967,
+    "genre": "pop",
+    "wikipediaTitle": "Ain't No Mountain High Enough"
+  },
+  {
+    "title": "Stop! In the Name of Love",
+    "artist": "The Supremes",
+    "year": 1965,
+    "genre": "pop",
+    "wikipediaTitle": "Stop! In the Name of Love"
+  },
+  {
+    "title": "I'll Be There",
+    "artist": "Jackson 5",
+    "year": 1970,
+    "genre": "pop",
+    "wikipediaTitle": "I'll Be There (Jackson 5 song)"
+  },
+  {
+    "title": "ABC",
+    "artist": "Jackson 5",
+    "year": 1970,
+    "genre": "pop",
+    "wikipediaTitle": "ABC (Jackson 5 song)"
+  },
+  {
+    "title": "I Want You Back",
+    "artist": "Jackson 5",
+    "year": 1969,
+    "genre": "pop",
+    "wikipediaTitle": "I Want You Back"
+  },
+  {
+    "title": "Sir Duke",
+    "artist": "Stevie Wonder",
+    "year": 1977,
+    "genre": "pop",
+    "wikipediaTitle": "Sir Duke"
+  },
+  {
+    "title": "I Just Called to Say I Love You",
+    "artist": "Stevie Wonder",
+    "year": 1984,
+    "genre": "pop",
+    "wikipediaTitle": "I Just Called to Say I Love You"
+  },
+  {
+    "title": "Don't You Want Me",
+    "artist": "Human League",
+    "year": 1981,
+    "genre": "pop",
+    "wikipediaTitle": "Don't You Want Me"
+  },
+  {
+    "title": "Take On Me",
+    "artist": "a-ha",
+    "year": 1985,
+    "genre": "pop",
+    "wikipediaTitle": "Take On Me"
+  },
+  {
+    "title": "Don't You (Forget About Me)",
+    "artist": "Simple Minds",
+    "year": 1985,
+    "genre": "pop",
+    "wikipediaTitle": "Don't You (Forget About Me)"
+  },
+  {
+    "title": "99 Red Balloons",
+    "artist": "Nena",
+    "year": 1983,
+    "genre": "pop",
+    "wikipediaTitle": "99 Luftballons"
+  },
+  {
+    "title": "Come On Eileen",
+    "artist": "Dexys Midnight Runners",
+    "year": 1982,
+    "genre": "pop",
+    "wikipediaTitle": "Come On Eileen"
+  },
+  {
+    "title": "Sweet Dreams (Are Made of This)",
+    "artist": "Eurythmics",
+    "year": 1983,
+    "genre": "pop",
+    "wikipediaTitle": "Sweet Dreams (Are Made of This)"
+  },
+  {
+    "title": "Tainted Love",
+    "artist": "Soft Cell",
+    "year": 1981,
+    "genre": "pop",
+    "wikipediaTitle": "Tainted Love"
+  },
+  {
+    "title": "True",
+    "artist": "Spandau Ballet",
+    "year": 1983,
+    "genre": "pop",
+    "wikipediaTitle": "True (Spandau Ballet song)"
+  },
+  {
+    "title": "Jump (For My Love)",
+    "artist": "Pointer Sisters",
+    "year": 1984,
+    "genre": "pop",
+    "wikipediaTitle": "Jump (for My Love)"
+  },
+  {
+    "title": "Walk Like an Egyptian",
+    "artist": "The Bangles",
+    "year": 1986,
+    "genre": "pop",
+    "wikipediaTitle": "Walk Like an Egyptian"
+  },
+  {
+    "title": "Eternal Flame",
+    "artist": "The Bangles",
+    "year": 1988,
+    "genre": "pop",
+    "wikipediaTitle": "Eternal Flame (The Bangles song)"
+  },
+  {
+    "title": "Total Eclipse of the Heart",
+    "artist": "Bonnie Tyler",
+    "year": 1983,
+    "genre": "pop",
+    "wikipediaTitle": "Total Eclipse of the Heart"
+  },
+  {
+    "title": "Every Rose Has Its Thorn",
+    "artist": "Poison",
+    "year": 1988,
+    "genre": "pop",
+    "wikipediaTitle": "Every Rose Has Its Thorn"
+  },
+  {
+    "title": "Wake Me Up Before You Go-Go",
+    "artist": "Wham!",
+    "year": 1984,
+    "genre": "pop",
+    "wikipediaTitle": "Wake Me Up Before You Go-Go"
+  },
+  {
+    "title": "Last Christmas",
+    "artist": "Wham!",
+    "year": 1984,
+    "genre": "pop",
+    "wikipediaTitle": "Last Christmas"
+  },
+  {
+    "title": "Faith",
+    "artist": "George Michael",
+    "year": 1987,
+    "genre": "pop",
+    "wikipediaTitle": "Faith (George Michael song)"
+  },
+  {
+    "title": "One More Time",
+    "artist": "Daft Punk",
+    "year": 2000,
+    "genre": "pop",
+    "wikipediaTitle": "One More Time (Daft Punk song)"
+  },
+  {
+    "title": "Get Lucky",
+    "artist": "Daft Punk",
+    "year": 2013,
+    "genre": "pop",
+    "wikipediaTitle": "Get Lucky (Daft Punk song)"
+  },
+  {
+    "title": "Around the World",
+    "artist": "Daft Punk",
+    "year": 1997,
+    "genre": "pop",
+    "wikipediaTitle": "Around the World (Daft Punk song)"
+  },
+  {
+    "title": "Umbrella",
+    "artist": "Rihanna",
+    "year": 2007,
+    "genre": "pop",
+    "wikipediaTitle": "Umbrella (Rihanna song)"
+  },
+  {
+    "title": "We Found Love",
+    "artist": "Rihanna",
+    "year": 2011,
+    "genre": "pop",
+    "wikipediaTitle": "We Found Love"
+  },
+  {
+    "title": "Diamonds",
+    "artist": "Rihanna",
+    "year": 2012,
+    "genre": "pop",
+    "wikipediaTitle": "Diamonds (Rihanna song)"
+  },
+  {
+    "title": "Just Dance",
+    "artist": "Lady Gaga",
+    "year": 2008,
+    "genre": "pop",
+    "wikipediaTitle": "Just Dance (Lady Gaga song)"
+  },
+  {
+    "title": "Telephone",
+    "artist": "Lady Gaga",
+    "year": 2009,
+    "genre": "pop",
+    "wikipediaTitle": "Telephone (Lady Gaga song)"
+  },
+  {
+    "title": "Roar",
+    "artist": "Katy Perry",
+    "year": 2013,
+    "genre": "pop",
+    "wikipediaTitle": "Roar (song)"
+  },
+  {
+    "title": "Firework",
+    "artist": "Katy Perry",
+    "year": 2010,
+    "genre": "pop",
+    "wikipediaTitle": "Firework (song)"
+  },
+  {
+    "title": "I Kissed a Girl",
+    "artist": "Katy Perry",
+    "year": 2008,
+    "genre": "pop",
+    "wikipediaTitle": "I Kissed a Girl (Katy Perry song)"
+  },
+  {
+    "title": "Teenage Dream",
+    "artist": "Katy Perry",
+    "year": 2010,
+    "genre": "pop",
+    "wikipediaTitle": "Teenage Dream (Katy Perry song)"
+  },
+  {
+    "title": "Call Me Maybe",
+    "artist": "Carly Rae Jepsen",
+    "year": 2011,
+    "genre": "pop",
+    "wikipediaTitle": "Call Me Maybe"
+  },
+  {
+    "title": "Party Rock Anthem",
+    "artist": "LMFAO",
+    "year": 2011,
+    "genre": "pop",
+    "wikipediaTitle": "Party Rock Anthem"
+  },
+  {
+    "title": "Moves Like Jagger",
+    "artist": "Maroon 5",
+    "year": 2011,
+    "genre": "pop",
+    "wikipediaTitle": "Moves Like Jagger"
+  },
+  {
+    "title": "Sugar",
+    "artist": "Maroon 5",
+    "year": 2014,
+    "genre": "pop",
+    "wikipediaTitle": "Sugar (Maroon 5 song)"
+  },
+  {
+    "title": "Uptown Funk",
+    "artist": "Mark Ronson ft. Bruno Mars",
+    "year": 2014,
+    "genre": "pop",
+    "wikipediaTitle": "Uptown Funk"
+  },
+  {
+    "title": "Happy",
+    "artist": "Pharrell Williams",
+    "year": 2013,
+    "genre": "pop",
+    "wikipediaTitle": "Happy (Pharrell Williams song)"
+  },
+  {
+    "title": "Thinking Out Loud",
+    "artist": "Ed Sheeran",
+    "year": 2014,
+    "genre": "pop",
+    "wikipediaTitle": "Thinking Out Loud"
+  },
+  {
+    "title": "Photograph",
+    "artist": "Ed Sheeran",
+    "year": 2014,
+    "genre": "pop",
+    "wikipediaTitle": "Photograph (Ed Sheeran song)"
+  },
+  {
+    "title": "Bad Guy",
+    "artist": "Billie Eilish",
+    "year": 2019,
+    "genre": "pop",
+    "wikipediaTitle": "Bad Guy (Billie Eilish song)"
+  },
+  {
+    "title": "Ocean Eyes",
+    "artist": "Billie Eilish",
+    "year": 2016,
+    "genre": "pop",
+    "wikipediaTitle": "Ocean Eyes (song)"
+  },
+  {
+    "title": "Blinding Lights",
+    "artist": "The Weeknd",
+    "year": 2019,
+    "genre": "pop",
+    "wikipediaTitle": "Blinding Lights"
+  },
+  {
+    "title": "Starboy",
+    "artist": "The Weeknd",
+    "year": 2016,
+    "genre": "pop",
+    "wikipediaTitle": "Starboy (song)"
+  },
+  {
+    "title": "Anti-Hero",
+    "artist": "Taylor Swift",
+    "year": 2022,
+    "genre": "pop",
+    "wikipediaTitle": "Anti-Hero (song)"
+  },
+  {
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "year": 2020,
+    "genre": "pop",
+    "wikipediaTitle": "Levitating (song)"
+  },
+  {
+    "title": "Don't Start Now",
+    "artist": "Dua Lipa",
+    "year": 2019,
+    "genre": "pop",
+    "wikipediaTitle": "Don't Start Now"
+  },
+  {
+    "title": "As It Was",
+    "artist": "Harry Styles",
+    "year": 2022,
+    "genre": "pop",
+    "wikipediaTitle": "As It Was"
+  },
+  {
+    "title": "Watermelon Sugar",
+    "artist": "Harry Styles",
+    "year": 2019,
+    "genre": "pop",
+    "wikipediaTitle": "Watermelon Sugar"
+  },
+  {
+    "title": "drivers license",
+    "artist": "Olivia Rodrigo",
+    "year": 2021,
+    "genre": "pop",
+    "wikipediaTitle": "Drivers License (song)"
+  },
+  {
+    "title": "good 4 u",
+    "artist": "Olivia Rodrigo",
+    "year": 2021,
+    "genre": "pop",
+    "wikipediaTitle": "Good 4 U"
+  },
+  {
+    "title": "Peaches",
+    "artist": "Justin Bieber",
+    "year": 2021,
+    "genre": "pop",
+    "wikipediaTitle": "Peaches (Justin Bieber song)"
+  },
+  {
+    "title": "Sorry",
+    "artist": "Justin Bieber",
+    "year": 2015,
+    "genre": "pop",
+    "wikipediaTitle": "Sorry (Justin Bieber song)"
+  },
+  {
+    "title": "Love Yourself",
+    "artist": "Justin Bieber",
+    "year": 2015,
+    "genre": "pop",
+    "wikipediaTitle": "Love Yourself"
+  },
+  {
+    "title": "Cello Suite No. 1",
+    "artist": "Johann Sebastian Bach",
+    "year": 1720,
+    "genre": "classical",
+    "wikipediaTitle": "Cello suites (Bach)"
+  },
+  {
+    "title": "The Well-Tempered Clavier",
+    "artist": "Johann Sebastian Bach",
+    "year": 1722,
+    "genre": "classical",
+    "wikipediaTitle": "The Well-Tempered Clavier"
+  },
+  {
+    "title": "St John Passion",
+    "artist": "Johann Sebastian Bach",
+    "year": 1724,
+    "genre": "classical",
+    "wikipediaTitle": "St John Passion"
+  },
+  {
+    "title": "Zadok the Priest",
+    "artist": "George Frideric Handel",
+    "year": 1727,
+    "genre": "classical",
+    "wikipediaTitle": "Zadok the Priest"
+  },
+  {
+    "title": "Keyboard Sonatas",
+    "artist": "Domenico Scarlatti",
+    "year": 1738,
+    "genre": "classical",
+    "wikipediaTitle": "Keyboard sonatas (Scarlatti)"
+  },
+  {
+    "title": "Concerti Grossi Op. 6",
+    "artist": "Arcangelo Corelli",
+    "year": 1714,
+    "genre": "classical",
+    "wikipediaTitle": "Concerti grossi, Op. 6 (Corelli)"
+  },
+  {
+    "title": "Piano Concerto No. 21",
+    "artist": "Wolfgang Amadeus Mozart",
+    "year": 1785,
+    "genre": "classical",
+    "wikipediaTitle": "Piano Concerto No. 21 (Mozart)"
+  },
+  {
+    "title": "Symphony No. 41 'Jupiter'",
+    "artist": "Wolfgang Amadeus Mozart",
+    "year": 1788,
+    "genre": "classical",
+    "wikipediaTitle": "Symphony No. 41 (Mozart)"
+  },
+  {
+    "title": "Clarinet Concerto",
+    "artist": "Wolfgang Amadeus Mozart",
+    "year": 1791,
+    "genre": "classical",
+    "wikipediaTitle": "Clarinet Concerto (Mozart)"
+  },
+  {
+    "title": "Violin Concerto",
+    "artist": "Ludwig van Beethoven",
+    "year": 1806,
+    "genre": "classical",
+    "wikipediaTitle": "Violin Concerto (Beethoven)"
+  },
+  {
+    "title": "Piano Concerto No. 4",
+    "artist": "Ludwig van Beethoven",
+    "year": 1806,
+    "genre": "classical",
+    "wikipediaTitle": "Piano Concerto No. 4 (Beethoven)"
+  },
+  {
+    "title": "String Quartet No. 14",
+    "artist": "Ludwig van Beethoven",
+    "year": 1826,
+    "genre": "classical",
+    "wikipediaTitle": "String Quartet No. 14 (Beethoven)"
+  },
+  {
+    "title": "Piano Quintet 'The Trout'",
+    "artist": "Franz Schubert",
+    "year": 1819,
+    "genre": "classical",
+    "wikipediaTitle": "Piano Quintet in A major (Schubert)"
+  },
+  {
+    "title": "String Quartet 'Death and the Maiden'",
+    "artist": "Franz Schubert",
+    "year": 1824,
+    "genre": "classical",
+    "wikipediaTitle": "String Quartet No. 14 (Schubert)"
+  },
+  {
+    "title": "Winterreise",
+    "artist": "Franz Schubert",
+    "year": 1828,
+    "genre": "classical",
+    "wikipediaTitle": "Winterreise"
+  },
+  {
+    "title": "Der Freischütz",
+    "artist": "Carl Maria von Weber",
+    "year": 1821,
+    "genre": "classical",
+    "wikipediaTitle": "Der Freischütz"
+  },
+  {
+    "title": "L'elisir d'amore",
+    "artist": "Gaetano Donizetti",
+    "year": 1832,
+    "genre": "classical",
+    "wikipediaTitle": "L'elisir d'amore"
+  },
+  {
+    "title": "Lucia di Lammermoor",
+    "artist": "Gaetano Donizetti",
+    "year": 1835,
+    "genre": "classical",
+    "wikipediaTitle": "Lucia di Lammermoor"
+  },
+  {
+    "title": "Norma",
+    "artist": "Vincenzo Bellini",
+    "year": 1831,
+    "genre": "classical",
+    "wikipediaTitle": "Norma (opera)"
+  },
+  {
+    "title": "Ballade No. 1",
+    "artist": "Frédéric Chopin",
+    "year": 1835,
+    "genre": "classical",
+    "wikipediaTitle": "Ballade No. 1 (Chopin)"
+  },
+  {
+    "title": "Piano Sonata No. 2 'Funeral March'",
+    "artist": "Frédéric Chopin",
+    "year": 1839,
+    "genre": "classical",
+    "wikipediaTitle": "Piano Sonata No. 2 (Chopin)"
+  },
+  {
+    "title": "Polonaise in A-flat major 'Heroic'",
+    "artist": "Frédéric Chopin",
+    "year": 1842,
+    "genre": "classical",
+    "wikipediaTitle": "Polonaise in A-flat major, Op. 53 (Chopin)"
+  },
+  {
+    "title": "Violin Concerto No. 1",
+    "artist": "Max Bruch",
+    "year": 1868,
+    "genre": "classical",
+    "wikipediaTitle": "Violin Concerto No. 1 (Bruch)"
+  },
+  {
+    "title": "The Moldau",
+    "artist": "Bedřich Smetana",
+    "year": 1874,
+    "genre": "classical",
+    "wikipediaTitle": "The Moldau"
+  },
+  {
+    "title": "Violin Concerto",
+    "artist": "Pyotr Ilyich Tchaikovsky",
+    "year": 1878,
+    "genre": "classical",
+    "wikipediaTitle": "Violin Concerto (Tchaikovsky)"
+  },
+  {
+    "title": "Sleeping Beauty",
+    "artist": "Pyotr Ilyich Tchaikovsky",
+    "year": 1889,
+    "genre": "classical",
+    "wikipediaTitle": "The Sleeping Beauty (ballet)"
+  },
+  {
+    "title": "Symphony No. 6 'Pathétique'",
+    "artist": "Pyotr Ilyich Tchaikovsky",
+    "year": 1893,
+    "genre": "classical",
+    "wikipediaTitle": "Symphony No. 6 (Tchaikovsky)"
+  },
+  {
+    "title": "Violin Concerto",
+    "artist": "Johannes Brahms",
+    "year": 1878,
+    "genre": "classical",
+    "wikipediaTitle": "Violin Concerto (Brahms)"
+  },
+  {
+    "title": "Academic Festival Overture",
+    "artist": "Johannes Brahms",
+    "year": 1880,
+    "genre": "classical",
+    "wikipediaTitle": "Academic Festival Overture"
+  },
+  {
+    "title": "Symphony No. 4",
+    "artist": "Johannes Brahms",
+    "year": 1885,
+    "genre": "classical",
+    "wikipediaTitle": "Symphony No. 4 (Brahms)"
+  },
+  {
+    "title": "Polovtsian Dances",
+    "artist": "Alexander Borodin",
+    "year": 1881,
+    "genre": "classical",
+    "wikipediaTitle": "Polovtsian Dances"
+  },
+  {
+    "title": "Pavane",
+    "artist": "Gabriel Fauré",
+    "year": 1887,
+    "genre": "classical",
+    "wikipediaTitle": "Pavane (Fauré)"
+  },
+  {
+    "title": "Requiem",
+    "artist": "Gabriel Fauré",
+    "year": 1888,
+    "genre": "classical",
+    "wikipediaTitle": "Requiem (Fauré)"
+  },
+  {
+    "title": "Cello Concerto",
+    "artist": "Antonín Dvořák",
+    "year": 1895,
+    "genre": "classical",
+    "wikipediaTitle": "Cello Concerto (Dvořák)"
+  },
+  {
+    "title": "Also sprach Zarathustra",
+    "artist": "Richard Strauss",
+    "year": 1896,
+    "genre": "classical",
+    "wikipediaTitle": "Also sprach Zarathustra (R. Strauss)"
+  },
+  {
+    "title": "Four Last Songs",
+    "artist": "Richard Strauss",
+    "year": 1948,
+    "genre": "classical",
+    "wikipediaTitle": "Four Last Songs"
+  },
+  {
+    "title": "The Sorcerer's Apprentice",
+    "artist": "Paul Dukas",
+    "year": 1897,
+    "genre": "classical",
+    "wikipediaTitle": "The Sorcerer's Apprentice (Dukas)"
+  },
+  {
+    "title": "Enigma Variations",
+    "artist": "Edward Elgar",
+    "year": 1899,
+    "genre": "classical",
+    "wikipediaTitle": "Enigma Variations"
+  },
+  {
+    "title": "Pomp and Circumstance",
+    "artist": "Edward Elgar",
+    "year": 1901,
+    "genre": "classical",
+    "wikipediaTitle": "Pomp and Circumstance Marches"
+  },
+  {
+    "title": "Cello Concerto",
+    "artist": "Edward Elgar",
+    "year": 1919,
+    "genre": "classical",
+    "wikipediaTitle": "Cello Concerto (Elgar)"
+  },
+  {
+    "title": "Finlandia",
+    "artist": "Jean Sibelius",
+    "year": 1900,
+    "genre": "classical",
+    "wikipediaTitle": "Finlandia"
+  },
+  {
+    "title": "Violin Concerto",
+    "artist": "Jean Sibelius",
+    "year": 1904,
+    "genre": "classical",
+    "wikipediaTitle": "Violin Concerto (Sibelius)"
+  },
+  {
+    "title": "La Mer",
+    "artist": "Claude Debussy",
+    "year": 1905,
+    "genre": "classical",
+    "wikipediaTitle": "La mer (Debussy)"
+  },
+  {
+    "title": "Fantasia on a Theme by Thomas Tallis",
+    "artist": "Ralph Vaughan Williams",
+    "year": 1910,
+    "genre": "classical",
+    "wikipediaTitle": "Fantasia on a Theme by Thomas Tallis"
+  },
+  {
+    "title": "The Lark Ascending",
+    "artist": "Ralph Vaughan Williams",
+    "year": 1914,
+    "genre": "classical",
+    "wikipediaTitle": "The Lark Ascending"
+  },
+  {
+    "title": "The Planets",
+    "artist": "Gustav Holst",
+    "year": 1917,
+    "genre": "classical",
+    "wikipediaTitle": "The Planets"
+  },
+  {
+    "title": "Symphony No. 1 'Classical'",
+    "artist": "Sergei Prokofiev",
+    "year": 1917,
+    "genre": "classical",
+    "wikipediaTitle": "Symphony No. 1 (Prokofiev)"
+  },
+  {
+    "title": "An American in Paris",
+    "artist": "George Gershwin",
+    "year": 1928,
+    "genre": "classical",
+    "wikipediaTitle": "An American in Paris"
+  },
+  {
+    "title": "Concerto for Orchestra",
+    "artist": "Béla Bartók",
+    "year": 1943,
+    "genre": "classical",
+    "wikipediaTitle": "Concerto for Orchestra (Bartók)"
+  },
+  {
+    "title": "Sabre Dance",
+    "artist": "Aram Khachaturian",
+    "year": 1942,
+    "genre": "classical",
+    "wikipediaTitle": "Sabre Dance"
+  },
+  {
+    "title": "The Young Person's Guide to the Orchestra",
+    "artist": "Benjamin Britten",
+    "year": 1945,
+    "genre": "classical",
+    "wikipediaTitle": "The Young Person's Guide to the Orchestra"
+  },
+  {
+    "title": "War Requiem",
+    "artist": "Benjamin Britten",
+    "year": 1962,
+    "genre": "classical",
+    "wikipediaTitle": "War Requiem"
+  },
+  {
+    "title": "Symphony No. 3 'Symphony of Sorrowful Songs'",
+    "artist": "Henryk Górecki",
+    "year": 1976,
+    "genre": "classical",
+    "wikipediaTitle": "Symphony No. 3 (Górecki)"
+  },
+  {
+    "title": "Spiegel im Spiegel",
+    "artist": "Arvo Pärt",
+    "year": 1978,
+    "genre": "classical",
+    "wikipediaTitle": "Spiegel im Spiegel"
+  },
+  {
+    "title": "Fratres",
+    "artist": "Arvo Pärt",
+    "year": 1977,
+    "genre": "classical",
+    "wikipediaTitle": "Fratres"
+  },
+  {
+    "title": "Glassworks",
+    "artist": "Philip Glass",
+    "year": 1982,
+    "genre": "classical",
+    "wikipediaTitle": "Glassworks (Philip Glass album)"
+  },
+  {
+    "title": "Einstein on the Beach",
+    "artist": "Philip Glass",
+    "year": 1976,
+    "genre": "classical",
+    "wikipediaTitle": "Einstein on the Beach"
+  },
+  {
+    "title": "Nuvole Bianche",
+    "artist": "Ludovico Einaudi",
+    "year": 2004,
+    "genre": "classical",
+    "wikipediaTitle": "Una mattina"
+  },
+  {
+    "title": "Experience",
+    "artist": "Ludovico Einaudi",
+    "year": 2013,
+    "genre": "classical",
+    "wikipediaTitle": "In a Time Lapse"
+  },
+  {
+    "title": "Recomposed: Vivaldi – The Four Seasons",
+    "artist": "Max Richter",
+    "year": 2012,
+    "genre": "classical",
+    "wikipediaTitle": "Recomposed by Max Richter: Vivaldi – The Four Seasons"
+  },
+  {
+    "title": "On the Nature of Daylight",
+    "artist": "Max Richter",
+    "year": 2004,
+    "genre": "classical",
+    "wikipediaTitle": "The Blue Notebooks (Max Richter album)"
+  },
+  {
+    "title": "Boys Don't Cry",
+    "artist": "The Cure",
+    "year": 1980,
+    "genre": "rock",
+    "wikipediaTitle": "Boys Don't Cry (The Cure song)"
+  },
+  {
+    "title": "A Forest",
+    "artist": "The Cure",
+    "year": 1980,
+    "genre": "rock",
+    "wikipediaTitle": "A Forest"
+  },
+  {
+    "title": "The Lovecats",
+    "artist": "The Cure",
+    "year": 1983,
+    "genre": "rock",
+    "wikipediaTitle": "The Lovecats"
+  },
+  {
+    "title": "In Between Days",
+    "artist": "The Cure",
+    "year": 1985,
+    "genre": "rock",
+    "wikipediaTitle": "In Between Days"
+  },
+  {
+    "title": "Close to Me",
+    "artist": "The Cure",
+    "year": 1985,
+    "genre": "rock",
+    "wikipediaTitle": "Close to Me (The Cure song)"
+  },
+  {
+    "title": "Lovesong",
+    "artist": "The Cure",
+    "year": 1989,
+    "genre": "rock",
+    "wikipediaTitle": "Lovesong (The Cure song)"
+  },
+  {
+    "title": "Lullaby",
+    "artist": "The Cure",
+    "year": 1989,
+    "genre": "rock",
+    "wikipediaTitle": "Lullaby (The Cure song)"
+  },
+  {
+    "title": "Pictures of You",
+    "artist": "The Cure",
+    "year": 1990,
+    "genre": "rock",
+    "wikipediaTitle": "Pictures of You (The Cure song)"
+  },
+  {
+    "title": "Friday I'm in Love",
+    "artist": "The Cure",
+    "year": 1992,
+    "genre": "rock",
+    "wikipediaTitle": "Friday I'm in Love"
+  },
+  {
+    "title": "This Charming Man",
+    "artist": "The Smiths",
+    "year": 1983,
+    "genre": "rock",
+    "wikipediaTitle": "This Charming Man"
+  },
+  {
+    "title": "How Soon Is Now?",
+    "artist": "The Smiths",
+    "year": 1984,
+    "genre": "rock",
+    "wikipediaTitle": "How Soon Is Now?"
+  },
+  {
+    "title": "What Difference Does It Make?",
+    "artist": "The Smiths",
+    "year": 1984,
+    "genre": "rock",
+    "wikipediaTitle": "What Difference Does It Make?"
+  },
+  {
+    "title": "The Queen Is Dead",
+    "artist": "The Smiths",
+    "year": 1986,
+    "genre": "rock",
+    "wikipediaTitle": "The Queen Is Dead (song)"
+  },
+  {
+    "title": "There Is a Light That Never Goes Out",
+    "artist": "The Smiths",
+    "year": 1986,
+    "genre": "rock",
+    "wikipediaTitle": "There Is a Light That Never Goes Out"
+  },
+  {
+    "title": "Bigmouth Strikes Again",
+    "artist": "The Smiths",
+    "year": 1986,
+    "genre": "rock",
+    "wikipediaTitle": "Bigmouth Strikes Again"
+  },
+  {
+    "title": "Panic",
+    "artist": "The Smiths",
+    "year": 1986,
+    "genre": "rock",
+    "wikipediaTitle": "Panic (The Smiths song)"
+  },
+  {
+    "title": "Girlfriend in a Coma",
+    "artist": "The Smiths",
+    "year": 1987,
+    "genre": "rock",
+    "wikipediaTitle": "Girlfriend in a Coma"
+  },
+  {
+    "title": "It's My Life",
+    "artist": "Talk Talk",
+    "year": 1984,
+    "genre": "pop",
+    "wikipediaTitle": "It's My Life (Talk Talk song)"
+  },
+  {
+    "title": "Such a Shame",
+    "artist": "Talk Talk",
+    "year": 1984,
+    "genre": "pop",
+    "wikipediaTitle": "Such a Shame"
+  },
+  {
+    "title": "Life's What You Make It",
+    "artist": "Talk Talk",
+    "year": 1986,
+    "genre": "pop",
+    "wikipediaTitle": "Life's What You Make It"
+  },
+  {
+    "title": "Living in Another World",
+    "artist": "Talk Talk",
+    "year": 1986,
+    "genre": "pop",
+    "wikipediaTitle": "Living in Another World"
+  },
+  {
+    "title": "Girls on Film",
+    "artist": "Duran Duran",
+    "year": 1981,
+    "genre": "pop",
+    "wikipediaTitle": "Girls on Film"
+  },
+  {
+    "title": "Hungry Like the Wolf",
+    "artist": "Duran Duran",
+    "year": 1982,
+    "genre": "pop",
+    "wikipediaTitle": "Hungry Like the Wolf"
+  },
+  {
+    "title": "Rio",
+    "artist": "Duran Duran",
+    "year": 1982,
+    "genre": "pop",
+    "wikipediaTitle": "Rio (Duran Duran song)"
+  },
+  {
+    "title": "Save a Prayer",
+    "artist": "Duran Duran",
+    "year": 1982,
+    "genre": "pop",
+    "wikipediaTitle": "Save a Prayer"
+  },
+  {
+    "title": "Is There Something I Should Know?",
+    "artist": "Duran Duran",
+    "year": 1983,
+    "genre": "pop",
+    "wikipediaTitle": "Is There Something I Should Know?"
+  },
+  {
+    "title": "The Reflex",
+    "artist": "Duran Duran",
+    "year": 1984,
+    "genre": "pop",
+    "wikipediaTitle": "The Reflex"
+  },
+  {
+    "title": "Wild Boys",
+    "artist": "Duran Duran",
+    "year": 1984,
+    "genre": "pop",
+    "wikipediaTitle": "Wild Boys (song)"
+  },
+  {
+    "title": "A View to a Kill",
+    "artist": "Duran Duran",
+    "year": 1985,
+    "genre": "pop",
+    "wikipediaTitle": "A View to a Kill (song)"
+  },
+  {
+    "title": "Ordinary World",
+    "artist": "Duran Duran",
+    "year": 1992,
+    "genre": "pop",
+    "wikipediaTitle": "Ordinary World (Duran Duran song)"
+  },
+  {
+    "title": "Enola Gay",
+    "artist": "Orchestral Manoeuvres in the Dark",
+    "year": 1980,
+    "genre": "pop",
+    "wikipediaTitle": "Enola Gay (song)"
+  },
+  {
+    "title": "Joan of Arc",
+    "artist": "Orchestral Manoeuvres in the Dark",
+    "year": 1981,
+    "genre": "pop",
+    "wikipediaTitle": "Joan of Arc (OMD song)"
+  },
+  {
+    "title": "Souvenir",
+    "artist": "Orchestral Manoeuvres in the Dark",
+    "year": 1981,
+    "genre": "pop",
+    "wikipediaTitle": "Souvenir (OMD song)"
+  },
+  {
+    "title": "If You Leave",
+    "artist": "Orchestral Manoeuvres in the Dark",
+    "year": 1986,
+    "genre": "pop",
+    "wikipediaTitle": "If You Leave (song)"
+  },
+  {
+    "title": "So in Love",
+    "artist": "Orchestral Manoeuvres in the Dark",
+    "year": 1985,
+    "genre": "pop",
+    "wikipediaTitle": "So in Love (OMD song)"
+  },
+  {
+    "title": "Hold Me Now",
+    "artist": "Thompson Twins",
+    "year": 1983,
+    "genre": "pop",
+    "wikipediaTitle": "Hold Me Now (Thompson Twins song)"
+  },
+  {
+    "title": "Doctor! Doctor!",
+    "artist": "Thompson Twins",
+    "year": 1984,
+    "genre": "pop",
+    "wikipediaTitle": "Doctor! Doctor! (Thompson Twins song)"
+  },
+  {
+    "title": "Lay Your Hands on Me",
+    "artist": "Thompson Twins",
+    "year": 1984,
+    "genre": "pop",
+    "wikipediaTitle": "Lay Your Hands on Me (Thompson Twins song)"
+  },
+  {
+    "title": "We Are Detective",
+    "artist": "Thompson Twins",
+    "year": 1983,
+    "genre": "pop",
+    "wikipediaTitle": "We Are Detective"
+  },
+  {
+    "title": "Love Will Tear Us Apart",
+    "artist": "Joy Division",
+    "year": 1980,
+    "genre": "rock",
+    "wikipediaTitle": "Love Will Tear Us Apart"
+  },
+  {
+    "title": "She's Lost Control",
+    "artist": "Joy Division",
+    "year": 1979,
+    "genre": "rock",
+    "wikipediaTitle": "She's Lost Control"
+  },
+  {
+    "title": "Atmosphere",
+    "artist": "Joy Division",
+    "year": 1980,
+    "genre": "rock",
+    "wikipediaTitle": "Atmosphere (Joy Division song)"
+  },
+  {
+    "title": "Transmission",
+    "artist": "Joy Division",
+    "year": 1979,
+    "genre": "rock",
+    "wikipediaTitle": "Transmission (Joy Division song)"
+  },
+  {
+    "title": "Blue Monday",
+    "artist": "New Order",
+    "year": 1983,
+    "genre": "pop",
+    "wikipediaTitle": "Blue Monday (New Order song)"
+  },
+  {
+    "title": "Bizarre Love Triangle",
+    "artist": "New Order",
+    "year": 1986,
+    "genre": "pop",
+    "wikipediaTitle": "Bizarre Love Triangle"
+  },
+  {
+    "title": "True Faith",
+    "artist": "New Order",
+    "year": 1987,
+    "genre": "pop",
+    "wikipediaTitle": "True Faith (New Order song)"
+  },
+  {
+    "title": "Temptation",
+    "artist": "New Order",
+    "year": 1982,
+    "genre": "pop",
+    "wikipediaTitle": "Temptation (New Order song)"
+  },
+  {
+    "title": "Just Can't Get Enough",
+    "artist": "Depeche Mode",
+    "year": 1981,
+    "genre": "pop",
+    "wikipediaTitle": "Just Can't Get Enough"
+  },
+  {
+    "title": "Everything Counts",
+    "artist": "Depeche Mode",
+    "year": 1983,
+    "genre": "pop",
+    "wikipediaTitle": "Everything Counts"
+  },
+  {
+    "title": "People Are People",
+    "artist": "Depeche Mode",
+    "year": 1984,
+    "genre": "pop",
+    "wikipediaTitle": "People Are People"
+  },
+  {
+    "title": "Never Let Me Down Again",
+    "artist": "Depeche Mode",
+    "year": 1987,
+    "genre": "pop",
+    "wikipediaTitle": "Never Let Me Down Again"
+  },
+  {
+    "title": "Personal Jesus",
+    "artist": "Depeche Mode",
+    "year": 1989,
+    "genre": "pop",
+    "wikipediaTitle": "Personal Jesus"
+  },
+  {
+    "title": "Enjoy the Silence",
+    "artist": "Depeche Mode",
+    "year": 1990,
+    "genre": "pop",
+    "wikipediaTitle": "Enjoy the Silence"
+  },
+  {
+    "title": "Policy of Truth",
+    "artist": "Depeche Mode",
+    "year": 1990,
+    "genre": "pop",
+    "wikipediaTitle": "Policy of Truth"
+  },
+  {
+    "title": "The Killing Moon",
+    "artist": "Echo & the Bunnymen",
+    "year": 1984,
+    "genre": "rock",
+    "wikipediaTitle": "The Killing Moon"
+  },
+  {
+    "title": "Lips Like Sugar",
+    "artist": "Echo & the Bunnymen",
+    "year": 1987,
+    "genre": "rock",
+    "wikipediaTitle": "Lips Like Sugar"
+  },
+  {
+    "title": "Bring On the Dancing Horses",
+    "artist": "Echo & the Bunnymen",
+    "year": 1985,
+    "genre": "rock",
+    "wikipediaTitle": "Bring On the Dancing Horses"
+  },
+  {
+    "title": "West End Girls",
+    "artist": "Pet Shop Boys",
+    "year": 1984,
+    "genre": "pop",
+    "wikipediaTitle": "West End Girls"
+  },
+  {
+    "title": "It's a Sin",
+    "artist": "Pet Shop Boys",
+    "year": 1987,
+    "genre": "pop",
+    "wikipediaTitle": "It's a Sin (song)"
+  },
+  {
+    "title": "What Have I Done to Deserve This?",
+    "artist": "Pet Shop Boys",
+    "year": 1987,
+    "genre": "pop",
+    "wikipediaTitle": "What Have I Done to Deserve This?"
+  },
+  {
+    "title": "Being Boring",
+    "artist": "Pet Shop Boys",
+    "year": 1990,
+    "genre": "pop",
+    "wikipediaTitle": "Being Boring"
+  },
+  {
+    "title": "Mad World",
+    "artist": "Tears for Fears",
+    "year": 1982,
+    "genre": "pop",
+    "wikipediaTitle": "Mad World"
+  },
+  {
+    "title": "Shout",
+    "artist": "Tears for Fears",
+    "year": 1984,
+    "genre": "pop",
+    "wikipediaTitle": "Shout (Tears for Fears song)"
+  },
+  {
+    "title": "Everybody Wants to Rule the World",
+    "artist": "Tears for Fears",
+    "year": 1985,
+    "genre": "pop",
+    "wikipediaTitle": "Everybody Wants to Rule the World"
+  },
+  {
+    "title": "Head Over Heels",
+    "artist": "Tears for Fears",
+    "year": 1985,
+    "genre": "pop",
+    "wikipediaTitle": "Head Over Heels (Tears for Fears song)"
+  },
+  {
+    "title": "Sowing the Seeds of Love",
+    "artist": "Tears for Fears",
+    "year": 1989,
+    "genre": "pop",
+    "wikipediaTitle": "Sowing the Seeds of Love"
+  },
+  {
+    "title": "Pretty in Pink",
+    "artist": "The Psychedelic Furs",
+    "year": 1981,
+    "genre": "rock",
+    "wikipediaTitle": "Pretty in Pink (song)"
+  },
+  {
+    "title": "Love My Way",
+    "artist": "The Psychedelic Furs",
+    "year": 1982,
+    "genre": "rock",
+    "wikipediaTitle": "Love My Way"
+  },
+  {
+    "title": "The Ghost in You",
+    "artist": "The Psychedelic Furs",
+    "year": 1984,
+    "genre": "rock",
+    "wikipediaTitle": "The Ghost in You"
+  },
+  {
+    "title": "Psycho Killer",
+    "artist": "Talking Heads",
+    "year": 1977,
+    "genre": "rock",
+    "wikipediaTitle": "Psycho Killer"
+  },
+  {
+    "title": "Once in a Lifetime",
+    "artist": "Talking Heads",
+    "year": 1981,
+    "genre": "rock",
+    "wikipediaTitle": "Once in a Lifetime (Talking Heads song)"
+  },
+  {
+    "title": "Burning Down the House",
+    "artist": "Talking Heads",
+    "year": 1983,
+    "genre": "rock",
+    "wikipediaTitle": "Burning Down the House"
+  },
+  {
+    "title": "This Must Be the Place (Naive Melody)",
+    "artist": "Talking Heads",
+    "year": 1983,
+    "genre": "rock",
+    "wikipediaTitle": "This Must Be the Place (Naive Melody)"
+  },
+  {
+    "title": "Road to Nowhere",
+    "artist": "Talking Heads",
+    "year": 1985,
+    "genre": "rock",
+    "wikipediaTitle": "Road to Nowhere (Talking Heads song)"
+  },
+  {
+    "title": "Sunday Bloody Sunday",
+    "artist": "U2",
+    "year": 1983,
+    "genre": "rock",
+    "wikipediaTitle": "Sunday Bloody Sunday"
+  },
+  {
+    "title": "New Year's Day",
+    "artist": "U2",
+    "year": 1983,
+    "genre": "rock",
+    "wikipediaTitle": "New Year's Day (U2 song)"
+  },
+  {
+    "title": "Pride (In the Name of Love)",
+    "artist": "U2",
+    "year": 1984,
+    "genre": "rock",
+    "wikipediaTitle": "Pride (In the Name of Love)"
+  },
+  {
+    "title": "With or Without You",
+    "artist": "U2",
+    "year": 1987,
+    "genre": "rock",
+    "wikipediaTitle": "With or Without You"
+  },
+  {
+    "title": "I Still Haven't Found What I'm Looking For",
+    "artist": "U2",
+    "year": 1987,
+    "genre": "rock",
+    "wikipediaTitle": "I Still Haven't Found What I'm Looking For"
+  },
+  {
+    "title": "Where the Streets Have No Name",
+    "artist": "U2",
+    "year": 1987,
+    "genre": "rock",
+    "wikipediaTitle": "Where the Streets Have No Name"
+  },
+  {
+    "title": "One",
+    "artist": "U2",
+    "year": 1991,
+    "genre": "rock",
+    "wikipediaTitle": "One (U2 song)"
+  },
+  {
+    "title": "Heart of Glass",
+    "artist": "Blondie",
+    "year": 1979,
+    "genre": "rock",
+    "wikipediaTitle": "Heart of Glass (song)"
+  },
+  {
+    "title": "One Way or Another",
+    "artist": "Blondie",
+    "year": 1979,
+    "genre": "rock",
+    "wikipediaTitle": "One Way or Another (Blondie song)"
+  },
+  {
+    "title": "Call Me",
+    "artist": "Blondie",
+    "year": 1980,
+    "genre": "rock",
+    "wikipediaTitle": "Call Me (Blondie song)"
+  },
+  {
+    "title": "The Tide Is High",
+    "artist": "Blondie",
+    "year": 1980,
+    "genre": "rock",
+    "wikipediaTitle": "The Tide Is High"
+  },
+  {
+    "title": "Rapture",
+    "artist": "Blondie",
+    "year": 1981,
+    "genre": "rock",
+    "wikipediaTitle": "Rapture (Blondie song)"
+  },
+  {
+    "title": "Hong Kong Garden",
+    "artist": "Siouxsie and the Banshees",
+    "year": 1978,
+    "genre": "rock",
+    "wikipediaTitle": "Hong Kong Garden"
+  },
+  {
+    "title": "Spellbound",
+    "artist": "Siouxsie and the Banshees",
+    "year": 1981,
+    "genre": "rock",
+    "wikipediaTitle": "Spellbound (Siouxsie and the Banshees song)"
+  },
+  {
+    "title": "Happy House",
+    "artist": "Siouxsie and the Banshees",
+    "year": 1980,
+    "genre": "rock",
+    "wikipediaTitle": "Happy House (song)"
+  },
+  {
+    "title": "Brass in Pocket",
+    "artist": "The Pretenders",
+    "year": 1979,
+    "genre": "rock",
+    "wikipediaTitle": "Brass in Pocket"
+  },
+  {
+    "title": "Back on the Chain Gang",
+    "artist": "The Pretenders",
+    "year": 1982,
+    "genre": "rock",
+    "wikipediaTitle": "Back on the Chain Gang"
+  },
+  {
+    "title": "Don't Get Me Wrong",
+    "artist": "The Pretenders",
+    "year": 1986,
+    "genre": "rock",
+    "wikipediaTitle": "Don't Get Me Wrong (song)"
+  },
+  {
+    "title": "The Eton Rifles",
+    "artist": "The Jam",
+    "year": 1979,
+    "genre": "rock",
+    "wikipediaTitle": "The Eton Rifles"
+  },
+  {
+    "title": "Going Underground",
+    "artist": "The Jam",
+    "year": 1980,
+    "genre": "rock",
+    "wikipediaTitle": "Going Underground"
+  },
+  {
+    "title": "Town Called Malice",
+    "artist": "The Jam",
+    "year": 1982,
+    "genre": "rock",
+    "wikipediaTitle": "Town Called Malice"
+  },
+  {
+    "title": "That's Entertainment",
+    "artist": "The Jam",
+    "year": 1981,
+    "genre": "rock",
+    "wikipediaTitle": "That's Entertainment (The Jam song)"
+  },
+  {
+    "title": "Don't Change",
+    "artist": "INXS",
+    "year": 1982,
+    "genre": "rock",
+    "wikipediaTitle": "Don't Change (INXS song)"
+  },
+  {
+    "title": "What You Need",
+    "artist": "INXS",
+    "year": 1985,
+    "genre": "rock",
+    "wikipediaTitle": "What You Need"
+  },
+  {
+    "title": "Need You Tonight",
+    "artist": "INXS",
+    "year": 1987,
+    "genre": "rock",
+    "wikipediaTitle": "Need You Tonight"
+  },
+  {
+    "title": "New Sensation",
+    "artist": "INXS",
+    "year": 1987,
+    "genre": "rock",
+    "wikipediaTitle": "New Sensation"
+  },
+  {
+    "title": "Never Tear Us Apart",
+    "artist": "INXS",
+    "year": 1988,
+    "genre": "rock",
+    "wikipediaTitle": "Never Tear Us Apart"
+  },
+  {
+    "title": "Devil Inside",
+    "artist": "INXS",
+    "year": 1988,
+    "genre": "rock",
+    "wikipediaTitle": "Devil Inside"
+  },
+  {
+    "title": "Blister in the Sun",
+    "artist": "Violent Femmes",
+    "year": 1983,
+    "genre": "rock",
+    "wikipediaTitle": "Blister in the Sun"
+  },
+  {
+    "title": "Add It Up",
+    "artist": "Violent Femmes",
+    "year": 1983,
+    "genre": "rock",
+    "wikipediaTitle": "Add It Up (song)"
+  },
+  {
+    "title": "Just Like Honey",
+    "artist": "The Jesus and Mary Chain",
+    "year": 1985,
+    "genre": "rock",
+    "wikipediaTitle": "Just Like Honey"
+  },
+  {
+    "title": "Never Understand",
+    "artist": "The Jesus and Mary Chain",
+    "year": 1985,
+    "genre": "rock",
+    "wikipediaTitle": "Never Understand"
+  },
+  {
+    "title": "In a Big Country",
+    "artist": "Big Country",
+    "year": 1983,
+    "genre": "rock",
+    "wikipediaTitle": "In a Big Country"
+  },
+  {
+    "title": "Fields of Fire",
+    "artist": "Big Country",
+    "year": 1983,
+    "genre": "rock",
+    "wikipediaTitle": "Fields of Fire (song)"
+  },
+  {
+    "title": "Making Plans for Nigel",
+    "artist": "XTC",
+    "year": 1979,
+    "genre": "rock",
+    "wikipediaTitle": "Making Plans for Nigel"
+  },
+  {
+    "title": "Senses Working Overtime",
+    "artist": "XTC",
+    "year": 1982,
+    "genre": "rock",
+    "wikipediaTitle": "Senses Working Overtime"
+  },
+  {
+    "title": "Dear God",
+    "artist": "XTC",
+    "year": 1986,
+    "genre": "rock",
+    "wikipediaTitle": "Dear God (XTC song)"
+  },
+  {
+    "title": "Oliver's Army",
+    "artist": "Elvis Costello",
+    "year": 1979,
+    "genre": "rock",
+    "wikipediaTitle": "Oliver's Army"
+  },
+  {
+    "title": "Alison",
+    "artist": "Elvis Costello",
+    "year": 1977,
+    "genre": "rock",
+    "wikipediaTitle": "Alison (Elvis Costello song)"
+  },
+  {
+    "title": "Everyday I Write the Book",
+    "artist": "Elvis Costello",
+    "year": 1983,
+    "genre": "rock",
+    "wikipediaTitle": "Everyday I Write the Book"
+  },
+  {
+    "title": "Cars",
+    "artist": "Gary Numan",
+    "year": 1979,
+    "genre": "pop",
+    "wikipediaTitle": "Cars (Gary Numan song)"
+  },
+  {
+    "title": "Are 'Friends' Electric?",
+    "artist": "Gary Numan",
+    "year": 1979,
+    "genre": "pop",
+    "wikipediaTitle": "Are 'Friends' Electric?"
+  },
+  {
+    "title": "The Model",
+    "artist": "Kraftwerk",
+    "year": 1978,
+    "genre": "pop",
+    "wikipediaTitle": "The Model (Kraftwerk song)"
+  },
+  {
+    "title": "Computer Love",
+    "artist": "Kraftwerk",
+    "year": 1981,
+    "genre": "pop",
+    "wikipediaTitle": "Computer Love (Kraftwerk song)"
+  },
+  {
+    "title": "Trans-Europe Express",
+    "artist": "Kraftwerk",
+    "year": 1977,
+    "genre": "pop",
+    "wikipediaTitle": "Trans-Europe Express (song)"
+  },
+  {
+    "title": "Relax",
+    "artist": "Frankie Goes to Hollywood",
+    "year": 1983,
+    "genre": "pop",
+    "wikipediaTitle": "Relax (song)"
+  },
+  {
+    "title": "Two Tribes",
+    "artist": "Frankie Goes to Hollywood",
+    "year": 1984,
+    "genre": "pop",
+    "wikipediaTitle": "Two Tribes"
+  },
+  {
+    "title": "The Power of Love",
+    "artist": "Frankie Goes to Hollywood",
+    "year": 1984,
+    "genre": "pop",
+    "wikipediaTitle": "The Power of Love (Frankie Goes to Hollywood song)"
+  },
+  {
+    "title": "Do You Really Want to Hurt Me",
+    "artist": "Culture Club",
+    "year": 1982,
+    "genre": "pop",
+    "wikipediaTitle": "Do You Really Want to Hurt Me"
+  },
+  {
+    "title": "Time (Clock of the Heart)",
+    "artist": "Culture Club",
+    "year": 1982,
+    "genre": "pop",
+    "wikipediaTitle": "Time (Clock of the Heart)"
+  },
+  {
+    "title": "Karma Chameleon",
+    "artist": "Culture Club",
+    "year": 1983,
+    "genre": "pop",
+    "wikipediaTitle": "Karma Chameleon"
+  },
+  {
+    "title": "Church of the Poison Mind",
+    "artist": "Culture Club",
+    "year": 1983,
+    "genre": "pop",
+    "wikipediaTitle": "Church of the Poison Mind"
+  },
+  {
+    "title": "Victims",
+    "artist": "Culture Club",
+    "year": 1983,
+    "genre": "pop",
+    "wikipediaTitle": "Victims (Culture Club song)"
+  },
+  {
+    "title": "Only You",
+    "artist": "Yazoo",
+    "year": 1982,
+    "genre": "pop",
+    "wikipediaTitle": "Only You (Yazoo song)"
+  },
+  {
+    "title": "Don't Go",
+    "artist": "Yazoo",
+    "year": 1982,
+    "genre": "pop",
+    "wikipediaTitle": "Don't Go (Yazoo song)"
+  },
+  {
+    "title": "Nobody's Diary",
+    "artist": "Yazoo",
+    "year": 1983,
+    "genre": "pop",
+    "wikipediaTitle": "Nobody's Diary"
+  },
+  {
+    "title": "Vienna",
+    "artist": "Ultravox",
+    "year": 1980,
+    "genre": "pop",
+    "wikipediaTitle": "Vienna (Ultravox song)"
+  },
+  {
+    "title": "Dancing with Tears in My Eyes",
+    "artist": "Ultravox",
+    "year": 1984,
+    "genre": "pop",
+    "wikipediaTitle": "Dancing with Tears in My Eyes"
+  },
+  {
+    "title": "Temptation",
+    "artist": "Heaven 17",
+    "year": 1983,
+    "genre": "pop",
+    "wikipediaTitle": "Temptation (Heaven 17 song)"
+  },
+  {
+    "title": "(We Don't Need This) Fascist Groove Thang",
+    "artist": "Heaven 17",
+    "year": 1981,
+    "genre": "pop",
+    "wikipediaTitle": "(We Don't Need This) Fascist Groove Thang"
+  },
+  {
+    "title": "Poison Arrow",
+    "artist": "ABC",
+    "year": 1982,
+    "genre": "pop",
+    "wikipediaTitle": "Poison Arrow"
+  },
+  {
+    "title": "The Look of Love",
+    "artist": "ABC",
+    "year": 1982,
+    "genre": "pop",
+    "wikipediaTitle": "The Look of Love (ABC song)"
+  },
+  {
+    "title": "One Step Beyond",
+    "artist": "Madness",
+    "year": 1979,
+    "genre": "pop",
+    "wikipediaTitle": "One Step Beyond (Madness song)"
+  },
+  {
+    "title": "Our House",
+    "artist": "Madness",
+    "year": 1982,
+    "genre": "pop",
+    "wikipediaTitle": "Our House (Madness song)"
+  },
+  {
+    "title": "House of Fun",
+    "artist": "Madness",
+    "year": 1982,
+    "genre": "pop",
+    "wikipediaTitle": "House of Fun"
+  },
+  {
+    "title": "It Must Be Love",
+    "artist": "Madness",
+    "year": 1981,
+    "genre": "pop",
+    "wikipediaTitle": "It Must Be Love (Madness song)"
+  },
+  {
+    "title": "Ant Music",
+    "artist": "Adam and the Ants",
+    "year": 1980,
+    "genre": "pop",
+    "wikipediaTitle": "Ant Music"
+  },
+  {
+    "title": "Stand and Deliver",
+    "artist": "Adam and the Ants",
+    "year": 1981,
+    "genre": "pop",
+    "wikipediaTitle": "Stand and Deliver"
+  },
+  {
+    "title": "Goody Two Shoes",
+    "artist": "Adam Ant",
+    "year": 1982,
+    "genre": "pop",
+    "wikipediaTitle": "Goody Two Shoes"
+  },
+  {
+    "title": "Rock Lobster",
+    "artist": "The B-52s",
+    "year": 1979,
+    "genre": "rock",
+    "wikipediaTitle": "Rock Lobster"
+  },
+  {
+    "title": "Love Shack",
+    "artist": "The B-52s",
+    "year": 1989,
+    "genre": "rock",
+    "wikipediaTitle": "Love Shack"
+  },
+  {
+    "title": "Whip It",
+    "artist": "Devo",
+    "year": 1980,
+    "genre": "rock",
+    "wikipediaTitle": "Whip It (song)"
+  },
+  {
+    "title": "Girl U Want",
+    "artist": "Devo",
+    "year": 1980,
+    "genre": "rock",
+    "wikipediaTitle": "Girl U Want"
+  },
+  {
+    "title": "You Spin Me Round (Like a Record)",
+    "artist": "Dead or Alive",
+    "year": 1985,
+    "genre": "pop",
+    "wikipediaTitle": "You Spin Me Round (Like a Record)"
+  },
+  {
+    "title": "Ghost Town",
+    "artist": "The Specials",
+    "year": 1981,
+    "genre": "rock",
+    "wikipediaTitle": "Ghost Town (The Specials song)"
+  },
+  {
+    "title": "A Message to You Rudy",
+    "artist": "The Specials",
+    "year": 1979,
+    "genre": "rock",
+    "wikipediaTitle": "A Message to You Rudy"
+  },
+  {
+    "title": "Tempted",
+    "artist": "Squeeze",
+    "year": 1981,
+    "genre": "rock",
+    "wikipediaTitle": "Tempted (Squeeze song)"
+  },
+  {
+    "title": "Cool for Cats",
+    "artist": "Squeeze",
+    "year": 1979,
+    "genre": "rock",
+    "wikipediaTitle": "Cool for Cats"
+  },
+  {
+    "title": "Up the Junction",
+    "artist": "Squeeze",
+    "year": 1979,
+    "genre": "rock",
+    "wikipediaTitle": "Up the Junction (Squeeze song)"
+  },
+  {
+    "title": "Just What I Needed",
+    "artist": "The Cars",
+    "year": 1978,
+    "genre": "pop",
+    "wikipediaTitle": "Just What I Needed"
+  },
+  {
+    "title": "Drive",
+    "artist": "The Cars",
+    "year": 1984,
+    "genre": "pop",
+    "wikipediaTitle": "Drive (The Cars song)"
+  },
+  {
+    "title": "Shake It Up",
+    "artist": "The Cars",
+    "year": 1981,
+    "genre": "pop",
+    "wikipediaTitle": "Shake It Up (The Cars song)"
+  },
+  {
+    "title": "Tuxedo Junction",
+    "artist": "Glenn Miller",
+    "year": 1940,
+    "genre": "jazz",
+    "wikipediaTitle": "Tuxedo Junction"
+  },
+  {
+    "title": "Pennsylvania 6-5000",
+    "artist": "Glenn Miller",
+    "year": 1940,
+    "genre": "jazz",
+    "wikipediaTitle": "Pennsylvania 6-5000"
+  },
+  {
+    "title": "Chattanooga Choo Choo",
+    "artist": "Glenn Miller",
+    "year": 1941,
+    "genre": "jazz",
+    "wikipediaTitle": "Chattanooga Choo Choo"
+  },
+  {
+    "title": "A String of Pearls",
+    "artist": "Glenn Miller",
+    "year": 1941,
+    "genre": "jazz",
+    "wikipediaTitle": "A String of Pearls"
+  },
+  {
+    "title": "Boogie Woogie Bugle Boy",
+    "artist": "Andrews Sisters",
+    "year": 1941,
+    "genre": "pop",
+    "wikipediaTitle": "Boogie Woogie Bugle Boy"
+  },
+  {
+    "title": "Rum and Coca-Cola",
+    "artist": "Andrews Sisters",
+    "year": 1945,
+    "genre": "pop",
+    "wikipediaTitle": "Rum and Coca-Cola"
+  },
+  {
+    "title": "Don't Fence Me In",
+    "artist": "Bing Crosby & Andrews Sisters",
+    "year": 1944,
+    "genre": "pop",
+    "wikipediaTitle": "Don't Fence Me In"
+  },
+  {
+    "title": "Salt Peanuts",
+    "artist": "Dizzy Gillespie",
+    "year": 1945,
+    "genre": "jazz",
+    "wikipediaTitle": "Salt Peanuts"
+  },
+  {
+    "title": "Ornithology",
+    "artist": "Charlie Parker",
+    "year": 1946,
+    "genre": "jazz",
+    "wikipediaTitle": "Ornithology (composition)"
+  },
+  {
+    "title": "Donna Lee",
+    "artist": "Charlie Parker",
+    "year": 1947,
+    "genre": "jazz",
+    "wikipediaTitle": "Donna Lee"
+  },
+  {
+    "title": "The Christmas Song",
+    "artist": "Nat King Cole",
+    "year": 1946,
+    "genre": "pop",
+    "wikipediaTitle": "The Christmas Song"
+  },
+  {
+    "title": "(I Love You) For Sentimental Reasons",
+    "artist": "Nat King Cole",
+    "year": 1946,
+    "genre": "pop",
+    "wikipediaTitle": "(I Love You) For Sentimental Reasons"
+  },
+  {
+    "title": "Nature Boy",
+    "artist": "Nat King Cole",
+    "year": 1948,
+    "genre": "pop",
+    "wikipediaTitle": "Nature Boy"
+  },
+  {
+    "title": "I'll Never Smile Again",
+    "artist": "Frank Sinatra",
+    "year": 1940,
+    "genre": "pop",
+    "wikipediaTitle": "I'll Never Smile Again"
+  },
+  {
+    "title": "Nancy (with the Laughing Face)",
+    "artist": "Frank Sinatra",
+    "year": 1945,
+    "genre": "pop",
+    "wikipediaTitle": "Nancy (with the Laughing Face)"
+  },
+  {
+    "title": "Paper Doll",
+    "artist": "Mills Brothers",
+    "year": 1943,
+    "genre": "pop",
+    "wikipediaTitle": "Paper Doll (song)"
+  },
+  {
+    "title": "Till the End of Time",
+    "artist": "Perry Como",
+    "year": 1945,
+    "genre": "pop",
+    "wikipediaTitle": "Till the End of Time (Perry Como song)"
+  },
+  {
+    "title": "Don't Get Around Much Anymore",
+    "artist": "Duke Ellington",
+    "year": 1942,
+    "genre": "jazz",
+    "wikipediaTitle": "Don't Get Around Much Anymore"
+  },
+  {
+    "title": "Flying Home",
+    "artist": "Illinois Jacquet",
+    "year": 1942,
+    "genre": "blues",
+    "wikipediaTitle": "Flying Home (song)"
+  },
+  {
+    "title": "Caldonia",
+    "artist": "Louis Jordan",
+    "year": 1945,
+    "genre": "blues",
+    "wikipediaTitle": "Caldonia (What Makes Your Big Head So Hard?)"
+  },
+  {
+    "title": "Choo Choo Ch'Boogie",
+    "artist": "Louis Jordan",
+    "year": 1946,
+    "genre": "blues",
+    "wikipediaTitle": "Choo Choo Ch'Boogie"
+  },
+  {
+    "title": "Good Rockin' Tonight",
+    "artist": "Roy Brown",
+    "year": 1947,
+    "genre": "blues",
+    "wikipediaTitle": "Good Rockin' Tonight"
+  },
+  {
+    "title": "Saturday Night Fish Fry",
+    "artist": "Louis Jordan",
+    "year": 1949,
+    "genre": "blues",
+    "wikipediaTitle": "Saturday Night Fish Fry"
+  },
+  {
+    "title": "Move It on Over",
+    "artist": "Hank Williams",
+    "year": 1947,
+    "genre": "country",
+    "wikipediaTitle": "Move It on Over (Hank Williams song)"
+  },
+  {
+    "title": "Lovesick Blues",
+    "artist": "Hank Williams",
+    "year": 1949,
+    "genre": "country",
+    "wikipediaTitle": "Lovesick Blues"
+  },
+  {
+    "title": "New San Antonio Rose",
+    "artist": "Bob Wills",
+    "year": 1940,
+    "genre": "country",
+    "wikipediaTitle": "New San Antonio Rose"
+  },
+  {
+    "title": "Smoke! Smoke! Smoke! (That Cigarette)",
+    "artist": "Tex Williams",
+    "year": 1947,
+    "genre": "country",
+    "wikipediaTitle": "Smoke! Smoke! Smoke! (That Cigarette)"
+  },
+  {
+    "title": "Rocket 88",
+    "artist": "Jackie Brenston",
+    "year": 1951,
+    "genre": "rock",
+    "wikipediaTitle": "Rocket 88"
+  },
+  {
+    "title": "Shake, Rattle and Roll",
+    "artist": "Big Joe Turner",
+    "year": 1954,
+    "genre": "blues",
+    "wikipediaTitle": "Shake, Rattle and Roll"
+  },
+  {
+    "title": "Blue Suede Shoes",
+    "artist": "Carl Perkins",
+    "year": 1955,
+    "genre": "rock",
+    "wikipediaTitle": "Blue Suede Shoes"
+  },
+  {
+    "title": "Maybellene",
+    "artist": "Chuck Berry",
+    "year": 1955,
+    "genre": "rock",
+    "wikipediaTitle": "Maybellene"
+  },
+  {
+    "title": "Roll Over Beethoven",
+    "artist": "Chuck Berry",
+    "year": 1956,
+    "genre": "rock",
+    "wikipediaTitle": "Roll Over Beethoven"
+  },
+  {
+    "title": "School Day",
+    "artist": "Chuck Berry",
+    "year": 1957,
+    "genre": "rock",
+    "wikipediaTitle": "School Day (Ring! Ring! Goes the Bell)"
+  },
+  {
+    "title": "Tutti Frutti",
+    "artist": "Little Richard",
+    "year": 1955,
+    "genre": "rock",
+    "wikipediaTitle": "Tutti Frutti (song)"
+  },
+  {
+    "title": "Long Tall Sally",
+    "artist": "Little Richard",
+    "year": 1956,
+    "genre": "rock",
+    "wikipediaTitle": "Long Tall Sally (song)"
+  },
+  {
+    "title": "Good Golly, Miss Molly",
+    "artist": "Little Richard",
+    "year": 1958,
+    "genre": "rock",
+    "wikipediaTitle": "Good Golly, Miss Molly"
+  },
+  {
+    "title": "Ain't That a Shame",
+    "artist": "Fats Domino",
+    "year": 1955,
+    "genre": "rock",
+    "wikipediaTitle": "Ain't That a Shame"
+  },
+  {
+    "title": "Blueberry Hill",
+    "artist": "Fats Domino",
+    "year": 1956,
+    "genre": "rock",
+    "wikipediaTitle": "Blueberry Hill (song)"
+  },
+  {
+    "title": "I'm Walkin'",
+    "artist": "Fats Domino",
+    "year": 1957,
+    "genre": "rock",
+    "wikipediaTitle": "I'm Walkin'"
+  },
+  {
+    "title": "Whole Lotta Shakin' Goin' On",
+    "artist": "Jerry Lee Lewis",
+    "year": 1957,
+    "genre": "rock",
+    "wikipediaTitle": "Whole Lotta Shakin' Goin' On"
+  },
+  {
+    "title": "Great Balls of Fire",
+    "artist": "Jerry Lee Lewis",
+    "year": 1957,
+    "genre": "rock",
+    "wikipediaTitle": "Great Balls of Fire"
+  },
+  {
+    "title": "That's All Right",
+    "artist": "Elvis Presley",
+    "year": 1954,
+    "genre": "rock",
+    "wikipediaTitle": "That's All Right"
+  },
+  {
+    "title": "Jailhouse Rock",
+    "artist": "Elvis Presley",
+    "year": 1957,
+    "genre": "rock",
+    "wikipediaTitle": "Jailhouse Rock (song)"
+  },
+  {
+    "title": "Love Me Tender",
+    "artist": "Elvis Presley",
+    "year": 1956,
+    "genre": "rock",
+    "wikipediaTitle": "Love Me Tender (song)"
+  },
+  {
+    "title": "Don't Be Cruel",
+    "artist": "Elvis Presley",
+    "year": 1956,
+    "genre": "rock",
+    "wikipediaTitle": "Don't Be Cruel (Elvis Presley song)"
+  },
+  {
+    "title": "All Shook Up",
+    "artist": "Elvis Presley",
+    "year": 1957,
+    "genre": "rock",
+    "wikipediaTitle": "All Shook Up"
+  },
+  {
+    "title": "That'll Be the Day",
+    "artist": "Buddy Holly",
+    "year": 1957,
+    "genre": "rock",
+    "wikipediaTitle": "That'll Be the Day"
+  },
+  {
+    "title": "Not Fade Away",
+    "artist": "Buddy Holly",
+    "year": 1957,
+    "genre": "rock",
+    "wikipediaTitle": "Not Fade Away"
+  },
+  {
+    "title": "How High the Moon",
+    "artist": "Les Paul & Mary Ford",
+    "year": 1951,
+    "genre": "jazz",
+    "wikipediaTitle": "How High the Moon"
+  },
+  {
+    "title": "Lush Life",
+    "artist": "Billy Strayhorn",
+    "year": 1949,
+    "genre": "jazz",
+    "wikipediaTitle": "Lush Life (song)"
+  },
+  {
+    "title": "You Send Me",
+    "artist": "Sam Cooke",
+    "year": 1957,
+    "genre": "pop",
+    "wikipediaTitle": "You Send Me"
+  },
+  {
+    "title": "Wonderful World",
+    "artist": "Sam Cooke",
+    "year": 1960,
+    "genre": "pop",
+    "wikipediaTitle": "Wonderful World (Sam Cooke song)"
+  },
+  {
+    "title": "Mona Lisa",
+    "artist": "Nat King Cole",
+    "year": 1950,
+    "genre": "pop",
+    "wikipediaTitle": "Mona Lisa (Nat King Cole song)"
+  },
+  {
+    "title": "Unforgettable",
+    "artist": "Nat King Cole",
+    "year": 1951,
+    "genre": "pop",
+    "wikipediaTitle": "Unforgettable (Nat King Cole song)"
+  },
+  {
+    "title": "Too Young",
+    "artist": "Nat King Cole",
+    "year": 1951,
+    "genre": "pop",
+    "wikipediaTitle": "Too Young (song)"
+  },
+  {
+    "title": "Hey, Good Lookin'",
+    "artist": "Hank Williams",
+    "year": 1951,
+    "genre": "country",
+    "wikipediaTitle": "Hey, Good Lookin'"
+  },
+  {
+    "title": "Half as Much",
+    "artist": "Hank Williams",
+    "year": 1952,
+    "genre": "country",
+    "wikipediaTitle": "Half as Much"
+  },
+  {
+    "title": "Kaw-Liga",
+    "artist": "Hank Williams",
+    "year": 1953,
+    "genre": "country",
+    "wikipediaTitle": "Kaw-Liga"
+  },
+  {
+    "title": "Sweet Dreams",
+    "artist": "Patsy Cline",
+    "year": 1956,
+    "genre": "country",
+    "wikipediaTitle": "Sweet Dreams (Don Gibson song)"
+  },
+  {
+    "title": "Papa's Got a Brand New Bag",
+    "artist": "James Brown",
+    "year": 1965,
+    "genre": "pop",
+    "wikipediaTitle": "Papa's Got a Brand New Bag"
+  },
+  {
+    "title": "I Got You (I Feel Good)",
+    "artist": "James Brown",
+    "year": 1965,
+    "genre": "pop",
+    "wikipediaTitle": "I Got You (I Feel Good)"
+  },
+  {
+    "title": "It's a Man's Man's Man's World",
+    "artist": "James Brown",
+    "year": 1966,
+    "genre": "pop",
+    "wikipediaTitle": "It's a Man's Man's Man's World"
+  },
+  {
+    "title": "Respect",
+    "artist": "Aretha Franklin",
+    "year": 1967,
+    "genre": "pop",
+    "wikipediaTitle": "Respect (song)"
+  },
+  {
+    "title": "Chain of Fools",
+    "artist": "Aretha Franklin",
+    "year": 1967,
+    "genre": "pop",
+    "wikipediaTitle": "Chain of Fools"
+  },
+  {
+    "title": "(You Make Me Feel Like) A Natural Woman",
+    "artist": "Aretha Franklin",
+    "year": 1967,
+    "genre": "pop",
+    "wikipediaTitle": "(You Make Me Feel Like) A Natural Woman"
+  },
+  {
+    "title": "Think",
+    "artist": "Aretha Franklin",
+    "year": 1968,
+    "genre": "pop",
+    "wikipediaTitle": "Think (Aretha Franklin song)"
+  },
+  {
+    "title": "Try a Little Tenderness",
+    "artist": "Otis Redding",
+    "year": 1966,
+    "genre": "pop",
+    "wikipediaTitle": "Try a Little Tenderness"
+  },
+  {
+    "title": "(Sittin' On) The Dock of the Bay",
+    "artist": "Otis Redding",
+    "year": 1968,
+    "genre": "pop",
+    "wikipediaTitle": "(Sittin' On) The Dock of the Bay"
+  },
+  {
+    "title": "A Change Is Gonna Come",
+    "artist": "Sam Cooke",
+    "year": 1965,
+    "genre": "pop",
+    "wikipediaTitle": "A Change Is Gonna Come"
+  },
+  {
+    "title": "Twistin' the Night Away",
+    "artist": "Sam Cooke",
+    "year": 1962,
+    "genre": "pop",
+    "wikipediaTitle": "Twistin' the Night Away"
+  },
+  {
+    "title": "How Sweet It Is (To Be Loved by You)",
+    "artist": "Marvin Gaye",
+    "year": 1964,
+    "genre": "pop",
+    "wikipediaTitle": "How Sweet It Is (To Be Loved by You)"
+  },
+  {
+    "title": "Ain't No Mountain High Enough",
+    "artist": "Marvin Gaye",
+    "year": 1967,
+    "genre": "pop",
+    "wikipediaTitle": "Ain't No Mountain High Enough"
+  },
+  {
+    "title": "I Can't Help Myself (Sugar Pie Honey Bunch)",
+    "artist": "Four Tops",
+    "year": 1965,
+    "genre": "pop",
+    "wikipediaTitle": "I Can't Help Myself (Sugar Pie Honey Bunch)"
+  },
+  {
+    "title": "Reach Out I'll Be There",
+    "artist": "Four Tops",
+    "year": 1966,
+    "genre": "pop",
+    "wikipediaTitle": "Reach Out I'll Be There"
+  },
+  {
+    "title": "In the Midnight Hour",
+    "artist": "Wilson Pickett",
+    "year": 1965,
+    "genre": "pop",
+    "wikipediaTitle": "In the Midnight Hour"
+  },
+  {
+    "title": "Mustang Sally",
+    "artist": "Wilson Pickett",
+    "year": 1966,
+    "genre": "pop",
+    "wikipediaTitle": "Mustang Sally"
+  },
+  {
+    "title": "Baby Love",
+    "artist": "The Supremes",
+    "year": 1964,
+    "genre": "pop",
+    "wikipediaTitle": "Baby Love"
+  },
+  {
+    "title": "For Once in My Life",
+    "artist": "Stevie Wonder",
+    "year": 1968,
+    "genre": "pop",
+    "wikipediaTitle": "For Once in My Life"
+  },
+  {
+    "title": "My Cherie Amour",
+    "artist": "Stevie Wonder",
+    "year": 1969,
+    "genre": "pop",
+    "wikipediaTitle": "My Cherie Amour"
+  },
+  {
+    "title": "Oh, Pretty Woman",
+    "artist": "Roy Orbison",
+    "year": 1964,
+    "genre": "rock",
+    "wikipediaTitle": "Oh, Pretty Woman"
+  },
+  {
+    "title": "Crying",
+    "artist": "Roy Orbison",
+    "year": 1961,
+    "genre": "rock",
+    "wikipediaTitle": "Crying (Roy Orbison song)"
+  },
+  {
+    "title": "House of the Rising Sun",
+    "artist": "The Animals",
+    "year": 1964,
+    "genre": "rock",
+    "wikipediaTitle": "House of the Rising Sun"
+  },
+  {
+    "title": "You Really Got Me",
+    "artist": "The Kinks",
+    "year": 1964,
+    "genre": "rock",
+    "wikipediaTitle": "You Really Got Me"
+  },
+  {
+    "title": "Waterloo Sunset",
+    "artist": "The Kinks",
+    "year": 1967,
+    "genre": "rock",
+    "wikipediaTitle": "Waterloo Sunset"
+  },
+  {
+    "title": "My Generation",
+    "artist": "The Who",
+    "year": 1965,
+    "genre": "rock",
+    "wikipediaTitle": "My Generation (song)"
+  },
+  {
+    "title": "Pinball Wizard",
+    "artist": "The Who",
+    "year": 1969,
+    "genre": "rock",
+    "wikipediaTitle": "Pinball Wizard"
+  },
+  {
+    "title": "Sunshine of Your Love",
+    "artist": "Cream",
+    "year": 1967,
+    "genre": "rock",
+    "wikipediaTitle": "Sunshine of Your Love"
+  },
+  {
+    "title": "White Room",
+    "artist": "Cream",
+    "year": 1968,
+    "genre": "rock",
+    "wikipediaTitle": "White Room (song)"
+  },
+  {
+    "title": "Somebody to Love",
+    "artist": "Jefferson Airplane",
+    "year": 1967,
+    "genre": "rock",
+    "wikipediaTitle": "Somebody to Love (Jefferson Airplane song)"
+  },
+  {
+    "title": "White Rabbit",
+    "artist": "Jefferson Airplane",
+    "year": 1967,
+    "genre": "rock",
+    "wikipediaTitle": "White Rabbit (song)"
+  },
+  {
+    "title": "The Times They Are a-Changin'",
+    "artist": "Bob Dylan",
+    "year": 1964,
+    "genre": "rock",
+    "wikipediaTitle": "The Times They Are a-Changin' (song)"
+  },
+  {
+    "title": "Mr. Tambourine Man",
+    "artist": "The Byrds",
+    "year": 1965,
+    "genre": "rock",
+    "wikipediaTitle": "Mr. Tambourine Man (song)"
+  },
+  {
+    "title": "Turn! Turn! Turn!",
+    "artist": "The Byrds",
+    "year": 1965,
+    "genre": "rock",
+    "wikipediaTitle": "Turn! Turn! Turn!"
+  },
+  {
+    "title": "The Sound of Silence",
+    "artist": "Simon & Garfunkel",
+    "year": 1964,
+    "genre": "rock",
+    "wikipediaTitle": "The Sound of Silence"
+  },
+  {
+    "title": "Mrs. Robinson",
+    "artist": "Simon & Garfunkel",
+    "year": 1968,
+    "genre": "rock",
+    "wikipediaTitle": "Mrs. Robinson (song)"
+  },
+  {
+    "title": "The 59th Street Bridge Song (Feelin' Groovy)",
+    "artist": "Simon & Garfunkel",
+    "year": 1966,
+    "genre": "rock",
+    "wikipediaTitle": "The 59th Street Bridge Song (Feelin' Groovy)"
+  },
+  {
+    "title": "You've Lost That Lovin' Feelin'",
+    "artist": "The Righteous Brothers",
+    "year": 1964,
+    "genre": "pop",
+    "wikipediaTitle": "You've Lost That Lovin' Feelin'"
+  },
+  {
+    "title": "Unchained Melody",
+    "artist": "The Righteous Brothers",
+    "year": 1965,
+    "genre": "pop",
+    "wikipediaTitle": "Unchained Melody"
+  },
+  {
+    "title": "Proud Mary",
+    "artist": "Creedence Clearwater Revival",
+    "year": 1969,
+    "genre": "rock",
+    "wikipediaTitle": "Proud Mary (song)"
+  },
+  {
+    "title": "Bad Moon Rising",
+    "artist": "Creedence Clearwater Revival",
+    "year": 1969,
+    "genre": "rock",
+    "wikipediaTitle": "Bad Moon Rising (song)"
+  },
+  {
+    "title": "Heat Waves",
+    "artist": "Glass Animals",
+    "year": 2020,
+    "genre": "pop",
+    "wikipediaTitle": "Heat Waves (song)"
+  },
+  {
+    "title": "Physical",
+    "artist": "Dua Lipa",
+    "year": 2020,
+    "genre": "pop",
+    "wikipediaTitle": "Physical (Dua Lipa song)"
+  },
+  {
+    "title": "Therefore I Am",
+    "artist": "Billie Eilish",
+    "year": 2020,
+    "genre": "pop",
+    "wikipediaTitle": "Therefore I Am"
+  },
+  {
+    "title": "Dynamite",
+    "artist": "BTS",
+    "year": 2020,
+    "genre": "pop",
+    "wikipediaTitle": "Dynamite (BTS song)"
+  },
+  {
+    "title": "Golden",
+    "artist": "Harry Styles",
+    "year": 2020,
+    "genre": "pop",
+    "wikipediaTitle": "Golden (Harry Styles song)"
+  },
+  {
+    "title": "Essence",
+    "artist": "WizKid",
+    "year": 2020,
+    "genre": "pop",
+    "wikipediaTitle": "Essence (WizKid song)"
+  },
+  {
+    "title": "Easy on Me",
+    "artist": "Adele",
+    "year": 2021,
+    "genre": "pop",
+    "wikipediaTitle": "Easy on Me (song)"
+  },
+  {
+    "title": "Happier Than Ever",
+    "artist": "Billie Eilish",
+    "year": 2021,
+    "genre": "pop",
+    "wikipediaTitle": "Happier Than Ever (song)"
+  },
+  {
+    "title": "Leave the Door Open",
+    "artist": "Silk Sonic",
+    "year": 2021,
+    "genre": "pop",
+    "wikipediaTitle": "Leave the Door Open"
+  },
+  {
+    "title": "Montero (Call Me by Your Name)",
+    "artist": "Lil Nas X",
+    "year": 2021,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Montero (Call Me by Your Name)"
+  },
+  {
+    "title": "Stay",
+    "artist": "The Kid LAROI & Justin Bieber",
+    "year": 2021,
+    "genre": "pop",
+    "wikipediaTitle": "Stay (The Kid Laroi and Justin Bieber song)"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS",
+    "year": 2021,
+    "genre": "pop",
+    "wikipediaTitle": "Butter (BTS song)"
+  },
+  {
+    "title": "Save Your Tears",
+    "artist": "The Weeknd",
+    "year": 2021,
+    "genre": "pop",
+    "wikipediaTitle": "Save Your Tears"
+  },
+  {
+    "title": "Traitor",
+    "artist": "Olivia Rodrigo",
+    "year": 2021,
+    "genre": "pop",
+    "wikipediaTitle": "Traitor (Olivia Rodrigo song)"
+  },
+  {
+    "title": "Deja Vu",
+    "artist": "Olivia Rodrigo",
+    "year": 2021,
+    "genre": "pop",
+    "wikipediaTitle": "Deja Vu (Olivia Rodrigo song)"
+  },
+  {
+    "title": "Cold Heart",
+    "artist": "Elton John & Dua Lipa",
+    "year": 2021,
+    "genre": "pop",
+    "wikipediaTitle": "Cold Heart"
+  },
+  {
+    "title": "Bad Habit",
+    "artist": "Steve Lacy",
+    "year": 2022,
+    "genre": "pop",
+    "wikipediaTitle": "Bad Habit (Steve Lacy song)"
+  },
+  {
+    "title": "About Damn Time",
+    "artist": "Lizzo",
+    "year": 2022,
+    "genre": "pop",
+    "wikipediaTitle": "About Damn Time"
+  },
+  {
+    "title": "Unholy",
+    "artist": "Sam Smith & Kim Petras",
+    "year": 2022,
+    "genre": "pop",
+    "wikipediaTitle": "Unholy (song)"
+  },
+  {
+    "title": "Rich Flex",
+    "artist": "Drake & 21 Savage",
+    "year": 2022,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Rich Flex"
+  },
+  {
+    "title": "Die Hard",
+    "artist": "Kendrick Lamar",
+    "year": 2022,
+    "genre": "hip-hop",
+    "wikipediaTitle": "Die Hard (Kendrick Lamar song)"
+  },
+  {
+    "title": "N95",
+    "artist": "Kendrick Lamar",
+    "year": 2022,
+    "genre": "hip-hop",
+    "wikipediaTitle": "N95 (song)"
+  },
+  {
+    "title": "Midnight Rain",
+    "artist": "Taylor Swift",
+    "year": 2022,
+    "genre": "pop",
+    "wikipediaTitle": "Midnight Rain (song)"
+  },
+  {
+    "title": "Lavender Haze",
+    "artist": "Taylor Swift",
+    "year": 2022,
+    "genre": "pop",
+    "wikipediaTitle": "Lavender Haze"
+  },
+  {
+    "title": "Flowers",
+    "artist": "Miley Cyrus",
+    "year": 2023,
+    "genre": "pop",
+    "wikipediaTitle": "Flowers (Miley Cyrus song)"
+  },
+  {
+    "title": "Vampire",
+    "artist": "Olivia Rodrigo",
+    "year": 2023,
+    "genre": "pop",
+    "wikipediaTitle": "Vampire (Olivia Rodrigo song)"
+  },
+  {
+    "title": "Kill Bill",
+    "artist": "SZA",
+    "year": 2022,
+    "genre": "pop",
+    "wikipediaTitle": "Kill Bill (SZA song)"
+  },
+  {
+    "title": "Escapism",
+    "artist": "RAYE",
+    "year": 2022,
+    "genre": "pop",
+    "wikipediaTitle": "Escapism (Raye and 070 Shake song)"
+  },
+  {
+    "title": "Golden Hour",
+    "artist": "JVKE",
+    "year": 2022,
+    "genre": "pop",
+    "wikipediaTitle": "Golden Hour (JVKE song)"
+  },
+  {
+    "title": "Calm Down",
+    "artist": "Rema & Selena Gomez",
+    "year": 2022,
+    "genre": "pop",
+    "wikipediaTitle": "Calm Down (Rema and Selena Gomez song)"
+  },
+  {
+    "title": "Main Title (Star Wars)",
+    "artist": "John Williams",
+    "year": 1977,
+    "genre": "classical",
+    "wikipediaTitle": "Star Wars (Main Theme)"
+  },
+  {
+    "title": "The Imperial March (Darth Vader's Theme)",
+    "artist": "John Williams",
+    "year": 1980,
+    "genre": "classical",
+    "wikipediaTitle": "The Imperial March"
+  },
+  {
+    "title": "Raiders March",
+    "artist": "John Williams",
+    "year": 1981,
+    "genre": "classical",
+    "wikipediaTitle": "Raiders March"
+  },
+  {
+    "title": "E.T. Flying Theme",
+    "artist": "John Williams",
+    "year": 1982,
+    "genre": "classical",
+    "wikipediaTitle": "Adventures on Earth"
+  },
+  {
+    "title": "Theme from Schindler's List",
+    "artist": "John Williams",
+    "year": 1993,
+    "genre": "classical",
+    "wikipediaTitle": "Theme from Schindler's List"
+  },
+  {
+    "title": "Duel of the Fates",
+    "artist": "John Williams",
+    "year": 1999,
+    "genre": "classical",
+    "wikipediaTitle": "Duel of the Fates"
+  },
+  {
+    "title": "Hedwig's Theme",
+    "artist": "John Williams",
+    "year": 2001,
+    "genre": "classical",
+    "wikipediaTitle": "Hedwig's Theme"
+  },
+  {
+    "title": "Theme from Jaws",
+    "artist": "John Williams",
+    "year": 1975,
+    "genre": "classical",
+    "wikipediaTitle": "Theme from Jaws"
+  },
+  {
+    "title": "Theme from Superman",
+    "artist": "John Williams",
+    "year": 1978,
+    "genre": "classical",
+    "wikipediaTitle": "Superman (theme)"
+  },
+  {
+    "title": "Theme from Jurassic Park",
+    "artist": "John Williams",
+    "year": 1993,
+    "genre": "classical",
+    "wikipediaTitle": "Theme from Jurassic Park"
+  },
+  {
+    "title": "The Good, the Bad and the Ugly (Theme)",
+    "artist": "Ennio Morricone",
+    "year": 1966,
+    "genre": "classical",
+    "wikipediaTitle": "The Good, the Bad and the Ugly (film)"
+  },
+  {
+    "title": "Once Upon a Time in the West (Theme)",
+    "artist": "Ennio Morricone",
+    "year": 1968,
+    "genre": "classical",
+    "wikipediaTitle": "Once Upon a Time in the West"
+  },
+  {
+    "title": "Gabriel's Oboe",
+    "artist": "Ennio Morricone",
+    "year": 1986,
+    "genre": "classical",
+    "wikipediaTitle": "Gabriel's Oboe"
+  },
+  {
+    "title": "Cinema Paradiso (Theme)",
+    "artist": "Ennio Morricone",
+    "year": 1988,
+    "genre": "classical",
+    "wikipediaTitle": "Cinema Paradiso"
+  },
+  {
+    "title": "The Ecstasy of Gold",
+    "artist": "Ennio Morricone",
+    "year": 1966,
+    "genre": "classical",
+    "wikipediaTitle": "The Ecstasy of Gold"
+  },
+  {
+    "title": "A Fistful of Dollars (Theme)",
+    "artist": "Ennio Morricone",
+    "year": 1964,
+    "genre": "classical",
+    "wikipediaTitle": "A Fistful of Dollars"
+  },
+  {
+    "title": "Chi Mai",
+    "artist": "Ennio Morricone",
+    "year": 1971,
+    "genre": "classical",
+    "wikipediaTitle": "Chi Mai"
+  },
+  {
+    "title": "Metamorphosis Two",
+    "artist": "Philip Glass",
+    "year": 1988,
+    "genre": "classical",
+    "wikipediaTitle": "Metamorphosis (Philip Glass)"
+  },
+  {
+    "title": "Mad Rush",
+    "artist": "Philip Glass",
+    "year": 1979,
+    "genre": "classical",
+    "wikipediaTitle": "Mad Rush"
+  },
+  {
+    "title": "Music in Fifths",
+    "artist": "Philip Glass",
+    "year": 1969,
+    "genre": "classical",
+    "wikipediaTitle": "Music in Fifths"
+  },
+  {
+    "title": "Mishima",
+    "artist": "Philip Glass",
+    "year": 1985,
+    "genre": "classical",
+    "wikipediaTitle": "Mishima: A Life in Four Chapters"
+  },
+  {
+    "title": "Time (Inception)",
+    "artist": "Hans Zimmer",
+    "year": 2010,
+    "genre": "classical",
+    "wikipediaTitle": "Inception (soundtrack)"
+  },
+  {
+    "title": "He's a Pirate",
+    "artist": "Hans Zimmer",
+    "year": 2003,
+    "genre": "classical",
+    "wikipediaTitle": "He's a Pirate"
+  },
+  {
+    "title": "Interstellar (Main Theme)",
+    "artist": "Hans Zimmer",
+    "year": 2014,
+    "genre": "classical",
+    "wikipediaTitle": "Interstellar (soundtrack)"
+  },
+  {
+    "title": "Why So Serious?",
+    "artist": "Hans Zimmer",
+    "year": 2008,
+    "genre": "classical",
+    "wikipediaTitle": "The Dark Knight (soundtrack)"
+  },
+  {
+    "title": "Now We Are Free (Gladiator)",
+    "artist": "Hans Zimmer",
+    "year": 2000,
+    "genre": "classical",
+    "wikipediaTitle": "Gladiator (2000 film soundtrack)"
+  },
+  {
+    "title": "The Lion King (Circle of Life)",
+    "artist": "Hans Zimmer",
+    "year": 1994,
+    "genre": "classical",
+    "wikipediaTitle": "Circle of Life"
+  },
+  {
+    "title": "Psycho (Main Title)",
+    "artist": "Bernard Herrmann",
+    "year": 1960,
+    "genre": "classical",
+    "wikipediaTitle": "Psycho (soundtrack)"
+  },
+  {
+    "title": "Vertigo Suite",
+    "artist": "Bernard Herrmann",
+    "year": 1958,
+    "genre": "classical",
+    "wikipediaTitle": "Vertigo (soundtrack)"
+  },
+  {
+    "title": "The Godfather (Theme)",
+    "artist": "Nino Rota",
+    "year": 1972,
+    "genre": "classical",
+    "wikipediaTitle": "The Godfather (soundtrack)"
+  },
+  {
+    "title": "Amarcord (Theme)",
+    "artist": "Nino Rota",
+    "year": 1973,
+    "genre": "classical",
+    "wikipediaTitle": "Amarcord"
+  },
+  {
+    "title": "The Lord of the Rings (Concerning Hobbits)",
+    "artist": "Howard Shore",
+    "year": 2001,
+    "genre": "classical",
+    "wikipediaTitle": "The Lord of the Rings: The Fellowship of the Ring (soundtrack)"
+  },
+  {
+    "title": "The Lord of the Rings (In Dreams)",
+    "artist": "Howard Shore",
+    "year": 2001,
+    "genre": "classical",
+    "wikipediaTitle": "In Dreams (Howard Shore song)"
+  },
+  {
+    "title": "James Bond Theme",
+    "artist": "Monty Norman / John Barry",
+    "year": 1962,
+    "genre": "classical",
+    "wikipediaTitle": "James Bond Theme"
+  },
+  {
+    "title": "Goldfinger",
+    "artist": "Shirley Bassey",
+    "year": 1964,
+    "genre": "pop",
+    "wikipediaTitle": "Goldfinger (song)"
+  },
+  {
+    "title": "Gone with the Wind (Tara's Theme)",
+    "artist": "Max Steiner",
+    "year": 1939,
+    "genre": "classical",
+    "wikipediaTitle": "Tara's Theme"
+  },
+  {
+    "title": "The Magnificent Seven (Theme)",
+    "artist": "Elmer Bernstein",
+    "year": 1960,
+    "genre": "classical",
+    "wikipediaTitle": "The Magnificent Seven (1960 film)"
+  },
+  {
+    "title": "Star Trek: The Motion Picture (Theme)",
+    "artist": "Jerry Goldsmith",
+    "year": 1979,
+    "genre": "classical",
+    "wikipediaTitle": "Star Trek: The Motion Picture (soundtrack)"
+  },
+  {
+    "title": "Nixon in China",
+    "artist": "John Adams",
+    "year": 1987,
+    "genre": "classical",
+    "wikipediaTitle": "Nixon in China"
+  },
+  {
+    "title": "Shaker Loops",
+    "artist": "John Adams",
+    "year": 1978,
+    "genre": "classical",
+    "wikipediaTitle": "Shaker Loops"
+  },
+  {
+    "title": "Short Ride in a Fast Machine",
+    "artist": "John Adams",
+    "year": 1986,
+    "genre": "classical",
+    "wikipediaTitle": "Short Ride in a Fast Machine"
+  },
+  {
+    "title": "The Piano (The Heart Asks Pleasure First)",
+    "artist": "Michael Nyman",
+    "year": 1992,
+    "genre": "classical",
+    "wikipediaTitle": "The Piano (soundtrack)"
+  },
+  {
+    "title": "Music for 18 Musicians",
+    "artist": "Steve Reich",
+    "year": 1978,
+    "genre": "classical",
+    "wikipediaTitle": "Music for 18 Musicians"
+  },
+  {
+    "title": "Different Trains",
+    "artist": "Steve Reich",
+    "year": 1988,
+    "genre": "classical",
+    "wikipediaTitle": "Different Trains"
+  },
+  {
+    "title": "Una Mattina",
+    "artist": "Ludovico Einaudi",
+    "year": 2004,
+    "genre": "classical",
+    "wikipediaTitle": "Una mattina"
+  },
+  {
+    "title": "Divenire",
+    "artist": "Ludovico Einaudi",
+    "year": 2006,
+    "genre": "classical",
+    "wikipediaTitle": "Divenire (album)"
+  },
+  {
+    "title": "Elegy for the Arctic",
+    "artist": "Ludovico Einaudi",
+    "year": 2016,
+    "genre": "classical",
+    "wikipediaTitle": "Elegy for the Arctic"
+  },
+  {
+    "title": "Sleep (Eight Hours)",
+    "artist": "Max Richter",
+    "year": 2015,
+    "genre": "classical",
+    "wikipediaTitle": "Sleep (Max Richter album)"
+  },
+  {
+    "title": "November",
+    "artist": "Max Richter",
+    "year": 2002,
+    "genre": "classical",
+    "wikipediaTitle": "Memoryhouse (Max Richter album)"
+  }
 ]

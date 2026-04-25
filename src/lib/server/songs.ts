@@ -1,5 +1,15 @@
 import songsRaw from '../data/songs.json';
-import type { Difficulty, Genre, Song } from '../types.ts';
+import {
+	GENRES,
+	TIME_SPANS,
+	getTimeSpansInRange,
+	type Difficulty,
+	type Genre,
+	type Song,
+	type TimeRange,
+	type TimeSpan,
+	type YearsBySpanAndGenre
+} from '../types.ts';
 
 export const ALL_SONGS: Song[] = songsRaw as Song[];
 
@@ -35,6 +45,78 @@ function shuffle<T>(arr: T[]): T[] {
 	return a;
 }
 
+function inTimeSpan(year: number, timeSpan: TimeSpan): boolean {
+	switch (timeSpan) {
+		case 'pre-1950s':
+			return year < 1950;
+		case '1940-1950s':
+			return year >= 1940 && year <= 1959;
+		case '1960s':
+			return year >= 1960 && year <= 1969;
+		case '1970s':
+			return year >= 1970 && year <= 1979;
+		case '1980s':
+			return year >= 1980 && year <= 1989;
+		case '1990s':
+			return year >= 1990 && year <= 1999;
+		case '2000s':
+			return year >= 2000 && year <= 2009;
+		case '2010s':
+			return year >= 2010 && year <= 2019;
+		case '2020s':
+			return year >= 2020 && year <= 2029;
+	}
+}
+
+
+function uniqueYearPool(pool: Song[]): Song[] {
+	const seenYears = new Set<number>();
+	const unique: Song[] = [];
+
+	for (const song of shuffle(pool)) {
+		if (seenYears.has(song.year)) continue;
+		seenYears.add(song.year);
+		unique.push(song);
+	}
+
+	return unique;
+}
+
+function getPlayablePool(opts: { genres: Genre[]; timeRange: TimeRange }): Song[] {
+	const selectedSpans = getTimeSpansInRange(opts.timeRange.start, opts.timeRange.end);
+	return ALL_SONGS.filter(
+		(song) =>
+			opts.genres.includes(song.genre) &&
+			song.image &&
+			selectedSpans.some((span) => inTimeSpan(song.year, span))
+	);
+}
+
+function getPlayableYears(opts: { genres: Genre[]; timeSpan: TimeSpan }): number[] {
+	return [...new Set(getPlayablePool({ genres: opts.genres, timeRange: { start: opts.timeSpan, end: opts.timeSpan } }).map((song) => song.year))].sort(
+		(a, b) => a - b
+	);
+}
+
+function buildYearsBySpanAndGenre(): YearsBySpanAndGenre {
+	const yearsBySpanAndGenre = {} as YearsBySpanAndGenre;
+
+	for (const timeSpan of TIME_SPANS) {
+		yearsBySpanAndGenre[timeSpan] = {} as Record<Genre, number[]>;
+		for (const genre of GENRES) {
+			yearsBySpanAndGenre[timeSpan][genre] = getPlayableYears({ genres: [genre], timeSpan });
+		}
+	}
+
+	return yearsBySpanAndGenre;
+}
+
+const YEARS_BY_SPAN_AND_GENRE = buildYearsBySpanAndGenre();
+
+export function getYearsBySpanAndGenre(): YearsBySpanAndGenre {
+	return YEARS_BY_SPAN_AND_GENRE;
+}
+
 /**
  * Pick `count` songs whose pairwise year gaps satisfy the difficulty rule.
  * Greedy: shuffle the pool, then accept songs whose year is far enough from
@@ -43,16 +125,18 @@ function shuffle<T>(arr: T[]): T[] {
 export function pickRound(opts: {
 	genres: Genre[];
 	difficulty: Difficulty;
+	timeRange: TimeRange;
 	count?: number;
 }): Song[] {
 	const count = opts.count ?? 10;
 	const rule = RULES[opts.difficulty];
-	const pool = ALL_SONGS.filter((s) => opts.genres.includes(s.genre) && s.image);
+	const pool = getPlayablePool(opts);
+	const uniqueYears = uniqueYearPool(pool);
 
-	if (pool.length < count) return shuffle(pool).slice(0, count);
+	if (uniqueYears.length < count) return uniqueYears.slice(0, count);
 
 	for (let attempt = 0; attempt < 200; attempt++) {
-		const shuffled = shuffle(pool);
+		const shuffled = uniqueYearPool(pool);
 		const picked: Song[] = [];
 		for (const song of shuffled) {
 			if (picked.every((p) => gapOk(p.year, song.year, rule))) {
@@ -64,7 +148,7 @@ export function pickRound(opts: {
 	}
 
 	// Couldn't satisfy gaps — fall back to a sparse-as-possible greedy pick
-	return greedySpread(pool, count);
+	return greedySpread(uniqueYears, count);
 }
 
 function greedySpread(pool: Song[], count: number): Song[] {
