@@ -40,6 +40,7 @@
 
 	const DIFFS: Difficulty[] = ['easy', 'medium', 'hard'];
 	const MIN_TIME_SPAN_DISTANCE = MIN_TIME_SPAN_COUNT - LAST_SPAN_OFFSET;
+	// eslint-disable-next-line prefer-const
 	let difficulty = $state<Difficulty>('medium');
 	let rangeStartIdx = $state(INITIAL_INDEX);
 	let rangeEndIdx = $state(TIME_SPANS.length - LAST_SPAN_OFFSET);
