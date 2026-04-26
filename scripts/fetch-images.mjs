@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-import { readFileSync, writeFileSync, existsSync } from 'node:fs';
-import { resolve, dirname } from 'node:path';
+import { existsSync, readFileSync, writeFileSync } from 'node:fs';
+import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -9,45 +9,59 @@ const OUT = resolve(__dirname, '..', 'src', 'lib', 'data', 'songs.json');
 const CACHE = resolve(__dirname, '.cache.json');
 
 const UA = 'flashtune/0.1 (https://github.com/local; learning project) node-fetch';
-const REST = (title) =>
+const TITLE_SLICE_LENGTH = 40;
+const CACHE_SAVE_INTERVAL = 25;
+const JSON_SPACES = '\t';
+const SEARCH_RESULT_INDEX = 1;
+const SEARCH_TITLE_INDEX = 0;
+
+const restUrl = (title) =>
 	`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title.replace(/ /g, '_'))}?redirect=true`;
-const SEARCH = (q) =>
-	`https://en.wikipedia.org/w/api.php?action=opensearch&format=json&limit=1&search=${encodeURIComponent(q)}`;
+const searchUrl = (query) =>
+	`https://en.wikipedia.org/w/api.php?action=opensearch&format=json&limit=1&search=${encodeURIComponent(query)}`;
 
-const cache = existsSync(CACHE) ? JSON.parse(readFileSync(CACHE, 'utf8')) : {};
+const loadCache = () => {
+	if (existsSync(CACHE)) {
+		return JSON.parse(readFileSync(CACHE, 'utf8'));
+	}
 
-async function getSummary(title) {
-	const url = REST(title);
-	const r = await fetch(url, { headers: { 'User-Agent': UA, accept: 'application/json' } });
-	if (!r.ok) return null;
-	const data = await r.json();
-	if (data.type === 'disambiguation') return null;
+	return {};
+};
+
+const cache = loadCache();
+
+const getSummary = async (title) => {
+	const url = restUrl(title);
+	const response = await fetch(url, { headers: { 'User-Agent': UA, accept: 'application/json' } });
+	if (!response.ok) {return null;}
+	const data = await response.json();
+	if (data.type === 'disambiguation') {return null;}
 	return data;
-}
+};
 
-async function searchTitle(query) {
-	const r = await fetch(SEARCH(query), { headers: { 'User-Agent': UA } });
-	if (!r.ok) return null;
-	const data = await r.json();
-	return data?.[1]?.[0] ?? null;
-}
+const searchTitle = async (query) => {
+	const response = await fetch(searchUrl(query), { headers: { 'User-Agent': UA } });
+	if (!response.ok) {return null;}
+	const data = await response.json();
+	return data?.[SEARCH_RESULT_INDEX]?.[SEARCH_TITLE_INDEX] ?? null;
+};
 
-async function resolve1(seed) {
+const resolve1 = async (seed) => {
 	const cacheKey = `${seed.title}__${seed.artist}`;
-	if (cache[cacheKey] && cache[cacheKey].image) return cache[cacheKey];
+	if (cache[cacheKey] && cache[cacheKey].image) {return cache[cacheKey];}
 
 	let summary = await getSummary(seed.wikipediaTitle ?? seed.title);
 	if (!summary || !summary.thumbnail) {
 		const found = await searchTitle(`${seed.title} ${seed.artist}`);
 		if (found) {
 			const s2 = await getSummary(found);
-			if (s2?.thumbnail) summary = s2;
-			else if (!summary) summary = s2;
+			if (s2?.thumbnail) {summary = s2;}
+			else if (!summary) {summary = s2;}
 		}
 	}
 	if (!summary) {
 		const found = await searchTitle(`${seed.title} song`);
-		if (found) summary = await getSummary(found);
+		if (found) {summary = await getSummary(found);}
 	}
 
 	let imageFallback = null;
@@ -55,9 +69,9 @@ async function resolve1(seed) {
 		const artistSummary = await getSummary(seed.artist);
 		if (artistSummary?.thumbnail) {
 			imageFallback = {
+				height: artistSummary.thumbnail.height,
 				source: artistSummary.thumbnail.source,
-				width: artistSummary.thumbnail.width,
-				height: artistSummary.thumbnail.height
+				width: artistSummary.thumbnail.width
 			};
 		}
 	}
@@ -65,10 +79,10 @@ async function resolve1(seed) {
 	const thumb = summary?.thumbnail ?? imageFallback;
 	const result = {
 		image: thumb?.source ?? null,
-		imageWidth: thumb?.width ?? null,
 		imageHeight: thumb?.height ?? null,
-		wikipediaUrl: summary?.content_urls?.desktop?.page ?? null,
-		resolvedTitle: summary?.title ?? null
+		imageWidth: thumb?.width ?? null,
+		resolvedTitle: summary?.title ?? null,
+		wikipediaUrl: summary?.content_urls?.desktop?.page ?? null
 	};
 
 	cache[cacheKey] = result;
@@ -77,43 +91,44 @@ async function resolve1(seed) {
 
 const seeds = JSON.parse(readFileSync(SEEDS, 'utf8'));
 const out = [];
-let i = 0;
-let missing = 0;
+const INITIAL_COUNTER = 0;
+let i = INITIAL_COUNTER;
+let missing = INITIAL_COUNTER;
 for (const seed of seeds) {
-	i++;
-	process.stdout.write(`\r[${i}/${seeds.length}] ${seed.title.slice(0, 40).padEnd(40)}`);
+	i += 1;
+	process.stdout.write(`\r[${i}/${seeds.length}] ${seed.title.slice(0, TITLE_SLICE_LENGTH).padEnd(TITLE_SLICE_LENGTH)}`);
 	try {
 		const meta = await resolve1(seed);
-		if (!meta.image) missing++;
+		if (!meta.image) {missing++;}
 		out.push({
-			id: `${slugify(seed.artist)}-${slugify(seed.title)}-${seed.year}`,
-			title: seed.title,
 			artist: seed.artist,
-			year: seed.year,
 			genre: seed.genre,
+			id: `${slugify(seed.artist)}-${slugify(seed.title)}-${seed.year}`,
 			image: meta.image,
-			imageWidth: meta.imageWidth,
 			imageHeight: meta.imageHeight,
-			wikipediaUrl: meta.wikipediaUrl
+			imageWidth: meta.imageWidth,
+			title: seed.title,
+			wikipediaUrl: meta.wikipediaUrl,
+			year: seed.year
 		});
 	} catch (err) {
 		missing++;
 		console.error(`\n  ! ${seed.title}: ${err.message}`);
 		out.push({
-			id: `${slugify(seed.artist)}-${slugify(seed.title)}-${seed.year}`,
-			title: seed.title,
 			artist: seed.artist,
-			year: seed.year,
 			genre: seed.genre,
+			id: `${slugify(seed.artist)}-${slugify(seed.title)}-${seed.year}`,
 			image: null,
-			wikipediaUrl: null
+			title: seed.title,
+			wikipediaUrl: null,
+			year: seed.year
 		});
 	}
-	if (i % 25 === 0) writeFileSync(CACHE, JSON.stringify(cache, null, '\t'));
+	if (i % CACHE_SAVE_INTERVAL === 0) {writeFileSync(CACHE, JSON.stringify(cache, null, JSON_SPACES));}
 }
 
-writeFileSync(CACHE, JSON.stringify(cache, null, '\t'));
-writeFileSync(OUT, JSON.stringify(out, null, '\t'));
+writeFileSync(CACHE, JSON.stringify(cache, null, JSON_SPACES));
+writeFileSync(OUT, JSON.stringify(out, null, JSON_SPACES));
 console.log(`\n\nWrote ${out.length} songs to ${OUT}`);
 console.log(`Missing images: ${missing}`);
 

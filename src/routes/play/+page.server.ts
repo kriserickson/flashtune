@@ -1,22 +1,27 @@
 import { error } from '@sveltejs/kit';
-import { pickRound } from '$lib/server/songs.ts';
 import {
 	DEFAULT_PLACEMENT_COUNT,
-	GENRES,
-	PLACEMENT_COUNTS,
-	normalizeTimeRange,
-	TIME_SPANS,
 	type Difficulty,
+	GENRES,
 	type Genre,
+	PLACEMENT_COUNTS,
 	type PlacementCount,
-	type TimeSpan
+	TIME_SPANS,
+	type TimeSpan,
+	normalizeTimeRange
 } from '$lib/types.ts';
+import { pickRound } from '$lib/server/songs.ts';
 import type { PageServerLoad } from './$types.ts';
 
 const DIFFS = new Set<Difficulty>(['easy', 'medium', 'hard']);
 const GENRE_SET = new Set<Genre>(GENRES);
 const TIME_SPAN_SET = new Set<TimeSpan>(TIME_SPANS);
 const PLACEMENT_COUNT_SET = new Set<number>(PLACEMENT_COUNTS);
+const DEFAULT_DIFFICULTY: Difficulty = 'medium';
+const DEFAULT_TIME_RANGE_START: TimeSpan = 'pre-1950s';
+const DEFAULT_TIME_RANGE_END: TimeSpan = '2020s';
+const REQUESTED_SONG_COUNT_INCREMENT = 1;
+const BAD_REQUEST_STATUS = 400;
 
 export const load: PageServerLoad = async ({ url }) => {
 	const d = url.searchParams.get('d') as Difficulty | null;
@@ -25,32 +30,38 @@ export const load: PageServerLoad = async ({ url }) => {
 	const te = url.searchParams.get('te') as TimeSpan | null;
 	const c = Number(url.searchParams.get('c'));
 
-	const difficulty: Difficulty = d && DIFFS.has(d) ? d : 'medium';
-	const rawStart: TimeSpan = ts && TIME_SPAN_SET.has(ts) ? ts : 'pre-1950s';
-	const rawEnd: TimeSpan = te && TIME_SPAN_SET.has(te) ? te : '2020s';
-	const placementCount: PlacementCount = PLACEMENT_COUNT_SET.has(c)
-		? (c as PlacementCount)
-		: DEFAULT_PLACEMENT_COUNT;
-	const timeRange = normalizeTimeRange({ start: rawStart, end: rawEnd });
+	let difficulty: Difficulty = DEFAULT_DIFFICULTY;
+	if (d && DIFFS.has(d)) {difficulty = d;}
+
+	let rawStart: TimeSpan = DEFAULT_TIME_RANGE_START;
+	if (ts && TIME_SPAN_SET.has(ts)) {rawStart = ts;}
+
+	let rawEnd: TimeSpan = DEFAULT_TIME_RANGE_END;
+	if (te && TIME_SPAN_SET.has(te)) {rawEnd = te;}
+
+	let placementCount: PlacementCount = DEFAULT_PLACEMENT_COUNT;
+	if (PLACEMENT_COUNT_SET.has(c)) {placementCount = c as PlacementCount;}
+	const timeRange = normalizeTimeRange({ end: rawEnd, start: rawStart });
 	const genres = gParam
 		.split(',')
 		.map((s) => s.trim())
 		.filter((s): s is Genre => GENRE_SET.has(s as Genre));
 
-	const finalGenres = genres.length > 0 ? genres : [...GENRES];
-	const requestedSongCount = placementCount + 1;
+	let finalGenres = [...GENRES];
+	if (genres.length > 0) {finalGenres = genres;}
+	const requestedSongCount = placementCount + REQUESTED_SONG_COUNT_INCREMENT;
 
 	const songs = pickRound({
+		count: requestedSongCount,
 		difficulty,
 		genres: finalGenres,
-		timeRange,
-		count: requestedSongCount
+		timeRange
 	});
 	if (songs.length < requestedSongCount) {
-		throw error(400, `Need at least ${requestedSongCount} songs for the selected filters`);
+		throw error(BAD_REQUEST_STATUS, `Need at least ${requestedSongCount} songs for the selected filters`);
 	}
 
 	return {
-		round: { songs, difficulty, genres: finalGenres, timeRange }
+		round: { difficulty, genres: finalGenres, songs, timeRange }
 	};
 };

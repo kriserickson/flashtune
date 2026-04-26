@@ -7,12 +7,16 @@
 	"scripts": {
 		"dev": "vp dev",
 		"build": "vp build",
+		"lint": "vp lint -c .oxlintrc.json",
+		"lint:fix": "vp lint -c .oxlintrc.json --fix",
 		"start": "node build",
 		"preview": "vp preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && tsgo --noEmit -p ./tsconfig.json",
 		"seed:songs": "node scripts/fetch-images.mjs",
-		"stats": "node scripts/stats.mjs"
+		"stats": "node scripts/stats.mjs",
+		"test": "vitest run",
+		"test:watch": "vitest"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-node": "^5.5.4",
@@ -22,6 +26,7 @@
 		"svelte": "^5.55.2",
 		"svelte-dnd-action": "^0.9.69",
 		"vite": "^8.0.7",
-		"vite-plus": "^0.1.19"
+		"vite-plus": "^0.1.19",
+		"vitest": "^4.1.4"
 	}
 }

@@ -4,14 +4,14 @@
 		DEFAULT_PLACEMENT_COUNT,
 		DIFFICULTY_DESC,
 		DIFFICULTY_LABEL,
-		formatTimeRange,
 		GENRES,
 		GENRE_LABEL,
 		MIN_TIME_SPAN_COUNT,
 		PLACEMENT_COUNTS,
+		TIME_SPANS,
 		TIME_SPAN_LABEL,
 		TIME_SPAN_SHORT_LABEL,
-		TIME_SPANS,
+		formatTimeRange,
 		getTimeSpansInRange,
 		type Difficulty,
 		type Genre,
@@ -19,116 +19,119 @@
 		type TimeSpan,
 		type YearsBySpanAndGenre
 	} from '$lib/types';
+	import {
+		activateAllGenres,
+		moveNearestHandle as calculateNearestHandle,
+		selectPlacementCount as canSelectPlacementCount,
+		clampRangeEnd,
+		clampRangeStart,
+		nextGenreSelection,
+		normalizePlacementCount
+	} from '$lib/settings-logic';
 
-	let { data }: { data: { yearsBySpanAndGenre: YearsBySpanAndGenre } } = $props();
+	const { data }: { data: { yearsBySpanAndGenre: YearsBySpanAndGenre } } = $props();
+
+	const INITIAL_INDEX = 0;
+	const LAST_SPAN_OFFSET = 1;
+	const MAX_GENRES = 7;
+	const GENRE_SUMMARY_THRESHOLD = 3;
+	const PLACEMENT_OFFSET = 1;
+	const LAST_ITEM_INDEX = -1;
 
 	const DIFFS: Difficulty[] = ['easy', 'medium', 'hard'];
-	const MIN_TIME_SPAN_DISTANCE = MIN_TIME_SPAN_COUNT - 1;
+	const MIN_TIME_SPAN_DISTANCE = MIN_TIME_SPAN_COUNT - LAST_SPAN_OFFSET;
 	let difficulty = $state<Difficulty>('medium');
-	let rangeStartIdx = $state(0);
-	let rangeEndIdx = $state(TIME_SPANS.length - 1);
+	let rangeStartIdx = $state(INITIAL_INDEX);
+	let rangeEndIdx = $state(TIME_SPANS.length - LAST_SPAN_OFFSET);
 	let allGenres = $state(true);
 	let selected = $state<Set<Genre>>(new Set());
 	let placementCount = $state<PlacementCount>(DEFAULT_PLACEMENT_COUNT);
 
-	function activateAllGenres() {
-		allGenres = true;
-		selected = new Set();
-	}
+	const getEffectiveGenres = (showAllGenres: boolean, selectedSet: Set<Genre>) => {
+		if (showAllGenres) {return GENRES;}
+		return GENRES.filter((genre) => selectedSet.has(genre));
+	};
 
-	function toggle(g: Genre) {
-		if (allGenres) {
-			allGenres = false;
-			selected = new Set([g]);
-			return;
-		}
+	const activateAllGenresHandler = () => {
+		const next = activateAllGenres();
+		({ allGenres } = next);
+		({ selected } = next);
+	};
 
-		const next = new Set(selected);
-		if (next.has(g)) {
-			if (next.size === 1) return;
-			next.delete(g);
-		} else {
-			next.add(g);
-			if (next.size === GENRES.length) {
-				activateAllGenres();
-				return;
-			}
-		}
+	const toggleGenre = (genre: Genre) => {
+		const next = nextGenreSelection(selected, allGenres, genre, GENRES);
+		({ allGenres } = next);
+		({ selected } = next);
+	};
 
-		selected = next;
-	}
+	const selectAll = () => {
+		if (allGenres) {return;}
+		activateAllGenresHandler();
+	};
 
-	function selectAll() {
-		if (allGenres) return;
-		activateAllGenres();
-	}
-
-	function selectPlacementCount(next: PlacementCount) {
-		if (availableCount < next + 1) return;
+	const selectPlacementCount = (next: PlacementCount) => {
+		if (!canSelectPlacementCount(next, availableCount)) {return;}
 		placementCount = next;
-	}
+	};
 
-	function setRangeStart(event: Event) {
+	const setRangeStart = (event: Event) => {
 		const next = Number((event.currentTarget as HTMLInputElement).value);
-		rangeStartIdx = Math.min(next, rangeEndIdx - MIN_TIME_SPAN_DISTANCE);
-	}
+		rangeStartIdx = clampRangeStart(next, rangeEndIdx, MIN_TIME_SPAN_DISTANCE);
+	};
 
-	function setRangeEnd(event: Event) {
+	const setRangeEnd = (event: Event) => {
 		const next = Number((event.currentTarget as HTMLInputElement).value);
-		rangeEndIdx = Math.max(next, rangeStartIdx + MIN_TIME_SPAN_DISTANCE);
-	}
+		rangeEndIdx = clampRangeEnd(next, rangeStartIdx, MIN_TIME_SPAN_DISTANCE);
+	};
 
-	function moveNearestHandle(index: number) {
-		const distanceToStart = Math.abs(index - rangeStartIdx);
-		const distanceToEnd = Math.abs(index - rangeEndIdx);
-		if (distanceToStart <= distanceToEnd) {
-			rangeStartIdx = Math.min(index, rangeEndIdx - MIN_TIME_SPAN_DISTANCE);
-		} else {
-			rangeEndIdx = Math.max(index, rangeStartIdx + MIN_TIME_SPAN_DISTANCE);
-		}
-	}
+	const moveNearestHandle = (index: number) => {
+		const next = calculateNearestHandle(index, rangeStartIdx, rangeEndIdx, MIN_TIME_SPAN_DISTANCE);
+		({ rangeStartIdx } = next);
+		({ rangeEndIdx } = next);
+	};
 
 	const startSpan = $derived(TIME_SPANS[rangeStartIdx] as TimeSpan);
 	const endSpan = $derived(TIME_SPANS[rangeEndIdx] as TimeSpan);
 	const selectedSpans = $derived(getTimeSpansInRange(startSpan, endSpan));
-	const rangeLabel = $derived(formatTimeRange({ start: startSpan, end: endSpan }));
-	const rangeStartRatio = $derived(rangeStartIdx / (TIME_SPANS.length - 1));
-	const rangeEndRatio = $derived(rangeEndIdx / (TIME_SPANS.length - 1));
-	const effectiveGenres = $derived(allGenres ? GENRES : GENRES.filter((genre) => selected.has(genre)));
+	const rangeLabel = $derived(formatTimeRange({ end: endSpan, start: startSpan }));
+	const rangeStartRatio = $derived(rangeStartIdx / (TIME_SPANS.length - LAST_SPAN_OFFSET));
+	const rangeEndRatio = $derived(rangeEndIdx / (TIME_SPANS.length - LAST_SPAN_OFFSET));
+	const effectiveGenres = $derived(getEffectiveGenres(allGenres, selected));
 	const availableCount = $derived(
 		(() => {
 			const years = new Set<number>();
 			for (const span of selectedSpans) {
 				for (const genre of effectiveGenres) {
-					for (const year of data.yearsBySpanAndGenre[span][genre]) years.add(year);
+					for (const year of data.yearsBySpanAndGenre[span][genre]) {years.add(year);}
 				}
 			}
 			return years.size;
 		})()
 	);
 	const availablePlacementCounts = $derived(
-		PLACEMENT_COUNTS.filter((count) => availableCount >= count + 1)
+		PLACEMENT_COUNTS.filter((count) => availableCount >= count + PLACEMENT_OFFSET)
 	);
-	const longestRound = $derived(availablePlacementCounts.at(-1) ?? null);
-	const canStart = $derived(availableCount >= placementCount + 1);
+	const longestRound = $derived(availablePlacementCounts.at(LAST_ITEM_INDEX) ?? null);
+	const canStart = $derived(availableCount >= placementCount + PLACEMENT_OFFSET);
 
 	$effect(() => {
-		if (availablePlacementCounts.includes(placementCount)) return;
-
-		const fallback = availablePlacementCounts.at(-1);
-		placementCount = fallback ?? DEFAULT_PLACEMENT_COUNT;
+		placementCount = normalizePlacementCount(placementCount, availablePlacementCounts, DEFAULT_PLACEMENT_COUNT);
 	});
 
-	function start() {
-		const params = new URLSearchParams({
-			d: difficulty,
-			ts: startSpan,
-			te: endSpan,
-			c: String(placementCount)
-		});
-		if (!allGenres) params.set('g', effectiveGenres.join(','));
+	const buildPlayParams = () => {
+		const params = new URLSearchParams();
+		params.set('c', String(placementCount));
+		params.set('d', difficulty);
+		params.set('te', endSpan);
+		params.set('ts', startSpan);
+		if (!allGenres) {params.set('g', effectiveGenres.join(','));}
+		return params;
+	};
+
+	const start = () => {
+		const params = buildPlayParams();
 		goto(`/play?${params}`);
-	}
+	};
 </script>
 
 <main class="container">
@@ -229,7 +232,7 @@
 							type="button"
 							class="chip"
 							aria-pressed={!allGenres && selected.has(g)}
-							onclick={() => toggle(g)}
+							onclick={() => toggleGenre(g)}
 						>
 							{GENRE_LABEL[g]}
 						</button>

@@ -1,229 +1,33 @@
-<script module lang="ts">
-	type ResultCopy = {
-		headline: string;
-		comment: string;
-	};
-
-	function hashSeed(seed: string): number {
-		let hash = 0;
-		for (let index = 0; index < seed.length; index += 1) {
-			hash = (hash * 31 + seed.charCodeAt(index)) >>> 0;
-		}
-		return hash;
-	}
-
-	function pickVariant<T>(options: readonly T[], seed: string): T {
-		return options[hashSeed(seed) % options.length];
-	}
-
-	function getSuccessMessage(song: { year: number; title: string; artist: string }): string {
-		const seed = `${song.year}:${song.title}:${song.artist}`;
-		if (song.year < 1940) {
-			return pickVariant(
-				[
-					'Well done. Most precise.',
-					'A fine placement indeed.',
-					'Excellently judged.',
-					'Nicely placed. Very proper.'
-				],
-				seed
-			);
-		}
-		if (song.year < 1960) {
-			return pickVariant(
-				[
-					'Class act. Right on cue.',
-					'Smooth move. Right era.',
-					'That landed like a standard.',
-					'Nicely timed. Pure poise.'
-				],
-				seed
-			);
-		}
-		if (song.year < 1970) {
-			return pickVariant(
-				[
-					'Groovy call.',
-					'Far out placement.',
-					'Right in the groove.',
-					'That was a swinging sixties read.'
-				],
-				seed
-			);
-		}
-		if (song.year < 1980) {
-			return pickVariant(
-				[
-					'Disco-sharp.',
-					'Right in the pocket.',
-					'Seventies instincts. No notes.',
-					'That placement had real flare.'
-				],
-				seed
-			);
-		}
-		if (song.year < 1990) {
-			return pickVariant(
-				[
-					'Rad placement.',
-					'Totally nailed it.',
-					'Synth-level precision.',
-					'That was arena-ready accuracy.'
-				],
-				seed
-			);
-		}
-		if (song.year < 2000) {
-			return pickVariant(
-				[
-					'Fresh placement.',
-					'That was the jam.',
-					'Nineties instincts on display.',
-					'Right onto the mixtape.'
-				],
-				seed
-			);
-		}
-		if (song.year < 2010) {
-			return pickVariant(
-				[
-					'Y2K-approved placement.',
-					'Clean hit. No skips.',
-					'Playlist-era precision.',
-					'That guess went platinum.'
-				],
-				seed
-			);
-		}
-		if (song.year < 2020) {
-			return pickVariant(
-				[
-					'On fleek.',
-					'That placement slapped.',
-					'Streaming-era instincts.',
-					'You understood the assignment.'
-				],
-				seed
-			);
-		}
-
-		return pickVariant(
-			[
-				'Immaculate timing.',
-				'Main-character move.',
-				'Algorithm-proof placement.',
-				'That landed exactly right.'
-			],
-			seed
-		);
-	}
-
-	function verdict(score: number, total: number): ResultCopy {
-		const ratio = score / total;
-		const seed = `${score}/${total}`;
-		if (ratio === 1) {
-			return pickVariant(
-				[
-					{ headline: 'Perfect ear.', comment: 'Every song landed exactly where it belonged.' },
-					{ headline: 'Flawless run.', comment: 'That was crate-digger clairvoyance from start to finish.' },
-					{ headline: 'Timeline oracle.', comment: 'You read the whole round like liner notes.' },
-					{ headline: 'No misses.', comment: 'That round was all instinct, no hesitation.' }
-				],
-				seed
-			);
-		}
-		if (ratio >= 0.9) {
-			return pickVariant(
-				[
-					{ headline: 'Ridiculously good.', comment: 'One tiny miss away from a museum-grade round.' },
-					{ headline: 'Almost spotless.', comment: 'You were locked in for nearly every era.' },
-					{ headline: 'Top-shelf instincts.', comment: 'That was elite timeline work.' },
-					{ headline: 'Near classic.', comment: 'Just shy of perfect, still absurdly strong.' }
-				],
-				seed
-			);
-		}
-		if (ratio >= 0.8) {
-			return pickVariant(
-				[
-					{ headline: 'Locked in.', comment: 'You clearly know your eras.' },
-					{ headline: 'Serious range.', comment: 'That was a confident read across the timeline.' },
-					{ headline: 'Sharp work.', comment: 'Plenty of strong calls in that round.' },
-					{ headline: 'You had the groove.', comment: 'The timeline only slipped away a couple of times.' }
-				],
-				seed
-			);
-		}
-		if (ratio >= 0.65) {
-			return pickVariant(
-				[
-					{ headline: 'Solid round.', comment: 'More hits than misses, and some very clean placements.' },
-					{ headline: 'Nice instincts.', comment: 'You had a strong handle on the shape of the timeline.' },
-					{ headline: 'Good ear.', comment: 'A few misses, but the overall read was strong.' },
-					{ headline: 'Well played.', comment: 'That round had real momentum.' }
-				],
-				seed
-			);
-		}
-		if (ratio >= 0.5) {
-			return pickVariant(
-				[
-					{ headline: 'Right in the mix.', comment: 'Plenty went right, even if the round got tricky.' },
-					{ headline: 'Good footing.', comment: 'You found the timeline more often than not.' },
-					{ headline: 'Halfway and climbing.', comment: 'There is clearly an ear for this in there.' },
-					{ headline: 'Promising run.', comment: 'A few sharper reads and this turns into a big score.' }
-				],
-				seed
-			);
-		}
-		if (ratio >= 0.35) {
-			return pickVariant(
-				[
-					{ headline: 'Getting warmer.', comment: 'The feel for the timeline is there, just not consistently yet.' },
-					{ headline: 'Moments of brilliance.', comment: 'Some placements were excellent, some were chaos.' },
-					{ headline: 'You were around it.', comment: 'A few more clean reads and this score jumps fast.' },
-					{ headline: 'Close in spots.', comment: 'There were flashes of real precision.' }
-				],
-				seed
-			);
-		}
-		if (ratio > 0) {
-			return pickVariant(
-				[
-					{ headline: 'A start.', comment: 'A couple of eras are dialed in. The rest need another pass.' },
-					{ headline: 'Some good instincts.', comment: 'Not smooth yet, but there were real hits in there.' },
-					{ headline: 'Room to climb.', comment: 'The timeline won this round, but not every battle.' },
-					{ headline: 'Not empty-handed.', comment: 'You found a few anchors to build on.' }
-				],
-				seed
-			);
-		}
-		return pickVariant(
-			[
-				{ headline: 'Tough round.', comment: 'The timeline threw every curveball it had.' },
-				{ headline: 'A full miss.', comment: 'That one belonged to the songs. Run it back.' },
-				{ headline: 'The timeline won.', comment: 'No shame. That was a brutal sequence.' },
-				{ headline: 'Rematch needed.', comment: 'This score is only acceptable as motivation.' }
-			],
-			seed
-		);
-	}
-</script>
-
 <script lang="ts">
-	import { goto } from '$app/navigation';
+	import { computeCorrectIndex, isPositionCorrect } from '$lib/play-logic';
+	import { getSuccessMessage, verdict } from '$lib/play-feedback';
 	import {
-		formatTimeRange,
 		GENRE_LABEL,
+		formatTimeRange,
+		type Genre,
 		type Placement,
 		type Round,
 		type Song
 	} from '$lib/types';
+	import { goto } from '$app/navigation';
 
-	let { data }: { data: { round: Round } } = $props();
+	const ALL_GENRES_COUNT = 7;
+	const GENRE_SUMMARY_THRESHOLD = 3;
+	const INITIAL_POINT = 0;
+	const DRAG_THRESHOLD = 6;
+	const FIRST_QUEUE_INDEX = 1;
+	const FIRST_SONG_INDEX = 0;
+	const ROUND_LENGTH_OFFSET = 1;
+	const PLAYED_COUNT_OFFSET = 1;
+	const PRIMARY_MOUSE_BUTTON = 0;
+	const INSERT_AT_INDEX = 0;
+	const QUEUE_INDEX_INCREMENT = 1;
+	const REVEAL_DELAY_MS = 1600;
+
+	const { data }: { data: { round: Round } } = $props();
 
 	let placed = $state<Song[]>([]);
-	let queueIdx = $state(1);
+	let queueIdx = $state(FIRST_QUEUE_INDEX);
 	let placements = $state<Placement[]>([]);
 	let phase = $state<'placing' | 'reveal' | 'done'>('placing');
 	let dragging = $state(false);
@@ -233,54 +37,48 @@
 	let dragOffset = $state({ x: 0, y: 0 });
 	let previewDragging = $state(false);
 	let previewOffset = $state({ x: 0, y: 0 });
-	let previewDragStart = { pointerX: 0, pointerY: 0 };
+	let previewDragStart = { pointerX: INITIAL_POINT, pointerY: INITIAL_POINT };
 	let previewDidDrag = false;
 
-	const active: Song | null = $derived(
-		queueIdx < data.round.songs.length ? data.round.songs[queueIdx] : null
-	);
+	const active: Song | null = $derived(data.round.songs[queueIdx] ?? null);
 	const score = $derived(placements.filter((p) => p.correct).length);
-	const total = $derived(data.round.songs.length - 1);
-	const playedCount = $derived(Math.min(placements.length + 1, total));
+	const total = $derived(data.round.songs.length - ROUND_LENGTH_OFFSET);
+	const playedCount = $derived(Math.min(placements.length + PLAYED_COUNT_OFFSET, total));
 	const placementBySongId = $derived(
 		new Map(placements.map((p) => [p.song.id, p]))
 	);
-	const genreSummary = $derived(
-		data.round.genres.length === 7
-			? 'All genres'
-			: data.round.genres.length > 3
-				? `${data.round.genres.length} genres`
-				: data.round.genres.map((g) => GENRE_LABEL[g]).join(', ')
-	);
+	const genreSummary = $derived(getGenreSummary(data.round.genres));
 	const timeRangeSummary = $derived(formatTimeRange(data.round.timeRange));
-	const revealMessage = $derived(
-		lastPlacement
-			? lastPlacement.correct
-				? getSuccessMessage(lastPlacement.song)
-				: 'Not quite — see the year above.'
-			: ''
-	);
+	const revealMessage = $derived(getRevealMessage(lastPlacement));
 	const resultCopy = $derived(verdict(score, total));
 
-	function commitPlacement(index: number) {
-		if (!active || phase !== 'placing') return;
+	function getGenreSummary(genres: readonly Genre[]) {
+		if (genres.length === ALL_GENRES_COUNT) {return 'All genres';}
+		if (genres.length > GENRE_SUMMARY_THRESHOLD) {return `${genres.length} genres`;}
+		return genres.map((genre) => GENRE_LABEL[genre]).join(', ');
+	}
 
-		// Score based on user's chosen index, but always insert at the correct position
-		// so the timeline stays chronological after the reveal.
+	function getRevealMessage(placement: Placement | null) {
+		if (!placement) {return '';}
+		if (placement.correct) {return getSuccessMessage(placement.song);}
+		return 'Not quite — see the year above.';
+	}
+
+	const createPlacementResult = (index: number) => {
+		if (!active || phase !== 'placing') {return null;}
+
 		const correct = isPositionCorrect(placed, index, active.year);
 		const correctIndex = computeCorrectIndex(placed, active.year);
-
 		const next = placed.slice();
-		next.splice(correctIndex, 0, active);
-
-		const placement: Placement = { song: active, guessedIndex: index, correct };
-
-		placed = next;
-		placements = [...placements, placement];
-		lastPlacement = placement;
-		const nextQueueIdx = queueIdx + 1;
+		next.splice(correctIndex, INSERT_AT_INDEX, active);
+		const placement: Placement = { correct, guessedIndex: index, song: active };
+		const nextQueueIdx = queueIdx + QUEUE_INDEX_INCREMENT;
 		const hasNextSong = nextQueueIdx < data.round.songs.length;
-		queueIdx = nextQueueIdx;
+
+		return { next, placement, nextQueueIdx, hasNextSong };
+	};
+
+	const resetPlacementState = () => {
 		phase = 'reveal';
 		hoverGap = null;
 		pendingGap = null;
@@ -288,29 +86,31 @@
 		previewDragging = false;
 		previewOffset = { x: 0, y: 0 };
 		dragOffset = { x: 0, y: 0 };
+	};
+
+	const transitionAfterReveal = (hasNextSong: boolean) => {
+		if (!hasNextSong) {phase = 'done';}
+		else {phase = 'placing';}
+		lastPlacement = null;
+	};
+
+	const commitPlacement = (index: number) => {
+		const result = createPlacementResult(index);
+		if (!result) {return;}
+
+		placed = result.next;
+		placements = [...placements, result.placement];
+		lastPlacement = result.placement;
+		queueIdx = result.nextQueueIdx;
+		resetPlacementState();
 
 		setTimeout(() => {
-			if (!hasNextSong) phase = 'done';
-			else phase = 'placing';
-			lastPlacement = null;
-		}, 1600);
-	}
+			transitionAfterReveal(result.hasNextSong);
+		}, REVEAL_DELAY_MS);
+	};
 
-	function computeCorrectIndex(arr: Song[], year: number): number {
-		let i = 0;
-		while (i < arr.length && arr[i].year < year) i++;
-		return i;
-	}
 
-	function isPositionCorrect(arr: Song[], chosen: number, year: number): boolean {
-		const before = arr[chosen - 1];
-		const after = arr[chosen];
-		const okBefore = !before || before.year <= year;
-		const okAfter = !after || year <= after.year;
-		return okBefore && okAfter;
-	}
-
-	function gapIndexUnderPoint(x: number, y: number): number | null {
+	const gapIndexUnderPoint = (x: number, y: number): number | null => {
 		const els = document.elementsFromPoint(x, y);
 		for (const el of els) {
 			const gap = (el as HTMLElement).closest?.('.gap') as HTMLElement | null;
@@ -319,31 +119,36 @@
 			}
 		}
 		return null;
-	}
+	};
 
-	function onActivePointerDown(e: PointerEvent) {
-		if (!active || phase !== 'placing') return;
-		if (e.pointerType === 'mouse' && e.button !== 0) return;
+	const onActivePointerDown = (e: PointerEvent) => {
+		if (!active || phase !== 'placing') {return;}
+		if (e.pointerType === 'mouse' && e.button !== PRIMARY_MOUSE_BUTTON) {return;}
 		e.preventDefault();
 		dragging = true;
 		pendingGap = null;
 		dragOffset = { x: 0, y: 0 };
-		dragStart = { pointerX: 0, pointerY: 0, baseX: 0, baseY: 0 };
+		dragStart = {
+			baseX: INITIAL_POINT,
+			baseY: INITIAL_POINT,
+			pointerX: INITIAL_POINT,
+			pointerY: INITIAL_POINT
+		};
 		const target = e.currentTarget as HTMLElement;
 		target.setPointerCapture(e.pointerId);
-	}
+	};
 
-	let dragStart = { pointerX: 0, pointerY: 0, baseX: 0, baseY: 0 };
-	function onActivePointerMove(e: PointerEvent) {
-		if (!dragging) return;
-		if (dragStart.pointerX === 0 && dragStart.pointerY === 0) {
+	let dragStart = { baseX: INITIAL_POINT, baseY: INITIAL_POINT, pointerX: INITIAL_POINT, pointerY: INITIAL_POINT };
+	const onActivePointerMove = (e: PointerEvent) => {
+		if (!dragging) {return;}
+		if (dragStart.pointerX === INITIAL_POINT && dragStart.pointerY === INITIAL_POINT) {
 			const card = e.currentTarget as HTMLElement;
 			const rect = card.getBoundingClientRect();
 			dragStart = {
-				pointerX: e.clientX,
-				pointerY: e.clientY,
 				baseX: rect.left,
-				baseY: rect.top
+				baseY: rect.top,
+				pointerX: e.clientX,
+				pointerY: e.clientY
 			};
 		}
 		dragOffset = {
@@ -351,10 +156,10 @@
 			y: e.clientY - dragStart.pointerY
 		};
 		hoverGap = gapIndexUnderPoint(e.clientX, e.clientY);
-	}
+	};
 
-	function onActivePointerUp(e: PointerEvent) {
-		if (!dragging) return;
+	const onActivePointerUp = (e: PointerEvent) => {
+		if (!dragging) {return;}
 		dragging = false;
 		const target = e.currentTarget as HTMLElement;
 		try {
@@ -366,43 +171,43 @@
 			pendingGap = idx;
 		}
 		hoverGap = null;
-	}
+	};
 
-	function onActivePointerCancel() {
+	const onActivePointerCancel = () => {
 		dragging = false;
 		hoverGap = null;
 		dragOffset = { x: 0, y: 0 };
-	}
+	};
 
-	function onPreviewPointerDown(e: PointerEvent) {
-		if (!active || phase !== 'placing' || pendingGap === null) return;
-		if (e.pointerType === 'mouse' && e.button !== 0) return;
+	const onPreviewPointerDown = (e: PointerEvent) => {
+		if (!active || phase !== 'placing' || pendingGap === null) {return;}
+		if (e.pointerType === 'mouse' && e.button !== PRIMARY_MOUSE_BUTTON) {return;}
 		e.preventDefault();
 		previewDragging = true;
 		previewDidDrag = false;
 		previewOffset = { x: 0, y: 0 };
-		previewDragStart = { pointerX: 0, pointerY: 0 };
+		previewDragStart = { pointerX: INITIAL_POINT, pointerY: INITIAL_POINT };
 		const target = e.currentTarget as HTMLElement;
 		target.setPointerCapture(e.pointerId);
-	}
+	};
 
-	function onPreviewPointerMove(e: PointerEvent) {
-		if (!previewDragging) return;
-		if (previewDragStart.pointerX === 0 && previewDragStart.pointerY === 0) {
+	const onPreviewPointerMove = (e: PointerEvent) => {
+		if (!previewDragging) {return;}
+		if (previewDragStart.pointerX === INITIAL_POINT && previewDragStart.pointerY === INITIAL_POINT) {
 			previewDragStart = { pointerX: e.clientX, pointerY: e.clientY };
 		}
 		previewOffset = {
 			x: e.clientX - previewDragStart.pointerX,
 			y: e.clientY - previewDragStart.pointerY
 		};
-		if (Math.hypot(previewOffset.x, previewOffset.y) > 6) {
+		if (Math.hypot(previewOffset.x, previewOffset.y) > DRAG_THRESHOLD) {
 			previewDidDrag = true;
 		}
 		hoverGap = gapIndexUnderPoint(e.clientX, e.clientY);
-	}
+	};
 
-	function onPreviewPointerUp(e: PointerEvent) {
-		if (!previewDragging) return;
+	const onPreviewPointerUp = (e: PointerEvent) => {
+		if (!previewDragging) {return;}
 		previewDragging = false;
 		const target = e.currentTarget as HTMLElement;
 		try {
@@ -414,51 +219,51 @@
 		if (previewDidDrag && idx !== null) {
 			pendingGap = idx;
 		}
-	}
+	};
 
-	function onPreviewPointerCancel() {
+	const onPreviewPointerCancel = () => {
 		previewDragging = false;
 		previewOffset = { x: 0, y: 0 };
 		hoverGap = null;
-	}
+	};
 
-	function onPreviewClick(i: number) {
+	const onPreviewClick = (i: number) => {
 		// Suppress the click that follows a drag — pointerup already updated pendingGap.
 		if (previewDidDrag) {
 			previewDidDrag = false;
 			return;
 		}
 		commitPlacement(i);
-	}
+	};
 
-	function onGapClick(i: number) {
-		if (!active || phase !== 'placing') return;
+	const onGapClick = (i: number) => {
+		if (!active || phase !== 'placing') {return;}
 		// If a card is already pending, clicking a different gap moves the pending
-		// preview rather than committing — the user must confirm via the preview card.
+		// Preview rather than committing — the user must confirm via the preview card.
 		if (pendingGap !== null) {
 			pendingGap = i;
 			return;
 		}
 		commitPlacement(i);
-	}
+	};
 
-	function newRound() {
+	const newRound = () => {
 		// Trigger a fresh server load with same params
 		const url = new URL(window.location.href);
 		url.searchParams.set('_', String(Date.now()));
 		goto(url.pathname + url.search, { invalidateAll: true });
-		// reset local state on the new mount via key-based remount below
-	}
+		// Reset local state on the new mount via key-based remount below
+	};
 
-	function backToSettings() {
+	const backToSettings = () => {
 		goto('/');
 	}
 
 	// Reset state when round.songs changes (after newRound triggers reload)
 	$effect(() => {
-		const songs = data.round.songs;
-		placed = [songs[0]];
-		queueIdx = 1;
+		const {songs} = data.round;
+		placed = [songs[FIRST_SONG_INDEX]];
+		queueIdx = FIRST_QUEUE_INDEX;
 		placements = [];
 		phase = 'placing';
 		lastPlacement = null;

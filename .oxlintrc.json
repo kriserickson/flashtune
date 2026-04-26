@@ -1,0 +1,28 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["typescript", "react"],
+  "categories": {
+    "style": "warn"
+  },
+  "rules": {
+    "@typescript-eslint/consistent-type-definitions": ["warn", "type"],
+    "curly": ["error", "all"],
+    "react/self-closing-comp": "warn",
+    "no-magic-numbers": "off",
+    "no-ternary": "off",
+    "sort-imports": "off",
+    "id-length": "off",
+    "max-statements": "off",
+    "sort-keys": "off",
+    "func-style": "off",
+    "no-continue": "off",
+    "max-params": "off"
+  },
+  "ignorePatterns": [
+    "**/mobile/**",
+    "**/postgres_data/**",
+    "**/redis_data/**",
+    "**/dist/**",
+    "**/node_modules/**"
+  ]
+}
